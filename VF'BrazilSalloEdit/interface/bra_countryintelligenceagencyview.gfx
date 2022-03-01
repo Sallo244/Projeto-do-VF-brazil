@@ -1,0 +1,9 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_bra"
+		texturefile = "gfx/interface/operatives/agencies/agency_logo_bra.dds"
+		noOfFrames = 2
+	}
+	
+}

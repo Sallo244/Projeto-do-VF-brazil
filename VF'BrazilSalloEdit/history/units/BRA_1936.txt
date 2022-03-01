@@ -1,0 +1,195 @@
+﻿division_template = {
+	name = "Batalhão de Infantaria"		# Infantry Division
+	division_names_group = BRA_INF_01
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	support = {
+  	      engineer = { x = 0 y = 0 }
+ 	}
+}
+division_template = {
+	name = "Regimento de Cavalaria"  		# Cavalry Division
+	division_names_group = BRA_CAV_01
+	
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Regimento de Cavalaria Blindada"  		# Cavalry Division
+	division_names_group = BRA_ARM_01
+	
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+}
+
+units = {
+	##### Exército Brasileiro #####
+	division= {	
+		name = "1o Batalhão de Infantaria"
+		location = 10980 # Rio de Janeiro
+		division_template = "Batalhão de Infantaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2o Batalhão de Infantaria"
+		location = 10513 # Sao Paulo
+		division_template = "Batalhão de Infantaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "3o Batalhão de Infantaria"
+		location = 10447 # Porto Alegre
+		division_template = "Batalhão de Infantaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "4o Batalhão de Infantaria"
+		location = 5168 # Recife
+		division_template = "Batalhão de Infantaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "5o Batalhão de Infantaria"
+		location = 8242 # Belo Horizonte
+		division_template = "Batalhão de Infantaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "6o Batalhão de Infantaria"
+		location = 10980 # Rio de Janeiro
+		division_template = "Batalhão de Infantaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "7o Batalhão de Infantaria"
+		location = 10513 # Sao Paulo
+		division_template = "Batalhão de Infantaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "8o Batalhão de Infantaria"
+		location = 10447 # Porto Alegre
+		division_template = "Batalhão de Infantaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "9o Batalhão de Infantaria"
+		location = 10513 # Sao Paulo
+		division_template = "Batalhão de Infantaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "10o Batalhão de Infantaria"
+		location = 10447 # Porto Alegre
+		division_template = "Batalhão de Infantaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "1o Regimento de Cavalaria"
+		location = 12853 # Belem
+		division_template = "Regimento de Cavalaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "2o Regimento de Cavalaria"
+		location = 5156 # Curitiba
+		division_template = "Regimento de Cavalaria"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "1o Regimento de Cavalaria Blindada"
+		location = 10513
+		division_template = "Regimento de Cavalaria Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division= {	
+		name = "2o Regimento de Cavalaria Blindada"
+		location = 10513
+		division_template = "Regimento de Cavalaria Blindada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+
+
+
+
+air_wings = {
+	### Aviação Militar -- Rio de Janiero
+	500 = {
+		# Fighter Air Group -- Boeing 256s
+		fighter_equipment_0 =  {
+			owner = "BRA" 
+			amount = 150
+		}
+	}
+	500 = {
+		# Bomber Air Group -- Boeing 256s
+		tac_bomber_equipment_0 =  {
+			owner = "BRA" 
+			amount = 150
+		}
+	}
+}
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BRA"
+		}
+		requested_factories = 3
+		progress = 1
+		efficiency = 100
+	}
+}
