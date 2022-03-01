@@ -1,0 +1,136 @@
+﻿l_braz_por:
+ bra.2:0 "O Plano Cohen"
+ bra.2.t:0 "O Plano Cohen"
+ bra.2.d:0 "Chegaram ás tuas mãos, por intermédio do Capitão Mourão Filho, um documento escrito, segundo o Estado Maior do Exército, pela liderança da Ação Nacional Libertadora. Rege o papel que planejam os comunistas assassinar Armando Sales e José Américo, futuros candidatos à eleição de 1938. Uma ação prudente deve ser tomada por nós, podendo o Governo apenas supor a veracidade do Documento."
+ bra.2.a:0 "Traga o microfone! Não temos tempo à perder."
+ bra.2.b:0 "Prenda o Capitão e queime o documento! Esta farsa não pode se tornar endêmica!"
+ bra.2.c:0 "Basta de conflitos! Precisamos ajustar o organismo político às necessidades do país."
+ bra.2.e:0 "Não podemos livrar-los de suas liberdades por um documento provavelmente forjado."
+ bra.1:0 "A famosa caixinha do Adhemar"
+ bra.1.t:0 "A famosa caixinha do Adhemar"
+ bra.1.d:0 "Encontramos-nos à um passo da nossa redemocratização e, sendo assim, devemos escolher quem será nosso líder para os próximos 5 anos. Adhemar de Barros é o primeiro interventor paulista: construiu estradas, expandiu as indústrias e reconstruiu o Estado. Armando Sales é um lutador de longa data para a democracia: governou São Paulo, dando ao Estado os padrões educacionais mais altos do continente. O brigadeiro Eduardo Gomes é um ex-membro da Força Aérea Brasileira: Ele se tornou a figura principal para os Tenentistas ainda de pé. Júlio Prestes foi eleito presidente em 1930, tendo sido deposto no golpe de Estado de 1930: é membro da Elite Agrária e ex-chefe do PRP. CHegou a hora de fazermos nossas decisões."
+ bra.1.a:0 "Se tudo fez por São Paulo, por que não fará pelo Brasil?"
+ bra.1.b:0 "Para lider nossa democracia precisamos de alguém de nela sempre acreditou."
+ bra.1.c:0 "O que não compreendo é que uma nação, como o Brasil, retrogradasse para uma ditadura que nos enxovalha perante o mundo civilizado!"
+ bra.1.e:0 "Aos mortais, a sabedoria é construida com as consequências das escolhas."
+ bra.1.f:0 "O futuro não é o que tememos, é o que ousamos!"
+ bra.3:0 "Fechado o Congresso!"
+ bra.3.t:0 "Fechado o Congresso!"
+ bra.3.d:0 "Em vista da ameaça comunista divulgada pelo mais excelentíssimo Capitão Mourão, Getúlio Vargas decidiu tomar a final medida necessária para impedir um futuro golpe de estado socialista em território federal. Após a declaração do Estado de Sítio, o Sr. Presidente da República decretou, sob ordem extraordinária, o fechamento por tempo indeterminado do Congresso Nacional. Para garantir a manutenção da ordem, outorgou a nova constituição, rasgando a segunda em um período de 7 anos. A Polaca ampliará os poderes do Presidente, ilegarizará os partidos políticos e desarticulará as forças socialistas subversivas à ordem nacional."
+ bra.3.a:0 "'O Presidente da República dos Estados Unidos do Brasil: Atendendo ás legitimas aspirações do povo brasileiro [...]'"
+ bra.4:0 "O Suicídio de Getúlio Vargas"
+ bra.4.t:0 "O Suicídio de Getúlio Vargas"
+ bra.4.d:0 "Nesta manhã foi encontrado o corpo do Presidente Getúlio Vargas no chão de seu quarto no palácio do Catete. De pijamas, o ex-presidente cometeu suicídio em resposta à instabilidade política do país. Analistas sugerem que se Vargas tivesse sido mais decicido em suas doutrinas políticas, não haveria necessidade de tal ato. Hoje, permaneceremos de luto."
+ bra.4.a:0 "Deixo a vida para entrar na história."
+ bra.5: "O Imperador do Brasil"
+ bra.5.t: "O Imperador do Brasil"
+ bra.5.d: "Agora que o Imperador foi por seu povo aclamado, sua ideologia entrou em debate. Os Integralistas afirmam que o Imperador é um expansionista e visionário, que restaurará o Brasil à Glória. Os demais afirmam que o Imperador, nos pesares de qualquer ideologia, deve ser prudente e moderado acima de tudo. Restará a decisão ao Sr. Presidente da República na forma do reestabelecimento do Ato Adicional de 1834, elaborado pela Ala Progressista, ou do Ato Interpretativo de 1840, promulgado pelos Regressistas, durante o período que predatou o Segundo Império do Brasil. Façamos a mais prudente das escolhas."
+ bra.5.b:0 "Declaro institucional o Ato Interpretativo!"
+ bra.5.a:0 "Escolheremos o Ato Adicional."
+ bra.6:0 "O Brasil nos convida para sua faccção"
+ bra.6.t:0 "O Brasil nos convida para sua faccção"
+ bra.6.d:0 "O Brasil, depois de um avanço na diplomacia internacional e de se tornar a na nova grande potência, nos convida a sua facção para nos garantir prosperidade, segurança e defesa. Vamos juntar-nos à eles?"
+ bra.6.a:0 "Sim, com certeza!"
+ bra.6.b:0 "Eeeeeee..."
+ bra.7:0 "O Brasil quer se juntar à nossa facção"
+ bra.7.t:0 "O Brasil quer se juntar à nossa facção"
+ bra.7.d:0 "O Brasil requisitou à nossos diplomátas à juntar-se a nossa facção, tendo em vista o cenário pelo qual o mundo se encontra. Vem-nos agora à cabeça: Precisamos de sua ajuda?"
+ bra.7.a:0 "Sim, com certeza!"
+ bra.7.b:0 "Eeeeeee..."
+ bra.8:0 "O Brasil nos convida para sua faccção"
+ bra.8.t:0 "O Brasil nos convida para sua faccção"
+ bra.8.d:0 "O Brasil, depois de um avanço na diplomacia internacional e de se tornar a na nova grande potência, nos convida a sua facção para nos garantir prosperidade, segurança e defesa. Vamos juntar-nos à eles?"
+ bra.8.a:0 "Sim, com certeza!"
+ bra.8.b:0 "Eeeeeee..."
+ 
+ bra.9:0 "Declarado Estado de Sítio!"
+ bra.9.t:0 "Declarado Estado de Sítio!"
+ bra.9.d:0 "Neste fatídico dia foi declarada guerra contra nosso país. O Palácio do Catete declara o Estado de Sítio. Neste exato momento tropas Federais marcham pelas ruas de Copacabana, Voluntários amontoam os bondes que passam pela Rua da Consolação, tropeiros gaúchos carregam suas espingardas e ricos senhores de negócio armas suas corvetas com canhões e fuzis. Polícias Militares de todo o país iram para os fronts, defender nossa independência. Que Deus tenha piedade de nossos inimigos."
+ bra.9.a:0 "Verás que um filho teu não foge à luta, Nem teme, quem te adora, a própria morte. "
+ 
+ bra.10:0 "Brasil, ó Rincão Querido"
+ bra.10.t:0 "Brasil, ó Rincão Querido"
+ bra.10.d:0 "É o ano de 1936, o 114º da Independência e 47º da República. Há 6 anos atrás o Sr. Getúlio Vargas assumiu o honroso cargo de Presidente da República dos Estados Unidos do Brasil. Nestes últimos anos, viu-se a Guerra Civil em 32, seguida da rápida industrialização da cidade de São Paulo. Neste momento, no Nordeste, o cangaço trás justiça os destituidos e destruição aos grandes pecuaristas do sertão. Na Mata Mineira, a ascensão do pensamento marxista toma conta das elites intelectuais belo-horizontinas. No Sul, as pequenas manufaturas se consolidam em grandes conglomerados nacionais e, finalmente, no Triângulo Mineiro e Goiás, a cana faz seus primeiros avanços em direção à Amazônia. Glórias ao Brasil!"
+ bra.10.a:0 "Deitado eternamente em berço esplêndido, Ao som do mar e à luz do céu profundo"
+ 
+ #bra.11:0 "Estado Fantoche"
+ #bra.11.t:0 "Estado Fantoche"
+ #bra.11.d:0 "No presente momento invadem a nossa sede de governo os últimos corpos de fuzileiros à agir antes da assinatura da paz. A Vitória dos Brasileiros é inevitável. A presença militar das autoridades brasileiras no nosso território implica a formação de um governo fantoche, administrado por um novo chefe de Estado sob a tutela do Presidente da Federação, cujas doutrinas ideológicas certamente se alinharão as do Brasil continental. Através do Departamento de Imprensa e Propaganda (DIP), nossas elites culturais e grande mestre, com o passar do tempo, se reúnem em torno de escolas de pensamento brasileiras, mantendo a ordem nacional recém-instalada alinhada aos interesses do Brasil."
+ #bra.11.a:0 "Existe alguma alternativa? Não que nós estejamos reclamando."
+ #
+ #bra.12:0 "Liberdade!"
+ #bra.12.t:0 "Liberdade!"
+ #bra.12.d:0 "À medida que o novo governo nacional é formado, sob a singela orientação de nossos políticos e nosso povo, a velha ordem foge, buscando o exílio no Brasil continental. Com ela foge a censura, imposta em nós durante nosso tempo como alienados pelo DIP. Agora, nosso destino é nossa única decisão, e nossa visão de mundo será elaborada por nós."
+ #bra.12.a:0 "Abre as asas sobre nós!"
+ 
+ bra.13:0 "Assassinado o Presidente Getúlio Vargas"
+ bra.13.t:0 "Assassinado o Presidente Getúlio Vargas"
+ bra.13.d:0 "Durante a suprema manifestação de libertação do Proletáriado, cercaram e invadiram o Palácio do Catete dezenas de partidários, apoiados por outros milhares nas ruas do Rio de Janeiro. Em algumas poucas horas, estava morto o chefe burguês Getúlio Vargas e instalado no poder o Sr. Luís Carlos Prestes, o novo Presidente da República." 
+ bra.13.a:0 "Do Svedanya, Sr. Getúlio"
+ 
+ bra.14:0 "Exilado o Presidente Getúlio Vargas"
+ bra.14.t:0 "Exilado o Presidente Getúlio Vargas"
+ bra.14.d:0 "Durante a suprema manifestação de civismo de todos os povos e raças, cercaram e ameaçavam invadir o Palácio do Catete milhares de Integralistas. Em algumas poucas horas o Presidente Vargas se refugiaria no Rio Grande do Sul e o Dr. Plínio Salgado assumiria seu devido posto como o novo Presidente da República."
+ bra.14.a:0 "Anauê!"
+ 
+ bra.15:0 "Fortalecido o Presidente Getúlio Vargas"
+ bra.15.t:0 "Fortalecido o Presidente Getúlio Vargas"
+ bra.15.d:0 "Criado para Coordenar a propaganda do Estado Nacional, o Departamento de Imprensa e Propaganda, associado aos setores de inteligência do governo federal, garantirão a perpetuação do Presidente da República, o Sr. Getúlio Vargas, no poder."
+ bra.15.a:0 "O Regime Constitucional perdeu seu valor prático."
+ 
+ bra.16:0 "Deixa o Catete o Presidente Getúlio Vargas"
+ bra.16.t:0 "Deixa o Catete o Presidente Getúlio Vargas"
+ bra.16.d:0 "Durante a suprema manifestação de liberdade da Mãe-Pátria, cercaram o Palácio do Catete setores coligados do Exército, Marinha e Aeronáutica, em apoio ao Congresso Nacional. Em poucas horas o Sr. Getúlio Vargas, sob pressão de um corpo selecto de generais e almirantes, entregaria a República de volta ao Congresso Nacional e ao povo brasileiro."
+ bra.16.a:0 "Aos mortais, a sabedoria é construida com as consequências de suas escolhas."
+ 
+ bra.17:0 "Querelas Maçônicas"
+ bra.17.t:0 "Querelas Maçônicas"
+ bra.17.d:0 "Embora manter a Maçonaria na legalidade certamente tranquilizaria as Elites e solidificasse nossa posição, um forte apoio da Igreja pode ser preferível, a fim de manter o público e a administração em ordem."
+ bra.17.a:0 "O Vaticano não tem autoridade sobre nós."
+ #bra.17.a_desc:0 "§BCaminho Neutro§!"
+ bra.17.b:0 "Não damos segundas chances à traidores."
+ #bra.17.b_desc:0 "§BCaminho Fascista§!"
+
+ bra.18:0 "A Guarda Nacional"
+ bra.18.t:0 "A Guarda Nacional"
+ bra.18.d:0 "Dissolvida oficialmente em 1922, a Guarda Nacional começou a perder importância gradual no final do segundo império. Restaurá-la fortalecerá nossa capacidade de manter a ordem pública nacionalmente, aplicará nossa vontade nas províncias independentemente do exército e redistribuirá posições de honra e legitimidade por entre os políticos locais, reunindo apoio à nossa causa."
+ bra.18.a:0 "Sim, Coronel!"
+ 
+ bra.19:0 "A Restauração Imperial"
+ bra.19.t:0 "A Restauração Imperial"
+ bra.19.d:0 "Hoje, os povos unidos do Brasil sitiariam o Congresso fechado, em uma grande manifestação de vontade pública, e outorgaram a Constituição cuidadosamente escrita do Terceiro Império. O exército já se aposentou à força Getúlio Vargas, futuramente conhecido como o último país do Presidente do Brasil."
+ bra.19.a:0 "Liberdade, abre as asas sobre nós!"
+
+ bra.20:0 "Uma Conexão Atlântica"
+ bra.20.t:0 "Uma Conexão Atlântica"
+ bra.20.d:0 "Mais de cem anos se passaram desde que o Brasil declarou sua independência e quase meio século se foi desde que a República Brasileira se materializou. Ninguém em sã consciência acha que há uma única chance de nosso Império Transatlântico ser revivido... \n\n A menos que... \n\n Ajudando os Integralistas Brasileiros à tomarem o poder e derrubando Getúlio Vargas, podemos explorar lacunas em suas ideologias e conquistar seus membros monarquistas, possibilitando uma Restauração Portuguesa."
+ bra.20.a:0 "Ótimo."
+ bra_por_sabotage_ai_tooltip:0 "§YCaso o Brasil for controlado por IA, tornar-se-ão fascistas, fazendo com que os Portugueses retomem-o mais facilmente.§!"
+ bra.20.b:0 "Não precisamos de sabota-los. O povo do Brasil verá que estão melhor conosco."
+ bra_por_nosabotage_ai_tooltip:0 "§YEles não estarão. A IA Brasileira prosseguirá novamente, com chances típicas de tornar-se Fascista. Caso focos históricos estiverem ligados, jamais o fará.§!"
+ 
+ bra.21:0 "O Departamento Nacional de Estradas de Rodagem"
+ bra.21.t:0 "O Departamento Nacional de Estradas de Rodagem"
+ bra.21.d:0 "O DNER, um sugerido Departamento do Ministério de Viação e Obras Públicas, seria um orgão para qual se delegará a expansão e manutenção da infraestrutura federal. Caso sua formação seja aprovada, ele administrará diretamente esses assuntos, deixando para o Presidente da República apenas a necessidade de autorizar orçamentos."
+ bra.21.a:0 "Aprovado."
+ bra.21.a_tt:0 "Ao invés de 15 decisões de expansão industrial, teremos a opção de substituir Poder Político por Velocidade de Construção. Próprio para quem prefere administrar o menu industrial sem decisões."
+ bra.21.b:0 "Não precisamos de mais burocratas."
+ bra.21.b_tt:0 "As decisões de Viação serão diretas, feitas pelo jogador. É o sistema vigente."
+ 
+ bra.22:0 "As Forças Expedicionárias Brasileiras"
+ bra.22.t:0 "As Forças Expedicionárias Brasileiras"
+ bra.22.d:0 "O mundo mudou desde que pôs-se o do sol sob o trono Imperial. No entanto, ressuscitou-se e os velhos dias de glória estão por vir. Ainda assim, o mundo ao nosso redor mudou e o já vigente Imperialismo deram lugar às novas redes de alianças entre companheiros em idéias. À vista das muitas guerras que hão de acontecer nesta nova e empolgante era, podemos fazer algo que o Império nunca fez: organizar expedições transatlânticas para garantir a vitória de nossos amigos no exterior."
+ bra.22.a:0 "Que idéia fantástica!"
+ bra.22.b:0 "Por agora, isolarmos-nos nos parece mais prudente."
+ bra.22.b_tt:0 "Não haverá outra chance de se organizar as FEB."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
