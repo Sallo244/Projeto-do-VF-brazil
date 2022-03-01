@@ -1,0 +1,479 @@
+#soundeffect = {
+#	name = "bra_xxx"
+#	sounds = { sound = bra_xxx }
+#	volume = 12
+#}
+
+soundeffect = {
+	name = "bra_2_prestes_column"
+	sounds = { sound = bra_2_prestes_column }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_a_voz_do_brasil"
+	sounds = { sound = bra_a_voz_do_brasil }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_abertura"
+	sounds = { sound = bra_abertura }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_anhanguera"
+	sounds = { sound = bra_anhanguera }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_armor"
+	sounds = { sound = bra_armor }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_art"
+	sounds = { sound = bra_art }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_belem_porto"
+	sounds = { sound = bra_belem_porto }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_bndes"
+	sounds = { sound = bra_bndes }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_brasilia"
+	sounds = { sound = bra_brasilia }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_brazilian_action"
+	sounds = { sound = bra_brazilian_action }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_cosmopolitanism"
+	sounds = { sound = bra_cosmopolitanism }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_CTEF_CLT"
+	sounds = { sound = bra_CTEF_CLT }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_dreams_of_an_empire"
+	sounds = { sound = bra_dreams_of_an_empire }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_equip_ind"
+	sounds = { sound = bra_equip_ind }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_estado_novo"
+	sounds = { sound = bra_estado_novo }
+	volume = 40
+}
+
+soundeffect = {
+	name = "bra_feb"
+	sounds = { sound = bra_feb }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_industry_generic"
+	sounds = { sound = bra_industry_generic }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_infra_generic"
+	sounds = { sound = bra_infra_generic }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_itaipu"
+	sounds = { sound = bra_itaipu }
+	volume = 40
+}
+
+soundeffect = {
+	name = "bra_mec"
+	sounds = { sound = bra_mec }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_mining_generic"
+	sounds = { sound = bra_mining_generic }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_mot"
+	sounds = { sound = bra_mot }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_nuclear_research_bureau"
+	sounds = { sound = bra_nuclear_research_bureau }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_obras_exterior"
+	sounds = { sound = bra_obras_exterior }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_plan_cohen"
+	sounds = { sound = bra_plan_cohen }
+	volume = 20
+}
+
+soundeffect = {
+	name = "bra_populism"
+	sounds = { sound = bra_populism }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_quereismo"
+	sounds = { sound = bra_quereismo }
+	volume = 20
+}
+
+soundeffect = {
+	name = "bra_regionalism"
+	sounds = { sound = bra_regionalism }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_research_generic"
+	sounds = { sound = bra_research_generic }
+	volume = 8
+}
+
+soundeffect = {
+	name = "bra_sub_priv"
+	sounds = { sound = bra_sub_priv }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_tecnocratic_reform"
+	sounds = { sound = bra_tecnocratic_reform }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_tiro_de_guerra"
+	sounds = { sound = bra_tiro_de_guerra }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_vale"
+	sounds = { sound = bra_vale }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_navy_generic"
+	sounds = { sound = bra_navy_generic }
+	volume = 12
+}
+
+
+soundeffect = {
+	name = "bra_financial_generic"
+	sounds = { sound = bra_financial_generic }
+	volume = 12
+}
+
+
+soundeffect = {
+	name = "bra_airforce_generic"
+	sounds = { sound = bra_airforce_generic }
+	volume = 12
+}
+
+
+soundeffect = {
+	name = "bra_monarquia_focus"
+	sounds = { sound = bra_monarquia_focus }
+	volume = 40
+}
+
+soundeffect = {
+	name = "bra_cisne_branco_so_1"
+	sounds = { sound = bra_cisne_branco_so_1 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_cisne_branco_so_2"
+	sounds = { sound = bra_cisne_branco_so_2 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_cisne_branco_so_3"
+	sounds = { sound = bra_cisne_branco_so_3 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_cisne_branco_so_4"
+	sounds = { sound = bra_cisne_branco_so_4 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_hino_const_so_1"
+	sounds = { sound = bra_hino_const_so_1 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_hino_const_so_2"
+	sounds = { sound = bra_hino_const_so_2 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_hino_const_so_3"
+	sounds = { sound = bra_hino_const_so_3 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_hino_const_so_4"
+	sounds = { sound = bra_hino_const_so_4 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_hino_const_so_5"
+	sounds = { sound = bra_hino_const_so_5 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_marcha_de_guerra_so_1"
+	sounds = { sound = bra_marcha_de_guerra_so_1 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_marcha_de_guerra_so_2"
+	sounds = { sound = bra_marcha_de_guerra_so_2 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_marcha_de_guerra_so_3"
+	sounds = { sound = bra_marcha_de_guerra_so_3 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_marcha_de_guerra_so_4"
+	sounds = { sound = bra_marcha_de_guerra_so_4 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_marcha_de_guerra_so_5"
+	sounds = { sound = bra_marcha_de_guerra_so_5 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_paris_belfort_so_1"
+	sounds = { sound = bra_paris_belfort_so_1 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_paris_belfort_so_2"
+	sounds = { sound = bra_paris_belfort_so_2 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_posse_so"
+	sounds = { sound = bra_posse_so }
+	volume = 40
+}
+
+soundeffect = {
+	name = "bra_proclamacao_so_1"
+	sounds = { sound = bra_proclamacao_so_1 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_proclamacao_so_2"
+	sounds = { sound = bra_proclamacao_so_2 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_proclamacao_so_3"
+	sounds = { sound = bra_proclamacao_so_3 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_sentinela_brasil_so_1"
+	sounds = { sound = bra_sentinela_brasil_so_1 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_sentinela_brasil_so_2"
+	sounds = { sound = bra_sentinela_brasil_so_2 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_sentinela_brasil_so_3"
+	sounds = { sound = bra_sentinela_brasil_so_3 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_hino_aviador_so_1"
+	sounds = { sound = bra_hino_aviador_so_1 }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_hino_aviador_so_2"
+	sounds = { sound = bra_hino_aviador_so_2 }
+	volume = 12
+}
+
+
+soundeffect = {
+	name = "bra_hino_aviador_so_3"
+	sounds = { sound = bra_hino_aviador_so_3 }
+	volume = 12
+}
+
+
+soundeffect = {
+	name = "bra_hino_aviador_so_4"
+	sounds = { sound = bra_hino_aviador_so_4 }
+	volume = 12
+}
+
+
+soundeffect = {
+	name = "bra_etanol_so"
+	sounds = { sound = bra_etanol_so }
+	volume = 12
+}
+
+soundeffect = {
+	name = "bra_rodovia_so_1"
+	sounds = { sound = bra_rodovia_so_1 }
+	volume = 40
+}
+
+soundeffect = {
+	name = "bra_rodovia_so_2"
+	sounds = { sound = bra_rodovia_so_2 }
+	volume = 40
+}
+
+soundeffect = {
+	name = "bra_transamazonica_so_1"
+	sounds = { sound = bra_transamazonica_so_1 }
+	volume = 50
+}
+
+soundeffect = {
+	name = "bra_transamazonica_so_2"
+	sounds = { sound = bra_transamazonica_so_2 }
+	volume = 50
+}
+
+soundeffect = {
+	name = "bra_transamazonica_so_3"
+	sounds = { sound = bra_transamazonica_so_3 }
+	volume = 50
+}
+
+soundeffect = {
+	name = "bra_uni_so_1"
+	sounds = { sound = bra_uni_so_1 }
+	volume = 40
+}
+
+soundeffect = {
+	name = "bra_mobilizacao_ind"
+	sounds = { sound = bra_mobilizacao_ind }
+	volume = 40
+}
+
+soundeffect = {
+	name = "bra_assovio_1"
+	sounds = { sound = bra_assovio_1 }
+	volume = 40
+}
+
+soundeffect = {
+	name = "bra_assovio_2"
+	sounds = { sound = bra_assovio_2 }
+	volume = 40
+}
+
+soundeffect = {
+	name = "bra_feito_nos"
+	sounds = { sound = bra_feito_nos }
+	volume = 40
+}
+
+soundeffect = {
+	name = "bra_piano"
+	sounds = { sound = bra_piano }
+	volume = 40
+}
+
+soundeffect = {
+	name = "bra_vacinado_1"
+	sounds = { sound = bra_vacinado_1 }
+	volume = 40
+}
+
+soundeffect = {
+	name = "bra_vacinado_2"
+	sounds = { sound = bra_vacinado_2 }
+	volume = 40
+}

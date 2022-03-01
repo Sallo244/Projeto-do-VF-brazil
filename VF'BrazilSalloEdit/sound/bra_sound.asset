@@ -1,0 +1,402 @@
+#sound = {
+#	name = "bra_xxx"
+#	file = "bra_brazil_speech/bra_xxx.wav"
+#}
+
+sound = {
+	name = "bra_2_prestes_column"
+	file = "bra_brazil_speech/bra_2_prestes_column.wav"
+}
+
+sound = {
+	name = "bra_a_voz_do_brasil"
+	file = "bra_brazil_speech/bra_a_voz_do_brasil.wav"
+}
+
+sound = {
+	name = "bra_abertura"
+	file = "bra_brazil_speech/bra_abertura.wav"
+}
+
+sound = {
+	name = "bra_anhanguera"
+	file = "bra_brazil_speech/bra_anhanguera.wav"
+}
+
+sound = {
+	name = "bra_armor"
+	file = "bra_brazil_speech/bra_armor.wav"
+}
+
+sound = {
+	name = "bra_art"
+	file = "bra_brazil_speech/bra_art.wav"
+}
+
+sound = {
+	name = "bra_belem_porto"
+	file = "bra_brazil_speech/bra_belem_porto.wav"
+}
+
+sound = {
+	name = "bra_bndes"
+	file = "bra_brazil_speech/bra_bndes.wav"
+}
+
+sound = {
+	name = "bra_brasilia"
+	file = "bra_brazil_speech/bra_brasilia.wav"
+}
+
+sound = {
+	name = "bra_brazilian_action"
+	file = "bra_brazil_speech/bra_brazilian_action.wav"
+}
+
+sound = {
+	name = "bra_cosmopolitanism"
+	file = "bra_brazil_speech/bra_cosmopolitanism.wav"
+}
+
+sound = {
+	name = "bra_CTEF_CLT"
+	file = "bra_brazil_speech/bra_CTEF_CLT.wav"
+}
+
+sound = {
+	name = "bra_dreams_of_an_empire"
+	file = "bra_brazil_speech/bra_dreams_of_an_empire.wav"
+}
+
+sound = {
+	name = "bra_equip_ind"
+	file = "bra_brazil_speech/bra_equip_ind.wav"
+}
+
+sound = {
+	name = "bra_estado_novo"
+	file = "bra_brazil_speech/bra_estado_novo.wav"
+}
+
+sound = {
+	name = "bra_feb"
+	file = "bra_brazil_speech/bra_feb.wav"
+}
+
+sound = {
+	name = "bra_industry_generic"
+	file = "bra_brazil_speech/bra_industry_generic.wav"
+}
+
+sound = {
+	name = "bra_infra_generic"
+	file = "bra_brazil_speech/bra_infra_generic.wav"
+}
+
+sound = {
+	name = "bra_itaipu"
+	file = "bra_brazil_speech/bra_itaipu.wav"
+}
+
+sound = {
+	name = "bra_mec"
+	file = "bra_brazil_speech/bra_mec.wav"
+}
+
+
+sound = {
+	name = "bra_mining_generic"
+	file = "bra_brazil_speech/bra_mining_generic.wav"
+}
+
+sound = {
+	name = "bra_mot"
+	file = "bra_brazil_speech/bra_mot.wav"
+}
+
+sound = {
+	name = "bra_nuclear_research_bureau"
+	file = "bra_brazil_speech/bra_nuclear_research_bureau.wav"
+}
+
+
+sound = {
+	name = "bra_obras_exterior"
+	file = "bra_brazil_speech/bra_obras_exterior.wav"
+}
+
+sound = {
+	name = "bra_plan_cohen"
+	file = "bra_brazil_speech/bra_plan_cohen.wav"
+}
+
+sound = {
+	name = "bra_populism"
+	file = "bra_brazil_speech/bra_populism.wav"
+}
+
+sound = {
+	name = "bra_quereismo"
+	file = "bra_brazil_speech/bra_quereismo.wav"
+}
+
+sound = {
+	name = "bra_regionalism"
+	file = "bra_brazil_speech/bra_regionalism.wav"
+}
+
+sound = {
+	name = "bra_research_generic"
+	file = "bra_brazil_speech/bra_research_generic.wav"
+}
+
+sound = {
+	name = "bra_sub_priv"
+	file = "bra_brazil_speech/bra_sub_priv.wav"
+}
+
+sound = {
+	name = "bra_tecnocratic_reform"
+	file = "bra_brazil_speech/bra_tecnocratic_reform.wav"
+}
+
+sound = {
+	name = "bra_tiro_de_guerra"
+	file = "bra_brazil_speech/bra_tiro_de_guerra.wav"
+}
+
+sound = {
+	name = "bra_vale"
+	file = "bra_brazil_speech/bra_vale.wav"
+}
+
+sound = {
+	name = "bra_navy_generic"
+	file = "bra_brazil_speech/bra_navy_generic.wav"
+}
+
+sound = {
+	name = "bra_financial_generic"
+	file = "bra_brazil_speech/bra_financial_generic.wav"
+}
+
+sound = {
+	name = "bra_airforce_generic"
+	file = "bra_brazil_speech/bra_airforce_generic.wav"
+}
+
+sound = {
+	name = "bra_monarquia_focus"
+	file = "bra_brazil_speech/bra_monarquia_focus.wav"
+}
+
+sound = {
+	name = "bra_cisne_branco_so_1"
+	file = "bra_brazil_speech/bra_cisne_branco_so_1.wav"
+}
+
+sound = {
+	name = "bra_cisne_branco_so_2"
+	file = "bra_brazil_speech/bra_cisne_branco_so_2.wav"
+}
+
+sound = {
+	name = "bra_cisne_branco_so_3"
+	file = "bra_brazil_speech/bra_cisne_branco_so_3.wav"
+}
+
+sound = {
+	name = "bra_cisne_branco_so_4"
+	file = "bra_brazil_speech/bra_cisne_branco_so_4.wav"
+}
+
+sound = {
+	name = "bra_hino_const_so_1"
+	file = "bra_brazil_speech/bra_hino_const_so_1.wav"
+}
+
+sound = {
+	name = "bra_hino_const_so_2"
+	file = "bra_brazil_speech/bra_hino_const_so_2.wav"
+}
+
+sound = {
+	name = "bra_hino_const_so_3"
+	file = "bra_brazil_speech/bra_hino_const_so_3.wav"
+}
+
+sound = {
+	name = "bra_hino_const_so_4"
+	file = "bra_brazil_speech/bra_hino_const_so_4.wav"
+}
+
+sound = {
+	name = "bra_hino_const_so_5"
+	file = "bra_brazil_speech/bra_hino_const_so_5.wav"
+}
+
+sound = {
+	name = "bra_marcha_de_guerra_so_1"
+	file = "bra_brazil_speech/bra_marcha_de_guerra_so_1.wav"
+}
+
+sound = {
+	name = "bra_marcha_de_guerra_so_2"
+	file = "bra_brazil_speech/bra_marcha_de_guerra_so_2.wav"
+}
+
+sound = {
+	name = "bra_marcha_de_guerra_so_3"
+	file = "bra_brazil_speech/bra_marcha_de_guerra_so_3.wav"
+}
+
+sound = {
+	name = "bra_marcha_de_guerra_so_4"
+	file = "bra_brazil_speech/bra_marcha_de_guerra_so_4.wav"
+}
+
+sound = {
+	name = "bra_marcha_de_guerra_so_5"
+	file = "bra_brazil_speech/bra_marcha_de_guerra_so_5.wav"
+}
+
+sound = {
+	name = "bra_paris_belfort_so_1"
+	file = "bra_brazil_speech/bra_paris_belfort_so_1.wav"
+}
+
+sound = {
+	name = "bra_paris_belfort_so_2"
+	file = "bra_brazil_speech/bra_paris_belfort_so_2.wav"
+}
+
+sound = {
+	name = "bra_posse_so"
+	file = "bra_brazil_speech/bra_posse_so.wav"
+}
+
+sound = {
+	name = "bra_proclamacao_so_1"
+	file = "bra_brazil_speech/bra_proclamacao_so_1.wav"
+}
+
+sound = {
+	name = "bra_proclamacao_so_2"
+	file = "bra_brazil_speech/bra_proclamacao_so_2.wav"
+}
+
+sound = {
+	name = "bra_proclamacao_so_3"
+	file = "bra_brazil_speech/bra_proclamacao_so_3.wav"
+}
+
+sound = {
+	name = "bra_sentinela_brasil_so_1"
+	file = "bra_brazil_speech/bra_sentinela_brasil_so_1.wav"
+}
+
+sound = {
+	name = "bra_sentinela_brasil_so_2"
+	file = "bra_brazil_speech/bra_sentinela_brasil_so_2.wav"
+}
+
+sound = {
+	name = "bra_sentinela_brasil_so_3"
+	file = "bra_brazil_speech/bra_sentinela_brasil_so_3.wav"
+}
+
+sound = {
+	name = "bra_hino_aviador_so_1"
+	file = "bra_brazil_speech/bra_hino_aviador_so_1.wav"
+}
+
+sound = {
+	name = "bra_hino_aviador_so_2"
+	file = "bra_brazil_speech/bra_hino_aviador_so_2.wav"
+}
+
+sound = {
+	name = "bra_hino_aviador_so_3"
+	file = "bra_brazil_speech/bra_hino_aviador_so_3.wav"
+}
+
+sound = {
+	name = "bra_hino_aviador_so_4"
+	file = "bra_brazil_speech/bra_hino_aviador_so_4.wav"
+}
+
+sound = {
+	name = "bra_etanol_so"
+	file = "bra_brazil_speech/bra_etanol_so.wav"
+}
+
+
+sound = {
+	name = "bra_rodovia_so_1"
+	file = "bra_brazil_speech/bra_rodovia_so_1.wav"
+}
+
+
+sound = {
+	name = "bra_rodovia_so_2"
+	file = "bra_brazil_speech/bra_rodovia_so_2.wav"
+}
+
+
+sound = {
+	name = "bra_transamazonica_so_1"
+	file = "bra_brazil_speech/bra_transamazonica_so_1.wav"
+}
+
+
+sound = {
+	name = "bra_transamazonica_so_2"
+	file = "bra_brazil_speech/bra_transamazonica_so_2.wav"
+}
+
+
+sound = {
+	name = "bra_transamazonica_so_3"
+	file = "bra_brazil_speech/bra_transamazonica_so_3.wav"
+}
+
+sound = {
+	name = "bra_uni_so_1"
+	file = "bra_brazil_speech/bra_uni_so_1.wav"
+}
+
+sound = {
+	name = "bra_mobilizacao_ind"
+	file = "bra_brazil_speech/bra_mobilizacao_ind.wav"
+}
+
+sound = {
+	name = "bra_assovio_1"
+	file = "bra_brazil_speech/bra_assovio_1.wav"
+}
+
+sound = {
+	name = "bra_assovio_2"
+	file = "bra_brazil_speech/bra_assovio_2.wav"
+}
+
+sound = {
+	name = "bra_feito_nos"
+	file = "bra_brazil_speech/bra_feito_nos.wav"
+}
+
+sound = {
+	name = "bra_piano"
+	file = "bra_brazil_speech/bra_piano.wav"
+}
+
+sound = {
+	name = "bra_vacinado_1"
+	file = "bra_brazil_speech/bra_vacinado_1.wav"
+}
+
+sound = {
+	name = "bra_vacinado_2"
+	file = "bra_brazil_speech/bra_vacinado_2.wav"
+}
+

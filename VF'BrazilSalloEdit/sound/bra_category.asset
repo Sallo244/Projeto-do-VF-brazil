@@ -1,0 +1,98 @@
+category = {
+	name = "Brazilian Focii Effects"
+	soundeffects = {
+		#bra_xxx
+		bra_2_prestes_column
+		bra_a_voz_do_brasil
+		bra_abertura
+		bra_anhanguera
+		bra_armor
+		bra_art
+		bra_belem_porto
+		bra_bndes
+		bra_brasilia
+		bra_brazilian_action
+		bra_cosmopolitanism
+		bra_CTEF_CLT
+		bra_dreams_of_an_empire
+		bra_equip_ind
+		bra_estado_novo
+		bra_feb
+		bra_industry_generic
+		bra_infra_generic
+		bra_itaipu
+		bra_mec
+		bra_mining_generic
+		bra_mot
+		bra_nuclear_research_bureau
+		bra_obras_exterior
+		bra_plan_cohen
+		bra_populism
+		bra_quereismo
+		bra_regionalism
+		bra_research_generic
+		bra_sub_priv
+		bra_tecnocratic_reform
+		bra_tiro_de_guerra
+		bra_vale
+		bra_navy_generic
+		bra_financial_generic
+		bra_airforce_generic
+		bra_monarquia_focus
+		
+		bra_cisne_branco_so_1
+		bra_cisne_branco_so_2
+		bra_cisne_branco_so_3
+		bra_cisne_branco_so_4
+		
+		bra_hino_const_so_1
+		bra_hino_const_so_2
+		bra_hino_const_so_3
+		bra_hino_const_so_4
+		bra_hino_const_so_5
+		
+		bra_marcha_de_guerra_so_1
+		bra_marcha_de_guerra_so_2
+		bra_marcha_de_guerra_so_3
+		bra_marcha_de_guerra_so_4
+		bra_marcha_de_guerra_so_5
+		
+		bra_paris_belfort_so_1
+		bra_paris_belfort_so_2
+		
+		bra_posse_so
+		
+		bra_proclamacao_so_1
+		bra_proclamacao_so_2
+		bra_proclamacao_so_3
+		
+		bra_sentinela_brasil_so_1
+		bra_sentinela_brasil_so_2
+		bra_sentinela_brasil_so_3
+		
+		bra_hino_aviador_so_1
+		bra_hino_aviador_so_2
+		bra_hino_aviador_so_3
+		bra_hino_aviador_so_4
+		
+		bra_etanol_so
+		
+		bra_rodovia_so_1
+		bra_rodovia_so_2
+		
+		bra_transamazonica_so_1
+		bra_transamazonica_so_2
+		bra_transamazonica_so_3
+		
+		bra_uni_so_1
+		
+		bra_mobilizacao_ind
+		
+		bra_assovio_1
+		bra_assovio_2
+		bra_feito_nos
+		bra_piano
+		bra_vacinado_1
+		bra_vacinado_2
+	}
+}
