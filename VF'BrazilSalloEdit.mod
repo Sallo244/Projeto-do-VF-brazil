@@ -13,5 +13,5 @@ tags={
 }
 name="VF'Brazil Sallo Edit"
 supported_version="1.11.*"
-path="C:/Users/Capelini/Documents/Paradox Interactive/Hearts of Iron IV/mod/VF'BrazilSalloEdit"
+path="mod/VF'BrazilSalloEdit"
 remote_file_id="2733070698"
