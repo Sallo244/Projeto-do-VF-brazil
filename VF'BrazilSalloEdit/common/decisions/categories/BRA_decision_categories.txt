@@ -73,15 +73,15 @@ BRA_elect_communism = {
 	}
 }
 
-#brasilia = {
-#	
-#	picture = GFX_decision_cat_voz_ligada
-#	
-#	icon = generic_political_actions
-#	allowed = {
-#		original_tag = BRA
-#	}
-#}
+engesa = {
+	
+	picture = GFX_decision_cat_voz_ligada
+	
+	icon = generic_political_actions
+	allowed = {
+		original_tag = BRA
+	}
+}
 
 BRA_voz_ligada_cat = {
 	
