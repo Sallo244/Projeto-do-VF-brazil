@@ -13,6 +13,6 @@ tags={
 }
 
 name="VF'Brazil Sallo Edit"
-supported_version="1.11.8"
+supported_version="1.11.*"
 path="mod/VF'BrazilSallo'sEdit"
 remote_file_id="2733070698"
