@@ -73,7 +73,7 @@ BRA_elect_communism = {
 	}
 }
 
-engesa = {
+BRA_armas = {
 	
 	picture = GFX_decision_cat_voz_ligada
 	
