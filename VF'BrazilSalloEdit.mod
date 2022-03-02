@@ -1,4 +1,4 @@
-version="1.11.5.2"
+version="1.3.2"
 picture="Thumbnail,png"
 tags={
 	"Alternative History"
@@ -12,6 +12,6 @@ tags={
 	"Sound"
 }
 name="VF'Brazil Sallo Edit"
-supported_version="1.11.*"
-path="mod/VF'BrazilSalloEdit"
+supported_version="1.11.8"
+path="C:/Users/Documents/Paradox Interactive/Hearts of Iron IV/mod/VF'BrazilSallo'sEdit"
 remote_file_id="2733070698"
