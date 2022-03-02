@@ -14,5 +14,5 @@ tags={
 
 name="VF'Brazil Sallo Edit"
 supported_version="1.11.*"
-path="mod/VF'BrazilSallo'sEdit"
+path="mod/VF'BrazilSalloEdit"
 remote_file_id="2733070698"
