@@ -2990,10 +2990,13 @@ BRA_armas = {
 		complete_effect = {
 				equipment_bonus = {
 					mechanized_equipment = {
+						small_river = {
+							movement = 0.2
+						}
 						build_cost_ic = 0.05
 						soft_attack = 0.1
 						reliability = 0.1
-						maximum_speed = 0.2
+						#maximum_speed = 0.2
 						instant = yes
 					}
 				}
