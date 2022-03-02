@@ -11,6 +11,7 @@ tags={
 	"National Focuses"
 	"Sound"
 }
+
 name="VF'Brazil Sallo Edit"
 supported_version="1.11.8"
 path="mod/VF'BrazilSallo'sEdit"
