@@ -2065,6 +2065,51 @@ ideas = {
 			ai_will_do = {
 				factor = 20
 			}
+				bra_development_teams = {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture =
+			
+			modifier = {
+				civilian_factory_use = 5
+				research_speed_factor = 0.05
+			}
+			bra_development_teams1 = {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture =
+			
+			modifier = {
+				civilian_factory_use = 10
+				research_speed_factor = 0.075
+			}
+			bra_development_teams2 = {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture =
+			
+			modifier = {
+				civilian_factory_use = 15
+				research_speed_factor = 0.10
+			}			
 		}
 	}
 }
