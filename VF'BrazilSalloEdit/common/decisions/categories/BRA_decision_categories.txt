@@ -73,16 +73,6 @@ BRA_elect_communism = {
 	}
 }
 
-BRA_armas = {
-	
-	picture = GFX_decision_cat_voz_ligada
-	
-	icon = generic_political_actions
-	allowed = {
-		original_tag = BRA
-	}
-}
-
 BRA_voz_ligada_cat = {
 	
 	picture = GFX_decision_cat_voz_ligada
