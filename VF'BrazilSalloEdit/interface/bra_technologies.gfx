@@ -173,5 +173,15 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_BRA_gwtank_medium"
 		texturefile = "gfx/interface/technologies/BRA_gwtank_equipment.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mecanizado_tech_medium"
+		texturefile = "gfx/interface/technologies/BRA_mechanized_equipment.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_motorizado_tech_medium"
+		texturefile = "gfx/interface/technologies/BRA_motorized_equipment_2.dds"
 	}	
 }
