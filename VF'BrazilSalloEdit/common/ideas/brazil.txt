@@ -1,7 +1,553 @@
 ideas = { 
+	hidden_ideas = {
+		bra_motorizado_foge = {
 		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				motorized_rocket_equipment = {
+					build_cost_ic = 0.15
+					soft_attack = 0.15
+					reliability = 0.10
+					defense = 0.15
+					instant = yes
+				}
+			}
+		}
+		bra_motorizado = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.1
+					reliability = 0.05
+					instant = yes
+				}
+			}
+		}
+		bra_mecanizado1 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				mechanized_equipment = {
+					build_cost_ic = -0.15
+					maximum_speed = 0.15
+					soft_attack = 0.25
+					hard_attack = -0.2
+					ap_attack = -0.1
+					instant = yes
+				}
+			}
+		}
+		bra_mecanizado2 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				mechanized_equipment = {
+					build_cost_ic = 0.15
+					soft_attack = 0.15
+					reliability = 0.10
+					defense = 0.15
+					instant = yes
+				}
+			}
+		}
+		bra_mecanizado3 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				mechanized_equipment = {
+					build_cost_ic = 0.10
+					ap_attack = 1
+					soft_attack = 0.05
+					hard_attack = 0.1
+					maximum_speed = -0.05
+					armor_value = -0.05
+					instant = yes
+				}
+			}
+		}
+		bra_anfibio1 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				amphibious_mechanized_equipment = {
+					build_cost_ic = -0.10
+					soft_attack = 0.1
+					defense = 0.1
+					reliability = 0.05
+					instant = yes
+				}
+			}
+		}
+		bra_carro1 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				armored_car_equipment = {
+					build_cost_ic = -0.2
+					recon = 0.2
+					suppression = 0.2
+					instant = yes
+				}
+			}
+		}
+		bra_carro2 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				armored_car_equipment = {
+					build_cost_ic = 0.20
+					soft_attack = 0.1
+					hard_attack = 0.1
+					ap_attack = 0.5
+					maximum_speed = -0.05
+					instant = yes
+				}
+			}
+		}
+		bra_carro3 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				armored_car_equipment = {
+					build_cost_ic = 0.15
+					air_attack = 0.2
+					soft_attack = 0.1
+					hard_attack = -0.1
+					ap_attack = -0.5
+					maximum_speed = 0.05
+					instant = yes
+				}
+			}
+		}
+		bra_infantaria1 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					soft_attack = 0.1
+					hard_attack = -0.1
+					maximum_speed = 0.1
+					instant = yes
+				}
+			}
+		}
+		bra_infantaria2 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = 0.05
+					soft_attack = 0.05
+					hard_attack = 0.05
+					reliability = 0.05
+					instant = yes
+				}
+			}
+		}
+		bra_infantaria3 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = 0.10
+					soft_attack = -0.1
+					hard_attack = 0.1
+					ap_attack = 0.05
+					maximum_speed = -0.05
+					instant = yes
+				}
+			}
+		}
+		bra_infantaria4 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = 0.05
+					defense = 0.1
+					reliability = 0.1
+					suppression = 0.05
+					instant = yes
+				}
+			}
+		}
+		bra_artilharia1 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				anti_air_equipment = {
+					build_cost_ic = -0.05
+					air_attack = 0.05
+					defense = 0.05
+					ap_attack = -0.1
+					instant = yes
+				}
+			}
+		}
+		bra_artilharia2 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = 0.05
+					soft_attack = 0.05
+					hard_attack = 0.05
+					ap_attack = 0.05
+					reliability = 0.05
+					instant = yes
+				}
+			}
+		}
+		bra_artilharia3 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = 0.05
+					soft_attack = 0.1
+					hard_attack = -0.1
+					defense = 0.05
+					instant = yes
+				}
+			}
+		}
+		bra_artilharia4 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = 0.1
+					soft_attack = 0.1
+					hard_attack = 0.1
+					ap_attack = -0.1
+					defense = -0.1
+					maximum_speed = -0.05
+					instant = yes
+				}
+			}
+		}
+		bra_tonk1 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				modern_tank_equipment = {
+					build_cost_ic = 0.05
+					soft_attack = 0.15
+					hard_attack = 0.15
+					ap_attack = 0.05
+					reliability = 0.1
+					armor_value = 0.1
+					instant = yes
+				}
+			}
+		}
+		bra_tonk2 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			equipment_bonus = {
+				modern_tank_equipment = {
+					build_cost_ic = -0.1
+					soft_attack = 0.1
+					hard_attack = 0.1
+					reliability = 0.1
+					maximum_speed = 0.1
+					instant = yes
+				}
+			}
+		}
+	}
 	# Special ones that can be applied on other countries through focus system.
 	country = {
+	
+		bra_development_teams1 = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture =
+			
+			removal_cost = -1
+			
+			modifier = {
+				civilian_factory_use = 5
+				research_speed_factor = -0.05
+			}
+		}
+		
+		bra_development_teams2 = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			picture =
+			
+			removal_cost = -1
+			
+			modifier = {
+				civilian_factory_use = 10
+				research_speed_factor = -0.075
+			}
+		}
+		
+		bra_development_teams3 = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			picture =
+			
+			removal_cost = -1
+			
+			modifier = {
+				civilian_factory_use = 15
+				research_speed_factor = -0.10
+			}
+		}
 		
 		bra_influencia_comunista_idea = {
 		
@@ -22,7 +568,7 @@ ideas = {
 			}
 			
 		}
-			
+		
 		bra_instabilidade = {
 			allowed = {
 				always = yes
@@ -367,24 +913,6 @@ ideas = {
 			}
 		}
 
-		bra_train_enfort = {
-			allowed = {
-				always = yes
-			}
-			
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			picture = bra_ferrovia
-			
-			equipment_bonus = {
-				train_equipment = {
-				build_cost_ic = -0.20 instant = yes 
-				}
-			}
-		}
-
 		bra_feb_idea = {
 		
 			allowed = {
@@ -572,7 +1100,7 @@ ideas = {
 				attrition = -0.2
 				out_of_supply_factor = -0.05
 				acclimatization_hot_climate_gain_factor = 1
-				recon_factor = 0.10
+				recon_factor = 0.05
 			}
 		}
 		
@@ -655,10 +1183,13 @@ ideas = {
 				attrition = -0.2
 				out_of_supply_factor = -0.05
 				acclimatization_hot_climate_gain_factor = 1
-				recon_factor = 0.10
+				recon_factor = 0.05
 			}
 			
 			equipment_bonus = {
+				train_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
 				motorized_equipment = {
 					build_cost_ic = -0.10 instant = yes
 				}
@@ -691,14 +1222,14 @@ ideas = {
 				motorized_equipment = {
 					build_cost_ic = -0.20 instant = yes
 				}
+				train_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
 				mechanized_equipment = {
 					build_cost_ic = -0.10 instant = yes
-					reliability = 0.10 instant = yes
 				}
 				armored_car_equipment = {
 					build_cost_ic = -0.10 instant = yes
-					reliability = 0.10 instant = yes
-					recon = 0.10 instant = yes
 				}
 			}
 		}
@@ -832,14 +1363,14 @@ ideas = {
 				motorized_equipment = {
 					build_cost_ic = -0.20 instant = yes
 				}
+				train_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
 				mechanized_equipment = {
 					build_cost_ic = -0.10 instant = yes
-					reliability = 0.10 instant = yes
 				}
 				armored_car_equipment = {
 					build_cost_ic = -0.10 instant = yes
-					reliability = 0.10 instant = yes
-					recon = 0.10 instant = yes
 				}
 			}
 		}
@@ -870,14 +1401,14 @@ ideas = {
 				motorized_equipment = {
 					build_cost_ic = -0.20 instant = yes
 				}
+				train_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
 				mechanized_equipment = {
 					build_cost_ic = -0.10 instant = yes
-					reliability = 0.10 instant = yes
 				}
 				armored_car_equipment = {
 					build_cost_ic = -0.10 instant = yes
-					reliability = 0.10 instant = yes
-					recon = 0.10 instant = yes
 				}
 			}
 		}
@@ -903,20 +1434,20 @@ ideas = {
 				attrition = -0.2
 				out_of_supply_factor = -0.05
 				acclimatization_hot_climate_gain_factor = 1
-				recon_factor = 0.10
+				recon_factor = 0.05
 			}
 			equipment_bonus = {				
 				motorized_equipment = {
 					build_cost_ic = -0.20 instant = yes
 				}
+				train_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
 				mechanized_equipment = {
 					build_cost_ic = -0.10 instant = yes
-					reliability = 0.10 instant = yes
 				}
 				armored_car_equipment = {
 					build_cost_ic = -0.10 instant = yes
-					reliability = 0.10 instant = yes
-					recon = 0.05 instant = yes
 				}
 			}
 		}
@@ -2065,51 +2596,6 @@ ideas = {
 			ai_will_do = {
 				factor = 20
 			}
-				bra_development_teams = {
-			allowed = {
-				always = yes
-			}
-			
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			picture =
-			
-			modifier = {
-				civilian_factory_use = 5
-				research_speed_factor = 0.05
-			}
-			bra_development_teams1 = {
-			allowed = {
-				always = yes
-			}
-			
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			picture =
-			
-			modifier = {
-				civilian_factory_use = 10
-				research_speed_factor = 0.075
-			}
-			bra_development_teams2 = {
-			allowed = {
-				always = yes
-			}
-			
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			picture =
-			
-			modifier = {
-				civilian_factory_use = 15
-				research_speed_factor = 0.10
-			}			
 		}
 	}
 }
