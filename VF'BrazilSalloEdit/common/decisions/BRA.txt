@@ -2854,6 +2854,1450 @@ BRA_metas = {
 	}
 }
 
+BRA_cbc = {
+	bra_infantaria_1 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_cbc_1_flag
+			has_completed_focus = bra_equip_ind
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_infantaria1
+			#}
+			hidden_effect = { set_country_flag = bra_cbc_2_flag clr_country_flag = bra_cbc_1_flag }
+			
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_infantaria_2 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_cbc_1_flag
+			has_completed_focus = bra_equip_ind
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_infantaria2
+			#}
+			hidden_effect = { set_country_flag = bra_cbc_2_flag clr_country_flag = bra_cbc_1_flag }
+			
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_infantaria_3 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_cbc_1_flag
+			has_completed_focus = bra_equip_ind
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_infantaria3
+			#}
+			hidden_effect = { set_country_flag = bra_cbc_2_flag clr_country_flag = bra_cbc_1_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_infantaria_4 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_cbc_1_flag
+			has_completed_focus = bra_equip_ind
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_infantaria4
+			#}
+			hidden_effect = { set_country_flag = bra_cbc_2_flag clr_country_flag = bra_cbc_1_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_artilharia_1 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = bra_art
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_cbc_2_flag
+			has_completed_focus = bra_equip_ind
+			original_tag = BRA
+		}
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_artilharia1
+			#}
+			hidden_effect = { set_country_flag = bra_cbc_3_flag clr_country_flag = bra_cbc_2_flag }
+		
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_artilharia_2 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = bra_art
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_cbc_2_flag
+			has_completed_focus = bra_equip_ind
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_artilharia2
+			#}
+			hidden_effect = { set_country_flag = bra_cbc_3_flag clr_country_flag = bra_cbc_2_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_artilharia_3 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = bra_art
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_cbc_2_flag
+			has_completed_focus = bra_equip_ind
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_artilharia3
+			#}
+			hidden_effect = { set_country_flag = bra_cbc_3_flag clr_country_flag = bra_cbc_2_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_artilharia_4 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = bra_art
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_cbc_2_flag
+			has_completed_focus = bra_equip_ind
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_artilharia4
+			#}
+			hidden_effect = { set_country_flag = bra_cbc_3_flag clr_country_flag = bra_cbc_2_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_tonk_cbc = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = bra_armor
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_cbc_3_flag
+			has_completed_focus = bra_art
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_tonk2
+			#}
+			hidden_effect = { clr_country_flag = bra_cbc_3_flag }
+			
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+}
+
+BRA_engesa = {
+	bra_motorizado_fog_eng = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_engesa_1_flag
+			has_completed_focus = bra_mot
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_motorizado_foge
+			#}
+			hidden_effect = { set_country_flag = bra_engesa_2_flag clr_country_flag = bra_engesa_1_flag }
+			
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_motorizado_eng = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_engesa_1_flag
+			has_completed_focus = bra_mot
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			set_technology = { motorizado_tech = 1 }
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_motorizado
+			#}
+			hidden_effect = { set_country_flag = bra_engesa_2_flag clr_country_flag = bra_engesa_1_flag }
+			
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_mecanizado_1 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = bra_mec
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_engesa_2_flag
+			has_completed_focus = bra_mot
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_mecanizado1
+			#}
+			hidden_effect = { set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag }
+			
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_mecanizado_2 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = bra_mec
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_engesa_2_flag
+			has_completed_focus = bra_mot
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			set_technology = { mecanizado_tech = 1 }
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_mecanizado2
+			#}
+			hidden_effect = { set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag }
+			
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_mecanizado_3 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = bra_mec
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_engesa_2_flag
+			has_completed_focus = bra_mot
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_mecanizado3
+			#}
+			hidden_effect = { set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag }
+			
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_anfibio = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = bra_mec
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_engesa_2_flag
+			has_completed_focus = bra_mot
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_anfibio1
+			#}
+			hidden_effect = { set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag }
+			
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_carro_1 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = bra_mec
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_engesa_3_flag
+			has_completed_focus = bra_mot
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_carro1
+			#}
+			hidden_effect = { set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag }
+			
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_carro_2 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = bra_mec
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_engesa_3_flag
+			has_completed_focus = bra_mot
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_carro2
+			#}
+			hidden_effect = { set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag }
+			
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_carro_3 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = bra_mec
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_engesa_3_flag
+			has_completed_focus = bra_mot
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_carro3
+			#}
+			hidden_effect = { set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag }
+			
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+	
+	bra_tonk_eng = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = bra_armor
+		}
+		
+		cost = 150
+		days_remove = -1
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_engesa_4_flag
+			has_completed_focus = bra_mot
+			original_tag = BRA
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = bra_arma1
+			#hidden_effect = {
+				add_ideas = bra_tonk1
+			#}
+			hidden_effect = { clr_country_flag = bra_engesa_4_flag }
+			
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				remove_ideas = bra_development_teams1
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				remove_ideas = bra_development_teams2
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+	}
+}
+
 BRA_voz_ligada_cat = {
 	
 	bra_voz_ligada_on = {
