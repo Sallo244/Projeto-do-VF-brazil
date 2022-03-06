@@ -136,7 +136,6 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			
 			picture = BRA_bandeirantes_art
 			
 			removal_cost = -1
