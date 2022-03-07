@@ -136,6 +136,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
+			
 			picture = BRA_bandeirantes_art
 			
 			removal_cost = -1
@@ -498,7 +499,7 @@ ideas = {
 				always = no
 			}
 
-			picture =
+			picture = GFX_idea_bra_development_teams1
 			
 			removal_cost = -1
 			
@@ -518,7 +519,7 @@ ideas = {
 				always = no
 			}
 			
-			picture =
+			picture = GFX_idea_bra_development_teams2
 			
 			removal_cost = -1
 			
@@ -538,7 +539,7 @@ ideas = {
 				always = no
 			}
 			
-			picture =
+			picture = GFX_idea_bra_development_teams3
 			
 			removal_cost = -1
 			
