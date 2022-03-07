@@ -75,9 +75,9 @@ BRA_elect_communism = {
 
 BRA_engesa = {
 	
-	picture = GFX_decision_cat_voz_ligada
+	picture = GFX_decision_cat_engesa
 	
-	icon = generic_political_actions
+	icon = GFX_decision_category_military_operation
 	allowed = {
 		original_tag = BRA
 	}
@@ -85,9 +85,9 @@ BRA_engesa = {
 
 BRA_cbc = {
 	
-	picture = GFX_decision_cat_voz_ligada
+	picture = GFX_decision_cat_cbc
 	
-	icon = generic_political_actions
+	icon = GFX_decision_category_military_operation
 	allowed = {
 		original_tag = BRA
 	}
