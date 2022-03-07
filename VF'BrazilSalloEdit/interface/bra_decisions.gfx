@@ -40,4 +40,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_cat_proalcool.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_cbc"
+		texturefile = "gfx/interface/decisions/decision_cat_cbc.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_engesa"
+		texturefile = "gfx/interface/decisions/decision_cat_engesa.dds"
+	}
+	
 }
