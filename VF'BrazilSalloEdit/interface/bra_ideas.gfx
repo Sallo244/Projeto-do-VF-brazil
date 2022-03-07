@@ -315,9 +315,24 @@ spriteTypes = {
     	texturefile = "gfx//interface//ideas//idea_BRA_entreguismo_idea.dds"
 	}
 	
-		spriteType = {
+	spriteType = {
     	name = "GFX_idea_BRA_mercosul_idea_outro"
     	texturefile = "gfx//interface//ideas//idea_BRA_mercosul_idea_outro.dds"
+	}
+	
+	spriteType = {
+    	name = "GFX_idea_bra_development_teams1"
+    	texturefile = "gfx//interface//ideas//bra_development_teams1.dds"
+	}
+	
+	spriteType = {
+    	name = "GFX_idea_bra_development_teams2"
+    	texturefile = "gfx//interface//ideas//bra_development_teams2.dds"
+	}
+	
+	spriteType = {
+    	name = "GFX_idea_bra_development_teams3"
+    	texturefile = "gfx//interface//ideas//bra_development_teams3.dds"
 	}
 	
 }
