@@ -189,4 +189,9 @@
  bra_mercosul_idea_outro:0 "Membro do Mercado Comum do Sul"
  bra_mercosul_idea_outro_desc:0 "A política fala, o dinheiro grita."
  
- 
+ bra_development_teams1:0 "Equipes Científicas Sobrecarregadas"
+ bra_development_teams1_desc:0 "Equipes científicas estão sobrecarregadas, e isso esta sendo financeiramente oneroso, além das pesquisas demorarem mais para sair."
+ bra_development_teams2:0 "Equipes Científicas Sobrecarregadas"
+ bra_development_teams2_desc:0 "Equipes científicas estão sobrecarregadas, e isso esta sendo financeiramente oneroso, além das pesquisas demorarem mais para sair."
+ bra_development_teams3:0 "Equipes Científicas Sobrecarregadas"
+ bra_development_teams3_desc:0 "Equipes científicas estão sobrecarregadas, e isso esta sendo financeiramente oneroso, além das pesquisas demorarem mais para sair."
