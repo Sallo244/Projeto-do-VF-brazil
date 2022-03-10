@@ -189,3 +189,9 @@
  bra_mercosul_idea_outro:0 "Member of the Southern Common Market"
  bra_mercosul_idea_outro_desc:0 "Money speaks louder than politics."
  
+ bra_development_teams1:0 "Expensive Scientific Teams"
+ bra_development_teams1_desc:0 "teams of scientists recruited by the government to carry out the development of national projects and technologies."
+ bra_development_teams2:0 "Onerous Scientific Teams"
+ bra_development_teams2_desc:0 "teams of scientists recruited by the government to carry out the development of national projects and technologies."
+ bra_development_teams3:0 "Overworked Scientific Teams"
+ bra_development_teams3_desc:0 "teams of scientists recruited by the government to carry out the development of national projects and technologies."
