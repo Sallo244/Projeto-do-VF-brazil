@@ -73,7 +73,7 @@ BRA_elect_communism = {
 	}
 }
 
-BRA_engesa = {
+BRA_engesa_dec = {
 	
 	picture = GFX_decision_cat_engesa
 	
@@ -83,7 +83,7 @@ BRA_engesa = {
 	}
 }
 
-BRA_cbc = {
+BRA_cbc_dec = {
 	
 	picture = GFX_decision_cat_cbc
 	

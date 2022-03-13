@@ -13,7 +13,7 @@ POR_monarchist_cause = {
 				has_war = no 
 			}
 			BRA = {
-				has_completed_focus = bra_brazilian_action
+				has_completed_focus = BRA_formalizaraacao
 			}
 		}
 
@@ -170,7 +170,7 @@ BRA_elect_neutrality = {
 		available = {
 			has_government = neutrality
 			neutrality > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -188,7 +188,7 @@ BRA_elect_neutrality = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = neutrality
 			}
 			original_tag = BRA
@@ -237,7 +237,7 @@ BRA_elect_neutrality = {
 		available = {
 			has_government = neutrality
 			neutrality > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -255,7 +255,7 @@ BRA_elect_neutrality = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = neutrality
 			}
 			original_tag = BRA
@@ -305,7 +305,7 @@ BRA_elect_neutrality = {
 		available = {
 			has_government = neutrality
 			neutrality > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -323,7 +323,7 @@ BRA_elect_neutrality = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = neutrality
 			}
 			original_tag = BRA
@@ -371,7 +371,7 @@ BRA_elect_neutrality = {
 		available = {
 			has_government = neutrality
 			neutrality > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -389,7 +389,7 @@ BRA_elect_neutrality = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = neutrality
 			}
 			original_tag = BRA
@@ -439,7 +439,7 @@ BRA_elect_neutrality = {
 		available = {
 			has_government = neutrality
 			neutrality > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -457,7 +457,7 @@ BRA_elect_neutrality = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = neutrality
 			}
 			original_tag = BRA
@@ -509,7 +509,7 @@ BRA_elect_democratic = {
 		available = {
 			has_government = democratic
 			democratic > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -527,7 +527,7 @@ BRA_elect_democratic = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = democratic
 			}
 			original_tag = BRA
@@ -575,7 +575,7 @@ BRA_elect_democratic = {
 		available = {
 			has_government = democratic
 			democratic > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -593,7 +593,7 @@ BRA_elect_democratic = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = democratic
 			}
 			original_tag = BRA
@@ -642,7 +642,7 @@ BRA_elect_democratic = {
 		available = {
 			has_government = democratic
 			democratic > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -660,7 +660,7 @@ BRA_elect_democratic = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = democratic
 			}
 			original_tag = BRA
@@ -708,7 +708,7 @@ BRA_elect_democratic = {
 		available = {
 			has_government = democratic
 			democratic > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -726,7 +726,7 @@ BRA_elect_democratic = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = democratic
 			}
 			original_tag = BRA
@@ -774,7 +774,7 @@ BRA_elect_democratic = {
 		available = {
 			has_government = democratic
 			democratic > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -792,7 +792,7 @@ BRA_elect_democratic = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = democratic
 			}
 			original_tag = BRA
@@ -840,7 +840,7 @@ BRA_elect_democratic = {
 		available = {
 			has_government = democratic
 			democratic > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -858,7 +858,7 @@ BRA_elect_democratic = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = democratic
 			}
 			original_tag = BRA
@@ -906,7 +906,7 @@ BRA_elect_democratic = {
 		available = {
 			has_government = democratic
 			democratic > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -924,7 +924,7 @@ BRA_elect_democratic = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = democratic
 			}
 			original_tag = BRA
@@ -972,7 +972,7 @@ BRA_elect_democratic = {
 		available = {
 			has_government = democratic
 			democratic > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -990,7 +990,7 @@ BRA_elect_democratic = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = democratic
 			}
 			original_tag = BRA
@@ -1038,7 +1038,7 @@ BRA_elect_democratic = {
 		available = {
 			has_government = democratic
 			democratic > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -1056,7 +1056,7 @@ BRA_elect_democratic = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = democratic
 			}
 			original_tag = BRA
@@ -1108,7 +1108,7 @@ BRA_elect_fascism = {
 		available = {
 			has_government = fascism
 			fascism > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -1126,7 +1126,7 @@ BRA_elect_fascism = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = fascism
 			}
 			original_tag = BRA
@@ -1176,7 +1176,7 @@ BRA_elect_fascism = {
 		available = {
 			has_government = fascism
 			fascism > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -1194,7 +1194,7 @@ BRA_elect_fascism = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = fascism
 			}
 			original_tag = BRA
@@ -1244,7 +1244,7 @@ BRA_elect_fascism = {
 		available = {
 			has_government = fascism
 			fascism > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -1262,7 +1262,7 @@ BRA_elect_fascism = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = fascism
 			}
 			original_tag = BRA
@@ -1312,7 +1312,7 @@ BRA_elect_fascism = {
 		available = {
 			has_government = fascism
 			fascism > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -1330,7 +1330,7 @@ BRA_elect_fascism = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = fascism
 			}
 			original_tag = BRA
@@ -1380,7 +1380,7 @@ BRA_elect_fascism = {
 		available = {
 			has_government = fascism
 			fascism > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -1398,7 +1398,7 @@ BRA_elect_fascism = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = fascism
 			}
 			original_tag = BRA
@@ -1451,7 +1451,7 @@ BRA_elect_communism = {
 		available = {
 			has_government = communism
 			communism > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -1469,7 +1469,7 @@ BRA_elect_communism = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = communism
 			}
 			original_tag = BRA
@@ -1517,7 +1517,7 @@ BRA_elect_communism = {
 		available = {
 			has_government = communism
 			communism > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -1535,7 +1535,7 @@ BRA_elect_communism = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = communism
 			}
 			original_tag = BRA
@@ -1584,7 +1584,7 @@ BRA_elect_communism = {
 		available = {
 			has_government = communism
 			communism > 0.5
-			has_completed_focus = bra_brasilia
+			has_completed_focus = BRA_brasilia
 			NOT = { has_country_flag = bra_elect_flag }
 		}
 		
@@ -1602,7 +1602,7 @@ BRA_elect_communism = {
 		
 		visible = {
 			AND = { 
-				has_completed_focus = bra_brasilia
+				has_completed_focus = BRA_brasilia
 				has_government = communism
 			}
 			original_tag = BRA
@@ -1651,7 +1651,7 @@ BRA_uiracu = {
 		}
 		
 		available = {
-			has_completed_focus = bra_sem_eixo
+			has_completed_focus = BRA_ouiracu
 			ARG = {
 				AND = {
 					exists = yes
@@ -1671,13 +1671,13 @@ BRA_uiracu = {
 		ai_will_do = {
 			factor = 0
 			modifier = {
-				has_completed_focus = bra_monarquia_focus
+				has_completed_focus = BRA_amor
 				factor = 4000
 			}
 		}
 		
 		visible = {
-			has_completed_focus = bra_sem_eixo
+			has_completed_focus = BRA_ouiracu
 			original_tag = BRA
 		}
 		
@@ -1704,7 +1704,7 @@ BRA_uiracu = {
 		}
 		
 		available = {
-			has_completed_focus = bra_sem_eixo
+			has_completed_focus = BRA_ouiracu
 			BOL = {
 				AND = {
 					exists = yes
@@ -1724,13 +1724,13 @@ BRA_uiracu = {
 		ai_will_do = {
 			factor = 0
 			modifier = {
-				has_completed_focus = bra_monarquia_focus
+				has_completed_focus = BRA_amor
 				factor = 4000
 			}
 		}
 		
 		visible = {
-			has_completed_focus = bra_sem_eixo
+			has_completed_focus = BRA_ouiracu
 			original_tag = BRA
 		}
 		
@@ -1757,7 +1757,7 @@ BRA_uiracu = {
 		}
 		
 		available = {
-			has_completed_focus = bra_sem_eixo
+			has_completed_focus = BRA_ouiracu
 			PAR = {
 				AND = {
 					exists = yes
@@ -1777,13 +1777,13 @@ BRA_uiracu = {
 		ai_will_do = {
 			factor = 0
 			modifier = {
-				has_completed_focus = bra_monarquia_focus
+				has_completed_focus = BRA_amor
 				factor = 4000
 			}
 		}
 		
 		visible = {
-			has_completed_focus = bra_sem_eixo
+			has_completed_focus = BRA_ouiracu
 			original_tag = BRA
 		}
 		
@@ -1810,7 +1810,7 @@ BRA_uiracu = {
 		}
 		
 		available = {
-			has_completed_focus = bra_sem_eixo
+			has_completed_focus = BRA_ouiracu
 			URG = {
 				AND = {
 					exists = yes
@@ -1830,13 +1830,13 @@ BRA_uiracu = {
 		ai_will_do = {
 			factor = 0
 			modifier = {
-				has_completed_focus = bra_monarquia_focus
+				has_completed_focus = BRA_amor
 				factor = 4000
 			}
 		}
 		
 		visible = {
-			has_completed_focus = bra_sem_eixo
+			has_completed_focus = BRA_ouiracu
 			original_tag = BRA
 		}
 		
@@ -1869,7 +1869,7 @@ BRA_metas = {
 		
 		available = {
 			#AVAILIABLEMODIFIER
-			has_completed_focus = bra_sub_priv
+			has_completed_focus = BRA_clt
 		}
 		
 		cost = 150
@@ -1884,7 +1884,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			has_global_flag = bra_viacao_modificadores_flag
 			original_tag = BRA
 		}
@@ -1917,8 +1917,8 @@ BRA_metas = {
 		available = {
 			#AVAILIABLEMODIFIER
 			OR = {
-				has_completed_focus = bra_obras_exterior
-				has_completed_focus = bra_ferrovia_1
+				has_completed_focus = BRA_rodovias_federais
+				has_completed_focus = BRA_ferrovias_nacionais
 			}
 			has_full_control_of_state = 500
 			owns_state = 500
@@ -1938,7 +1938,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -1991,7 +1991,7 @@ BRA_metas = {
 		
 		available = {
 			#AVAILIABLEMODIFIER
-			has_completed_focus = bra_sub_priv
+			has_completed_focus = BRA_clt
 			has_full_control_of_state = 503
 			owns_state = 503
 		}
@@ -2008,7 +2008,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -2048,7 +2048,7 @@ BRA_metas = {
 		
 		available = {
 			#AVAILIABLEMODIFIER
-			has_completed_focus = bra_sub_priv
+			has_completed_focus = BRA_clt
 			has_full_control_of_state = 502
 			owns_state = 502
 		}
@@ -2065,7 +2065,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -2109,7 +2109,7 @@ BRA_metas = {
 		
 		available = {
 			#AVAILIABLEMODIFIER
-			has_completed_focus = bra_ciclocana
+			has_completed_focus = BRA_embrapa
 			has_full_control_of_state = 504
 			owns_state = 504
 		}
@@ -2126,7 +2126,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -2165,7 +2165,7 @@ BRA_metas = {
 		
 		available = {
 			#AVAILIABLEMODIFIER
-			has_completed_focus = bra_ciclosoja
+			has_completed_focus = BRA_o_ciclo_da_soja
 			has_full_control_of_state = 280
 			owns_state = 280
 		}
@@ -2182,7 +2182,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -2221,7 +2221,7 @@ BRA_metas = {
 		
 		available = {
 			#AVAILIABLEMODIFIER
-			has_completed_focus = bra_ciclosoja
+			has_completed_focus = BRA_o_ciclo_da_soja
 			has_full_control_of_state = 503
 			owns_state = 503
 		}
@@ -2238,7 +2238,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -2283,7 +2283,7 @@ BRA_metas = {
 		
 		available = {
 			#AVAILIABLEMODIFIER
-			has_completed_focus = bra_elet_2
+			has_completed_focus = BRA_eletrobras
 			has_full_control_of_state = 505
 			owns_state = 505
 		}
@@ -2300,7 +2300,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -2346,7 +2346,7 @@ BRA_metas = {
 		
 		available = {
 			#AVAILIABLEMODIFIER
-			has_completed_focus = bra_itabira
+			has_completed_focus = BRA_itabira
 			has_full_control_of_state = 496
 			owns_state = 496
 		}
@@ -2363,7 +2363,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -2410,7 +2410,7 @@ BRA_metas = {
 		
 		available = {
 			#AVAILIABLEMODIFIER
-			has_completed_focus = bra_lobato
+			has_completed_focus = BRA_lobato
 			has_full_control_of_state = 499
 			owns_state = 499
 		}
@@ -2427,7 +2427,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -2488,7 +2488,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -2557,7 +2557,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -2614,7 +2614,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao 
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas 
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -2656,7 +2656,7 @@ BRA_metas = {
 		
 		available = {
 			#AVAILIABLEMODIFIER
-			has_completed_focus = bra_chsf
+			has_completed_focus = BRA_companhiahidreletricadosaofrancisco
 			has_full_control_of_state = 498
 			owns_state = 498
 		}
@@ -2673,7 +2673,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -2728,7 +2728,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -2786,8 +2786,8 @@ BRA_metas = {
 		available = {
 			#AVAILIABLEMODIFIER
 			OR = {
-				has_completed_focus = bra_barragem
-				has_completed_focus = bra_blitz
+				has_completed_focus = BRA_escola_superior_de_guerra
+				has_completed_focus = BRA_academia_militar_das_agulhas_negras
 			}
 			has_full_control_of_state = 280
 			owns_state = 280
@@ -2809,7 +2809,7 @@ BRA_metas = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_viacao
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
 			NOT = { has_global_flag = bra_viacao_modificadores_flag }
 			original_tag = BRA
 		}
@@ -2854,7 +2854,7 @@ BRA_metas = {
 	}
 }
 
-BRA_cbc = {
+BRA_cbc_dec = {
 	bra_infantaria_1 = {
 	
 		icon = generic_power_struggle
@@ -2879,13 +2879,13 @@ BRA_cbc = {
 		
 		visible = {
 			has_country_flag = bra_cbc_1_flag
-			has_completed_focus = bra_equip_ind
+			has_completed_focus = BRA_imbel
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 5
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -2964,13 +2964,13 @@ BRA_cbc = {
 		
 		visible = {
 			has_country_flag = bra_cbc_1_flag
-			has_completed_focus = bra_equip_ind
+			has_completed_focus = BRA_imbel
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 5
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -3049,13 +3049,13 @@ BRA_cbc = {
 		
 		visible = {
 			has_country_flag = bra_cbc_1_flag
-			has_completed_focus = bra_equip_ind
+			has_completed_focus = BRA_imbel
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 5
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -3134,13 +3134,13 @@ BRA_cbc = {
 		
 		visible = {
 			has_country_flag = bra_cbc_1_flag
-			has_completed_focus = bra_equip_ind
+			has_completed_focus = BRA_imbel
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 5
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -3204,7 +3204,7 @@ BRA_cbc = {
 		}
 		
 		available = {
-			has_completed_focus = bra_art
+			has_completed_focus = BRA_cbc
 			NOT = {
 				has_country_flag = bra_cbc_flag
 			}
@@ -3220,13 +3220,13 @@ BRA_cbc = {
 		
 		visible = {
 			has_country_flag = bra_cbc_2_flag
-			has_completed_focus = bra_equip_ind
+			has_completed_focus = BRA_imbel
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 10
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -3290,7 +3290,7 @@ BRA_cbc = {
 		}
 		
 		available = {
-			has_completed_focus = bra_art
+			has_completed_focus = BRA_cbc
 			NOT = {
 				has_country_flag = bra_cbc_flag
 			}
@@ -3306,13 +3306,13 @@ BRA_cbc = {
 		
 		visible = {
 			has_country_flag = bra_cbc_2_flag
-			has_completed_focus = bra_equip_ind
+			has_completed_focus = BRA_imbel
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 10
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -3376,7 +3376,7 @@ BRA_cbc = {
 		}
 		
 		available = {
-			has_completed_focus = bra_art
+			has_completed_focus = BRA_cbc
 			NOT = {
 				has_country_flag = bra_cbc_flag
 			}
@@ -3392,13 +3392,13 @@ BRA_cbc = {
 		
 		visible = {
 			has_country_flag = bra_cbc_2_flag
-			has_completed_focus = bra_equip_ind
+			has_completed_focus = BRA_imbel
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 10
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -3462,7 +3462,7 @@ BRA_cbc = {
 		}
 		
 		available = {
-			has_completed_focus = bra_art
+			has_completed_focus = BRA_cbc
 			NOT = {
 				has_country_flag = bra_cbc_flag
 			}
@@ -3478,13 +3478,13 @@ BRA_cbc = {
 		
 		visible = {
 			has_country_flag = bra_cbc_2_flag
-			has_completed_focus = bra_equip_ind
+			has_completed_focus = BRA_imbel
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 10
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -3548,7 +3548,7 @@ BRA_cbc = {
 		}
 		
 		available = {
-			has_completed_focus = bra_armor
+			has_completed_focus = BRA_tanques_de_guerra
 		}
 		
 		cost = 150
@@ -3561,13 +3561,13 @@ BRA_cbc = {
 		
 		visible = {
 			has_country_flag = bra_cbc_3_flag
-			has_completed_focus = bra_art
+			has_completed_focus = BRA_imbel
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 15
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { }
@@ -3622,7 +3622,7 @@ BRA_cbc = {
 	}
 }
 
-BRA_engesa = {
+BRA_engesa_dec = {
 	bra_motorizado_fog_eng = {
 	
 		icon = generic_power_struggle
@@ -3647,23 +3647,24 @@ BRA_engesa = {
 		
 		visible = {
 			has_country_flag = bra_engesa_1_flag
-			has_completed_focus = bra_mot
+			has_completed_focus = BRA_fnm
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 10
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
 		remove_effect = {
 			custom_effect_tooltip =  bra_motor_1_eng
 			hidden_effect = {
-				add_ideas = bra_motorizado_foge
+				
 				set_country_flag = bra_engesa_2_flag clr_country_flag = bra_engesa_1_flag
 				clr_country_flag = bra_eng_flag
 			}
+			add_ideas = bra_motorizado_foge
 			
 			if = {
 				limit = {
@@ -3732,23 +3733,24 @@ BRA_engesa = {
 		
 		visible = {
 			has_country_flag = bra_engesa_1_flag
-			has_completed_focus = bra_mot
+			has_completed_focus = BRA_fnm
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 5
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
 		remove_effect = {
 			custom_effect_tooltip =  bra_motor_2_eng
 			hidden_effect = {
-				add_ideas = bra_motorizado
+				
 				set_country_flag = bra_engesa_2_flag clr_country_flag = bra_engesa_1_flag
 				clr_country_flag = bra_eng_flag
 			}
+			add_ideas = bra_motorizado
 			
 			if = {
 				limit = {
@@ -3802,7 +3804,7 @@ BRA_engesa = {
 		}
 		
 		available = {
-			has_completed_focus = bra_mec
+			has_completed_focus = BRA_engesa
 			NOT = {
 				has_country_flag = bra_eng_flag
 			}
@@ -3818,23 +3820,24 @@ BRA_engesa = {
 		
 		visible = {
 			has_country_flag = bra_engesa_2_flag
-			has_completed_focus = bra_mot
+			has_completed_focus = BRA_fnm
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 15
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
 		remove_effect = {
 			custom_effect_tooltip =  bra_mec_1_eng
 			hidden_effect = {
-				add_ideas = bra_mecanizado1
+				
 				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
 				clr_country_flag = bra_eng_flag
 			}
+			add_ideas = bra_mecanizado1
 			
 			if = {
 				limit = {
@@ -3888,7 +3891,7 @@ BRA_engesa = {
 		}
 		
 		available = {
-			has_completed_focus = bra_mec
+			has_completed_focus = BRA_engesa
 			NOT = {
 				has_country_flag = bra_eng_flag
 			}
@@ -3904,23 +3907,24 @@ BRA_engesa = {
 		
 		visible = {
 			has_country_flag = bra_engesa_2_flag
-			has_completed_focus = bra_mot
+			has_completed_focus = BRA_fnm
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 15
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
 		remove_effect = {
 			custom_effect_tooltip =  bra_mec_2_eng
 			hidden_effect = {
-				add_ideas = bra_mecanizado2
+				
 				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
 				clr_country_flag = bra_eng_flag
 			}
+			add_ideas = bra_mecanizado2
 			
 			if = {
 				limit = {
@@ -3974,7 +3978,7 @@ BRA_engesa = {
 		}
 		
 		available = {
-			has_completed_focus = bra_mec
+			has_completed_focus = BRA_engesa
 			NOT = {
 				has_country_flag = bra_eng_flag
 			}
@@ -3990,23 +3994,24 @@ BRA_engesa = {
 		
 		visible = {
 			has_country_flag = bra_engesa_2_flag
-			has_completed_focus = bra_mot
+			has_completed_focus = BRA_fnm
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 15
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
 		remove_effect = {
 			custom_effect_tooltip =  bra_mec_3_eng
 			hidden_effect = {
-				add_ideas = bra_mecanizado3
+				
 				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
 				clr_country_flag = bra_eng_flag
 			}
+			add_ideas = bra_mecanizado3
 			
 			if = {
 				limit = {
@@ -4060,7 +4065,7 @@ BRA_engesa = {
 		}
 		
 		available = {
-			has_completed_focus = bra_mec
+			has_completed_focus = BRA_engesa
 			NOT = {
 				has_country_flag = bra_eng_flag
 			}
@@ -4076,23 +4081,24 @@ BRA_engesa = {
 		
 		visible = {
 			has_country_flag = bra_engesa_2_flag
-			has_completed_focus = bra_mot
+			has_completed_focus = BRA_fnm
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 15
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
 		remove_effect = {
 			custom_effect_tooltip =  bra_anfib_eng
 			hidden_effect = {
-				add_ideas = bra_anfibio1
+				
 				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
 				clr_country_flag = bra_eng_flag
 			}
+			add_ideas = bra_anfibio1
 			
 			if = {
 				limit = {
@@ -4146,7 +4152,7 @@ BRA_engesa = {
 		}
 		
 		available = {
-			has_completed_focus = bra_mec
+			has_completed_focus = BRA_engesa
 			NOT = {
 				has_country_flag = bra_eng_flag
 			}
@@ -4162,23 +4168,24 @@ BRA_engesa = {
 		
 		visible = {
 			has_country_flag = bra_engesa_3_flag
-			has_completed_focus = bra_mot
+			has_completed_focus = BRA_fnm
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 15
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
 		remove_effect = {
 			custom_effect_tooltip =  bra_car_1_eng
 			hidden_effect = {
-				add_ideas = bra_carro1
+				
 				set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag
 				clr_country_flag = bra_eng_flag
 			}
+			add_ideas = bra_carro1
 			
 			if = {
 				limit = {
@@ -4232,7 +4239,7 @@ BRA_engesa = {
 		}
 		
 		available = {
-			has_completed_focus = bra_mec
+			has_completed_focus = BRA_engesa
 			NOT = {
 				has_country_flag = bra_eng_flag
 			}
@@ -4248,23 +4255,24 @@ BRA_engesa = {
 		
 		visible = {
 			has_country_flag = bra_engesa_3_flag
-			has_completed_focus = bra_mot
+			has_completed_focus = BRA_fnm
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 15
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
 		remove_effect = {
 			custom_effect_tooltip =  bra_car_2_eng
 			hidden_effect = {
-				add_ideas = bra_carro2
+				
 				set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag
 				clr_country_flag = bra_eng_flag
 			}
+			add_ideas = bra_carro2
 			
 			if = {
 				limit = {
@@ -4318,7 +4326,7 @@ BRA_engesa = {
 		}
 		
 		available = {
-			has_completed_focus = bra_mec
+			has_completed_focus = BRA_engesa
 			NOT = {
 				has_country_flag = bra_eng_flag
 			}
@@ -4334,23 +4342,24 @@ BRA_engesa = {
 		
 		visible = {
 			has_country_flag = bra_engesa_3_flag
-			has_completed_focus = bra_mot
+			has_completed_focus = BRA_fnm
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 15
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
 		remove_effect = {
 			custom_effect_tooltip =  bra_car_3_eng
 			hidden_effect = {
-				add_ideas = bra_carro3
+				
 				set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag
 				clr_country_flag = bra_eng_flag
 			}
+			add_ideas = bra_carro3
 			
 			if = {
 				limit = {
@@ -4404,7 +4413,7 @@ BRA_engesa = {
 		}
 		
 		available = {
-			has_completed_focus = bra_armor
+			has_completed_focus = BRA_tanques_de_guerra
 		}
 		
 		cost = 150
@@ -4417,22 +4426,23 @@ BRA_engesa = {
 		
 		visible = {
 			has_country_flag = bra_engesa_4_flag
-			has_completed_focus = bra_mot
+			has_completed_focus = BRA_fnm
 			original_tag = BRA
 		}
 		
 		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.0025
+			civilian_factory_use = 15
+			research_speed_factor = -0.025
 		}
 		
 		complete_effect = { }
 		remove_effect = {
 			custom_effect_tooltip =  bra_tank_1_eng
 			hidden_effect = {
-				add_ideas = bra_tonk1
+				
 				clr_country_flag = bra_engesa_4_flag
 			}
+			add_ideas = bra_tonk1
 			
 			if = {
 				limit = {
@@ -4553,7 +4563,7 @@ BRA_cat_proalcool = {
 		}
 		
 		available = {
-			has_completed_focus = bra_etanol
+			has_completed_focus = BRA_proalcool
 			has_idea = bra_etanol_idea
 		}
 		
@@ -4566,7 +4576,7 @@ BRA_cat_proalcool = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_etanol
+			has_completed_focus = BRA_proalcool
 			original_tag = BRA
 		}
 		
@@ -4630,7 +4640,7 @@ BRA_cat_proalcool = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_etanol
+			has_completed_focus = BRA_proalcool
 			original_tag = BRA
 		}
 		
@@ -4695,7 +4705,7 @@ BRA_cat_proalcool = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_etanol
+			has_completed_focus = BRA_proalcool
 			original_tag = BRA
 		}
 		
@@ -4760,7 +4770,7 @@ BRA_cat_proalcool = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_etanol
+			has_completed_focus = BRA_proalcool
 			original_tag = BRA
 		}
 		
@@ -4825,7 +4835,7 @@ BRA_cat_proalcool = {
 		}
 		
 		visible = {
-			has_completed_focus = bra_etanol
+			has_completed_focus = BRA_proalcool
 			original_tag = BRA
 		}
 		

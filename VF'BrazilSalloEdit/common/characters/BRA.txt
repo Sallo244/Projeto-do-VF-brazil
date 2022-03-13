@@ -677,8 +677,8 @@ characters={
 			}
 			available = {
 				 OR = {
-					has_completed_focus = bra_ana_mineira
-					has_completed_focus = bra_ana_paulista
+					has_completed_focus = BRA_doutrina_de_guerra_mineira
+					has_completed_focus = BRA_doutrina_de_guerra_paulista
 					}
 				}
 			traits = {
@@ -703,7 +703,7 @@ characters={
 				original_tag = BRA
 			}
 			available = {
-					has_completed_focus = bra_bombardeiro
+					has_completed_focus = BRA_o_legado_do_brigadeiro
 				}
 			traits = {
 				air_warfare_theorist
@@ -729,7 +729,7 @@ characters={
 				original_tag = BRA
 			}
 			available = {
-				has_completed_focus = bra_ana_guerra_civil
+				has_completed_focus = BRA_analisedaguerracivilde1932
 				}
 			traits = {
 				army_regrouping_2
@@ -805,7 +805,7 @@ characters={
 				original_tag = BRA
 			}
 			available = {
-				has_completed_focus = bra_modernizacao_marinha
+				has_completed_focus = BRA_reformar_o_almirantado
 				}
 			traits = {
 				navy_anti_submarine_2
@@ -854,7 +854,7 @@ characters={
 				original_tag = BRA
 			}
 			available = {
-				has_completed_focus = bra_modernizacao_marinha
+				has_completed_focus = BRA_reformar_o_almirantado
 				}
 			traits = {
 				navy_capital_ship_2
@@ -883,7 +883,7 @@ characters={
 				original_tag = BRA
 			}
 			available = {
-				has_completed_focus = bra_modernizacao_aerea
+				has_completed_focus = BRA_aforcaaereabrasileira
 				}
 			traits = {
 				air_chief_reform_1
@@ -961,7 +961,7 @@ characters={
 				original_tag = BRA
 			}
 			available = {
-				has_completed_focus = bra_ana_guerra_civil
+				has_completed_focus = BRA_analisedaguerracivilde1932
 				}
 			traits = {
 				army_infantry_2
@@ -988,7 +988,7 @@ characters={
 				original_tag = BRA
 			}
 			available = {
-				has_completed_focus = bra_modernizacao_aerea
+				has_completed_focus = BRA_aforcaaereabrasileira
 				}
 			traits = {
 				air_chief_ground_support_2
@@ -1082,7 +1082,7 @@ characters={
 			allowed  = {
 				original_tag  = BRA
 			}
-			visible = { NOT = { has_completed_focus = bra_sub_priv } }
+			visible = { NOT = { has_completed_focus = BRA_clt } }
 			traits  = {
 				vfb_trait_collor
 			}
@@ -1164,7 +1164,7 @@ characters={
 				original_tag  = BRA
 			}
 			available = {
-				has_completed_focus = bra_2_prestes_column
+				has_completed_focus = BRA_continuar_a_coluna_prestes
 				}
 			traits  = {
 				vfb_trait_oswald
@@ -1188,7 +1188,7 @@ characters={
 				original_tag  = BRA
 			}
 			available = {
-				has_completed_focus = bra_quereismo
+				has_completed_focus = BRA_o_xadrez_de_vargas
 				}
 			traits  = {
 				vfb_trait_guimaraes
@@ -1212,7 +1212,7 @@ characters={
 				original_tag  = BRA
 			}
 			available = {
-				has_completed_focus = bra_brazilian_action
+				has_completed_focus = BRA_formalizaraacao
 				}
 			traits  = {
 				vfb_trait_menotti
@@ -1236,7 +1236,7 @@ characters={
 				original_tag  = BRA
 			}
 			available = {
-				has_completed_focus = bra_regionalism
+				has_completed_focus = BRA_non_dvcor_dvco
 				}
 			traits  = {
 				vfb_trait_lobato
@@ -1260,7 +1260,7 @@ characters={
 				original_tag  = BRA
 			}
 			available = {
-				has_completed_focus = bra_monarquia_2_focus
+				has_completed_focus = BRA_formalizar_o_patrianovismo_na_ilegalidade
 				}
 			traits  = {
 				vfb_trait_arlindo
