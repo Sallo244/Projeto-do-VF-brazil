@@ -2820,7 +2820,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_bra_patri_8_focus_shine"
-		texturefile = "gfx/interface/goals/focus_bra_patri_8.dds"			
+		texturefile = "gfx/interface/goals/focus_bra_patri_8_focus.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/focus_bra_patri_8_focus.dds"			

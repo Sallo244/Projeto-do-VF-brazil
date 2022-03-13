@@ -152,21 +152,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_focus_bra_caca"
-		texturefile = "gfx/interface/goals/focus_bra_caca.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_focus_bra_viacao"
-		texturefile = "gfx/interface/goals/focus_bra_viacao.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_focus_bra_iti"
-		texturefile = "gfx/interface/goals/focus_bra_iti.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_focus_bra_r_s_1"
 		texturefile = "gfx/interface/goals/focus_bra_r_s_1.dds"
 	}
