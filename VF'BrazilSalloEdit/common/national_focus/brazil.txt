@@ -3991,6 +3991,7 @@ focus_tree = {
 			factor = 40
 		}
 		completion_reward = {
+
 			build_railway = {
 					level = 2
 					path = {10999 8196 11002 10419 8197 10946}
