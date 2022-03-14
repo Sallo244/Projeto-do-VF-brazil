@@ -1559,6 +1559,12 @@ focus_tree = {
 			factor = 40
 		}
 		completion_reward = {
+			add_tech_bonus = {
+                name = tech_bonus
+                bonus = 0.5
+                uses = 1
+                category = motorized
+            }
 			every_owned_state = {
 				limit = {
 					is_core_of = BRA
@@ -3991,6 +3997,12 @@ focus_tree = {
 			factor = 40
 		}
 		completion_reward = {
+			add_tech_bonus = {
+                name = tech_bonus
+                bonus = 0.5
+                uses = 1
+                category = train
+            }
 
 			build_railway = {
 					level = 2
