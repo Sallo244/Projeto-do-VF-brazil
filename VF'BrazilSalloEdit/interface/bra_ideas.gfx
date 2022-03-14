@@ -315,9 +315,14 @@ spriteTypes = {
     	texturefile = "gfx//interface//ideas//idea_BRA_entreguismo_idea.dds"
 	}
 	
-		spriteType = {
+	spriteType = {
     	name = "GFX_idea_BRA_mercosul_idea_outro"
     	texturefile = "gfx//interface//ideas//idea_BRA_mercosul_idea_outro.dds"
+	}
+	
+	spriteType = {
+    	name = "GFX_idea_BRA_train_enfort"
+    	texturefile = "gfx//interface//ideas//bra_train_enfort.dds"
 	}
 	
 }
