@@ -1170,7 +1170,7 @@ ideas = {
 			removal_cost = -1
 			
 			research_bonus = {
-				train_tech = 0.50
+				train_tech = 0.20
 			}
 			
 			equipment_bonus = {
@@ -1196,7 +1196,7 @@ ideas = {
 			removal_cost = -1
 			
 			research_bonus = {
-				motorized_equipment = 0.50
+				motorized_equipment = 0.20
 			}
 		}
 		
