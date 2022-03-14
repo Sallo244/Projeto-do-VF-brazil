@@ -335,4 +335,13 @@ spriteTypes = {
     	texturefile = "gfx//interface//ideas//bra_development_teams3.dds"
 	}
 	
+	spriteType = {
+    	name = "GFX_idea_BRA_train_effort"
+    	texturefile = "gfx//interface//ideas//bra_train_effort.dds"
+	}
+	
+	spriteType = {
+    	name = "GFX_idea_BRA_motorized_effort"
+    	texturefile = "gfx//interface//ideas//bra_motorized_effort.dds"
+	}
 }
