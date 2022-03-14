@@ -22,7 +22,7 @@ ideas = {
 			}
 			
 		}
-			
+		
 		bra_instabilidade = {
 			allowed = {
 				always = yes
@@ -368,6 +368,7 @@ ideas = {
 		}
 
 		bra_train_enfort = {
+			
 			allowed = {
 				always = yes
 			}
@@ -376,7 +377,9 @@ ideas = {
 				always = yes
 			}
 			
-			picture = bra_ferrovia
+			removal_cost = -1
+			
+			picture = BRA_train_enfort
 			
 			equipment_bonus = {
 				train_equipment = {
