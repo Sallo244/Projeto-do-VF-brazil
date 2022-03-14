@@ -1104,240 +1104,8 @@ ideas = {
 			}
 		}
 		
-		bra_bandeirantes_mg_1 = {
+		bra_bandeirantes_sp = {
 		
-			allowed = {
-				original_tag = BRA
-				always = yes
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			picture = BRA_bandeirantes_art
-			
-			removal_cost = -1
-	
-			modifier = {
-				attrition = -0.2
-				out_of_supply_factor = -0.05
-				acclimatization_hot_climate_gain_factor = 1
-				recon_factor = 0.05
-			}
-			equipment_bonus = {
-				infantry_equipment = {
-					build_cost_ic = -0.05 instant = yes
-				}
-			}
-		}
-		
-		bra_bandeirantes_mg_2 = {
-		
-			allowed = {
-				original_tag = BRA
-				always = yes
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			picture = BRA_bandeirantes_art
-			
-			removal_cost = -1
-	
-			modifier = {
-				attrition = -0.2
-				out_of_supply_factor = -0.05
-				acclimatization_hot_climate_gain_factor = 1
-				recon_factor = 0.05
-			}
-			
-			equipment_bonus = {
-				infantry_equipment = {
-					build_cost_ic = -0.05 instant = yes
-				}
-				anti_tank_equipment = {
-					build_cost_ic = -0.25 instant = yes
-					hard_attack = 0.05
-				}
-			}
-		}		
-		bra_bandeirantes_sp_1 = {
-		
-			allowed = {
-				original_tag = BRA
-				always = yes
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			picture = BRA_bandeirantes_mot
-			
-			removal_cost = -1
-	
-			modifier = {
-				attrition = -0.2
-				out_of_supply_factor = -0.05
-				acclimatization_hot_climate_gain_factor = 1
-				recon_factor = 0.05
-			}
-			
-			equipment_bonus = {
-				train_equipment = {
-					build_cost_ic = -0.15 instant = yes
-				}
-				motorized_equipment = {
-					build_cost_ic = -0.10 instant = yes
-				}
-			}
-		}
-		
-		bra_bandeirantes_sp_2 = {
-	
-			allowed = {
-				original_tag = BRA
-				always = yes
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			picture = BRA_bandeirantes_mot
-			
-			removal_cost = -1
-	
-			modifier = {
-				attrition = -0.2
-				out_of_supply_factor = -0.05
-				acclimatization_hot_climate_gain_factor = 1
-				recon_factor = 0.05
-			}
-			
-			equipment_bonus = {
-				motorized_equipment = {
-					build_cost_ic = -0.20 instant = yes
-				}
-				train_equipment = {
-					build_cost_ic = -0.15 instant = yes
-				}
-				mechanized_equipment = {
-					build_cost_ic = -0.10 instant = yes
-				}
-				armored_car_equipment = {
-					build_cost_ic = -0.10 instant = yes
-				}
-			}
-		}
-		bra_bandeirantes_escm1 = {
-		
-			allowed = {
-				original_tag = BRA
-				always = yes
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			picture = BRA_bandeirantes_art
-			
-			removal_cost = -1
-	
-			modifier = {
-				land_doctrine_cost_factor = -0.10
-				air_doctrine_cost_factor = -0.10
-				attrition = -0.2
-				out_of_supply_factor = -0.05
-				acclimatization_hot_climate_gain_factor = 1
-				recon_factor = 0.05
-			}
-			
-			equipment_bonus = {
-				infantry_equipment = {
-					build_cost_ic = -0.05 instant = yes
-				}
-				anti_tank_equipment = {
-					build_cost_ic = -0.25 instant = yes
-					hard_attack = 0.05
-				}
-			}
-		}
-		bra_bandeirantes_escm2 = {
-		
-			allowed = {
-				original_tag = BRA
-				always = yes
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			picture = BRA_bandeirantes_art
-			
-			removal_cost = -1
-	
-			modifier = {
-				land_doctrine_cost_factor = -0.10
-				naval_doctrine_cost_factor = -0.10
-				attrition = -0.2
-				out_of_supply_factor = -0.05
-				acclimatization_hot_climate_gain_factor = 1
-				recon_factor = 0.05
-			}
-			
-			equipment_bonus = {
-				infantry_equipment = {
-					build_cost_ic = -0.05 instant = yes
-				}
-				anti_tank_equipment = {
-					build_cost_ic = -0.25 instant = yes
-					hard_attack = 0.05
-				}
-			}
-		}
-		bra_bandeirantes_escm3 = {
-		
-			allowed = {
-				original_tag = BRA
-				always = yes
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			picture = BRA_bandeirantes_art
-			
-			removal_cost = -1
-	
-			modifier = {
-				land_doctrine_cost_factor = -0.10
-				air_doctrine_cost_factor = -0.10
-				naval_doctrine_cost_factor = -0.10
-				attrition = -0.2
-				out_of_supply_factor = -0.05
-				acclimatization_hot_climate_gain_factor = 1
-				recon_factor = 0.05
-			}
-			
-			equipment_bonus = {
-				infantry_equipment = {
-					build_cost_ic = -0.05 instant = yes
-				}
-				anti_tank_equipment = {
-					build_cost_ic = -0.25 instant = yes
-					hard_attack = 0.05
-				}
-			}
-		}
-		bra_bandeirantes_esc1 = {
-	
 			allowed = {
 				original_tag = BRA
 				always = yes
@@ -1359,22 +1127,9 @@ ideas = {
 				acclimatization_hot_climate_gain_factor = 1
 				recon_factor = 0.05
 			}
-			equipment_bonus = {
-				motorized_equipment = {
-					build_cost_ic = -0.20 instant = yes
-				}
-				train_equipment = {
-					build_cost_ic = -0.15 instant = yes
-				}
-				mechanized_equipment = {
-					build_cost_ic = -0.10 instant = yes
-				}
-				armored_car_equipment = {
-					build_cost_ic = -0.10 instant = yes
-				}
-			}
 		}
-		bra_bandeirantes_esc2 = {
+
+		bra_bandeirantes_mg = {
 	
 			allowed = {
 				original_tag = BRA
@@ -1385,7 +1140,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = BRA_bandeirantes_mot
+			picture = BRA_bandeirantes_art
 			
 			removal_cost = -1
 	
@@ -1397,22 +1152,9 @@ ideas = {
 				acclimatization_hot_climate_gain_factor = 1
 				recon_factor = 0.05
 			}
-			equipment_bonus = {
-				motorized_equipment = {
-					build_cost_ic = -0.20 instant = yes
-				}
-				train_equipment = {
-					build_cost_ic = -0.15 instant = yes
-				}
-				mechanized_equipment = {
-					build_cost_ic = -0.10 instant = yes
-				}
-				armored_car_equipment = {
-					build_cost_ic = -0.10 instant = yes
-				}
-			}
 		}
-		bra_bandeirantes_esc3 = {
+		
+		bra_train_effort = {
 	
 			allowed = {
 				original_tag = BRA
@@ -1423,34 +1165,41 @@ ideas = {
 				always = yes
 			}
 			
-			picture = BRA_bandeirantes_mot
+			picture = BRA_train_effort
 			
 			removal_cost = -1
-	
-			modifier = {
-				land_doctrine_cost_factor = -0.10
-				air_doctrine_cost_factor = -0.10
-				naval_doctrine_cost_factor = -0.10
-				attrition = -0.2
-				out_of_supply_factor = -0.05
-				acclimatization_hot_climate_gain_factor = 1
-				recon_factor = 0.05
+			
+			research_bonus = {
+				train_tech = 0.50
 			}
-			equipment_bonus = {				
-				motorized_equipment = {
-					build_cost_ic = -0.20 instant = yes
-				}
+			
+			equipment_bonus = {
 				train_equipment = {
-					build_cost_ic = -0.15 instant = yes
-				}
-				mechanized_equipment = {
-					build_cost_ic = -0.10 instant = yes
-				}
-				armored_car_equipment = {
-					build_cost_ic = -0.10 instant = yes
+					build_cost_ic = -0.20 instant = yes
 				}
 			}
 		}
+		
+		bra_motorized_effort = {
+	
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_motorized_effort
+			
+			removal_cost = -1
+			
+			research_bonus = {
+				motorized_equipment = 0.50
+			}
+		}
+		
 		bra_antropofagia_dem_1 = {
 		
 			allowed = {

@@ -1393,10 +1393,10 @@ focus_tree = {
 		cost = 5
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			swap_ideas = { remove_idea = bra_bandeirantes add_idea = bra_bandeirantes_mg_1 }
+			custom_effect_tooltip = BRA_imbel_tooltip
 			hidden_effect = {
-			if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_equip_ind }
-			set_country_flag = bra_cbc_1_flag
+				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_equip_ind }
+				set_country_flag = bra_cbc_1_flag
 			}
 		}
 	}
@@ -1411,11 +1411,8 @@ focus_tree = {
 		cost = 5
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			custom_effect_tooltip = bra_art_tooltip
-			hidden_effect = {
-				swap_ideas = { remove_idea = bra_bandeirantes_mg_1 add_idea = bra_bandeirantes_mg_2 }
-				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_art }
-			}
+			custom_effect_tooltip = BRA_cbc_tooltip
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_art } }
 		}
 	}
 
@@ -1430,37 +1427,7 @@ focus_tree = {
 		prerequisite = { focus = BRA_cbc  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			if = {
-				limit = {
-					AND = {
-						has_completed_focus = BRA_doutrina_de_guerra_mineira
-					}
-				}
-				if = {
-					limit = {
-						AND = {
-							has_idea = bra_bandeirantes_escm1
-							has_completed_focus = BRA_academia_militar_das_agulhas_negras
-						}
-					}
-					custom_effect_tooltip = bra_bandeirantes_p3_tooltip
-					hidden_effect = { swap_ideas = { remove_idea = bra_bandeirantes_escm1 add_idea = bra_bandeirantes_escm3 } }
-				}
-				else_if = { custom_effect_tooltip = bra_bandeirantes_p1_tooltip hidden_effect = { swap_ideas = { remove_idea = bra_bandeirantes_mg_2 add_idea = bra_bandeirantes_escm2 } } }
-			}
-			else_if = {
-				if = {
-					limit = {
-						AND = {
-							has_idea = bra_bandeirantes_esc1
-							has_completed_focus = BRA_academia_militar_das_agulhas_negras
-						}
-					}
-					custom_effect_tooltip = bra_bandeirantes_p3_tooltip
-					hidden_effect = { swap_ideas = { remove_idea = bra_bandeirantes_esc1 add_idea = bra_bandeirantes_esc3 } }
-				}
-				else_if = { custom_effect_tooltip = bra_bandeirantes_p1_tooltip hidden_effect = { swap_ideas = { remove_idea = bra_bandeirantes_sp_2 add_idea = bra_bandeirantes_esc2 } } }
-			}
+			swap_ideas = { remove_idea = bra_bandeirantes add_idea = bra_bandeirantes_mg }
 			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_art } }
 		}
 	}
@@ -1475,7 +1442,7 @@ focus_tree = {
 		cost = 5
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			swap_ideas = { remove_idea = bra_bandeirantes add_idea = bra_bandeirantes_sp_1 }
+			custom_effect_tooltip = BRA_fnm_tooltip
 			hidden_effect = {
 				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_mot }
 				set_country_flag = bra_engesa_1_flag
@@ -1493,11 +1460,8 @@ focus_tree = {
 		cost = 5
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-				custom_effect_tooltip = bra_mec_tooltip
-				hidden_effect = {
-				swap_ideas = { remove_idea = bra_bandeirantes_sp_1 add_idea = bra_bandeirantes_sp_2 }
-				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_mec }
-			}
+			custom_effect_tooltip = BRA_engesa_tooltip
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_mec } }
 		}
 	}
 
@@ -1512,37 +1476,7 @@ focus_tree = {
 		prerequisite = { focus = BRA_engesa  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			if = {
-				limit = {
-					AND = {
-						has_completed_focus = BRA_doutrina_de_guerra_mineira
-					}
-				}
-				if = {
-					limit = {
-						AND = {
-							has_idea = bra_bandeirantes_escm2
-							has_completed_focus = BRA_escola_superior_de_guerra
-						}
-					}
-					custom_effect_tooltip = bra_bandeirantes_p4_tooltip
-					hidden_effect = { swap_ideas = { remove_idea = bra_bandeirantes_escm2 add_idea = bra_bandeirantes_escm3 } }
-				}
-				else_if = { custom_effect_tooltip = bra_bandeirantes_p2_tooltip hidden_effect = { swap_ideas = { remove_idea = bra_bandeirantes_mg_2 add_idea = bra_bandeirantes_escm1 } } }
-			}
-			else_if = {
-				if = {
-					limit = {
-						AND = {
-							has_idea = bra_bandeirantes_esc2
-							has_completed_focus = BRA_escola_superior_de_guerra
-						}
-					}
-					custom_effect_tooltip = bra_bandeirantes_p4_tooltip
-					hidden_effect = { swap_ideas = { remove_idea = bra_bandeirantes_esc2 add_idea = bra_bandeirantes_esc3 } }
-				}
-				else_if = { custom_effect_tooltip = bra_bandeirantes_p2_tooltip hidden_effect = { swap_ideas = { remove_idea = bra_bandeirantes_sp_2 add_idea = bra_bandeirantes_esc1 } } }
-			}
+			swap_ideas = { remove_idea = bra_bandeirantes add_idea = bra_bandeirantes_sp }
 			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_mec } }
 		}
 	}
@@ -1560,6 +1494,7 @@ focus_tree = {
 		
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			custom_effect_tooltip = BRA_tanque_tooltip
 			add_tech_bonus = {
 				name = tech_bonus
 				bonus = 0.5
@@ -1957,7 +1892,12 @@ focus_tree = {
 		cost = 5
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-
+			
+			add_timed_idea = {
+				idea = bra_motorized_effort
+				days = 180
+			}
+			
 			every_owned_state = {
 				limit = {
 					is_core_of = BRA
@@ -2261,6 +2201,11 @@ focus_tree = {
 		cost = 5
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			
+			add_timed_idea = {
+				idea = bra_train_effort
+				days = 180
+			}
 			
 			build_railway = {
 				level = 2
