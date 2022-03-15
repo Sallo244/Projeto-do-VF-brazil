@@ -1563,7 +1563,7 @@ focus_tree = {
                 name = tech_bonus
                 bonus = 0.5
                 uses = 1
-                category = motorized
+                category = motorized_equipment
             }
 			every_owned_state = {
 				limit = {
@@ -4001,7 +4001,7 @@ focus_tree = {
                 name = tech_bonus
                 bonus = 0.5
                 uses = 1
-                category = train
+                category = train_tech
             }
 
 			build_railway = {
