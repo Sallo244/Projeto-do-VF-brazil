@@ -335,8 +335,8 @@ BRA_GAR_01 =
 		18 = { "%dº Batalhão de Guardas" }
 		19 = { "%dº Batalhão de Guardas" }
 		20 = { "%dº Batalhão de Guardas" }		
+	}
 }
-
 BRA_ART_01 = 
 {
 	name = "Artillery Division"
@@ -376,8 +376,8 @@ BRA_ART_01 =
 		18 = { "%dº Grupo de Artilharia de Campanha" }
 		19 = { "%dº Grupo de Artilharia de Campanha" }
 		20 = { "%dº Grupo de Artilharia de Campanha" }		
+	}
 }
-
 BRA_LINF_01 = 
 {
 	name = "Light Infantry Division"
@@ -417,6 +417,51 @@ BRA_LINF_01 =
 		18 = { "%dº Batalhão de Infantaria Leve" }
 		19 = { "%dº Batalhão de Infantaria Leve" }
 		20 = { "%dº Batalhão de Infantaria Leve" }		
+	}
 }
 
+BRA_PMD_01 = 
+{
+	name = "Military Police Division"
 
+	for_countries = { BRA ANG MZB }				# Also includes releasable Portuguese colonlies
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { BRA_INF_01 }
+
+	fallback_name = "%dº Regimento da Polícia Militar"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dº Regimento da Polícia Militar" }
+		2 = { "%dº Regimento da Polícia Militar" }
+		3 = { "%dº Regimento da Polícia Militar" }
+		4 = { "%dº Regimento da Polícia Militar" }
+		5 = { "%dº Regimento da Polícia Militar" }
+		6 = { "%dº Regimento da Polícia Militar" }
+		7 = { "%dº Regimento da Polícia Militar" }
+		8 = { "%dº Regimento da Polícia Militar" }
+		9 = { "%dº Regimento da Polícia Militar" }
+		10 = { "%dº Regimento da Polícia Militar" }
+		11 = { "%dº Regimento da Polícia Militar" }
+		12 = { "%dº Regimento da Polícia Militar" }
+		13 = { "%dº Regimento da Polícia Militar" }
+		14 = { "%dº Regimento da Polícia Militar" }
+		15 = { "%dº Regimento da Polícia Militar" }
+		16 = { "%dº Regimento da Polícia Militar" }
+		17 = { "%dº Regimento da Polícia Militar" }
+		18 = { "%dº Regimento da Polícia Militar" }
+		19 = { "%dº Regimento da Polícia Militar" }
+		20 = { "%dº Regimento da Polícia Militar" }
+		21 = { "%dº Regimento da Polícia Militar" }
+		22 = { "%dº Regimento da Polícia Militar" }
+		23 = { "%dº Regimento da Polícia Militar" }
+		24 = { "%dº Regimento da Polícia Militar" }
+	}
+}

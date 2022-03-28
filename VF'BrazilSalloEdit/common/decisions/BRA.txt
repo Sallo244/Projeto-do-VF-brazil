@@ -2884,8 +2884,8 @@ BRA_cbc_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 5
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -2969,8 +2969,8 @@ BRA_cbc_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 5
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -3054,8 +3054,8 @@ BRA_cbc_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 5
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -3139,8 +3139,8 @@ BRA_cbc_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 5
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -3225,8 +3225,8 @@ BRA_cbc_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 10
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -3311,8 +3311,8 @@ BRA_cbc_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 10
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -3397,8 +3397,8 @@ BRA_cbc_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 10
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -3483,8 +3483,8 @@ BRA_cbc_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 10
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_cbc_flag }
@@ -3566,8 +3566,8 @@ BRA_cbc_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 15
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { }
@@ -3652,8 +3652,8 @@ BRA_engesa_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 10
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
@@ -3738,8 +3738,8 @@ BRA_engesa_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 5
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
@@ -3825,8 +3825,8 @@ BRA_engesa_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 15
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
@@ -3912,8 +3912,8 @@ BRA_engesa_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 15
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
@@ -3999,8 +3999,8 @@ BRA_engesa_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 15
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
@@ -4086,8 +4086,8 @@ BRA_engesa_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 15
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
@@ -4173,8 +4173,8 @@ BRA_engesa_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 15
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
@@ -4260,8 +4260,8 @@ BRA_engesa_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 15
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
@@ -4347,8 +4347,8 @@ BRA_engesa_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 15
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { set_country_flag = bra_eng_flag }
@@ -4431,8 +4431,8 @@ BRA_engesa_dec = {
 		}
 		
 		modifier = {
-			civilian_factory_use = 15
-			research_speed_factor = -0.025
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
 		}
 		
 		complete_effect = { }

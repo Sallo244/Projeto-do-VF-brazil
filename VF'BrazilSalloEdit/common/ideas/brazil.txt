@@ -488,7 +488,614 @@ ideas = {
 	}
 	# Special ones that can be applied on other countries through focus system.
 	country = {
-	
+		
+		bra_armed_forces_lagged = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = 
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_army_factor = -0.2
+				training_time_army_factor = 0.1			
+				army_org_factor = -0.2
+				army_org_regain = -0.2
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+				army_speed_factor = -0.05
+				supply_consumption_factor = 0.1
+				recruitable_population_factor = -0.02
+				special_forces_cap = -0.1			
+				army_core_defence_factor = 0.1
+				experience_gain_navy_factor = -0.2
+				training_time_navy_factor = 0.1			
+				naval_coordination = -0.15
+				naval_accidents_chance = 0.3
+				naval_org_factor = -0.15
+				naval_speed_factor = -0.15
+				naval_hit_chance = -0.15
+				positioning = -0.15
+				navy_max_range = -0.1
+				navy_submarine_attack_factor = -0.1
+				navy_submarine_defence_factor = -0.1
+				navy_submarine_detection_factor = -0.1
+				navy_screen_attack_factor = -0.1
+				navy_screen_defence_factor = -0.1
+				navy_capital_ship_attack_factor = -0.1
+				navy_capital_ship_defence_factor = -0.1
+				navy_refit_ic_cost = -0.05
+				navy_refit_speed = 0.05
+				repair_speed_factor = 0.05
+				experience_gain_air_factor - =0.25
+				training_time_army_factor = 0.1
+				air_ace_generation_chance_factor = -0.5
+				air_weather_penalty = 0.3
+				air_night_penalty = 0.3
+				air_wing_xp_loss_when_killed_factor = 0.2
+				air_superiority = -0.2
+				air_accidents_factor = 0.5
+				air_attack_factor = -0.2
+				air_defence_factor = -0.2
+				air_range_factor = -0.2
+				air_maximum_speed_factor = -0.2
+				
+			}
+		}
+		
+		bra_army_lagged = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = 
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_army_factor = -0.2
+				training_time_army_factor = 0.1			
+				army_org_factor = -0.2
+				army_org_regain = -0.2
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+				army_speed_factor = -0.05
+				supply_consumption_factor = 0.1
+				recruitable_population_factor = -0.02
+				special_forces_cap = -0.1			
+				army_core_defence_factor = 0.1
+				
+			}
+		}
+		
+		bra_navy_lagged = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture =
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_navy_factor = -0.2
+				training_time_navy_factor = 0.1			
+				naval_coordination = -0.15
+				naval_accidents_chance = 0.3
+				naval_org_factor = -0.15
+				naval_speed_factor = -0.15
+				naval_hit_chance = -0.15
+				positioning = -0.15
+				navy_max_range = -0.1
+				navy_submarine_attack_factor = -0.1
+				navy_submarine_defence_factor = -0.1
+				navy_submarine_detection_factor = -0.1
+				navy_screen_attack_factor = -0.1
+				navy_screen_defence_factor = -0.1
+				navy_capital_ship_attack_factor = -0.1
+				navy_capital_ship_defence_factor = -0.1
+				navy_refit_ic_cost = -0.05
+				navy_refit_speed = 0.05
+				repair_speed_factor = 0.05
+				
+			}
+		}
+		
+		bra_air_lagged = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = 
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_air_factor - =0.25
+				training_time_army_factor = 0.1
+				air_ace_generation_chance_factor = -0.5
+				air_weather_penalty = 0.3
+				air_night_penalty = 0.3
+				air_wing_xp_loss_when_killed_factor = 0.2
+				air_superiority = -0.2
+				air_accidents_factor = 0.5
+				air_attack_factor = -0.2
+				air_defence_factor = -0.2
+				air_range_factor = -0.2
+				air_maximum_speed_factor = -0.2
+				
+			}
+		}	
+		
+		bra_army_obsolete = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture =
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_army_factor = -0.1
+				training_time_army_factor = 0.05			
+				army_org_factor = -0.1
+				army_org_regain = -0.1
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+				army_speed_factor = -0.05
+				supply_consumption_factor = 0.05
+				recruitable_population_factor = -0.01
+				special_forces_cap = -0.1			
+				army_core_defence_factor = 0.1
+				
+			}
+		}
+		
+		bra_navy_obsolete = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture =
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_navy_factor = -0.1
+				training_time_navy_factor = 0.1			
+				naval_coordination = -0.1
+				naval_accidents_chance = 0.2
+				naval_org_factor = -0.1
+				naval_speed_factor = -0.1
+				naval_hit_chance = -0.1
+				positioning = -0.1
+				navy_max_range = -0.1
+				navy_submarine_attack_factor = -0.1
+				navy_submarine_defence_factor = -0.1
+				navy_submarine_detection_factor = -0.1
+				navy_screen_attack_factor = -0.1
+				navy_screen_defence_factor = -0.1
+				navy_capital_ship_attack_factor = -0.1
+				navy_capital_ship_defence_factor = -0.1
+				navy_refit_ic_cost = -0.1
+				navy_refit_speed = 0.1
+				repair_speed_factor = 0.1
+				
+			}
+		}
+		
+		bra_air_obsolete = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = 
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_air_factor - =0.15
+				training_time_army_factor = 0.05
+				air_ace_generation_chance_factor = -0.4
+				air_weather_penalty = 0.25
+				air_night_penalty = 0.25
+				air_wing_xp_loss_when_killed_factor = 0.15
+				air_superiority = -0.15
+				air_accidents_factor = 0.35
+				air_attack_factor = -0.15
+				air_defence_factor = -0.15
+				air_range_factor = -0.15
+				air_maximum_speed_factor = -0.15
+				
+			}
+		}	
+		
+		bra_army_acceptable = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture =
+			
+			removal_cost = -1
+			
+			modifier = {
+				training_time_army_factor = 0.05			
+				army_attack_factor = -0.075
+				army_defence_factor = -0.075
+				army_speed_factor = -0.05
+				supply_consumption_factor = 0.05
+				special_forces_cap = -0.05			
+				army_core_defence_factor = 0.1
+				
+			}
+		}
+		
+		bra_navy_acceptable = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture =
+			
+			removal_cost = -1
+			
+			modifier = {
+				training_time_navy_factor = 0.05			
+				naval_coordination = -0.05
+				naval_accidents_chance = 0.15
+				naval_org_factor = -0.05
+				naval_speed_factor = -0.05
+				naval_hit_chance = -0.1
+				positioning = -0.05
+				navy_max_range = -0.05
+				navy_submarine_attack_factor = -0.05
+				navy_submarine_defence_factor = -0.05
+				navy_submarine_detection_factor = -0.05
+				navy_screen_attack_factor = -0.05
+				navy_screen_defence_factor = -0.05
+				navy_capital_ship_attack_factor = -0.05
+				navy_capital_ship_defence_factor = -0.05
+				navy_refit_ic_cost = -0.1
+				navy_refit_speed = 0.1
+				repair_speed_factor = 0.1
+				
+			}
+		}
+		
+		bra_air_acceptable = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = 
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_air_factor - =0.05
+				training_time_army_factor = 0.05
+				air_ace_generation_chance_factor = -0.3
+				air_weather_penalty = 0.2
+				air_night_penalty = 0.2
+				air_wing_xp_loss_when_killed_factor = 0.05
+				air_superiority = -0.05
+				air_accidents_factor = 0.20
+				air_attack_factor = -0.15
+				air_defence_factor = -0.15
+				air_range_factor = -0.15
+				air_maximum_speed_factor = -0.15
+			}
+		}	
+		
+		bra_army_in_modernization = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture =
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_army_factor = 0.05		
+				army_attack_factor = -0.025
+				army_defence_factor = -0.025
+				recruitable_population_factor = 0.005
+				army_core_defence_factor = 0.1
+				
+			}
+		}
+		
+		bra_navy_in_modernization = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture =
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_navy_factor = 0.1
+				naval_accidents_chance = 0.2
+				naval_hit_chance = -0.1
+				positioning = -0.1
+				navy_refit_ic_cost = -0.1
+				navy_refit_speed = 0.1
+				repair_speed_factor = 0.1
+				
+			}
+		}
+		
+		bra_air_in_modernization = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = 
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_air_factor - 0.05
+				air_ace_generation_chance_factor = -0.15
+				air_weather_penalty = 0.05
+				air_night_penalty = 0.05
+				air_accidents_factor = -0.05
+				air_attack_factor = -0.05
+				air_defence_factor = -0.05
+				air_range_factor = -0.05
+				air_maximum_speed_factor = -0.05
+				
+			}
+		}	
+		
+		bra_army_modernized = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = 
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_army_factor = 0.15
+				training_time_army_factor = -0.05			
+				army_org_factor = 0.05
+				army_org_regain = 0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_speed_factor = 0.05
+				supply_consumption_factor = -0.05
+				recruitable_population_factor = 0.01
+				special_forces_cap = 0.1			
+				army_core_defence_factor = 0.1
+				
+			}
+		}
+		
+		bra_navy_modernized = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture =
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_navy_factor = 0.15
+				training_time_navy_factor = -0.05			
+				naval_coordination = 0.1
+				naval_accidents_chance = -0.05
+				naval_org_factor = 0.1
+				naval_speed_factor = 0.05
+				naval_hit_chance = 0.05
+				positioning = 0.05
+				navy_max_range = 0.05
+				navy_submarine_attack_factor = 0.05
+				navy_submarine_defence_factor = 0.05
+				navy_submarine_detection_factor = 0.05
+				navy_screen_attack_factor = 0.05
+				navy_screen_defence_factor = 0.05
+				navy_capital_ship_attack_factor = 0.05
+				navy_capital_ship_defence_factor = 0.05
+				navy_refit_ic_cost = -0.15
+				navy_refit_speed = 0.15
+				repair_speed_factor = 0.15
+				
+			}
+		}
+		
+		bra_air_modernized = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = 
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_air_factor = 0.15
+				training_time_army_factor = -0.05
+				air_ace_generation_chance_factor = 0.1
+				air_weather_penalty = -0.05
+				air_night_penalty = -0.05
+				air_wing_xp_loss_when_killed_factor = -0.05
+				air_superiority = 0.1
+				air_accidents_factor = -0.15
+				air_attack_factor = 0.1
+				air_defence_factor = 0.1
+				air_range_factor = 0.1
+				air_maximum_speed_factor = 0.1
+				
+			}
+		}
+		
+		bra_armed_forces_modernized = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = 
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_army_factor = 0.15
+				training_time_army_factor = -0.05			
+				army_org_factor = 0.05
+				army_org_regain = 0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_speed_factor = 0.05
+				supply_consumption_factor = -0.05
+				recruitable_population_factor = 0.01
+				special_forces_cap = 0.1			
+				army_core_defence_factor = 0.1
+				experience_gain_navy_factor = 0.15
+				training_time_navy_factor = -0.05			
+				naval_coordination = 0.1
+				naval_accidents_chance = -0.05
+				naval_org_factor = 0.1
+				naval_speed_factor = 0.05
+				naval_hit_chance = 0.05
+				positioning = 0.05
+				navy_max_range = 0.05
+				navy_submarine_attack_factor = 0.05
+				navy_submarine_defence_factor = 0.05
+				navy_submarine_detection_factor = 0.05
+				navy_screen_attack_factor = 0.05
+				navy_screen_defence_factor = 0.05
+				navy_capital_ship_attack_factor = 0.05
+				navy_capital_ship_defence_factor = 0.05
+				navy_refit_ic_cost = -0.15
+				navy_refit_speed = 0.15
+				repair_speed_factor = 0.15
+				experience_gain_air_factor = 0.15
+				training_time_army_factor = -0.05
+				air_ace_generation_chance_factor = 0.1
+				air_weather_penalty = -0.05
+				air_night_penalty = -0.05
+				air_wing_xp_loss_when_killed_factor = -0.05
+				air_superiority = 0.1
+				air_accidents_factor = -0.15
+				air_attack_factor = 0.1
+				air_defence_factor = 0.1
+				air_range_factor = 0.1
+				air_maximum_speed_factor = 0.1
+				
+			}
+		}
+		
 		bra_development_teams1 = {
 			
 			allowed = {
@@ -1104,7 +1711,7 @@ ideas = {
 			}
 		}
 		
-		bra_bandeirantes_sp = {
+		bra_bandeirantes_eaoar = {
 		
 			allowed = {
 				original_tag = BRA
@@ -1120,8 +1727,32 @@ ideas = {
 			removal_cost = -1
 	
 			modifier = {
-				land_doctrine_cost_factor = -0.10
-				air_doctrine_cost_factor = -0.10
+				air_doctrine_cost_factor = -0.2
+				attrition = -0.2
+				out_of_supply_factor = -0.05
+				acclimatization_hot_climate_gain_factor = 1
+				recon_factor = 0.05
+			}
+		}
+		
+		bra_bandeirantes_eaoar2 = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_mot
+			
+			removal_cost = -1
+	
+			modifier = {
+				air_doctrine_cost_factor = -0.2
+				naval_doctrine_cost_factor = -0.2
 				attrition = -0.2
 				out_of_supply_factor = -0.05
 				acclimatization_hot_climate_gain_factor = 1
@@ -1129,7 +1760,7 @@ ideas = {
 			}
 		}
 
-		bra_bandeirantes_mg = {
+		bra_bandeirantes_egn = {
 	
 			allowed = {
 				original_tag = BRA
@@ -1145,8 +1776,58 @@ ideas = {
 			removal_cost = -1
 	
 			modifier = {
-				land_doctrine_cost_factor = -0.10
-				naval_doctrine_cost_factor = -0.10
+				naval_doctrine_cost_factor = -0.2
+				attrition = -0.2
+				out_of_supply_factor = -0.05
+				acclimatization_hot_climate_gain_factor = 1
+				recon_factor = 0.05
+			}
+		}
+		
+		bra_bandeirantes_egn2 = {
+	
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			modifier = {
+				air_doctrine_cost_factor = -0.2
+				naval_doctrine_cost_factor = -0.2
+				attrition = -0.2
+				out_of_supply_factor = -0.05
+				acclimatization_hot_climate_gain_factor = 1
+				recon_factor = 0.05
+			}
+		}
+
+		bra_bandeirantes_ult = {
+	
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			modifier = {
+				land_doctrine_cost_factor = -0.2
+				naval_doctrine_cost_factor = -0.2
+				air_doctrine_cost_factor = -0.2
 				attrition = -0.2
 				out_of_supply_factor = -0.05
 				acclimatization_hot_climate_gain_factor = 1
@@ -1170,7 +1851,7 @@ ideas = {
 			removal_cost = -1
 			
 			research_bonus = {
-				train_tech = 0.20
+				train_tech = 0.50
 			}
 			
 			equipment_bonus = {
@@ -1196,7 +1877,7 @@ ideas = {
 			removal_cost = -1
 			
 			research_bonus = {
-				motorized_equipment = 0.20
+				motorized_equipment = 0.50
 			}
 		}
 		
