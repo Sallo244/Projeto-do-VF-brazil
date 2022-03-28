@@ -150,8 +150,8 @@
  BRA_cisnei_branco_desc:0 ""
  BRA_eaoar:0 "E.A.O.A.R."
  BRA_eaoar_desc:0 ""
- BRA_egn:0 "E.G.N."
- BRA_egn_desc:0 ""
+ BRA_escola_guerra_naval:0 "Escola de Guerra Naval"
+ BRA_escola_guerra_naval_desc:0 ""
  BRA_cigs:0 "CIGS"
  BRA_cigs_desc:0 "O Centro de Instrução de Guerra na Selva (C I G S)  é uma organização militar do Exército Brasileiro sediada em Manaus, destinada a qualificar militares líderes de pequenas frações, como guerreiros da selva, combatentes aptos a cumprir missões de natureza militar nas áreas mais inóspitas da Floresta Amazônica bem como em ambientes da mesma natureza."
 
@@ -315,6 +315,7 @@
  BRA_fnm_tooltip:0 "§CDesbloqueia as decisões referentes aos Projetos Conceituais da§! §HFNM/Engesa§!"
  BRA_engesa_tooltip:0 "§CLibera novas decisões referentes aos Projetos Conceituais da§! §HFNM/Engesa§!"
  BRA_tanque_tooltip:0 "§CLibera uma nova decisão referente ao Projeto Conceitual de um novo§! §HTanque de Guerra Moderno§!"
+ BRA_policia_militar:0 "§CSão criados unidades da Polícia Militar nas principais cidades do pais§!"
  
  continuous_bra_politicagem:0 "Politicagem"
  continuous_bra_politicagem_desc:0 "A expressão exclusivamente brasileira é a rotina da política dubiosa do mundo ibérico: o Estado gasta seus recursos exclusivamente para perpetuar sua própria existência. Embora isso seja, em geral, considerado ruim, um líder ambicioso pode precisar de muito poder político para realizar seus projetos, e pode obte-lo dedicando parte do tempo útil de sua administração construindo uma 'política paralela'."

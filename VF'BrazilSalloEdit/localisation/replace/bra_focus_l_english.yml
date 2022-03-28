@@ -150,8 +150,8 @@
  BRA_cisnei_branco_desc:0 ""
  BRA_eaoar:0 "E.A.O.A.R."
  BRA_eaoar_desc:0 ""
- BRA_egn:0 "E.G.N."
- BRA_egn_desc:0 ""
+ BRA_escola_guerra_naval:0 "'Escola de Guerra Naval'"
+ BRA_escola_guerra_naval_desc:0 ""
  BRA_cigs:0 "'CIGS'"
  BRA_cigs_desc:0 "The Jungle Warfare Instruction Center (CIGS) is a military organization of the Brazilian Army based in Manaus, designed to qualify military leaders of small fractions, such as jungle warriors, as combatants capable of carrying out missions in more inhospitable areas of the Amazon Rainorest as well as in  similar environments."
  
@@ -315,6 +315,7 @@
  BRA_fnm_tooltip:0 "§CUnlocks decisions regarding Conceptual Projects of§! §HFNM/Engesa§!"
  BRA_engesa_tooltip:0 "§CReleases new decisions regarding Conceptual Projects of§! §HFNM/Engesa§!"
  BRA_tanque_tooltip:0 "§CReleases a new decision regarding the Conceptual design of a new§! §HModern Battle Tank§!"
+ BRA_policia_militar:0 "§CThey are Military Police Units in the main cities of the country§!"
  
  continuous_bra_politicagem:0 "'Politicagem'"
  continuous_bra_politicagem_desc:0 "The uniquely Brazilian expression is the routine of crony politics of the Iberian World: for the state to syphon resources with the sole purpose of perpetuating its own existance. While this might be generally regarded as bad, an ambitious leader might need a lot of political power to get the job done, and might find so by dedicating his cabinet's time into exclusively dealing with other politicians."

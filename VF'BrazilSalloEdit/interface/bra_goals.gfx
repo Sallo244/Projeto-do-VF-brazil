@@ -515,5 +515,34 @@ spriteTypes = {
 		name = "GFX_focus_bra_guide_latam"
 		texturefile = "gfx/interface/goals/focus_bra_guide_latam.dds"
 	}
-
+	
+	spriteType = {
+		name = "GFX_focus_bra_cisne_branc"
+		texturefile = "gfx/interface/goals/bra_cisne_branc.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_bra_egn"
+		texturefile = "gfx/interface/goals/bra_egn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_bra_eaoar"
+		texturefile = "gfx/interface/goals/bra_eaoar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_bra_veteranos"
+		texturefile = "gfx/interface/goals/bra_veteranos.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_bra_exercito"
+		texturefile = "gfx/interface/goals/bra_exercito.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_bra_harpias"
+		texturefile = "gfx/interface/goals/bra_harpias.dds"
+	}
 }

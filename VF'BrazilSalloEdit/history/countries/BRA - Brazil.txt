@@ -128,6 +128,7 @@ if = {
 set_country_flag = monroe_doctrine
 
 add_ideas = {
+	bra_armed_forces_lagged
 	bra_antropofagia
 	bra_bandeirantes
 	bra_1930 
