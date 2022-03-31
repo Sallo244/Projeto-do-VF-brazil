@@ -344,4 +344,29 @@ spriteTypes = {
     	name = "GFX_idea_BRA_motorized_effort"
     	texturefile = "gfx//interface//ideas//bra_motorized_effort.dds"
 	}
+	
+	spriteType = {
+    	name = "GFX_idea_bra_armed_forces_lagged"
+    	texturefile = "gfx//interface//ideas//bra_armed_forces_lagged.dds"
+	}
+	
+	spriteType = {
+    	name = "GFX_idea_bra_armed_forces_modernized"
+    	texturefile = "gfx//interface//ideas//bra_armed_forces_modernized.dds"
+	}
+	
+	spriteType = {
+    	name = "GFX_idea_bra_air_lagged"
+    	texturefile = "gfx//interface//ideas//bra_airforce_mor.dds"
+	}
+	
+	spriteType = {
+    	name = "GFX_idea_bra_army_lagged"
+    	texturefile = "gfx//interface//ideas//bra_army_mor.dds"
+	}
+	
+	spriteType = {
+    	name = "GFX_idea_bra_navy_lagged"
+    	texturefile = "gfx//interface//ideas//bra_naval_mor.dds"
+	}
 }

@@ -2,43 +2,68 @@
 state={
 	id=501
 	name="STATE_501"
-	manpower = 6199200
-	state_category = city
+	resources={
+		steel=2.000 #was: 0
+		aluminium=2.000 #was: 0
+	}
 
 	history={
 		owner = BRA
 		add_core_of = BRA
 		buildings = {
 			arms_factory = 1
-			industrial_complex = 3
-			infrastructure = 2
+			industrial_complex = 4
+			infrastructure = 3
 			5112 = {
 				naval_base = 4
+
 			}
-		}		
-		victory_points = {
-			10513 30
+
 		}
 		victory_points = {
-			12937 5
+			10513 20 
 		}
 		victory_points = {
-			7636 5
+			5112 3 
 		}
 		victory_points = {
-			5186 5
+			12972 2
 		}
 		victory_points = {
-			12972 5
+			13271 2
 		}
 		victory_points = {
-			5112 5
+			13267 2 
 		}
+		victory_points = {
+			10947 2 
+		}
+		victory_points = {
+			7636 1 
+		}
+		victory_points = {
+			13266 1 
+		}
+		victory_points = {
+			5167 1 
+		}
+		victory_points = {
+			13265 1 
+		}
+		victory_points = {
+			10432 1 
+		}
+		victory_points = {
+			13273 1 
+		}
+
 	}
 
 	provinces={
-		1583 5186 7636 10513 10947 10994 11003 11008 12937 12972 10432 5112 5167 7553
+		1583 5112 5167 5186 7553 7636 10432 10513 10947 10994 11003 11008 12937 12972 13265 13266 13267 13268 13269 13270 13271 13272 13273 13274 13275 13276
 	}
-
-	local_supplies=0.0 
+	manpower=6796062
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

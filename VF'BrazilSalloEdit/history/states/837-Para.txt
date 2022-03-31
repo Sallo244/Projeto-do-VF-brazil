@@ -1,54 +1,58 @@
 
 state={
-	id=495
-	name="STATE_495"
+	id=837
+	name="STATE_837"
 	resources={
-		rubber=44.000
-		aluminium=4.000
+		rubber=12.000
 	}
 
 	history={
 		owner = BRA
 		buildings = {
 			infrastructure = 1
+			air_base = 1
+			12853 = {
+				naval_base = 2
+
+			}
 
 		}
 		add_core_of = BRA
 		victory_points = {
-			10934 10 
+			12853 10 
 		}
 		victory_points = {
-			13410 2 
+			2214 2 
 		}
 		victory_points = {
-			1979 1 
+			13432 2 
 		}
 		victory_points = {
-			13414 1 
+			13428 1 
 		}
 		victory_points = {
-			13406 1 
+			13421 1
 		}
 		victory_points = {
-			13405 1 
+			4980 1 
 		}
 		victory_points = {
-			13431 1 
+			13420 1 
 		}
 		victory_points = {
-			12965 1 
+			10956 1 
 		}
 		victory_points = {
-			13407 1 
+			2035 1 
 		}
 
 	}
 
 	provinces={
-		1979 2198 5083 5214 5216 5232 8185 8254 10934 12919 12965 13083 13404 13405 13406 13407 13408 13409 13410 13411 13412 13413 13414 13431
+		2035 2214 4980 5008 8172 10874 10956 12853 12999 13419 13420 13421 13422 13423 13424 13425 13426 13427 13428 13429 13430 13432 13433
 	}
-	manpower=443904
+	manpower=412087
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 	local_supplies=0.000
 }

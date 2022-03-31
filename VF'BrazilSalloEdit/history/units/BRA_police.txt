@@ -26,7 +26,7 @@ units = {
 
 	}
 	division= {	
-		name = "Policia Militar do São Paulo"
+		name = "Policia Militar do Rio de Janeiro"
 		location = 10513 # São Paulo
 		division_template = "Policia Militar"
 		start_experience_factor = 0.1
@@ -34,7 +34,7 @@ units = {
 
 	}
 	division= {	
-		name = "Policia Militar de Minas Gerais"
+		name = "Policia Militar do Rio de Janeiro"
 		location = 12938 # Belo Horizonte
 		division_template = "Policia Militar"
 		start_experience_factor = 0.1
@@ -42,7 +42,7 @@ units = {
 
 	}
 	division= {	
-		name = "Policia Militar do Rio Grande do Sul"
+		name = "Policia Militar do Rio de Janeiro"
 		location = 10447 # Porto Alegre
 		division_template = "Policia Militar"
 		start_experience_factor = 0.1
@@ -50,7 +50,7 @@ units = {
 
 	}
 	division= {	
-		name = "Policia Militar do Rio Grande do Norte"
+		name = "Policia Militar do Rio de Janeiro"
 		location = 10933 # Natal
 		division_template = "Policia Militar"
 		start_experience_factor = 0.1

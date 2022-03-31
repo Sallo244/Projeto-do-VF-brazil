@@ -1,39 +1,55 @@
 
 state={
 	id=496
-	name="STATE_496" # Minas Gerais
-	manpower = 4603600
-	
-	state_category = town
-	
+	name="STATE_496"
 	resources={
-		steel=3 # was: 4
+		steel=8.000 
+		aluminium=2.000 #was: 0
 	}
 
 	history={
 		owner = BRA
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 2
-			10999 = {
-				naval_base = 1
-			}
+			infrastructure = 3
+			industrial_complex = 3
+
 		}
 		add_core_of = BRA
 		victory_points = {
-			12938 30
+			12938 5 
 		}
 		victory_points = {
-			10999 5
+			12977 2 
 		}
 		victory_points = {
-			12977 5
+			13292 2 
 		}
+		victory_points = {
+			13288 2 
+		}
+		victory_points = {
+			13300 2 
+		}
+		victory_points = {
+			4570 2
+		}
+		victory_points = {
+			13282 2 
+		}
+		victory_points = {
+			10360 1 
+		}
+		victory_points = {
+			13297 1 
+		}
+
 	}
 
 	provinces={
-		2153 4570 5223 7589 8196 8233 10931 10999 12903 12909 12938 10945 12977 2167 7476 8148 12923 2190 2218 12438 10360 8210 12479 2185 8226 12334
+		2167 2185 2190 2218 4570 5223 7476 7589 8148 8210 8226 8233 10360 10931 10945 12334 12438 12479 12903 12909 12938 12977 13277 13278 13279 13280 13281 13282 13283 13284 13285 13286 13287 13288 13289 13290 13291 13292 13293 13294 13295 13296 13297 13298 13299 13300 13301 13302 13303 13304 13305 13306 13307 13308 13309
 	}
-
-	local_supplies=0.0 
+	manpower=7706500
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

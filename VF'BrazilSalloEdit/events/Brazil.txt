@@ -3,6 +3,37 @@ add_namespace = election_BRA
 add_namespace = news_BRA
 
 country_event = {
+	id = bra.23
+	title = bra_armed_forces.02.t
+	desc = bra_armed_forces.02.d
+	picture = GFX_bra.23
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			has_idea = bra_air_modernized
+			has_idea = bra_navy_modernized
+			has_idea = bra_army_modernized
+		}
+	}
+
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = bra_armed_forces.02.a
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = bra_armed_forces.02.tt
+		hidden_effect = {
+			remove_ideas = bra_air_modernized
+			remove_ideas = bra_navy_modernized
+			remove_ideas = bra_army_modernized
+			add_ideas = bra_armed_forces_modernized
+		}
+	}
+}
+
+country_event = {
 	id = bra.21
 	title = bra.21.t
 	desc = bra.21.d
