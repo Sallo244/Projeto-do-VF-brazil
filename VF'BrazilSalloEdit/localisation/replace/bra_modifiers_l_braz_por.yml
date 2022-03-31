@@ -1,0 +1,9 @@
+﻿l_braz_por:
+ bra_amigo_modifier:0 "Aproximação Diplomática"
+ bra_inimigo_modifier:0 "Afastamento Diplomático"
+ bra_amigo_outro_modifier:0 "Aproximação Diplomática"
+ bra_inimigo_outro_modifier:0 "Afastamento Diplomático"
+ bra_comercio_modifier:0 "Comércio Bi-lateral"
+ bra_comercio_inimigo_modifier:0 "Nacionalização de Multi-Nacionais"
+ bra_comercio_mercosul_modifier:0 "MERCUSUL"
+ 
