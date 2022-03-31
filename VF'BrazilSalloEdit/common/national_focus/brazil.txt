@@ -1815,7 +1815,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_1 } }
 		}
 	}
 
@@ -1860,7 +1860,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_1 } }
 		}
 	}
 
@@ -1905,7 +1905,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_hino_const_so_1 } }
 		}
 	}
 
@@ -1946,7 +1946,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_1 } }
 		}
 	}
 
@@ -2005,7 +2005,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_obras_exterior } }
 		}
 	}
 
@@ -2097,7 +2097,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_transamazonica_so_2 } }
 		}
 	}
 	
@@ -2157,7 +2157,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_rodovia_so_1 } }
 		}
 	}
 	
@@ -2209,7 +2209,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_transamazonica_so_1 } }
 		}
 	}
 
@@ -2259,7 +2259,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_anhanguera } }
 		}
 	}
 
@@ -2620,7 +2620,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_belem_porto } }
 		}
 	}
 
@@ -2662,7 +2662,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_belem_porto } }
 		}
 	}
 
@@ -2699,7 +2699,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_vacinado_1 } }
 		}
 	}
 
@@ -2735,7 +2735,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_vacinado_1 } }
 		}
 	}
 
@@ -2778,7 +2778,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_mobilizacao_ind_so } }
 		}
 	}
 	
@@ -2819,7 +2819,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_feito_nos } }
 		}
 	}
 
@@ -2858,7 +2858,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_transamazonica_so_3 } }
 		}
 	}
 
@@ -2962,7 +2962,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
 		}
 	}
 
@@ -3003,7 +3003,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
 		}
 	}
 
@@ -3044,7 +3044,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
 		}
 	}
 
@@ -3085,7 +3085,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
 		}
 	}
 
@@ -3126,7 +3126,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
 		}
 	}
 
@@ -3168,7 +3168,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_vale } }
 		}
 	}
 
@@ -3206,7 +3206,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
 		}
 	}
 
@@ -3243,7 +3243,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
 		}
 	}
 
@@ -3283,7 +3283,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
 		}
 	}
 
@@ -3333,7 +3333,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_bndes } }
 		}
 	}
 
@@ -3371,7 +3371,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_1 } }
 		}
 	}
 
@@ -3409,7 +3409,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_rodovia_so_2 } }
 		}
 	}
 
@@ -3452,7 +3452,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_infra_generic } }
 		}
 	}
 
@@ -3512,7 +3512,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_itaipu } }
 		}
 	}
 
@@ -3549,7 +3549,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_infra_generic } }
 		}
 	}
 
@@ -3594,7 +3594,7 @@ focus_tree = {
 					days = 40
 				}
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_itaipu } }
 		}
 	}
 
