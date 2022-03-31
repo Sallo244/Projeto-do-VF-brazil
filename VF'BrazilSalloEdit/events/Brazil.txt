@@ -14,7 +14,10 @@ country_event = {
 		AND = {
 			has_idea = bra_air_modernized
 			has_idea = bra_navy_modernized
-			has_idea = bra_army_modernized
+			OR = {
+				has_idea = bra_army_modernized_1
+				has_idea = bra_army_modernized_2
+			}
 		}
 	}
 
@@ -27,7 +30,11 @@ country_event = {
 		hidden_effect = {
 			remove_ideas = bra_air_modernized
 			remove_ideas = bra_navy_modernized
-			remove_ideas = bra_army_modernized
+			if  = {
+				limit = { has_idea = bra_army_modernized_1 }
+				remove_ideas = bra_army_modernized_1
+			}
+			else_if = { remove_ideas = bra_army_modernized_2 }
 			add_ideas = bra_armed_forces_modernized
 		}
 	}

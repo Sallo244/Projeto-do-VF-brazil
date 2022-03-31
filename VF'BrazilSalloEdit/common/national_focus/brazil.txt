@@ -1236,7 +1236,7 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			army_experience = 50
-			swap_ideas = { remove_idea = bra_army_acceptable add_idea = bra_army_in_modernization }
+			swap_ideas = { remove_idea = bra_army_acceptable add_idea = bra_army_in_modernization_1 }
 			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_paris_belfort_so_2 } }
 		}
 	}
@@ -1254,7 +1254,7 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			army_experience = 50
-			swap_ideas = { remove_idea = bra_army_acceptable add_idea = bra_army_in_modernization }
+			swap_ideas = { remove_idea = bra_army_acceptable add_idea = bra_army_in_modernization_2 }
 			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_paris_belfort_so_1 } }
 		}
 	}
@@ -1430,7 +1430,7 @@ focus_tree = {
 		prerequisite = { focus = BRA_escola_guerra_naval  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			swap_ideas = { remove_idea = bra_army_in_modernization add_idea = bra_army_modernized }
+			swap_ideas = { remove_idea = bra_army_in_modernization_1 add_idea = bra_army_modernized_1 }
 			if = {
 				limit = {
 					has_idea = bra_bandeirantes_eaoar2
@@ -1491,7 +1491,7 @@ focus_tree = {
 		prerequisite = { focus = BRA_escola_guerra_naval  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			swap_ideas = { remove_idea = bra_army_in_modernization add_idea = bra_army_modernized }
+			swap_ideas = { remove_idea = bra_army_in_modernization_2 add_idea = bra_army_modernized_2 }
 			if = {
 				limit = {
 					has_idea = bra_bandeirantes_eaoar2

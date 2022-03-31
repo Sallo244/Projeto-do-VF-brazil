@@ -848,7 +848,32 @@ ideas = {
 			}
 		}	
 		
-		bra_army_in_modernization = {
+		bra_army_in_modernization_1 = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = bra_army_lagged
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_army_factor = 0.05		
+				army_attack_factor = -0.025
+				army_defence_factor = -0.025
+				recruitable_population_factor = 0.005
+				army_core_defence_factor = 0.1
+				
+			}
+		}
+		
+		bra_army_in_modernization_2 = {
 			
 			allowed = {
 				original_tag = BRA
@@ -929,7 +954,38 @@ ideas = {
 			}
 		}	
 		
-		bra_army_modernized = {
+		bra_army_modernized_1 = {
+			
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = bra_army_lagged
+			
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_army_factor = 0.15
+				training_time_army_factor = -0.05			
+				army_org_factor = 0.05
+				army_org_regain = 0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_speed_factor = 0.05
+				supply_consumption_factor = -0.05
+				recruitable_population_factor = 0.01
+				special_forces_cap = 0.1			
+				army_core_defence_factor = 0.1
+				
+			}
+		}
+		
+		bra_army_modernized_2 = {
 			
 			allowed = {
 				original_tag = BRA
