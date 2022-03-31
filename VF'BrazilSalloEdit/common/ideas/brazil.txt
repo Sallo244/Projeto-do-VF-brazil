@@ -500,7 +500,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = 
+			picture = bra_armed_forces_lagged
 			
 			removal_cost = -1
 			
@@ -562,7 +562,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = 
+			picture = bra_army_lagged
 			
 			removal_cost = -1
 			
@@ -593,7 +593,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture =
+			picture = bra_navy_lagged
 			
 			removal_cost = -1
 			
@@ -632,13 +632,12 @@ ideas = {
 				always = yes
 			}
 			
-			picture = 
+			picture = bra_air_lagged
 			
 			removal_cost = -1
 			
 			modifier = {
 				experience_gain_air_factor - =0.25
-				training_time_army_factor = 0.1
 				air_ace_generation_chance_factor = -0.5
 				air_weather_penalty = 0.3
 				air_night_penalty = 0.3
@@ -664,7 +663,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture =
+			picture = bra_army_lagged
 			
 			removal_cost = -1
 			
@@ -695,7 +694,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture =
+			picture = bra_navy_lagged
 			
 			removal_cost = -1
 			
@@ -734,13 +733,12 @@ ideas = {
 				always = yes
 			}
 			
-			picture = 
+			picture = bra_air_lagged
 			
 			removal_cost = -1
 			
 			modifier = {
 				experience_gain_air_factor - =0.15
-				training_time_army_factor = 0.05
 				air_ace_generation_chance_factor = -0.4
 				air_weather_penalty = 0.25
 				air_night_penalty = 0.25
@@ -766,7 +764,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture =
+			picture = bra_army_lagged
 			
 			removal_cost = -1
 			
@@ -793,7 +791,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture =
+			picture = bra_navy_lagged
 			
 			removal_cost = -1
 			
@@ -831,13 +829,12 @@ ideas = {
 				always = yes
 			}
 			
-			picture = 
+			picture = bra_air_lagged
 			
 			removal_cost = -1
 			
 			modifier = {
 				experience_gain_air_factor - =0.05
-				training_time_army_factor = 0.05
 				air_ace_generation_chance_factor = -0.3
 				air_weather_penalty = 0.2
 				air_night_penalty = 0.2
@@ -862,7 +859,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture =
+			picture = bra_army_lagged
 			
 			removal_cost = -1
 			
@@ -887,7 +884,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture =
+			picture = bra_navy_lagged
 			
 			removal_cost = -1
 			
@@ -914,7 +911,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = 
+			picture = bra_air_lagged
 			
 			removal_cost = -1
 			
@@ -943,7 +940,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = 
+			picture = bra_army_lagged
 			
 			removal_cost = -1
 			
@@ -974,7 +971,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture =
+			picture = bra_navy_lagged
 			
 			removal_cost = -1
 			
@@ -1013,13 +1010,12 @@ ideas = {
 				always = yes
 			}
 			
-			picture = 
+			picture = bra_air_lagged
 			
 			removal_cost = -1
 			
 			modifier = {
 				experience_gain_air_factor = 0.15
-				training_time_army_factor = -0.05
 				air_ace_generation_chance_factor = 0.1
 				air_weather_penalty = -0.05
 				air_night_penalty = -0.05
@@ -1045,7 +1041,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = 
+			picture = bra_armed_forces_modernized
 			
 			removal_cost = -1
 			
@@ -1106,7 +1102,7 @@ ideas = {
 				always = no
 			}
 
-			picture = GFX_idea_bra_development_teams1
+			picture = bra_development_teams1
 			
 			removal_cost = -1
 			
@@ -1126,7 +1122,7 @@ ideas = {
 				always = no
 			}
 			
-			picture = GFX_idea_bra_development_teams2
+			picture = bra_development_teams2
 			
 			removal_cost = -1
 			
@@ -1146,7 +1142,7 @@ ideas = {
 				always = no
 			}
 			
-			picture = GFX_idea_bra_development_teams3
+			picture = bra_development_teams3
 			
 			removal_cost = -1
 			

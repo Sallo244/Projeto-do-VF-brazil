@@ -1141,14 +1141,15 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		cost = 2
 		completion_reward = {
-			remove_ideas = { bra_armed_forces_lagged }
-			add_ideas = {
-				bra_army_lagged
-				bra_navy_lagged
-				bra_air_lagged
-			}
+			custom_effect_tooltip = bra_armed_forces_lagged_tooltip
 			swap_ideas = { remove_idea = bra_1930 add_idea = bra_1930_2 }
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_proclamacao_so_2 } }
+			hidden_effect = {
+				remove_ideas = { bra_armed_forces_lagged }
+				add_ideas = { bra_army_lagged }
+				add_ideas = { bra_navy_lagged }
+				add_ideas = { bra_air_lagged }
+				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_proclamacao_so_2 }
+			}
 		}
 	}
 
@@ -1439,6 +1440,7 @@ focus_tree = {
 			else_if = {
 				swap_ideas = { remove_idea = bra_bandeirantes_egn2 add_idea = bra_bandeirantes_ult }
 			}
+			
 			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_art } }
 		}
 	}
@@ -1499,6 +1501,7 @@ focus_tree = {
 			else_if = {
 				swap_ideas = { remove_idea = bra_bandeirantes_egn2 add_idea = bra_bandeirantes_ult }
 			}
+			
 			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_mec } }
 		}
 	}
@@ -1675,8 +1678,7 @@ focus_tree = {
 		cost = 5
 		
 		prerequisite = { focus = BRA_escola_guerra_naval  }
-		prerequisite = { focus = BRA_escola_superior_de_guerra  }
-		prerequisite = { focus = BRA_academia_militar_das_agulhas_negras  }
+		prerequisite = { focus = BRA_escola_superior_de_guerra focus = BRA_academia_militar_das_agulhas_negras }
 		prerequisite = { focus = BRA_eaoar  }
 		
 		ai_will_do = { factor = 1 }
