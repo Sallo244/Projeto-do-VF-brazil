@@ -2888,15 +2888,9 @@ BRA_cbc_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_cbc_flag }
-		remove_effect = {
-			custom_effect_tooltip = bra_infant_1_cbc
-			hidden_effect = {
-				add_ideas = bra_infantaria1
-				set_country_flag = bra_cbc_2_flag clr_country_flag = bra_cbc_1_flag
-				clr_country_flag = bra_cbc_flag
-			}
-			
+		complete_effect = {
+			set_country_flag = bra_cbc_flag
+		
 			if = {
 				limit = {
 					NOT = { has_idea = bra_development_teams1 }
@@ -2936,6 +2930,14 @@ BRA_cbc_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_infant_1_cbc
+			hidden_effect = {
+				add_ideas = bra_infantaria1
+				set_country_flag = bra_cbc_2_flag clr_country_flag = bra_cbc_1_flag
+				clr_country_flag = bra_cbc_flag
 			}
 		}
 	}
@@ -2973,14 +2975,8 @@ BRA_cbc_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_cbc_flag }
-		remove_effect = {
-			custom_effect_tooltip = bra_infant_2_cbc
-			hidden_effect = {
-				add_ideas = bra_infantaria2
-				set_country_flag = bra_cbc_2_flag clr_country_flag = bra_cbc_1_flag
-				clr_country_flag = bra_cbc_flag
-			}
+		complete_effect = {
+			set_country_flag = bra_cbc_flag
 			
 			if = {
 				limit = {
@@ -3021,6 +3017,14 @@ BRA_cbc_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_infant_2_cbc
+			hidden_effect = {
+				add_ideas = bra_infantaria2
+				set_country_flag = bra_cbc_2_flag clr_country_flag = bra_cbc_1_flag
+				clr_country_flag = bra_cbc_flag
 			}
 		}
 	}
@@ -3058,14 +3062,8 @@ BRA_cbc_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_cbc_flag }
-		remove_effect = {
-			custom_effect_tooltip = bra_infant_3_cbc
-			hidden_effect = {
-				add_ideas = bra_infantaria3
-				set_country_flag = bra_cbc_2_flag clr_country_flag = bra_cbc_1_flag
-				clr_country_flag = bra_cbc_flag
-			}
+		complete_effect = {
+			set_country_flag = bra_cbc_flag
 			
 			if = {
 				limit = {
@@ -3106,6 +3104,14 @@ BRA_cbc_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_infant_3_cbc
+			hidden_effect = {
+				add_ideas = bra_infantaria3
+				set_country_flag = bra_cbc_2_flag clr_country_flag = bra_cbc_1_flag
+				clr_country_flag = bra_cbc_flag
 			}
 		}
 	}
@@ -3143,15 +3149,9 @@ BRA_cbc_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_cbc_flag }
-		remove_effect = {
-			custom_effect_tooltip = bra_infant_4_cbc
-			hidden_effect = {
-				add_ideas = bra_infantaria4
-				set_country_flag = bra_cbc_2_flag clr_country_flag = bra_cbc_1_flag
-				clr_country_flag = bra_cbc_flag
-			}
-			
+		complete_effect = {
+			set_country_flag = bra_cbc_flag
+		
 			if = {
 				limit = {
 					NOT = { has_idea = bra_development_teams1 }
@@ -3191,6 +3191,14 @@ BRA_cbc_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_infant_4_cbc
+			hidden_effect = {
+				add_ideas = bra_infantaria4
+				set_country_flag = bra_cbc_2_flag clr_country_flag = bra_cbc_1_flag
+				clr_country_flag = bra_cbc_flag
 			}
 		}
 	}
@@ -3229,14 +3237,8 @@ BRA_cbc_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_cbc_flag }
-		remove_effect = {
-			custom_effect_tooltip = bra_artil_1_cbc
-			hidden_effect = {
-				add_ideas = bra_artilharia1
-				set_country_flag = bra_cbc_3_flag clr_country_flag = bra_cbc_2_flag
-				clr_country_flag = bra_cbc_flag
-			}
+		complete_effect = {
+			set_country_flag = bra_cbc_flag
 			
 			if = {
 				limit = {
@@ -3277,6 +3279,14 @@ BRA_cbc_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_artil_1_cbc
+			hidden_effect = {
+				add_ideas = bra_artilharia1
+				set_country_flag = bra_cbc_3_flag clr_country_flag = bra_cbc_2_flag
+				clr_country_flag = bra_cbc_flag
 			}
 		}
 	}
@@ -3315,15 +3325,9 @@ BRA_cbc_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_cbc_flag }
-		remove_effect = {
-			custom_effect_tooltip = bra_artil_2_cbc
-			hidden_effect = {
-				add_ideas = bra_artilharia2
-				set_country_flag = bra_cbc_3_flag clr_country_flag = bra_cbc_2_flag
-				clr_country_flag = bra_cbc_flag
-			}
-			
+		complete_effect = {
+			set_country_flag = bra_cbc_flag
+		
 			if = {
 				limit = {
 					NOT = { has_idea = bra_development_teams1 }
@@ -3363,6 +3367,14 @@ BRA_cbc_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_artil_2_cbc
+			hidden_effect = {
+				add_ideas = bra_artilharia2
+				set_country_flag = bra_cbc_3_flag clr_country_flag = bra_cbc_2_flag
+				clr_country_flag = bra_cbc_flag
 			}
 		}
 	}
@@ -3401,14 +3413,8 @@ BRA_cbc_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_cbc_flag }
-		remove_effect = {
-			custom_effect_tooltip = bra_artil_3_cbc
-			hidden_effect = {
-				add_ideas = bra_artilharia3
-				set_country_flag = bra_cbc_3_flag clr_country_flag = bra_cbc_2_flag
-				clr_country_flag = bra_cbc_flag
-			}
+		complete_effect = {
+			set_country_flag = bra_cbc_flag
 			
 			if = {
 				limit = {
@@ -3449,6 +3455,14 @@ BRA_cbc_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_artil_3_cbc
+			hidden_effect = {
+				add_ideas = bra_artilharia3
+				set_country_flag = bra_cbc_3_flag clr_country_flag = bra_cbc_2_flag
+				clr_country_flag = bra_cbc_flag
 			}
 		}
 	}
@@ -3487,14 +3501,8 @@ BRA_cbc_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_cbc_flag }
-		remove_effect = {
-			custom_effect_tooltip = bra_artil_4_cbc
-			hidden_effect = {
-				add_ideas = bra_artilharia4
-				set_country_flag = bra_cbc_3_flag clr_country_flag = bra_cbc_2_flag
-				clr_country_flag = bra_cbc_flag
-			}
+		complete_effect = {
+			set_country_flag = bra_cbc_flag
 			
 			if = {
 				limit = {
@@ -3535,6 +3543,14 @@ BRA_cbc_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_artil_4_cbc
+			hidden_effect = {
+				add_ideas = bra_artilharia4
+				set_country_flag = bra_cbc_3_flag clr_country_flag = bra_cbc_2_flag
+				clr_country_flag = bra_cbc_flag
 			}
 		}
 	}
@@ -3570,14 +3586,7 @@ BRA_cbc_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { }
-		remove_effect = {
-			custom_effect_tooltip =  bra_tank2_cbc
-			hidden_effect = {
-				add_ideas = bra_tonk2
-				clr_country_flag = bra_cbc_3_flag
-			}
-			
+		complete_effect = {
 			if = {
 				limit = {
 					NOT = { has_idea = bra_development_teams1 }
@@ -3617,6 +3626,13 @@ BRA_cbc_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip =  bra_tank2_cbc
+			hidden_effect = {
+				add_ideas = bra_tonk2
+				clr_country_flag = bra_cbc_3_flag
 			}
 		}
 	}
@@ -3656,15 +3672,8 @@ BRA_engesa_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_eng_flag }
-		remove_effect = {
-			custom_effect_tooltip =  bra_motor_1_eng
-			hidden_effect = {
-				
-				set_country_flag = bra_engesa_2_flag clr_country_flag = bra_engesa_1_flag
-				clr_country_flag = bra_eng_flag
-			}
-			add_ideas = bra_motorizado_foge
+		complete_effect = {
+			set_country_flag = bra_eng_flag
 			
 			if = {
 				limit = {
@@ -3705,6 +3714,14 @@ BRA_engesa_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip =  bra_motor_1_eng
+			hidden_effect = {
+				add_ideas = bra_motorizado_foge
+				set_country_flag = bra_engesa_2_flag clr_country_flag = bra_engesa_1_flag
+				clr_country_flag = bra_eng_flag
 			}
 		}
 	}
@@ -3742,15 +3759,8 @@ BRA_engesa_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_eng_flag }
-		remove_effect = {
-			custom_effect_tooltip =  bra_motor_2_eng
-			hidden_effect = {
-				
-				set_country_flag = bra_engesa_2_flag clr_country_flag = bra_engesa_1_flag
-				clr_country_flag = bra_eng_flag
-			}
-			add_ideas = bra_motorizado
+		complete_effect = {
+			set_country_flag = bra_eng_flag
 			
 			if = {
 				limit = {
@@ -3791,6 +3801,14 @@ BRA_engesa_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip =  bra_motor_2_eng
+			hidden_effect = {
+				add_ideas = bra_motorizado
+				set_country_flag = bra_engesa_2_flag clr_country_flag = bra_engesa_1_flag
+				clr_country_flag = bra_eng_flag
 			}
 		}
 	}
@@ -3829,15 +3847,8 @@ BRA_engesa_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_eng_flag }
-		remove_effect = {
-			custom_effect_tooltip =  bra_mec_1_eng
-			hidden_effect = {
-				
-				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
-				clr_country_flag = bra_eng_flag
-			}
-			add_ideas = bra_mecanizado1
+		complete_effect = {
+			set_country_flag = bra_eng_flag
 			
 			if = {
 				limit = {
@@ -3878,6 +3889,14 @@ BRA_engesa_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip =  bra_mec_1_eng
+			hidden_effect = {
+				add_ideas = bra_mecanizado1
+				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
+				clr_country_flag = bra_eng_flag
 			}
 		}
 	}
@@ -3916,15 +3935,8 @@ BRA_engesa_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_eng_flag }
-		remove_effect = {
-			custom_effect_tooltip =  bra_mec_2_eng
-			hidden_effect = {
-				
-				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
-				clr_country_flag = bra_eng_flag
-			}
-			add_ideas = bra_mecanizado2
+		complete_effect = {
+			set_country_flag = bra_eng_flag
 			
 			if = {
 				limit = {
@@ -3965,6 +3977,14 @@ BRA_engesa_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip =  bra_mec_2_eng
+			hidden_effect = {
+				add_ideas = bra_mecanizado2
+				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
+				clr_country_flag = bra_eng_flag
 			}
 		}
 	}
@@ -4003,15 +4023,8 @@ BRA_engesa_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_eng_flag }
-		remove_effect = {
-			custom_effect_tooltip =  bra_mec_3_eng
-			hidden_effect = {
-				
-				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
-				clr_country_flag = bra_eng_flag
-			}
-			add_ideas = bra_mecanizado3
+		complete_effect = {
+			set_country_flag = bra_eng_flag
 			
 			if = {
 				limit = {
@@ -4052,6 +4065,14 @@ BRA_engesa_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip =  bra_mec_3_eng
+			hidden_effect = {
+				add_ideas = bra_mecanizado3
+				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
+				clr_country_flag = bra_eng_flag
 			}
 		}
 	}
@@ -4090,15 +4111,8 @@ BRA_engesa_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_eng_flag }
-		remove_effect = {
-			custom_effect_tooltip =  bra_anfib_eng
-			hidden_effect = {
-				
-				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
-				clr_country_flag = bra_eng_flag
-			}
-			add_ideas = bra_anfibio1
+		complete_effect = {
+			set_country_flag = bra_eng_flag
 			
 			if = {
 				limit = {
@@ -4139,6 +4153,14 @@ BRA_engesa_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip =  bra_anfib_eng
+			hidden_effect = {
+				add_ideas = bra_anfibio1
+				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
+				clr_country_flag = bra_eng_flag
 			}
 		}
 	}
@@ -4177,15 +4199,8 @@ BRA_engesa_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_eng_flag }
-		remove_effect = {
-			custom_effect_tooltip =  bra_car_1_eng
-			hidden_effect = {
-				
-				set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag
-				clr_country_flag = bra_eng_flag
-			}
-			add_ideas = bra_carro1
+		complete_effect = {
+			set_country_flag = bra_eng_flag
 			
 			if = {
 				limit = {
@@ -4226,6 +4241,14 @@ BRA_engesa_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip =  bra_car_1_eng
+			hidden_effect = {
+				add_ideas = bra_carro1
+				set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag
+				clr_country_flag = bra_eng_flag
 			}
 		}
 	}
@@ -4264,15 +4287,8 @@ BRA_engesa_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_eng_flag }
-		remove_effect = {
-			custom_effect_tooltip =  bra_car_2_eng
-			hidden_effect = {
-				
-				set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag
-				clr_country_flag = bra_eng_flag
-			}
-			add_ideas = bra_carro2
+		complete_effect = {
+			set_country_flag = bra_eng_flag
 			
 			if = {
 				limit = {
@@ -4313,6 +4329,14 @@ BRA_engesa_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip =  bra_car_2_eng
+			hidden_effect = {
+				add_ideas = bra_carro2
+				set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag
+				clr_country_flag = bra_eng_flag
 			}
 		}
 	}
@@ -4351,15 +4375,8 @@ BRA_engesa_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { set_country_flag = bra_eng_flag }
-		remove_effect = {
-			custom_effect_tooltip =  bra_car_3_eng
-			hidden_effect = {
-				
-				set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag
-				clr_country_flag = bra_eng_flag
-			}
-			add_ideas = bra_carro3
+		complete_effect = {
+			set_country_flag = bra_eng_flag
 			
 			if = {
 				limit = {
@@ -4400,6 +4417,14 @@ BRA_engesa_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip =  bra_car_3_eng
+			hidden_effect = {
+				add_ideas = bra_carro3
+				set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag
+				clr_country_flag = bra_eng_flag
 			}
 		}
 	}
@@ -4435,15 +4460,7 @@ BRA_engesa_dec = {
 			research_speed_factor = -0.002
 		}
 		
-		complete_effect = { }
-		remove_effect = {
-			custom_effect_tooltip =  bra_tank_1_eng
-			hidden_effect = {
-				
-				clr_country_flag = bra_engesa_4_flag
-			}
-			add_ideas = bra_tonk1
-			
+		complete_effect = {
 			if = {
 				limit = {
 					NOT = { has_idea = bra_development_teams1 }
@@ -4483,6 +4500,13 @@ BRA_engesa_dec = {
 					idea = bra_development_teams3
 					days = 70
 				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip =  bra_tank_1_eng
+			hidden_effect = {
+				add_ideas = bra_tonk1
+				clr_country_flag = bra_engesa_4_flag
 			}
 		}
 	}
