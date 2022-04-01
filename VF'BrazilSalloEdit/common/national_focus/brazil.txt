@@ -773,22 +773,22 @@ focus_tree = {
 					}
 				}	
 			
-				set_victory_points = {
-					province = 5208
-					value = 35
-				}
-				build_railway = {
-					level = 3
-					path = {12977 8140 5208}
-				}
-				505 = {
-					add_building_construction = {
-						type = supply_node
-						level = 1
-						province = 5208
-						instant_build = yes
-					}
-				}
+				#set_victory_points = {
+				#	province = 5208
+				#	value = 35
+				#}
+				#build_railway = {
+				#	level = 3
+				#	path = {12977 8140 5208}
+				#}
+				#505 = {
+				#	add_building_construction = {
+				#		type = supply_node
+				#		level = 1
+				#		province = 5208
+				#		instant_build = yes
+				#	}
+				#}
 				set_capital = {
 					state = 505 
 					remember_old_capital = no
@@ -2068,6 +2068,14 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 			}
+			835 = { 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 			502 = { 
 				add_building_construction = {
 					type = infrastructure
@@ -2112,6 +2120,22 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			
+			835 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			503 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 			280 = {
 				add_building_construction = {
 					type = infrastructure
@@ -2120,7 +2144,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 			}
-			504 = { 
+			837 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -2128,14 +2152,7 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 			}
-			505 = { 
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 1
-			}
+			
 			
 			if = {
 				limit = {
@@ -2172,7 +2189,7 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			
-			495 = {
+			498 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -2181,6 +2198,22 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 1
 			}
 			497 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			837 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			495 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -3261,7 +3294,7 @@ focus_tree = {
 			
 			add_resource = { type = oil amount = 5 state = 499 }
 			add_resource = { type = oil amount = 5 state = 500 }
-			add_resource = { type = oil amount = 5 state = 504 }
+			add_resource = { type = oil amount = 5 state = 280 }
 			
 			if = {
 				limit = {
