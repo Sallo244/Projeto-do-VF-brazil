@@ -1873,7 +1873,7 @@ BRA_metas = {
 		}
 		
 		cost = 150
-		days_remove = 150 #fire_only_once = yes
+		days_remove = 150
 
 		ai_will_do = {
 			factor = 160
@@ -1994,6 +1994,8 @@ BRA_metas = {
 			has_completed_focus = BRA_clt
 			has_full_control_of_state = 503
 			owns_state = 503
+			has_full_control_of_state = 835
+			owns_state = 835
 		}
 		
 		cost = 150
@@ -2027,6 +2029,14 @@ BRA_metas = {
 		remove_effect = {
 		
 			503 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+			}
+			835 = {
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -2110,62 +2120,6 @@ BRA_metas = {
 		available = {
 			#AVAILIABLEMODIFIER
 			has_completed_focus = BRA_embrapa
-			has_full_control_of_state = 504
-			owns_state = 504
-		}
-		
-		cost = 150
-		days_remove = 150 fire_only_once = yes
-
-		ai_will_do = {
-			factor = 40
-			modifier = {
-				political_power_daily < 0.5
-				factor = 0
-			}
-		}
-		
-		visible = {
-			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
-			NOT = { has_global_flag = bra_viacao_modificadores_flag }
-			original_tag = BRA
-		}
-		
-		modifier = {
-			civilian_factory_use = 5
-			production_speed_buildings_factor = -0.05
-			#politicalpowergainplaceholder
-		}
-		
-		complete_effect = {	
-			add_manpower = -5000
-			add_command_power = -5
-		}
-
-		remove_effect = {
-		
-			504 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
-	}
-	
-	bra_br_364 = {
-	
-		icon = generic_power_struggle
-		
-		allowed = {
-			original_tag = BRA
-		}
-		
-		available = {
-			#AVAILIABLEMODIFIER
-			has_completed_focus = BRA_o_ciclo_da_soja
 			has_full_control_of_state = 280
 			owns_state = 280
 		}
@@ -2201,6 +2155,82 @@ BRA_metas = {
 		remove_effect = {
 		
 			280 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	
+	bra_br_364 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			#AVAILIABLEMODIFIER
+			has_completed_focus = BRA_o_ciclo_da_soja
+			has_full_control_of_state = 280
+			owns_state = 280
+			has_full_control_of_state = 504
+			owns_state = 504
+			has_full_control_of_state = 505
+			owns_state = 505
+		}
+		
+		cost = 150
+		days_remove = 150 fire_only_once = yes
+
+		ai_will_do = {
+			factor = 40
+			modifier = {
+				political_power_daily < 0.5
+				factor = 0
+			}
+		}
+		
+		visible = {
+			has_completed_focus = BRA_ministeriodaviacaoeobraspublicas
+			NOT = { has_global_flag = bra_viacao_modificadores_flag }
+			original_tag = BRA
+		}
+		
+		modifier = {
+			civilian_factory_use = 5
+			production_speed_buildings_factor = -0.05
+			#politicalpowergainplaceholder
+		}
+		
+		complete_effect = {	
+			add_manpower = -5000
+			add_command_power = -5
+		}
+
+		remove_effect = {
+		
+			505 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			280 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			504 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = infrastructure
@@ -2317,7 +2347,7 @@ BRA_metas = {
 		}
 
 		remove_effect = {
-			
+			505 = {
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -2329,7 +2359,7 @@ BRA_metas = {
 					instant_build = yes
 				}
 				add_extra_state_shared_building_slots = 2
-			
+			}
 			add_resource = { type = aluminium amount = 32 state = 505 }
 			
 			hidden_effect = { set_country_flag = bra_tucurui_flag }
@@ -2541,8 +2571,8 @@ BRA_metas = {
 		available = {
 			#AVAILIABLEMODIFIER
 			has_country_flag = bra_furnas_flag
-			has_full_control_of_state = 496
-			owns_state = 496
+			has_full_control_of_state = 836
+			owns_state = 836
 		}
 		
 		cost = 150
@@ -2575,7 +2605,7 @@ BRA_metas = {
 
 		remove_effect = {
 		
-			496 = {
+			836 = {
 				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = dockyard
@@ -2791,10 +2821,8 @@ BRA_metas = {
 			}
 			has_full_control_of_state = 280
 			owns_state = 280
-			has_full_control_of_state = 497
-			owns_state = 497
-			has_full_control_of_state = 504
-			owns_state = 504
+			has_full_control_of_state = 837
+			owns_state = 837
 		}
 		
 		cost = 150
@@ -2830,23 +2858,15 @@ BRA_metas = {
 			280 = {
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
 			
-			497 = {
+			837 = {
 				add_building_construction = {
 					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-			
-			504 = {
-				add_building_construction = {
-					type = arms_factory
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -4635,6 +4655,13 @@ BRA_cat_proalcool = {
 					instant_build = yes
 				}
 			}
+			835 = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
 			
 			hidden_effect = {
 				set_country_flag = bra_proalcool_2_flag
@@ -4685,7 +4712,7 @@ BRA_cat_proalcool = {
 
 		remove_effect = {
 		
-			504 = {
+			280 = {
 				add_building_construction = {
 					type = synthetic_refinery
 					level = 1
@@ -4900,7 +4927,5 @@ BRA_cat_proalcool = {
 			}
 			
 		}
-	}
-	
+	}	
 }
-
