@@ -1872,7 +1872,7 @@ BRA_metas = {
 			has_completed_focus = BRA_clt
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 #fire_only_once = yes
 
 		ai_will_do = {
@@ -1926,7 +1926,7 @@ BRA_metas = {
 			owns_state = 501
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 
 		ai_will_do = {
@@ -1996,7 +1996,7 @@ BRA_metas = {
 			owns_state = 503
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 
 		ai_will_do = {
@@ -2053,7 +2053,7 @@ BRA_metas = {
 			owns_state = 502
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 
 		ai_will_do = {
@@ -2114,7 +2114,7 @@ BRA_metas = {
 			owns_state = 504
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 
 		ai_will_do = {
@@ -2170,7 +2170,7 @@ BRA_metas = {
 			owns_state = 280
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 
 		ai_will_do = {
@@ -2226,7 +2226,7 @@ BRA_metas = {
 			owns_state = 503
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 
 		ai_will_do = {
@@ -2288,7 +2288,7 @@ BRA_metas = {
 			owns_state = 505
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 		
 		ai_will_do = {
@@ -2351,7 +2351,7 @@ BRA_metas = {
 			owns_state = 496
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 
 		ai_will_do = {
@@ -2415,7 +2415,7 @@ BRA_metas = {
 			owns_state = 499
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 
 		ai_will_do = {
@@ -2476,7 +2476,7 @@ BRA_metas = {
 			owns_state = 505
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 
 		ai_will_do = {
@@ -2545,7 +2545,7 @@ BRA_metas = {
 			owns_state = 496
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 
 		ai_will_do = {
@@ -2602,7 +2602,7 @@ BRA_metas = {
 			owns_state = 499
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 
 		ai_will_do = {
@@ -2661,7 +2661,7 @@ BRA_metas = {
 			owns_state = 498
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 
 		ai_will_do = {
@@ -2716,7 +2716,7 @@ BRA_metas = {
 			owns_state = 495
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 
 		ai_will_do = {
@@ -2797,7 +2797,7 @@ BRA_metas = {
 			owns_state = 504
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150 fire_only_once = yes
 
 		ai_will_do = {
@@ -2869,7 +2869,7 @@ BRA_cbc_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -2956,7 +2956,7 @@ BRA_cbc_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -3043,7 +3043,7 @@ BRA_cbc_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -3130,7 +3130,7 @@ BRA_cbc_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -3218,7 +3218,7 @@ BRA_cbc_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -3306,7 +3306,7 @@ BRA_cbc_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -3394,7 +3394,7 @@ BRA_cbc_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -3482,7 +3482,7 @@ BRA_cbc_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -3567,7 +3567,7 @@ BRA_cbc_dec = {
 			has_completed_focus = BRA_tanques_de_guerra
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -3653,7 +3653,7 @@ BRA_engesa_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -3740,7 +3740,7 @@ BRA_engesa_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -3828,7 +3828,7 @@ BRA_engesa_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -3916,7 +3916,7 @@ BRA_engesa_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -4004,7 +4004,7 @@ BRA_engesa_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -4092,7 +4092,7 @@ BRA_engesa_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -4180,7 +4180,7 @@ BRA_engesa_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -4268,7 +4268,7 @@ BRA_engesa_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -4356,7 +4356,7 @@ BRA_engesa_dec = {
 			}
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -4441,7 +4441,7 @@ BRA_engesa_dec = {
 			has_completed_focus = BRA_tanques_de_guerra
 		}
 		
-		cost = 150
+		cost = 75
 		days_remove = 35
 		fire_only_once = yes
 		
@@ -4591,7 +4591,7 @@ BRA_cat_proalcool = {
 			has_idea = bra_etanol_idea
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150
 		fire_only_once = yes
 		
@@ -4655,7 +4655,7 @@ BRA_cat_proalcool = {
 			has_country_flag = bra_proalcool_2_flag
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150
 		fire_only_once = yes
 		
@@ -4720,7 +4720,7 @@ BRA_cat_proalcool = {
 			has_country_flag = bra_proalcool_3_flag
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150
 		fire_only_once = yes
 		
@@ -4785,7 +4785,7 @@ BRA_cat_proalcool = {
 			has_country_flag = bra_proalcool_4_flag
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = 150
 		fire_only_once = yes
 		
@@ -4850,7 +4850,7 @@ BRA_cat_proalcool = {
 			has_country_flag = bra_proalcool_5_flag
 		}
 		
-		cost = 150
+		cost = 100
 		days_remove = -1
 		fire_only_once = yes
 		
