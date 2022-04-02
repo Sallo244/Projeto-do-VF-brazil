@@ -1195,10 +1195,10 @@ focus_tree = {
 		}
 	}
 
-	#A Força Aérea Brasileira
+	#O Legado do Brigadeiro
 	focus = {
-		id = BRA_aforcaaereabrasileira
-		icon = GFX_focus_bra_modernizacao_aerea
+		id = BRA_o_legado_do_brigadeiro
+		icon = GFX_focus_bra_bombardeiro
 		x = 20
 		y = 3
 		cost = 10
@@ -1206,14 +1206,13 @@ focus_tree = {
 		prerequisite = { focus = BRA_harpias_altaneiras  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			swap_ideas = { remove_idea = bra_air_acceptable add_idea = bra_air_in_modernization }
 			air_experience = 25
-			add_ace = {
-				name = "Eduardo"
-				surname = "Gomes"
-				callsign = "O Brigadeiro"
-				type = bomber_genius
-				is_female = no
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cat_strategic_bomber
 			}
 			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_hino_aviador_so_1 } }
 		}
@@ -1260,10 +1259,10 @@ focus_tree = {
 		id = BRA_revolta_da_armada
 		icon = GFX_focus_bra_almirantado
 		x = 14
-		y = 3
+		y = 4
 		cost = 10
 		
-		prerequisite = { focus = BRA_cisnei_branco  }
+		prerequisite = { focus = BRA_estudar_submarinos_italianos  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			swap_ideas = { remove_idea = bra_navy_acceptable add_idea = bra_navy_in_modernization }
@@ -1277,8 +1276,9 @@ focus_tree = {
 		id = BRA_estudar_submarinos_italianos
 		icon = GFX_focus_bra_submarinos
 		x = 14
-		y = 4
-		prerequisite = { focus = BRA_revolta_da_armada  }
+		y = 3
+		
+		prerequisite = { focus = BRA_cisnei_branco  }
 		cost = 5
 		ai_will_do = { factor = 1 }
 		completion_reward = {
@@ -1299,7 +1299,7 @@ focus_tree = {
 		icon = GFX_focus_bra_cruzadores
 		x = 14
 		y = 5
-		prerequisite = { focus = BRA_estudar_submarinos_italianos  }
+		prerequisite = { focus = BRA_revolta_da_armada  }
 		cost = 5
 		ai_will_do = { factor = 1 }
 		completion_reward = {
@@ -1314,23 +1314,24 @@ focus_tree = {
 		}
 	}
 
-	#O Legado do Brigadeiro
+	#A Força Aérea Brasileira
 	focus = {
-		id = BRA_o_legado_do_brigadeiro
-		icon = GFX_focus_bra_bombardeiro
+		id = BRA_aforcaaereabrasileira
+		icon = GFX_focus_bra_modernizacao_aerea
 		x = 20
 		y = 4
-		prerequisite = { focus = BRA_aforcaaereabrasileira  }
+		prerequisite = { focus = BRA_o_legado_do_brigadeiro  }
 		cost = 5
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			swap_ideas = { remove_idea = bra_air_acceptable add_idea = bra_air_in_modernization }
 			air_experience = 25
-			add_tech_bonus = {
-				name = tech_bonus
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cat_strategic_bomber
+			add_ace = {
+				name = "Eduardo"
+				surname = "Gomes"
+				callsign = "O Brigadeiro"
+				type = bomber_genius
+				is_female = no
 			}
 			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_hino_aviador_so_2 } }
 		}
@@ -1358,7 +1359,7 @@ focus_tree = {
 		icon = GFX_focus_bra_CAS
 		x = 20
 		y = 5
-		prerequisite = { focus = BRA_o_legado_do_brigadeiro  }
+		prerequisite = { focus = BRA_aforcaaereabrasileira  }
 		cost = 5
 		ai_will_do = { factor = 1 }
 		completion_reward = {
@@ -1422,19 +1423,48 @@ focus_tree = {
 		cost = 5
 		
 		prerequisite = { focus = BRA_cbc  }
-		prerequisite = { focus = BRA_eaoar  }
-		prerequisite = { focus = BRA_escola_guerra_naval  }
+		
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			swap_ideas = { remove_idea = bra_army_in_modernization_1 add_idea = bra_army_modernized_1 }
+			
 			if = {
 				limit = {
-					has_idea = bra_bandeirantes_eaoar2
+					has_idea = bra_bandeirantes
 				}
-				swap_ideas = { remove_idea = bra_bandeirantes_eaoar2 add_idea = bra_bandeirantes_ult }
+				swap_ideas = {remove_idea = bra_bandeirantes add_idea = bra_bandeirantes_v3 }
 			}
 			else_if = {
-				swap_ideas = { remove_idea = bra_bandeirantes_egn2 add_idea = bra_bandeirantes_ult }
+				limit = {
+					has_idea = bra_bandeirantes_v1
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v1 add_idea = bra_bandeirantes_v5 }
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_bandeirantes_v2
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v2 add_idea = bra_bandeirantes_v4 }
+			}
+			else_if = {
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v5
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v5 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v4
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v4 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v6
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v6 add_idea = bra_bandeirantes_ult }
+				}
 			}
 			
 			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_art } }
@@ -1483,19 +1513,48 @@ focus_tree = {
 		cost = 5
 		
 		prerequisite = { focus = BRA_engesa  }
-		prerequisite = { focus = BRA_eaoar  }
-		prerequisite = { focus = BRA_escola_guerra_naval  }
+		
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			swap_ideas = { remove_idea = bra_army_in_modernization_2 add_idea = bra_army_modernized_2 }
+			
 			if = {
 				limit = {
-					has_idea = bra_bandeirantes_eaoar2
+					has_idea = bra_bandeirantes
 				}
-				swap_ideas = { remove_idea = bra_bandeirantes_eaoar2 add_idea = bra_bandeirantes_ult }
+				swap_ideas = {remove_idea = bra_bandeirantes add_idea = bra_bandeirantes_v3 }
 			}
 			else_if = {
-				swap_ideas = { remove_idea = bra_bandeirantes_egn2 add_idea = bra_bandeirantes_ult }
+				limit = {
+					has_idea = bra_bandeirantes_v1
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v1 add_idea = bra_bandeirantes_v5 }
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_bandeirantes_v2
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v2 add_idea = bra_bandeirantes_v4 }
+			}
+			else_if = {
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v5
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v5 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v4
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v4 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v6
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v6 add_idea = bra_bandeirantes_ult }
+				}
 			}
 			
 			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_mec } }
@@ -1631,12 +1690,41 @@ focus_tree = {
 			swap_ideas = { remove_idea = bra_air_in_modernization add_idea = bra_air_modernized }
 			if = {
 				limit = {
-					has_completed_focus = BRA_escola_guerra_naval
+					has_idea = bra_bandeirantes
 				}
-				swap_ideas = { remove_idea = bra_bandeirantes_egn add_idea = bra_bandeirantes_eaoar2 }
+				swap_ideas = {remove_idea = bra_bandeirantes add_idea = bra_bandeirantes_v1 }
 			}
 			else_if = {
-				swap_ideas = { remove_idea = bra_bandeirantes add_idea = bra_bandeirantes_eaoar }
+				limit = {
+					has_idea = bra_bandeirantes_v2
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v2 add_idea = bra_bandeirantes_v6 }
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_bandeirantes_v3
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v3 add_idea = bra_bandeirantes_v5 }
+			}
+			else_if = {
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v6
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v6 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v5
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v5 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v4
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v4 add_idea = bra_bandeirantes_ult }
+				}
 			}
 		}
 	}
@@ -1655,12 +1743,41 @@ focus_tree = {
 			swap_ideas = { remove_idea = bra_navy_in_modernization add_idea = bra_navy_modernized }
 			if = {
 				limit = {
-					has_completed_focus = BRA_eaoar
+					has_idea = bra_bandeirantes
 				}
-				swap_ideas = { remove_idea = bra_bandeirantes_eaoar add_idea = bra_bandeirantes_egn2 }
+				swap_ideas = {remove_idea = bra_bandeirantes add_idea = bra_bandeirantes_v2 }
 			}
 			else_if = {
-				swap_ideas = { remove_idea = bra_bandeirantes add_idea = bra_bandeirantes_egn }
+				limit = {
+					has_idea = bra_bandeirantes_v1
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v1 add_idea = bra_bandeirantes_v6 }
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_bandeirantes_v3
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v3 add_idea = bra_bandeirantes_v4 }
+			}
+			else_if = {
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v6
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v6 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v4
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v4 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v5
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v5 add_idea = bra_bandeirantes_ult }
+				}
 			}
 		}
 	}
@@ -1673,9 +1790,7 @@ focus_tree = {
 		y = 8
 		cost = 5
 		
-		prerequisite = { focus = BRA_escola_guerra_naval  }
-		prerequisite = { focus = BRA_escola_superior_de_guerra focus = BRA_academia_militar_das_agulhas_negras }
-		prerequisite = { focus = BRA_eaoar  }
+		prerequisite = { focus = BRA_escola_superior_de_guerra focus = BRA_academia_militar_das_agulhas_negras focus = BRA_eaoar focus = BRA_escola_guerra_naval }
 		
 		ai_will_do = { factor = 1 }
 		completion_reward = {

@@ -1763,7 +1763,7 @@ ideas = {
 			}
 		}
 		
-		bra_bandeirantes_eaoar = {
+		bra_bandeirantes_v1 = {
 		
 			allowed = {
 				original_tag = BRA
@@ -1787,7 +1787,7 @@ ideas = {
 			}
 		}
 		
-		bra_bandeirantes_eaoar2 = {
+		bra_bandeirantes_v2 = {
 		
 			allowed = {
 				original_tag = BRA
@@ -1803,7 +1803,6 @@ ideas = {
 			removal_cost = -1
 	
 			modifier = {
-				air_doctrine_cost_factor = -0.2
 				naval_doctrine_cost_factor = -0.2
 				attrition = -0.2
 				out_of_supply_factor = -0.05
@@ -1812,7 +1811,7 @@ ideas = {
 			}
 		}
 
-		bra_bandeirantes_egn = {
+		bra_bandeirantes_v3 = {
 	
 			allowed = {
 				original_tag = BRA
@@ -1828,6 +1827,31 @@ ideas = {
 			removal_cost = -1
 	
 			modifier = {
+				land_doctrine_cost_factor = -0.2
+				attrition = -0.2
+				out_of_supply_factor = -0.05
+				acclimatization_hot_climate_gain_factor = 1
+				recon_factor = 0.05
+			}
+		}
+		
+		bra_bandeirantes_v4 = {
+	
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			modifier = {
+				land_doctrine_cost_factor = -0.2
 				naval_doctrine_cost_factor = -0.2
 				attrition = -0.2
 				out_of_supply_factor = -0.05
@@ -1836,7 +1860,7 @@ ideas = {
 			}
 		}
 		
-		bra_bandeirantes_egn2 = {
+		bra_bandeirantes_v5 = {
 	
 			allowed = {
 				original_tag = BRA
@@ -1852,8 +1876,33 @@ ideas = {
 			removal_cost = -1
 	
 			modifier = {
+				land_doctrine_cost_factor = -0.2
 				air_doctrine_cost_factor = -0.2
+				attrition = -0.2
+				out_of_supply_factor = -0.05
+				acclimatization_hot_climate_gain_factor = 1
+				recon_factor = 0.05
+			}
+		}
+		
+		bra_bandeirantes_v6 = {
+	
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = BRA_bandeirantes_art
+			
+			removal_cost = -1
+	
+			modifier = {
 				naval_doctrine_cost_factor = -0.2
+				air_doctrine_cost_factor = -0.2
 				attrition = -0.2
 				out_of_supply_factor = -0.05
 				acclimatization_hot_climate_gain_factor = 1
