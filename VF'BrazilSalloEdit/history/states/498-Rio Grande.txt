@@ -3,14 +3,14 @@ state={
 	id=498
 	name="STATE_498"
 	resources={
-		oil=2.000 #was: 0
+		#oil=2.000 #was: 0
 		tungsten=2.000 #was: 0
 	}
 
 	history={
 		owner = BRA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			industrial_complex = 2
 			air_base = 2
 			5107 = {

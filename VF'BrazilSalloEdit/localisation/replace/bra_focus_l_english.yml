@@ -317,6 +317,7 @@
  BRA_tanque_tooltip:0 "§CReleases a new decision regarding the Conceptual design of a new§! §HModern Battle Tank§!"
  BRA_policia_militar:0 "§CThey are Military Police Units in the main cities of the country§!"
  bra_armed_forces_lagged_tooltip:0 "§CIt divides the idea of ​​the§! §HBrazilian Armed Forces§! §Cinto the three branches of the Armed Forces, thus initiating the modernization process§!"
+ bra_ferrovias_nacionais_tooltip:0 "§CStarts the process of modernization and investment of national railways§!"
  
  continuous_bra_politicagem:0 "'Politicagem'"
  continuous_bra_politicagem_desc:0 "The uniquely Brazilian expression is the routine of crony politics of the Iberian World: for the state to syphon resources with the sole purpose of perpetuating its own existance. While this might be generally regarded as bad, an ambitious leader might need a lot of political power to get the job done, and might find so by dedicating his cabinet's time into exclusively dealing with other politicians."

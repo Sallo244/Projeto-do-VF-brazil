@@ -317,6 +317,8 @@
  BRA_tanque_tooltip:0 "§CLibera uma nova decisão referente ao Projeto Conceitual de um novo§! §HTanque de Guerra Moderno§!"
  BRA_policia_militar:0 "§CSão criados unidades da Polícia Militar nas principais cidades do pais§!"
  bra_armed_forces_lagged_tooltip:0 "§CDivide a ideia das§! §HForças Armadas Brasileiras§! §Cnos três ramos das Forças Armadas, iniciando assim, o processo de modernização§!"
+ bra_ferrovias_nacionais_tooltip:0 "§CInicia o processo de modernização e investimento das ferrovias nacionais§!"
+ 
  
  continuous_bra_politicagem:0 "Politicagem"
  continuous_bra_politicagem_desc:0 "A expressão exclusivamente brasileira é a rotina da política dubiosa do mundo ibérico: o Estado gasta seus recursos exclusivamente para perpetuar sua própria existência. Embora isso seja, em geral, considerado ruim, um líder ambicioso pode precisar de muito poder político para realizar seus projetos, e pode obte-lo dedicando parte do tempo útil de sua administração construindo uma 'política paralela'."

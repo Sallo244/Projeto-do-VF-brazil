@@ -6,15 +6,12 @@ state={
 	history={
 		owner = BRA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 
 		}
 		add_core_of = BRA
 		victory_points = {
 			2111 5 
-		}
-		victory_points = {
-			13395 3 
 		}
 		victory_points = {
 			13402 1 
@@ -23,24 +20,15 @@ state={
 			13399 1 
 		}
 		victory_points = {
-			13393 1 
-		}
-		victory_points = {
 			13391 1 
-		}
-		victory_points = {
-			13390 1 
-		}
-		victory_points = {
-			13396 1 
 		}
 
 	}
 
 	provinces={
-		2111 2142 2147 2181 2204 5148 5200 8175 8189 8224 10959 11010 12939 12951 13390 13391 13392 13393 13394 13395 13396 13397 13398 13399 13400 13401 13402 13403 13435
+		2111 2142 2147 2204 5148 8175 11010 12939 13391 13392 13397 13398 13399 13400 13401 13402 13403 13435
 	}
-	manpower=373514
+	manpower=203514
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -773,22 +773,18 @@ focus_tree = {
 					}
 				}	
 			
-				#set_victory_points = {
-				#	province = 5208
-				#	value = 35
-				#}
-				#build_railway = {
-				#	level = 3
-				#	path = {12977 8140 5208}
-				#}
-				#505 = {
-				#	add_building_construction = {
-				#		type = supply_node
-				#		level = 1
-				#		province = 5208
-				#		instant_build = yes
-				#	}
-				#}
+				set_victory_points = {
+					province = 8140
+					value = 35
+				}
+				505 = {
+					add_building_construction = {
+						type = supply_node
+						level = 1
+						province = 8140
+						instant_build = yes
+					}
+				}
 				set_capital = {
 					state = 505 
 					remember_old_capital = no
@@ -2144,6 +2140,14 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 			}
+			838 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 			837 = {
 				add_building_construction = {
 					type = infrastructure
@@ -2315,10 +2319,25 @@ focus_tree = {
 				days = 365
 			}
 			
-			build_railway = {
-				level = 2
-				path = {10999 8196 11002 10419 8197 10946}
+			hidden_effect = {
+				build_railway = {
+					level = 5
+					path = {10980 13311 13282 8226 8148 7589 12938}
+				}
+				build_railway = {
+					level = 5
+					path = {13378 8140 12923 13289 12977 7636 13271 13275 10947 10513}
+				}
+				build_railway = {
+					level = 5
+					path = {10447 7594 12396 4548 10405 13250 4533 13252 8181 11008 13273 10947}
+				}
+				build_railway = {
+					level = 5
+					path = {10513 10432 5172 10980 8190 12996 2153 10999}
+				}
 			}
+			custom_effect_tooltip = bra_ferrovias_nacionais_tooltip
 			every_owned_state = {
 				limit = {
 					is_core_of = BRA
@@ -2362,34 +2381,18 @@ focus_tree = {
 			
 			hidden_effect = {
 				build_railway = {
-					level = 2
-					path = {8143 10998}
+					level = 5
+					path = {12853 12999 5220 13363 12933 13364 2228 2132 13349 5107 8179 2175 10933 2227 5168 13353 10939 10998 8143 13323 13321 10946}
 				}
 				build_railway = {
-					level = 2
-					path = {5168 10967 12961 10345 8227 10984 5204 12947}
+					level = 5
+					path = {2228 13354 5153 13436 13370 13371}
 				}
 				build_railway = {
-					level = 2
-					path = {10946 8184 10926 5218 10984}
+					level = 5
+					path = {5168 1446 12961 10345 8242 8227 13372 13371}
 				}
-				build_railway = {
-					level = 2
-					path = {2227 10933 2175 8179 5107 2132 2228 12933 2150 12947}
-				}
-				build_railway = {
-					level = 2
-					path = {8179 2164 8227}
-				}
-				497 = {
-					add_building_construction = {
-						type = supply_node
-						level = 1
-						province = 12947
-						instant_build = yes
-					}
-					add_extra_state_shared_building_slots = 1
-				}
+				497 = { add_extra_state_shared_building_slots = 1 }
 				498 = { add_extra_state_shared_building_slots = 1 }
 				499 = { add_extra_state_shared_building_slots = 1 }
 			}
@@ -2431,53 +2434,24 @@ focus_tree = {
 			
 			hidden_effect = {
 				build_railway = {
-					level = 2
-					path = {4604 4589 7594 1542 5110 12466 5178 4587 8224 12951 10959 5148 2204 10956 2214 12999 12853}
+					level = 5
+					path = {8181 13257 13260 13261 13264 8224 13394 13395 10959 13391 2111 13400 13403 8175 13419 1979 10934 }
 				}
-				build_railway = {
-					level = 2
-					path = {12977 8140 12987 5148}
-				}
-				build_railway = {
-					level = 2
-					path = {11002 12903 5223 8233 2190 2218 8140}
-				}
-				build_railway = {
-					level = 2
-					path = {7476 12923 2218}
-				}
-				build_railway = {
-					level = 2
-					path = {12947 2168 2204}
-				}
-				build_railway = {
-					level = 2
-					path = {2204 8172 1979 10934}
-					}
-				280 = {
+				838 = {
 					add_building_construction = {
 						type = supply_node
 						level = 1
-						province = 2204
-						instant_build = yes
-					}
-					add_extra_state_shared_building_slots = 1
-				}
-				495 = {
-					add_building_construction = {
-						type = supply_node
-						level = 1
-						province = 10934
+						province = 13395
 						instant_build = yes
 					}
 					add_extra_state_shared_building_slots = 1
 				}
 				502 = { add_extra_state_shared_building_slots = 1 }
 				503 = { add_extra_state_shared_building_slots = 1 }
-				504 = { add_extra_state_shared_building_slots = 1 }
+				838 = { add_extra_state_shared_building_slots = 1 }
 				505 = { add_extra_state_shared_building_slots = 1 }
 				496 = { add_extra_state_shared_building_slots = 1 }
-				497 = { add_extra_state_shared_building_slots = 1 }
+				837 = { add_extra_state_shared_building_slots = 1 }
 				280 = { add_extra_state_shared_building_slots = 1 }
 			}
 			
@@ -2518,73 +2492,30 @@ focus_tree = {
 			
 			hidden_effect = {
 				build_railway = {
-					level = 2
-					path = {5112 10513 10432 5172 10980 8190 12996 2153 10999}
+					level = 5
+					path = {13378 5208 13386 5151 13358 12913 13430 13426 12853}
 				}
 				build_railway = {
-					level = 2
-					path = {10447 4589}
+					level = 5
+					path = {13371 13374 5204 13387 5151}
 				}
 				build_railway = {
-					level = 2
-					path = {8181 7553 10947 10513}
+					level = 5
+					path = {10934 13414 13421 13433 2035 10874 13427 13426}
 				}
 				build_railway = {
-					level = 2
-					path = {5186 7636 12977}
+					level = 5
+					path = {13391 13377 13376 8140 13382 2218 13306 13305 13300 10931 12938}
 				}
 				build_railway = {
-					level = 2
-					path = {10946 8143}
+					level = 5
+					path = {10999 13313 13316 11002 10419 8197 13320 10946}
 				}
-				build_railway = {
-					level = 2
-					path = {10998 5182 10967}
-				}
-				build_railway = {
-					level = 2
-					path = {5168 2227}
-				}
-				build_railway = {
-					level = 2
-					path = {12933 5220 12853}
-				}
-				build_railway = {
-					level = 2
-					path = {8189 2111 8175 2147 5232 12965 10960}
-				}
-				build_railway = {
-					level = 2
-					path = {12965 10934}
-				}
-				build_railway = {
-					level = 2
-					path = {8175 2204}
-				}
-				build_railway = {
-					level = 2
-					path = {10926 8177 5174 5208 8140}
-				}
-				build_railway = {
-					level = 2
-					path = {5208 5151 12947}
-				}
-				build_railway = {
-					level = 2
-					path = {5174 2190}
-				}
-				495 = { 
-					add_building_construction = {
-						type = supply_node
-						level = 1
-						province = 10960
-						instant_build = yes
-					}
-					add_extra_state_shared_building_slots = 1
-				}
-				280 = { add_extra_state_shared_building_slots = 1 }
+				495 = { add_extra_state_shared_building_slots = 1 }
+				437 = { add_extra_state_shared_building_slots = 1 }
 				499 = { add_extra_state_shared_building_slots = 1 }
 				505 = { add_extra_state_shared_building_slots = 1 }
+				836 = { add_extra_state_shared_building_slots = 1 }
 			}
 			
 			custom_effect_tooltip = bra_ferrovia_4_tooltip
@@ -2623,7 +2554,7 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			
-			497 = { 
+			837 = { 
 				add_extra_state_shared_building_slots = 2 
 				add_building_construction = {
 					type = dockyard
@@ -3294,7 +3225,7 @@ focus_tree = {
 			
 			add_resource = { type = oil amount = 5 state = 499 }
 			add_resource = { type = oil amount = 5 state = 500 }
-			add_resource = { type = oil amount = 5 state = 280 }
+			add_resource = { type = oil amount = 5 state = 838 }
 			
 			if = {
 				limit = {
