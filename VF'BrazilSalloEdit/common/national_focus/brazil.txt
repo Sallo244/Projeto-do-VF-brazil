@@ -1596,13 +1596,7 @@ focus_tree = {
 		prerequisite = { focus = BRA_reorganizar_o_exercito  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_tech_bonus = {
-				name = mp_bonus
-				bonus = 1
-				uses = 1
-				category = military_police_tech
-			}
-			
+			set_technology = { policia_militar_tech = 1 }
 			custom_effect_tooltip = BRA_policia_militar
 			hidden_effect = {
 				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_paris_belfort_so_1 }

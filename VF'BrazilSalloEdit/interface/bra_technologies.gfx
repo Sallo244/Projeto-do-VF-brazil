@@ -184,4 +184,14 @@ spriteTypes = {
 		name = "GFX_motorizado_tech_medium"
 		texturefile = "gfx/interface/technologies/BRA_motorized_equipment_2.dds"
 	}	
+	
+	SpriteType = {
+		name = "GFX_policia_militar_tech_medium"
+		texturefile = "gfx/interface/technologies/bra_policia_militar.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_selva_tech_medium"
+		texturefile = "gfx/interface/technologies/bra_selva_tech.dds"
+	}
 }

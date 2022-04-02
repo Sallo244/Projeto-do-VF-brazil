@@ -16,3 +16,5 @@
  
  bra_cbc_flag:0 "Concept decision of the equipment in progress"
  bra_eng_flag:0 "Concept decision of the equipment in progress"
+
+ bra_policia_militar:0 "'Policia Militar'"

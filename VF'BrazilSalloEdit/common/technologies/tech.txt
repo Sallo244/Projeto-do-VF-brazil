@@ -46,4 +46,21 @@ technologies = {
 		}
 
 	}
+	
+	policia_militar_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+		enable_subunits = {
+			bra_policia_militar
+		}
+
+		bra_policia_militar = {
+			suppression = 0.1
+		}
+	}
 }
