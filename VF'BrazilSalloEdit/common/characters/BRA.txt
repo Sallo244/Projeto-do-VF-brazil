@@ -140,7 +140,7 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/BRA/G8.dds"
-				small="gfx/interface/ideas/g8.dds.dds"
+				small="gfx/interface/ideas/g8.dds"
 			}
 		}
 		corps_commander={
@@ -260,7 +260,7 @@ characters={
 		portraits={
 			army={
 				large="gfx/leaders/BRA/G1.dds"
-				small="gfx/interface/ideas/g1.dds.dds"
+				small="gfx/interface/ideas/g1.dds"
 			}
 		}
 		corps_commander={

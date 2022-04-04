@@ -262,27 +262,14 @@ create_country_leader = {
 }
 
 1939.1.1 = {
-	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 10
-		}
-
-		fascism = {
-			popularity = 10
-		}
-		
-		communism = {
-			popularity = 5
-		}
-		
-		neutrality = { 
-			popularity = 75
-		}
+	set_popularities = {
+		democratic = 10
+		fascism = 10
+		communism = 5
+		neutrality = 75 
 	}
-	
-	ruling_party = neutrality
+	set_politics = {
+		ruling_party = neutrality
 		last_election = "1934.7.17"
 		election_frequency = 48
 		elections_allowed = no

@@ -325,8 +325,8 @@ leader_traits = {
 	vfb_trait_ces = {
 		random = no
 
-		planning_speed = 0.2
-		enemy_partisan_effect = -0.5
+		planning_speed = 0.4
+		#enemy_partisan_effect = -0.5
 		
 		ai_will_do = {
 			factor = 1

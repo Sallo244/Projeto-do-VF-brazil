@@ -3,42 +3,78 @@ technologies = {
 	selva_tech = {
 
 		research_cost = 1
-
-		allow = {
-			always = no
+		
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+		
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 0 }
+		}
+		
+		categories = {
+			infantry_weapons
 		}
 		
 		infantry = {
 			jungle = {
-				max_organisation = 10
+				attack = 0.05
+				defence = 0.05
+				movement = 0.5
+			}
+			forest = {
+				attack = 0.05
+				defence = 0.05
 				movement = 0.5
 			}
 		}
 
 	}
 	
-	mecanizado_tech = {
+	anfibio_tech = {
 
 		research_cost = 1
 
-		allow = {
-			always = no
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = 20 }
+		}
+		
+		categories = {
+			infantry_tech
 		}
 		
 		mechanized = {
 			amphibious = {
 				movement = 0.2
 			}
+			river = {
+				movement = 0.2
+			}
 		}
 
 	}
 	
-	motorizado_tech = {
+	motor_tech = {
 
 		research_cost = 1
 
-		allow = {
-			always = no
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 20 }
+		}
+		
+		categories = {
+			infantry_tech
 		}
 
 		motorized = {
@@ -51,8 +87,17 @@ technologies = {
 
 		research_cost = 1
 
-		allow = {
-			always = no
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+		
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			infantry_weapons
 		}
 
 		enable_subunits = {
@@ -61,6 +106,15 @@ technologies = {
 
 		bra_policia_militar = {
 			suppression = 0.1
+		}
+	}
+	
+	bra_trigger_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
 		}
 	}
 }

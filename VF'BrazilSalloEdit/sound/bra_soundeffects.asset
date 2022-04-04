@@ -154,11 +154,11 @@ soundeffect = {
 	volume = 20
 }
 
-soundeffect = {
-	name = "bra_populism"
-	sounds = { sound = bra_populism }
-	volume = 12
-}
+#soundeffect = {
+#	name = "bra_populism"
+#	sounds = { sound = bra_populism }
+#	volume = 12
+#}
 
 soundeffect = {
 	name = "bra_quereismo"

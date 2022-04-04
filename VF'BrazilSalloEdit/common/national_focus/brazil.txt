@@ -288,7 +288,7 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			swap_ideas = { remove_idea = bra_instabilidade add_idea = bra_instabilidade_2 }
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_populism } }
+			#hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } #sound_effect =  bra_populism } }
 		}
 	}
 	
@@ -386,7 +386,7 @@ focus_tree = {
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			country_event = { id = bra.15 }
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_populism } }
+			#hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } #sound_effect =  bra_populism } }
 		}
 	}
 
@@ -983,9 +983,8 @@ focus_tree = {
 				uses = 1
 				category = industry
 			}
-
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_1 } }
 		}
-		hidden_effect = { { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_1 } } }
 	}
 
 	#Instituto Militar de Engenharia

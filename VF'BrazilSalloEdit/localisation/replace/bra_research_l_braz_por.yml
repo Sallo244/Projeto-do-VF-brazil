@@ -1,5 +1,6 @@
 ﻿l_braz_por:
  selva_tech:0 "CIGS - Centro de Instrução de Guerra na Selva"
- mecanizado_tech:0 "Tecnologia de veiculo anfíbio da EE-11 Urutu"
- motorizado_tech:0 "Tecnologia de motores econômicos da Viatura EE-25"
- policia_militar_tech:0 "Reorganização das Forças Publicas"
+ anfibio_tech:0 "Transmissão anfíbia Melhorada para EE-11 Urutu"
+ motor_tech:0 "Motores mais econômicos para Viatura EE-25"
+ policia_militar_tech:0 "Policia Militar"
+ bra_trigger_tech:0 "§RTecnologia não Pesquisavel(Liberada apenas por Focus ou Decisões).§!"

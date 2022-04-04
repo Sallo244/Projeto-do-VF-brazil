@@ -130,10 +130,10 @@ sound = {
 	file = "bra_brazil_speech/bra_plan_cohen.wav"
 }
 
-sound = {
-	name = "bra_populism"
-	file = "bra_brazil_speech/bra_populism.wav"
-}
+#sound = {
+#	name = "bra_populism"
+#	file = "bra_brazil_speech/bra_populism.wav"
+#}
 
 sound = {
 	name = "bra_quereismo"

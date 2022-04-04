@@ -321,10 +321,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_bra_nuclear_research_bureau.dds"
 	}
 
-	spriteType = {
-		name = "GFX_focus_bra_secret_research"
-		texturefile = "gfx/GFX_bra_secret_research/goals/focus_bra_estado_novo.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_focus_bra_secret_research"
+	#	texturefile = "gfx/interface/goals/focus_bra_estado_novo.dds"
+	#}
 
 	spriteType = {
 		name = "GFX_focus_bra_CTEF_CLT"

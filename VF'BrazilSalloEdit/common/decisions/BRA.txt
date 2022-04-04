@@ -1,115 +1,4 @@
 POR_monarchist_cause = {
-
-	POR_stir_monarchist_sentiment_in_brazil = {
-		icon = generic_political_discourse
-
-		allowed = {
-			has_dlc = "La Resistance"
-			original_tag = POR
-		}
-
-		available = {
-			BRA = { 
-				has_war = no 
-			}
-			BRA = {
-				has_completed_focus = BRA_formalizaraacao
-			}
-		}
-
-		cost = 25
-		fire_only_once = no
-
-		ai_will_do = {
-			base = 1
-		}
-		visible = {
-			has_completed_focus = POR_a_royal_wedding
-			NOT = { has_completed_focus = POR_the_empire_of_brazil }
-			country_exists = BRA
-		}
-
-		cancel_trigger = {
-			OR = {
-				has_completed_focus = POR_the_empire_of_brazil
-				has_war_with = BRA
-				BRA = { neutrality < -0.15 }
-			}
-		}
-
-		cancel_effect = {
-			BRA = {
-				clr_country_flag = POR_portugal_stirring_brazilian_monarchists_flag
-				set_country_flag = POR_brazilian_monarchists_stirred_flag
-			}
-		}
-
-		modifier = {
-			political_power_gain = -0.5
-		}
-		days_remove = 180
-
-		remove_effect = {
-			BRA = {
-				clr_country_flag = POR_portugal_stirring_brazilian_monarchists_flag
-				set_country_flag = POR_brazilian_monarchists_stirred_flag
-			}
-		}
-
-		complete_effect = {
-			custom_effect_tooltip = POR_stir_monarchist_sentiment_in_brazil_tt
-			BRA = { 
-				activate_decision = POR_portugal_promoting_monarchist_cause_in_brazil
-				set_country_flag = POR_portugal_stirring_brazilian_monarchists_flag 
-				country_event = { id = lar_portugal_promote_monarchist_cause.1 }
-			}
-		}
-	}
-	
-	POR_repress_brazilian_monarchists = {
-		icon = oppression
-
-		allowed = {
-			has_dlc = "La Resistance"
-			original_tag = BRA
-		}
-
-		available = {
-			neutrality < 1
-		}
-
-		cost = 25
-		fire_only_once = no
-
-		ai_will_do = {
-			factor = 0
-		}
-		visible = {
-			OR = {
-				has_country_flag = POR_portugal_stirring_brazilian_monarchists_flag
-				has_country_flag = POR_brazilian_monarchists_stirred_flag
-			}
-			country_exists = POR
-			POR = { NOT = { has_completed_focus = POR_the_empire_of_brazil } }		
-		}
-
-		cancel_trigger = {
-			POR = { has_completed_focus = POR_the_empire_of_brazil }
-		}
-
-		modifier = {
-			stability_weekly = 0.005
-			stability_factor = -0.05
-			political_power_gain  = -0.5
-			neutrality_drift = -0.1
-		}
-
-		days_remove = 180
-
-		remove_effect = {
-			clr_country_flag = POR_brazilian_monarchists_stirred_flag
-		}
-	}
 	
 	BRA_counter_POR_monarchists = {
 		icon = oppression
@@ -3871,6 +3760,7 @@ BRA_engesa_dec = {
 		}
 		remove_effect = {
 			custom_effect_tooltip =  bra_motor_2_eng
+			set_technology = { motor_tech = 1 }
 			hidden_effect = {
 				add_ideas = bra_motorizado
 				set_country_flag = bra_engesa_2_flag clr_country_flag = bra_engesa_1_flag
@@ -4223,6 +4113,7 @@ BRA_engesa_dec = {
 		}
 		remove_effect = {
 			custom_effect_tooltip =  bra_anfib_eng
+			set_technology = { anfibio_tech = 1 }
 			hidden_effect = {
 				add_ideas = bra_anfibio1
 				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag

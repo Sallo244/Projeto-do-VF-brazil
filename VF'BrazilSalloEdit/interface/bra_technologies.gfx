@@ -115,7 +115,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/BRA_tactical_bomber3.dds"
 	}
 
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_BRA_strategic_bomber1_medium"
 		texturefile = "gfx/interface/technologies/BRA_strategic_bomber1.dds"
 	}
@@ -176,13 +176,13 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_mecanizado_tech_medium"
-		texturefile = "gfx/interface/technologies/BRA_mechanized_equipment.dds"
+		name = "GFX_anfibio_tech_medium"
+		texturefile = "gfx/interface/technologies/bra_amphibious_tech.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_motorizado_tech_medium"
-		texturefile = "gfx/interface/technologies/BRA_motorized_equipment_2.dds"
+		name = "GFX_motor_tech_medium"
+		texturefile = "gfx/interface/technologies/bra_engine_tech.dds"
 	}	
 	
 	SpriteType = {
