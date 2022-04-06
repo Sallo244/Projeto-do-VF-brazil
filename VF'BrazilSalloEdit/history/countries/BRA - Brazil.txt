@@ -43,7 +43,7 @@ recruit_character = BRA_joao_candido_vfb
 recruit_character = BRA_moreira_lima_vfb
 recruit_character = BRA_artur_da_costa_e_silva_vfb
 recruit_character = BRA_francisco_correa_vfb
-recruit_character = BRA_epaminondas_dos_santos_vfb
+#recruit_character = BRA_epaminondas_dos_santos_vfb
 
 ### GENERALS ###
 recruit_character = BRA_eurico_gaspar_dutra

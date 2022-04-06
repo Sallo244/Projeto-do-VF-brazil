@@ -540,9 +540,14 @@ spriteTypes = {
 		name = "GFX_focus_bra_exercito"
 		texturefile = "gfx/interface/goals/bra_exercito.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_focus_bra_harpias"
 		texturefile = "gfx/interface/goals/bra_harpias.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_bra_ciopc"
+		texturefile = "gfx/interface/goals/bra_ciopc2.dds"
 	}
 }

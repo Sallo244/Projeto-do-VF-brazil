@@ -1779,7 +1779,7 @@ focus_tree = {
 	focus = {
 		id = BRA_cigs
 		icon = GFX_focus_bra_territoriosfederais
-		x = 17
+		x = 16
 		y = 8
 		cost = 5
 		
@@ -1789,6 +1789,23 @@ focus_tree = {
 		completion_reward = {
 			set_technology = { selva_tech = 1 }
 			custom_effect_tooltip = bra_selva_tech_tooltip
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect = bra_sentinela_brasil_so_2 } }
+		}
+	}
+	#CIOpC
+	focus = {
+		id = BRA_ciopc
+		icon = GFX_focus_bra_ciopc
+		x = 18
+		y = 8
+		cost = 5
+		
+		prerequisite = { focus = BRA_escola_superior_de_guerra focus = BRA_academia_militar_das_agulhas_negras focus = BRA_eaoar focus = BRA_escola_guerra_naval }
+		
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			set_technology = { ciopc_tech = 1 }
+			custom_effect_tooltip = bra_ciopc_tech_tooltip
 			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect = bra_sentinela_brasil_so_2 } }
 		}
 	}

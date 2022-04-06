@@ -158,38 +158,27 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
 	}
-
-
-
+}
 
 air_wings = {
 	### Aviação Militar -- Rio de Janiero
 	500 = {
 		# Fighter Air Group -- Boeing 256s
-		fighter_equipment_0 =  {
+		fighter_equipment_0 = {
 			owner = "BRA" 
-			amount = 150
-		}
-	}
-	500 = {
-		# Bomber Air Group -- Boeing 256s
-		tac_bomber_equipment_0 =  {
-			owner = "BRA" 
-			amount = 150
+			amount = 132
 		}
 	}
 }
 
-
-
 instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_1
-			creator = "BRA"
-		}
-		requested_factories = 3
-		progress = 1
-		efficiency = 100
+    add_equipment_production = {
+        equipment = {
+	    type = infantry_equipment_0
+	    creator = "BRA"
 	}
+	requested_factories = 3
+	progress = 1
+	efficiency = 100
+    }
 }
