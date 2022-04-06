@@ -372,8 +372,6 @@ guiTypes = {
 					alwaystransparent = yes
 				}
 				
-######################################################################################################################################
-				
 				instantTextBoxType = {
 					name = "special_tech_subtitle_weapons2"
 					position = { x = 1500 y = 50 }
@@ -386,8 +384,6 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-				
-######################################################################################################################################
 				
 				instantTextBoxType = {
 					name = "support_year2"
@@ -571,6 +567,13 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "policia_militar_tech_tree"
+				position = { x = 1600 y = 160 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
+				name = "ciopc_tech_tree"
 				position = { x = 1600 y = 160 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

@@ -17,17 +17,35 @@ technologies = {
 			infantry_weapons
 		}
 		
-		infantry = {
-			jungle = {
-				attack = 0.05
-				defence = 0.05
-				movement = 0.5
-			}
-			forest = {
-				attack = 0.05
-				defence = 0.05
-				movement = 0.5
-			}
+		enable_subunits = {
+			bra_selva
+		}
+	}
+	
+	ciopc_tech = {
+
+		research_cost = 1
+		
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+		
+		folder = {
+			name = support_folder
+			position = { x = 4 y = 0 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		enable_subunits = {
+			bra_caatinga
+		}
+		
+		bra_caatinga = {
+			acclimatization_hot_climate_gain_factor = 0.2
+			acclimatization_cold_climate_gain_factor = -0.2
 		}
 
 	}

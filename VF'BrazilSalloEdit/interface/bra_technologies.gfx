@@ -194,4 +194,9 @@ spriteTypes = {
 		name = "GFX_selva_tech_medium"
 		texturefile = "gfx/interface/technologies/bra_selva_tech.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_ciopc_tech_medium"
+		texturefile = "gfx/interface/technologies/bra_ciopc_tech_tech.dds"
+	}
 }
