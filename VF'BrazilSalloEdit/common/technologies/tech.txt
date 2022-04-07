@@ -44,8 +44,8 @@ technologies = {
 		}
 		
 		bra_caatinga = {
-			acclimatization_hot_climate_gain_factor = 0.2
-			acclimatization_cold_climate_gain_factor = -0.2
+			acclimatization_hot_climate_gain_factor = 0.3
+			acclimatization_cold_climate_gain_factor = -0.3
 		}
 
 	}

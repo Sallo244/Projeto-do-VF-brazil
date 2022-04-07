@@ -154,6 +154,8 @@
  BRA_escola_guerra_naval_desc:0 "A EGN uma instituição de altos estudos militares, que terá o propósito de contribuir para a capacitação dos oficiais para o desempenho de comissões operativas e de caráter administrativo; prepará-los para funções de estado-maior; e aperfeiçoá-los para o exercício de cargos de comando, chefia e direção de altos escalões da Marinha."
  BRA_cigs:0 "CIGS"
  BRA_cigs_desc:0 "O Centro de Instrução de Guerra na Selva (C I G S)  é uma organização militar do Exército Brasileiro sediada em Manaus, destinada a qualificar militares líderes de pequenas frações, como guerreiros da selva, combatentes aptos a cumprir missões de natureza militar nas áreas mais inóspitas da Floresta Amazônica bem como em ambientes da mesma natureza."
+ BRA_ciopc:0 "CIOpC"
+ BRA_ciopc_desc:0 "O Centro de Instrução e Operações na Caatinga (CIOpC) é, atualmente, o estabelecimento destinado à formação do Combatente de Caatinga do Exército Brasileiro. As atividades de instrução desenvolvem-se em ritmo intenso, buscando reproduzir as condições de combate em área de Caatinga."
 
  ####################################### FOCOS DA PARTE ECONOMICA ################################################################################
 
@@ -299,7 +301,7 @@
  bra_patri_6_tooltip:0 "§CPedro III terá mais apoio popular, ao custo do apoio de setores da elite.§!\n"
  bra_modernizacao_marinha_tooltip:0 "O §YEstado Maior da Marinha§! será mobilizado."
  bra_diplomacia_tooltip:0 "§CDá início à missões diplomáticas por todo o mundo.§!"
- bra_selva_tech_tooltip:0 "Funda o §CCentro de Instrução de Guerra na Selva - CIGS§!, focado no trainamento do nosso exército de modo à defender nosso mais precioso tesouro nacional.  As §CInfantarias Leves§! atravessarão a Amazônia com §C50%§! de bônus em movimento e §C+10§! em Organização."
+ bra_selva_tech_tooltip:0 "Funda o §CCentro de Instrução de Guerra na Selva - CIGS§!, focado no treinamento do nosso exército de modo à defender nosso mais precioso tesouro nacional. Serão criados §CForças Especiais§! Para lutarem na Amazônia com §C20%§! de bônus em movimento e Defesa e §C30%§! em Ataque."
  bra_vitrine_tooltip:0 "Os efeitos deste foco apenas revelar-se-ão à partir do momento que o futuro de Vargas for definido."
  bra_uiracu_tooltip:0 "Desbloqueia as decisões referentes à hegemonia do Brasil sobre o Prata."
  bra_viacao_tooltip:0 "Desbloqueia as decisões de §CExpansão Industrial§!"
@@ -318,7 +320,7 @@
  BRA_policia_militar:0 "§CSão criados unidades da Polícia Militar nas principais cidades do pais§!"
  bra_armed_forces_lagged_tooltip:0 "§CDivide a ideia das§! §HForças Armadas Brasileiras§! §Cnos três ramos das Forças Armadas, iniciando assim, o processo de modernização§!"
  bra_ferrovias_nacionais_tooltip:0 "§CInicia o processo de modernização e investimento das ferrovias nacionais§!"
- 
+ bra_ciopc_tech_tooltip:0 "O §CCentro de Instrução e Operações na Caatinga - CIOpC§!, focado no treinamento do nosso exército de modo à defender as regiões aridas do Nordeste. Serão criados §CForças Especiais§! Para lutarem nas regiões aridas da nossa nação com §C20%§! de bônus em movimento e Defesa e §C30%§! em Ataque."
  
  continuous_bra_politicagem:0 "Politicagem"
  continuous_bra_politicagem_desc:0 "A expressão exclusivamente brasileira é a rotina da política dubiosa do mundo ibérico: o Estado gasta seus recursos exclusivamente para perpetuar sua própria existência. Embora isso seja, em geral, considerado ruim, um líder ambicioso pode precisar de muito poder político para realizar seus projetos, e pode obte-lo dedicando parte do tempo útil de sua administração construindo uma 'política paralela'."

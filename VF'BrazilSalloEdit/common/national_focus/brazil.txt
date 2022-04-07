@@ -1067,7 +1067,7 @@ focus_tree = {
 		available = {
 			num_of_factories > 60
 		}
-		cost = 20
+		cost = 10
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_research_slot = 1
@@ -1110,7 +1110,7 @@ focus_tree = {
 			is_major = yes
 			num_of_factories > 100
 		}
-		cost = 20
+		cost = 10
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			add_tech_bonus = {
@@ -1200,7 +1200,7 @@ focus_tree = {
 		icon = GFX_focus_bra_bombardeiro
 		x = 20
 		y = 3
-		cost = 10
+		cost = 5
 		
 		prerequisite = { focus = BRA_harpias_altaneiras  }
 		ai_will_do = { factor = 1 }
@@ -1320,7 +1320,7 @@ focus_tree = {
 		x = 20
 		y = 4
 		prerequisite = { focus = BRA_o_legado_do_brigadeiro  }
-		cost = 5
+		cost = 10
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			swap_ideas = { remove_idea = bra_air_acceptable add_idea = bra_air_in_modernization }
@@ -1789,7 +1789,10 @@ focus_tree = {
 		completion_reward = {
 			set_technology = { selva_tech = 1 }
 			custom_effect_tooltip = bra_selva_tech_tooltip
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect = bra_sentinela_brasil_so_2 } }
+			hidden_effect = {
+				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect = bra_sentinela_brasil_so_2 }
+				load_oob = BRA_selva
+			}
 		}
 	}
 	
@@ -1807,7 +1810,10 @@ focus_tree = {
 		completion_reward = {
 			set_technology = { ciopc_tech = 1 }
 			custom_effect_tooltip = bra_ciopc_tech_tooltip
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect = bra_sentinela_brasil_so_2 } }
+			hidden_effect = {
+				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect = bra_sentinela_brasil_so_2 }
+				load_oob = BRA_caatinga
+			}
 		}
 	}
 	

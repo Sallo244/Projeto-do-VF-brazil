@@ -338,6 +338,70 @@ BRA_MIP_01 =
 	}
 }
 
+BRA_SEL_01 = 
+{
+	name = "Jungle Division"
+
+	for_countries = { BRA ANG GNB MZB }				# Also includes releasable Portuguese colonlies
+
+	can_use = { always = yes }
+
+	division_types = { "bra_selva" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { BRA_INF_01 }
+
+	fallback_name = "%da Brigada de Infantaria na Selva"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Brigada de Infantaria na Selva" }
+		2 = { "%da Brigada de Infantaria na Selva" }
+		3 = { "%da Brigada de Infantaria na Selva" }
+		4 = { "%da Brigada de Infantaria na Selva" }
+		5 = { "%da Brigada de Infantaria na Selva" }
+		6 = { "%da Brigada de Infantaria na Selva" }
+		7 = { "%da Brigada de Infantaria na Selva" }
+		8 = { "%da Brigada de Infantaria na Selva" }
+		9 = { "%da Brigada de Infantaria na Selva" }
+		10 = { "%da Brigada de Infantaria na Selva" }
+	}
+}
+
+BRA_CAA_01 = 
+{
+	name = "Caatinga Division"
+
+	for_countries = { BRA ANG GNB MZB }				# Also includes releasable Portuguese colonlies
+
+	can_use = { always = yes }
+
+	division_types = { "bra_caatinga" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { BRA_INF_01 }
+
+	fallback_name = "%da Batalhão de Infantaria da Caatinga"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Batalhão de Infantaria da Caatinga" }
+		2 = { "%da Batalhão de Infantaria da Caatinga" }
+		3 = { "%da Batalhão de Infantaria da Caatinga" }
+		4 = { "%da Batalhão de Infantaria da Caatinga" }
+		5 = { "%da Batalhão de Infantaria da Caatinga" }
+		6 = { "%da Batalhão de Infantaria da Caatinga" }
+		7 = { "%da Batalhão de Infantaria da Caatinga" }
+		8 = { "%da Batalhão de Infantaria da Caatinga" }
+		9 = { "%da Batalhão de Infantaria da Caatinga" }
+		10 = { "%da Batalhão de Infantaria da Caatinga" }
+	}
+}
+
 BRA_GAR_01 = 
 {
 	name = "Garrison Division"
