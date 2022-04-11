@@ -128,7 +128,7 @@
  bra_motor_1_eng:0 "§HArtilharia de foguete motorizada§!:\nCusto de produção:§R+15%§!\nAtaque leve:§G+15%§!\nConfiabilidade:§G+10%§!\nDefesa:§G+15%§!\n "
  bra_motorizado_eng:0 "Conceito Viatura EE-25"
  bra_motorizado_eng_desc:0 "Esse conceito busca desenvolver, uma viatura nacional, capaz de transportar, suprimentos, tropas, que seja capaz de lidar com cargas e terrenos, mais barata de produzir e manter operacional."
- bra_motor_2_eng:0 "§HCaminhão§!:\nCusto de produção:§G-10%§!\nConfiabilidade:§G+5.00%§!\n "
+ bra_motor_2_eng:0 "§HCaminhão§!:\nCusto de produção:§G-10%§!\nConfiabilidade:§G+5.00%§!\nConsumo de Combustivel:§G-16%§!\n "
  bra_mecanizado_1:0 "Conceito EE-T4 Ogun"
  bra_mecanizado_1_desc:0 "Esse conceito busca desenvolver um meio de combate nacional, compacto e leve, sendo aerotransportavel, e capaz de suportar as tropas de infantaria na dinamica de combate, e realizar missões de reconhecimento avançado em territorio inimigo."
  bra_mec_1_eng:0 "§HMecanizado§!:\nCusto de produção:§G-15%§!\nAtaque leve:§G+25%§!\nAtaque pesado:§R-20%§!\nPerfuração:§R-10%§!\nVelocidade máxima:§G+15%§!\n "

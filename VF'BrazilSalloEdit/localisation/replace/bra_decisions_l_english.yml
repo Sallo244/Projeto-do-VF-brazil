@@ -123,7 +123,7 @@
  bra_motor_1_eng:0 "§HMotorized rocket artillery§!:\nProduction cost:§R+15%§!\nSoft attack:§G+15%§!\nReliability:§G+10%§!\nDefense:§G+15%§!\n "
  bra_motorizado_eng:0 "EE-25 Vehicle Concept"
  bra_motorizado_eng_desc:0 "This concept seeks to develop a national vehicle, capable of transporting supplies, troops, capable of handling loads and terrain, cheaper to produce and keep operational."
- bra_motor_2_eng:0 "§HTruck§!:\nProduction cost:§G-10%§!\nReliability:§G+5.00%§!\n "
+ bra_motor_2_eng:0 "§HTruck§!:\nProduction cost:§G-10%§!\nReliability:§G+5.00%§!\nFuel Consumption:§G-16%§!\n "
  bra_mecanizado_1:0 "EE-T4 Ogun Concept"
  bra_mecanizado_1_desc:0 "This concept seeks to develop a national means of combat, compact and light, being airborne, and capable of supporting infantry troops in combat dynamics, and carrying out advanced reconnaissance missions in enemy territory."
  bra_mec_1_eng:0 "§HMechanized§!:\nProduction cost:§G-15%§!\nSoft attack:§G+25%§!\nHard attack:§R-20%§!\nPiercing:§R-10%§!\nMax speed:§G+15%§!\n "

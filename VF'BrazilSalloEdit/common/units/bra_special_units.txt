@@ -85,6 +85,9 @@ bra_caatinga = {
 	
 	supply_consumption = 0.05
 	breakthrough = 0.3
+
+	acclimatization_hot_climate_gain_factor = 0.3
+	acclimatization_cold_climate_gain_factor = -0.3
 	
 	need = {
 		infantry_equipment = 150

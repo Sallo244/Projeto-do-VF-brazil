@@ -1,4 +1,61 @@
 technologies = {
+	
+	caca1_tech = {
+
+		research_cost = 1
+
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+
+		enable_subunits = {
+			bra_fighter_multhole
+		}
+		
+		enable_equipments = {
+			bra_fighter_multhole_equipment_1
+		}
+	}
+	
+	bomber1_tech = {
+
+		research_cost = 1
+
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+
+		enable_subunits = {
+			bra_bomber_multhole
+		}
+		
+		enable_equipments = {
+			bra_bomber_multhole_equipment_1
+		}
+	}
+
+	policia_militar_tech = {
+
+		research_cost = 1
+
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+		
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		enable_subunits = {
+			bra_policia_militar
+		}
+
+	}
 
 	selva_tech = {
 
@@ -42,11 +99,6 @@ technologies = {
 		enable_subunits = {
 			bra_caatinga
 		}
-		
-		bra_caatinga = {
-			acclimatization_hot_climate_gain_factor = 0.3
-			acclimatization_cold_climate_gain_factor = -0.3
-		}
 
 	}
 	
@@ -67,6 +119,15 @@ technologies = {
 			infantry_tech
 		}
 		
+		amphibious_mechanized = {
+			amphibious = {
+				movement = 0.2
+			}
+			river = {
+				movement = 0.2
+			}
+		}
+		
 		mechanized = {
 			amphibious = {
 				movement = 0.2
@@ -76,55 +137,6 @@ technologies = {
 			}
 		}
 
-	}
-	
-	motor_tech = {
-
-		research_cost = 1
-
-		dependencies = {
-			bra_trigger_tech = 1
-		}
-
-		folder = {
-			name = infantry_folder
-			position = { x = 8 y = 20 }
-		}
-		
-		categories = {
-			infantry_tech
-		}
-
-		motorized = {
-			fuel_consumption_factor = -0.16
-		}
-
-	}
-	
-	policia_militar_tech = {
-
-		research_cost = 1
-
-		dependencies = {
-			bra_trigger_tech = 1
-		}
-		
-		folder = {
-			name = support_folder
-			position = { x = 0 y = 0 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-
-		enable_subunits = {
-			bra_policia_militar
-		}
-
-		bra_policia_militar = {
-			suppression = 0.1
-		}
 	}
 	
 	bra_trigger_tech = {
