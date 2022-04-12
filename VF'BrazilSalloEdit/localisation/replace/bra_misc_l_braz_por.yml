@@ -22,3 +22,6 @@
  bra_caatinga:0 "Unidades do CIOpC"
  
  special_tech_subtitle_weapons:0 "PROJETOS ESPECIAIS"
+ 
+ bra_bomber_multhole:0 "Bombardeiro Multimissão"
+ bra_fighter_multhole:0 "Caça Multimissão"

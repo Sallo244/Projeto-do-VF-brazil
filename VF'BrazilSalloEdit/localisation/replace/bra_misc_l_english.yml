@@ -22,3 +22,6 @@
  bra_caatinga:0 "Units of CIOpC"
  
  special_tech_subtitle_weapons:0 "SPECIAL PROJECTS"
+ 
+ bra_bomber_multhole:0 "Bomber Multhole"
+ bra_fighter_multhole:0 "Fighter Multhole"

@@ -199,4 +199,24 @@ spriteTypes = {
 		name = "GFX_ciopc_tech_medium"
 		texturefile = "gfx/interface/technologies/bra_ciopc_tech_tech.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_bra_fighter_multhole_equipment_medium"
+		texturefile = "gfx/interface/technologies/bra_fighter_multhole_equipment.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_caca1_tech_medium"
+		texturefile = "gfx/interface/technologies/bra_fighter_multhole_equipment.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_bra_bomber_multhole_equipment_medium"
+		texturefile = "gfx/interface/technologies/bra_bomber_multhole_equipment.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_bomber1_tech_medium"
+		texturefile = "gfx/interface/technologies/bra_bomber_multhole_equipment.dds"
+	}
 }

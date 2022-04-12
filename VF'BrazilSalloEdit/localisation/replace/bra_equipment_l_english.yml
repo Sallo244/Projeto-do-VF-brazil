@@ -161,3 +161,8 @@
  BRA_support_equipment_1:0 "Equipamento de Suporte"
  BRA_support_equipment_1_short:0 "Equipamento de Suporte"
  
+ bra_bomber_multhole_equipment_1:0 "EMB-C300 Tuiuiú"
+ bra_bomber_multhole_equipment_1_short:0 "EMB-C300 Tuiuiú"
+ 
+ bra_fighter_multhole_equipment_1:0 "EMB-AMX 1A"
+ bra_fighter_multhole_equipment_1_short:0 "EMB-AMX 1A"

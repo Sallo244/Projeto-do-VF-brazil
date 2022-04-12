@@ -7,10 +7,6 @@ technologies = {
 		dependencies = {
 			bra_trigger_tech = 1
 		}
-
-		enable_subunits = {
-			bra_fighter_multhole
-		}
 		
 		enable_equipments = {
 			bra_fighter_multhole_equipment_1
@@ -23,10 +19,6 @@ technologies = {
 
 		dependencies = {
 			bra_trigger_tech = 1
-		}
-
-		enable_subunits = {
-			bra_bomber_multhole
 		}
 		
 		enable_equipments = {

@@ -177,3 +177,17 @@
  bra_tonk_cbc:0 "MB-3 Tamoyo Concept"
  bra_tonk_cbc_desc:0 "This concept seeks to develop a national, mobile means of combat, capable of supporting infantry and armored combat, being dynamic and cheap as well as reliable."
  bra_tank2_cbc:0 "§HModern Tank§!:\nProduction cost:§G-10%§!\nSoft attack:§G+10%§!\nHard attack:§G+10%§!\nReliability:§G+10%§!\nMax speed:§G+10%§!\n "
+ 
+ bra_aviacao_leve1:0 "Project EMB-313 - Super Tucano ACL"
+ bra_aviacao_leve2:0 "Project EMB-312  -  A-27-Tucano"
+ bra_aviacao_leve3:0 "Project EMB-312  -  T-27 Tucano"
+ 
+ bra_aviacao_media1:0 "Project EMB-314 - A-29 Super Tucano"
+ bra_aviacao_media2:0 "Project EMB-311 - Bandeirante PM"
+ 
+ bra_aviacao_special1:0 "Project  EMB-AMX 1A  Harpyja"
+ 
+ bra_aviacao_pesado1:0 "Project EMB-MB"
+ bra_aviacao_pesado2:0 "Project EMB-HB"
+ 
+ bra_aviacao_special2:0 "Project EMB-C300  Tuiuiú"

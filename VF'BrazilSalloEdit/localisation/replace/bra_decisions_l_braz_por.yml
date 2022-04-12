@@ -182,3 +182,17 @@
  bra_tonk_cbc:0 "Conceito MB-3 Tamoyo"
  bra_tonk_cbc_desc:0 "Esse conceito busca desenvolver um meio de combate nacional, movel, e com capacidade de suportar a infantaria e combate blindando, sendo dinamico e barato tanto quanto confiavel."
  bra_tank2_cbc:0 "§HTanque moderno§!:\nCusto de produção:§G-10%§!\nAtaque leve:§G+10%§!\nAtaque pesado:§G+10%§!\nConfiabilidade:§G+10%§!\nVelocidade máxima:§G+10%§!\n "
+ 
+ bra_aviacao_leve1:0 "Projeto EMB-313 - Super Tucano ACL"
+ bra_aviacao_leve2:0 "Projeto EMB-312  -  A-27-Tucano"
+ bra_aviacao_leve3:0 "Projeto EMB-312  -  T-27 Tucano"
+ 
+ bra_aviacao_media1:0 "Projeto EMB-314 - A-29 Super Tucano"
+ bra_aviacao_media2:0 "Projeto EMB-311 - Bandeirante PM"
+ 
+ bra_aviacao_special1:0 "Projeto  EMB-AMX 1A  Harpyja"
+ 
+ bra_aviacao_pesado1:0 "Projeto EMB-MB"
+ bra_aviacao_pesado2:0 "Projeto EMB-HB"
+ 
+ bra_aviacao_special2:0 "Projeto EMB-C300  Tuiuiú"
