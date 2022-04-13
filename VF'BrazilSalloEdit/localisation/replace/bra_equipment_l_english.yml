@@ -160,9 +160,15 @@
  
  BRA_support_equipment_1:0 "Equipamento de Suporte"
  BRA_support_equipment_1_short:0 "Equipamento de Suporte"
+
+ bra_bomber_multhole_equipment:0 "Multimission Bomber"
+ bra_bomber_multhole_equipment_desc:0 "A multipurpose (or multirole) bomber is a military jet aircraft intended to perform different combat roles. A multi-purpose Bomber is a combat aircraft that can perform, at the same time, most operations such as ground attack and types of air-to-ground operations."
  
  bra_bomber_multhole_equipment_1:0 "EMB-C300 Tuiuiú"
  bra_bomber_multhole_equipment_1_short:0 "EMB-C300 Tuiuiú"
+ 
+ bra_fighter_multhole_equipment:0 "Caça Multimissão"
+ bra_fighter_multhole_equipment_desc:0 "A multipurpose (or multirole) fighter is a military jet aircraft intended to perform different combat roles. A multipurpose fighter is a combat aircraft that can simultaneously perform fighter actions in addition to other operations such as ground attack and air-to-air types of operations."
  
  bra_fighter_multhole_equipment_1:0 "EMB-AMX 1A"
  bra_fighter_multhole_equipment_1_short:0 "EMB-AMX 1A"

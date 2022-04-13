@@ -161,8 +161,14 @@
  BRA_support_equipment_1:0 "Equipamento de Suporte"
  BRA_support_equipment_1_short:0 "Equipamento de Suporte"
  
+ bra_bomber_multhole_equipment:0 "Bombardeiro Multimissão"
+ bra_bomber_multhole_equipment_desc:0 "Um Bombardeiro multiúso (ou multimissão) é um avião a jato militar destinada a realizar diferentes papéis de combate. Um Bombardeiro multiúso é uma aeronave de combate que pode realizar, ao mesmo tempo, a maioria das operações como ataque ao solo e tipos de operações ar-solo"
+ 
  bra_bomber_multhole_equipment_1:0 "EMB-C300 Tuiuiú"
  bra_bomber_multhole_equipment_1_short:0 "EMB-C300 Tuiuiú"
+ 
+ bra_fighter_multhole_equipment:0 "Caça Multimissão"
+ bra_fighter_multhole_equipment_desc:0 "Um caça multiúso (ou multimissão) é um avião a jato militar destinada a realizar diferentes papéis de combate. Um caça multiúso é uma aeronave de combate que pode realizar, ao mesmo tempo, ações de caça além de outras operações como ataque ao solo e tipos de operações ar-ar"
  
  bra_fighter_multhole_equipment_1:0 "EMB-AMX 1A"
  bra_fighter_multhole_equipment_1_short:0 "EMB-AMX 1A"
