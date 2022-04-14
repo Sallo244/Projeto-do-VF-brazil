@@ -1199,10 +1199,10 @@ focus_tree = {
 		id = BRA_o_legado_do_brigadeiro
 		icon = GFX_focus_bra_bombardeiro
 		x = 20
-		y = 3
+		y = 5
 		cost = 5
 		
-		prerequisite = { focus = BRA_harpias_altaneiras  }
+		prerequisite = { focus = BRA_aforcaaereabrasileira  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
 			air_experience = 25
@@ -1319,7 +1319,7 @@ focus_tree = {
 		icon = GFX_focus_bra_modernizacao_aerea
 		x = 20
 		y = 4
-		prerequisite = { focus = BRA_o_legado_do_brigadeiro  }
+		prerequisite = { focus = BRA_lagoa_santa  }
 		cost = 10
 		ai_will_do = { factor = 1 }
 		completion_reward = {
@@ -1357,8 +1357,9 @@ focus_tree = {
 		id = BRA_lagoa_santa
 		icon = GFX_focus_bra_CAS
 		x = 20
-		y = 5
-		prerequisite = { focus = BRA_aforcaaereabrasileira  }
+		y = 3
+		
+		prerequisite = { focus = BRA_harpias_altaneiras  }
 		cost = 5
 		ai_will_do = { factor = 1 }
 		completion_reward = {
@@ -1376,7 +1377,10 @@ focus_tree = {
 				uses = 1
 				category = light_fighter
 			}
-			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_hino_aviador_so_4 } }
+			hidden_effect = {
+				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_hino_aviador_so_4 }
+				set_country_flag = bra_aviao_dec_0
+			}
 		}
 	}
 
@@ -1677,7 +1681,7 @@ focus_tree = {
 		y = 6
 		cost = 5
 		
-		prerequisite = { focus = BRA_lagoa_santa  }
+		prerequisite = { focus = BRA_o_legado_do_brigadeiro  }
 		
 		completion_reward = {
 			swap_ideas = { remove_idea = bra_air_in_modernization add_idea = bra_air_modernized }

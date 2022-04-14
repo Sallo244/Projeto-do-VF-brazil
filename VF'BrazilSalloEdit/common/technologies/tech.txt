@@ -34,11 +34,6 @@ technologies = {
 			bra_trigger_tech = 1
 		}
 		
-		folder = {
-			name = support_folder
-			position = { x = 0 y = 0 }
-		}
-		
 		categories = {
 			infantry_weapons
 		}
@@ -55,11 +50,6 @@ technologies = {
 		
 		dependencies = {
 			bra_trigger_tech = 1
-		}
-		
-		folder = {
-			name = support_folder
-			position = { x = 2 y = 0 }
 		}
 		
 		categories = {
@@ -79,11 +69,6 @@ technologies = {
 			bra_trigger_tech = 1
 		}
 		
-		folder = {
-			name = support_folder
-			position = { x = 4 y = 0 }
-		}
-		
 		categories = {
 			infantry_weapons
 		}
@@ -100,11 +85,6 @@ technologies = {
 
 		dependencies = {
 			bra_trigger_tech = 1
-		}
-
-		folder = {
-			name = infantry_folder
-			position = { x = 10 y = 20 }
 		}
 		
 		categories = {

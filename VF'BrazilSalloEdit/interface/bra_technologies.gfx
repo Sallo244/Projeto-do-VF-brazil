@@ -50,10 +50,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/BRA_advanced_heavy_tank.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_BRA_super_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/BRA_super_heavy_tank.dds"
-	}
+	#SpriteType = {
+	#	name = "GFX_BRA_super_heavy_tank_medium"
+	#	texturefile = "gfx/interface/technologies/BRA_super_heavy_tank.dds"
+	#}
 	
 	SpriteType = {
 		name = "GFX_BRA_fighter1_medium"
