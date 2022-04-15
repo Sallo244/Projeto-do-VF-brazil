@@ -1205,6 +1205,7 @@ focus_tree = {
 		prerequisite = { focus = BRA_aforcaaereabrasileira  }
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			custom_effect_tooltip = BRA_brigadeiro_tooltip
 			air_experience = 25
 			add_tech_bonus = {
 				name = tech_bonus
@@ -1363,6 +1364,7 @@ focus_tree = {
 		cost = 5
 		ai_will_do = { factor = 1 }
 		completion_reward = {
+			custom_effect_tooltip = BRA_lagoa_santa_tooltip
 			add_tech_bonus = {
 				name = tech_bonus
 				bonus = 0.5
@@ -1379,7 +1381,7 @@ focus_tree = {
 			}
 			hidden_effect = {
 				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_hino_aviador_so_4 }
-				set_country_flag = bra_aviao_dec_0
+				set_country_flag = bra_aviao_dec_0_flag
 			}
 		}
 	}

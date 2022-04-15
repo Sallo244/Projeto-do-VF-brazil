@@ -321,6 +321,8 @@
  bra_armed_forces_lagged_tooltip:0 "§CDivide a ideia das§! §HForças Armadas Brasileiras§! §Cnos três ramos das Forças Armadas, iniciando assim, o processo de modernização§!"
  bra_ferrovias_nacionais_tooltip:0 "§CInicia o processo de modernização e investimento das ferrovias nacionais§!"
  bra_ciopc_tech_tooltip:0 "O §CCentro de Instrução e Operações na Caatinga - CIOpC§!, focado no treinamento do nosso exército de modo à defender as regiões aridas do Nordeste. Serão criados §CForças Especiais§! Para lutarem nas regiões aridas da nossa nação com §C20%§! de bônus em movimento e Defesa e §C30%§! em Ataque."
+ BRA_lagoa_santa_tooltip:0 "§CDesbloqueia as decisões referentes aos Projetos Conceituais da§! §HLagoa Santa§!\n "
+ BRA_brigadeiro_tooltip:0 "§CLibera novas decisões referentes aos Projetos Conceituais da§! §HLagoa Santa§!\n "
  
  continuous_bra_politicagem:0 "Politicagem"
  continuous_bra_politicagem_desc:0 "A expressão exclusivamente brasileira é a rotina da política dubiosa do mundo ibérico: o Estado gasta seus recursos exclusivamente para perpetuar sua própria existência. Embora isso seja, em geral, considerado ruim, um líder ambicioso pode precisar de muito poder político para realizar seus projetos, e pode obte-lo dedicando parte do tempo útil de sua administração construindo uma 'política paralela'."

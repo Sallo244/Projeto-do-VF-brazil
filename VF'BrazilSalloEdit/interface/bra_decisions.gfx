@@ -50,4 +50,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_cat_engesa.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_cat_aviao"
+		texturefile = "gfx/interface/decisions/decision_cat_aviao.dds"
+	}
+	
 }

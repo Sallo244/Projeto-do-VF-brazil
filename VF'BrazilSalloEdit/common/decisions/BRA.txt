@@ -3584,7 +3584,7 @@ BRA_cbc_dec = {
 			}
 		}
 		remove_effect = {
-			custom_effect_tooltip =  bra_tank2_cbc
+			custom_effect_tooltip = bra_tank2_cbc
 			hidden_effect = {
 				add_ideas = bra_tonk2
 				clr_country_flag = bra_cbc_3_flag
@@ -3672,7 +3672,7 @@ BRA_engesa_dec = {
 			}
 		}
 		remove_effect = {
-			custom_effect_tooltip =  bra_motor_1_eng
+			custom_effect_tooltip = bra_motor_1_eng
 			hidden_effect = {
 				add_ideas = bra_motorizado_foge
 				set_country_flag = bra_engesa_2_flag clr_country_flag = bra_engesa_1_flag
@@ -3759,7 +3759,7 @@ BRA_engesa_dec = {
 			}
 		}
 		remove_effect = {
-			custom_effect_tooltip =  bra_motor_2_eng
+			custom_effect_tooltip = bra_motor_2_eng
 			hidden_effect = {
 				add_ideas = bra_motorizado
 				set_country_flag = bra_engesa_2_flag clr_country_flag = bra_engesa_1_flag
@@ -3847,7 +3847,7 @@ BRA_engesa_dec = {
 			}
 		}
 		remove_effect = {
-			custom_effect_tooltip =  bra_mec_1_eng
+			custom_effect_tooltip = bra_mec_1_eng
 			hidden_effect = {
 				add_ideas = bra_mecanizado1
 				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
@@ -3935,7 +3935,7 @@ BRA_engesa_dec = {
 			}
 		}
 		remove_effect = {
-			custom_effect_tooltip =  bra_mec_2_eng
+			custom_effect_tooltip = bra_mec_2_eng
 			hidden_effect = {
 				add_ideas = bra_mecanizado2
 				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
@@ -4023,7 +4023,7 @@ BRA_engesa_dec = {
 			}
 		}
 		remove_effect = {
-			custom_effect_tooltip =  bra_mec_3_eng
+			custom_effect_tooltip = bra_mec_3_eng
 			hidden_effect = {
 				add_ideas = bra_mecanizado3
 				set_country_flag = bra_engesa_3_flag clr_country_flag = bra_engesa_2_flag
@@ -4111,7 +4111,7 @@ BRA_engesa_dec = {
 			}
 		}
 		remove_effect = {
-			custom_effect_tooltip =  bra_anfib_eng
+			custom_effect_tooltip = bra_anfib_eng
 			set_technology = { anfibio_tech = 1 }
 			hidden_effect = {
 				add_ideas = bra_anfibio1
@@ -4200,7 +4200,7 @@ BRA_engesa_dec = {
 			}
 		}
 		remove_effect = {
-			custom_effect_tooltip =  bra_car_1_eng
+			custom_effect_tooltip = bra_car_1_eng
 			hidden_effect = {
 				add_ideas = bra_carro1
 				set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag
@@ -4288,7 +4288,7 @@ BRA_engesa_dec = {
 			}
 		}
 		remove_effect = {
-			custom_effect_tooltip =  bra_car_2_eng
+			custom_effect_tooltip = bra_car_2_eng
 			hidden_effect = {
 				add_ideas = bra_carro2
 				set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag
@@ -4376,7 +4376,7 @@ BRA_engesa_dec = {
 			}
 		}
 		remove_effect = {
-			custom_effect_tooltip =  bra_car_3_eng
+			custom_effect_tooltip = bra_car_3_eng
 			hidden_effect = {
 				add_ideas = bra_carro3
 				set_country_flag = bra_engesa_4_flag clr_country_flag = bra_engesa_3_flag
@@ -4459,7 +4459,7 @@ BRA_engesa_dec = {
 			}
 		}
 		remove_effect = {
-			custom_effect_tooltip =  bra_tank_1_eng
+			custom_effect_tooltip = bra_tank_1_eng
 			hidden_effect = {
 				add_ideas = bra_tonk1
 				clr_country_flag = bra_engesa_4_flag
@@ -4479,7 +4479,7 @@ BRA_aviao_dec = {
 		
 		available = {
 			has_completed_focus = BRA_lagoa_santa
-			NOT = { has_country_flag = bra_aviao_avaliable }
+			NOT = { has_country_flag = bra_aviao_avaliable_flag }
 		}
 		
 		cost = 75
@@ -4493,7 +4493,7 @@ BRA_aviao_dec = {
 		visible = {
 			has_completed_focus = BRA_lagoa_santa
 			original_tag = BRA
-			has_country_flag = bra_aviao_dec_0
+			has_country_flag = bra_aviao_dec_0_flag
 		}
 		
 		modifier = {
@@ -4502,7 +4502,7 @@ BRA_aviao_dec = {
 		}
 		
 		complete_effect = {
-			hidden_effect = { set_country_flag = bra_aviao_avaliable }
+			hidden_effect = { set_country_flag = bra_aviao_avaliable_flag }
 			if = {
 				limit = {
 					NOT = { has_idea = bra_development_teams1 }
@@ -4545,8 +4545,13 @@ BRA_aviao_dec = {
 			}
 		}
 		remove_effect = {
-			add_ideas = bra_aviao_leve_1
-			hidden_effect = { set_country_flag = bra_aviao_dec_1 clr_country_flag = bra_aviao_avaliable clr_country_flag = bra_aviao_dec_0 }
+			custom_effect_tooltip = bra_aviacao_leve1_tooltip
+			hidden_effect = { 	
+				add_ideas = bra_aviao_leve_1
+				set_country_flag = bra_aviao_dec_1_flag
+				clr_country_flag = bra_aviao_avaliable_flag
+				clr_country_flag = bra_aviao_dec_0_flag
+			}
 		}
 	}
 	
@@ -4560,7 +4565,7 @@ BRA_aviao_dec = {
 		
 		available = {
 			has_completed_focus = BRA_lagoa_santa
-			NOT = { has_country_flag = bra_aviao_avaliable }
+			NOT = { has_country_flag = bra_aviao_avaliable_flag }
 		}
 		
 		cost = 75
@@ -4574,7 +4579,7 @@ BRA_aviao_dec = {
 		visible = {
 			has_completed_focus = BRA_lagoa_santa
 			original_tag = BRA
-			has_country_flag = bra_aviao_dec_0
+			has_country_flag = bra_aviao_dec_0_flag
 		}
 		
 		modifier = {
@@ -4583,7 +4588,7 @@ BRA_aviao_dec = {
 		}
 		
 		complete_effect = {
-			hidden_effect = { set_country_flag = bra_aviao_avaliable }
+			hidden_effect = { set_country_flag = bra_aviao_avaliable_flag }
 			if = {
 				limit = {
 					NOT = { has_idea = bra_development_teams1 }
@@ -4626,8 +4631,13 @@ BRA_aviao_dec = {
 			}
 		}
 		remove_effect = {
-			add_ideas = bra_aviao_leve_2
-			hidden_effect = { set_country_flag = bra_aviao_dec_1 clr_country_flag = bra_aviao_avaliable clr_country_flag = bra_aviao_dec_0 }
+			custom_effect_tooltip = bra_aviacao_leve2_tooltip
+			hidden_effect = { 	
+				add_ideas = bra_aviao_leve_2
+				set_country_flag = bra_aviao_dec_1_flag
+				clr_country_flag = bra_aviao_avaliable_flag
+				clr_country_flag = bra_aviao_dec_0_flag
+			}
 		}
 	}
 	
@@ -4641,7 +4651,7 @@ BRA_aviao_dec = {
 		
 		available = {
 			has_completed_focus = BRA_lagoa_santa
-			NOT = { has_country_flag = bra_aviao_avaliable }
+			NOT = { has_country_flag = bra_aviao_avaliable_flag }
 		}
 		
 		cost = 75
@@ -4655,7 +4665,7 @@ BRA_aviao_dec = {
 		visible = {
 			has_completed_focus = BRA_lagoa_santa
 			original_tag = BRA
-			has_country_flag = bra_aviao_dec_0
+			has_country_flag = bra_aviao_dec_0_flag
 		}
 		
 		modifier = {
@@ -4664,7 +4674,7 @@ BRA_aviao_dec = {
 		}
 		
 		complete_effect = {
-			hidden_effect = { set_country_flag = bra_aviao_avaliable }
+			hidden_effect = { set_country_flag = bra_aviao_avaliable_flag }
 			if = {
 				limit = {
 					NOT = { has_idea = bra_development_teams1 }
@@ -4707,8 +4717,13 @@ BRA_aviao_dec = {
 			}
 		}
 		remove_effect = {
-			add_ideas = bra_aviao_leve_3
-			hidden_effect = { set_country_flag = bra_aviao_dec_1 clr_country_flag = bra_aviao_avaliable clr_country_flag = bra_aviao_dec_0 }
+			custom_effect_tooltip = bra_aviacao_leve3_tooltip
+			hidden_effect = { 	
+				add_ideas = bra_aviao_leve_3
+				set_country_flag = bra_aviao_dec_1_flag
+				clr_country_flag = bra_aviao_avaliable_flag
+				clr_country_flag = bra_aviao_dec_0_flag
+			}
 		}
 	}
 	
@@ -4722,7 +4737,7 @@ BRA_aviao_dec = {
 		
 		available = {
 			has_completed_focus = BRA_lagoa_santa
-			NOT = { has_country_flag = bra_aviao_avaliable }
+			NOT = { has_country_flag = bra_aviao_avaliable_flag }
 		}
 		
 		cost = 75
@@ -4734,7 +4749,7 @@ BRA_aviao_dec = {
 		}
 		
 		visible = {
-			has_country_flag = bra_aviao_dec_1
+			has_country_flag = bra_aviao_dec_1_flag
 			has_completed_focus = BRA_lagoa_santa
 			original_tag = BRA
 		}
@@ -4745,7 +4760,7 @@ BRA_aviao_dec = {
 		}
 		
 		complete_effect = {
-			hidden_effect = { set_country_flag = bra_aviao_avaliable }
+			hidden_effect = { set_country_flag = bra_aviao_avaliable_flag }
 			if = {
 				limit = {
 					NOT = { has_idea = bra_development_teams1 }
@@ -4788,8 +4803,13 @@ BRA_aviao_dec = {
 			}
 		}
 		remove_effect = {
-			add_ideas = bra_aviao_medio_1
-			hidden_effect = { clr_country_flag = bra_aviao_avaliable clr_country_flag = bra_aviao_dec_1 set_country_flag = bra_aviao_dec_2 }
+			custom_effect_tooltip = bra_aviacao_media1_tooltip
+			hidden_effect = { 
+				add_ideas = bra_aviao_medio_1
+				clr_country_flag = bra_aviao_avaliable_flag
+				clr_country_flag = bra_aviao_dec_1_flag
+				set_country_flag = bra_aviao_dec_2_flag
+			}
 		}
 	}
 	
@@ -4803,7 +4823,7 @@ BRA_aviao_dec = {
 		
 		available = {
 			has_completed_focus = BRA_lagoa_santa
-			NOT = { has_country_flag = bra_aviao_avaliable }
+			NOT = { has_country_flag = bra_aviao_avaliable_flag }
 		}
 		
 		cost = 75
@@ -4815,7 +4835,7 @@ BRA_aviao_dec = {
 		}
 		
 		visible = {
-			has_country_flag = bra_aviao_dec_1
+			has_country_flag = bra_aviao_dec_1_flag
 			has_completed_focus = BRA_lagoa_santa
 			original_tag = BRA
 		}
@@ -4826,7 +4846,7 @@ BRA_aviao_dec = {
 		}
 		
 		complete_effect = {
-			hidden_effect = { set_country_flag = bra_aviao_avaliable }
+			hidden_effect = { set_country_flag = bra_aviao_avaliable_flag }
 			if = {
 				limit = {
 					NOT = { has_idea = bra_development_teams1 }
@@ -4869,8 +4889,100 @@ BRA_aviao_dec = {
 			}
 		}
 		remove_effect = {
-			add_ideas = bra_aviao_medio_2
-			hidden_effect = { clr_country_flag = bra_aviao_avaliable clr_country_flag = bra_aviao_dec_1 set_country_flag = bra_aviao_dec_2 }
+			custom_effect_tooltip = bra_aviacao_media2_tooltip
+			hidden_effect = { 	
+				add_ideas = bra_aviao_medio_2
+				clr_country_flag = bra_aviao_avaliable_flag
+				clr_country_flag = bra_aviao_dec_1_flag
+				set_country_flag = bra_aviao_dec_2_flag
+			}
+		}
+	}
+
+	bra_aviacao_media3 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_tech = jet_engines
+			has_completed_focus = BRA_lagoa_santa
+			NOT = { has_country_flag = bra_aviao_avaliable_flag }
+		}
+		
+		cost = 75
+		days_remove = 35
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_aviao_dec_1_flag
+			has_completed_focus = BRA_lagoa_santa
+			original_tag = BRA
+		}
+		
+		modifier = {
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
+		}
+		
+		complete_effect = {
+			hidden_effect = { set_country_flag = bra_aviao_avaliable_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				hidden_effect = { remove_ideas = bra_development_teams1 }
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				hidden_effect = { remove_ideas = bra_development_teams2 }
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_aviacao_media3_tooltip
+			hidden_effect = { 
+				set_technology = { caca1_tech = 1 }
+				clr_country_flag = bra_aviao_avaliable_flag
+				clr_country_flag = bra_aviao_dec_1_flag
+				set_country_flag = bra_aviao_dec_2_flag
+			}
 		}
 	}
 	
@@ -4884,7 +4996,7 @@ BRA_aviao_dec = {
 		
 		available = {
 			has_completed_focus = BRA_o_legado_do_brigadeiro
-			NOT = { has_country_flag = bra_aviao_avaliable }
+			NOT = { has_country_flag = bra_aviao_avaliable_flag }
 		}
 		
 		cost = 75
@@ -4896,7 +5008,7 @@ BRA_aviao_dec = {
 		}
 		
 		visible = {
-			has_country_flag = bra_aviao_dec_2
+			has_country_flag = bra_aviao_dec_2_flag
 			has_completed_focus = BRA_lagoa_santa
 			original_tag = BRA
 		}
@@ -4907,7 +5019,7 @@ BRA_aviao_dec = {
 		}
 		
 		complete_effect = {
-			hidden_effect = { set_country_flag = bra_aviao_avaliable }
+			hidden_effect = { set_country_flag = bra_aviao_avaliable_flag }
 			if = {
 				limit = {
 					NOT = { has_idea = bra_development_teams1 }
@@ -4950,8 +5062,12 @@ BRA_aviao_dec = {
 			}
 		}
 		remove_effect = {
-			add_ideas = bra_aviao_pesado_1
-			hidden_effect = { clr_country_flag = bra_aviao_avaliable clr_country_flag = bra_aviao_dec_1 }
+			custom_effect_tooltip = bra_aviacao_pesado1_tooltip
+			hidden_effect = { 
+				add_ideas = bra_aviao_pesado_1
+				clr_country_flag = bra_aviao_avaliable_flag
+				clr_country_flag = bra_aviao_dec_2_flag
+			}
 		}
 	}
 	
@@ -4965,7 +5081,7 @@ BRA_aviao_dec = {
 		
 		available = {
 			has_completed_focus = BRA_o_legado_do_brigadeiro
-			NOT = { has_country_flag = bra_aviao_avaliable }
+			NOT = { has_country_flag = bra_aviao_avaliable_flag }
 		}
 		
 		cost = 75
@@ -4977,7 +5093,7 @@ BRA_aviao_dec = {
 		}
 		
 		visible = {
-			has_country_flag = bra_aviao_dec_2
+			has_country_flag = bra_aviao_dec_2_flag
 			has_completed_focus = BRA_lagoa_santa
 			original_tag = BRA
 		}
@@ -4988,7 +5104,7 @@ BRA_aviao_dec = {
 		}
 		
 		complete_effect = {
-			hidden_effect = { set_country_flag = bra_aviao_avaliable }
+			hidden_effect = { set_country_flag = bra_aviao_avaliable_flag }
 			if = {
 				limit = {
 					NOT = { has_idea = bra_development_teams1 }
@@ -5031,12 +5147,16 @@ BRA_aviao_dec = {
 			}
 		}
 		remove_effect = {
-			add_ideas = bra_aviao_pesado_2
-			hidden_effect = { clr_country_flag = bra_aviao_avaliable clr_country_flag = bra_aviao_dec_1 }
+			custom_effect_tooltip = bra_aviacao_pesado2_tooltip
+			hidden_effect = { 	
+				add_ideas = bra_aviao_pesado_2
+				clr_country_flag = bra_aviao_avaliable_flag
+				clr_country_flag = bra_aviao_dec_2_flag
+			}
 		}
 	}
 	
-	bra_aviacao_special1 = {
+	bra_aviacao_pesado3 = {
 	
 		icon = generic_power_struggle
 		
@@ -5045,86 +5165,9 @@ BRA_aviao_dec = {
 		}
 		
 		available = {
-			has_completed_focus = BRA_lagoa_santa
 			has_tech = jet_engines
-		}
-		
-		cost = 75
-		days_remove = 35
-		fire_only_once = yes
-		
-		ai_will_do = {
-			factor = 4000
-		}
-		
-		visible = {
-			has_completed_focus = BRA_lagoa_santa
-			original_tag = BRA
-		}
-		
-		modifier = {
-			civilian_factory_use = 1
-			research_speed_factor = -0.002
-		}
-		
-		complete_effect = {
-			if = {
-				limit = {
-					NOT = { has_idea = bra_development_teams1 }
-					NOT = { has_idea = bra_development_teams2 }
-					NOT = { has_idea = bra_development_teams3 }
-				}
-				add_timed_idea = {
-					idea = bra_development_teams1
-					days = 70
-				}
-			}
-			else_if = {
-				limit = {
-					has_idea = bra_development_teams1
-				}
-				hidden_effect = { remove_ideas = bra_development_teams1 }
-				add_timed_idea = {
-					idea = bra_development_teams2
-					days = 70
-				}
-			}
-			else_if = {
-				limit = {
-					has_idea = bra_development_teams2
-				}
-				hidden_effect = { remove_ideas = bra_development_teams2 }
-				add_timed_idea = {
-					idea = bra_development_teams3
-					days = 70
-				}
-			}
-			else_if = {
-				limit = {
-					has_idea = bra_development_teams3
-				}
-				modify_timed_idea = {
-					idea = bra_development_teams3
-					days = 70
-				}
-			}
-		}
-		remove_effect = {
-			set_technology = { caca1_tech = 1 }
-		}
-	}
-	
-	bra_aviacao_special2 = {
-	
-		icon = generic_power_struggle
-		
-		allowed = {
-			original_tag = BRA
-		}
-		
-		available = {
 			has_completed_focus = BRA_o_legado_do_brigadeiro
-			has_tech = jet_engines
+			NOT = { has_country_flag = bra_aviao_avaliable_flag }
 		}
 		
 		cost = 75
@@ -5136,6 +5179,7 @@ BRA_aviao_dec = {
 		}
 		
 		visible = {
+			has_country_flag = bra_aviao_dec_2_flag
 			has_completed_focus = BRA_lagoa_santa
 			original_tag = BRA
 		}
@@ -5146,6 +5190,7 @@ BRA_aviao_dec = {
 		}
 		
 		complete_effect = {
+			hidden_effect = { set_country_flag = bra_aviao_avaliable_flag }
 			if = {
 				limit = {
 					NOT = { has_idea = bra_development_teams1 }
@@ -5188,7 +5233,12 @@ BRA_aviao_dec = {
 			}
 		}
 		remove_effect = {
-			set_technology = { bomber1_tech = 1 }
+			custom_effect_tooltip = bra_aviacao_pesado3_tooltip
+			hidden_effect = { 	
+				set_technology = { bomber1_tech = 1 }
+				clr_country_flag = bra_aviao_avaliable_flag
+				clr_country_flag = bra_aviao_dec_2_flag
+			}
 		}
 	}
 }
