@@ -89,4 +89,9 @@ spriteTypes = {
 		name = "GFX_bra.23"
 		texturefile = "gfx/event_pictures/bra.23.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_bra.24"
+		texturefile = "gfx/event_pictures/bra.24.dds"
+	}
 }

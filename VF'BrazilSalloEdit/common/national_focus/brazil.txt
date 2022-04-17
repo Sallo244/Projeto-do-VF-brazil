@@ -1802,6 +1802,25 @@ focus_tree = {
 		}
 	}
 	
+	#SNI
+	focus = {
+		id = BRA_sni
+		icon = GFX_focus_bra_sni
+		x = 14
+		y = 0
+		cost = 5
+		
+		available = {
+			has_completed_focus = BRA_reorganizarasforcaspublicas
+			has_completed_focus = BRA_a_polaca
+		}
+		
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = bra.24
+		}
+	}
+	
 	#CIOpC
 	focus = {
 		id = BRA_ciopc

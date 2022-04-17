@@ -587,4 +587,10 @@ leader_traits = {
 		
 	}
 	
+	vfb_trait_espionage = {
+		random = no
+		operative_slot = 1
+		agency_upgrade_time = -0.15
+	}
+	
 }

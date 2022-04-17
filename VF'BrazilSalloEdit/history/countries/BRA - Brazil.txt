@@ -9,6 +9,7 @@ set_stability = 0.4
 set_war_support = 0.2
 
 ### POLITICAL ADVISORS ###
+recruit_character = BRA_golberry_couto
 recruit_character = BRA_franscisco_morato
 recruit_character = BRA_gustavo_capanema
 recruit_character = BRA_lindolfo_collor

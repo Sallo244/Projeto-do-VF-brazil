@@ -1,7 +1,7 @@
 intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_bra
-	names = { "National Intelligence Service" }
+	names = { "Serviço Nacional de Informações" }
 	
 	default = { tag = BRA }
 	available = { original_tag = BRA }

@@ -1311,6 +1311,66 @@ ideas = {
 			}
 		}
 		
+		bra_idea_sni1 = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = bra_idea_sni_defense
+			
+			removal_cost = -1
+			
+			modifier = {
+				intelligence_agency_defense = 2.5
+				root_out_resistance_effectiveness_factor = 0.25
+			}
+		}
+		
+		bra_idea_sni2 = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = bra_idea_sni_attack
+			
+			removal_cost = -1
+			
+			modifier = {
+				decryption = 25
+				intel_network_gain_factor = 0.1
+				operation_coordinated_strike_outcome = 0.1 
+			}
+		}
+		
+		bra_idea_sni3 = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = bra_idea_sni_igual
+			
+			removal_cost = -1
+			
+			modifier = {
+				agency_upgrade_time = -0.5
+			}
+		}
+		
 		bra_development_teams1 = {
 			
 			allowed = {

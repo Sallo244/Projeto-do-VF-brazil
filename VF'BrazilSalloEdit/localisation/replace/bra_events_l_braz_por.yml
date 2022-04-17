@@ -129,3 +129,11 @@
  bra_armed_forces.02.d:0 "Depois de anos, de esforço, e investimentos árduos, conseguimos, deixar a dependência das táticas, dos velhos poderes, com nossas escolas de guerra, estrutura de nossas forças, design e desenvolvimento de meios, somos um exercito de ponta, capaz de enfrentar cada um dos grandes poderes, atingimos um ápice de uma maquina de guerra, e usaremos esse poder para defender cada metro quadrado de nossa continental nação."
  bra_armed_forces.02.a:0 "Que informação Incrivel."
  bra_armed_forces.02.tt:0 "Unifica os Três ramos Forças Armadas nas §HForças Armadas Brasileiras§!"
+ 
+ bra.24:0 "Criação de uma Agencia de Espionagem"
+ bra_sni_1.02.t:0 "Criação da Serviço Nacional de Informações (SNI)"
+ bra_sni_1.02.d:0 "Com as tensões que despontam além do horizonte, agora mais do que nunca precisamos de uma força de inteligência e contra inteligência bem preparada e equipada, que nos ajudará a manter tanto a ordem e segurança em nosso território, além de nos manter de olhos abertos sobre o que esta acontecendo ao redor do mundo. Os primeiros passos para a sua criação já foram dados, mas ainda precisamos de um norte para podermos prosseguir, acha que devemos focar na espionagem estrangeira ou na defesa interna senhor?"
+ bra_sni_1.02.a:0 "Devemos focar em nossa própria casa antes que o pior aconteça."
+ bra_sni_1.02.b:0 "Devemos ficar de olhos abertos em nossos inimigos... e aliados."
+ bra_sni_1.02.c:0 "Do que adianta focarmos em algo no momento, se não temos um local para treinarmos nossos agentes."
+ bra_sni_1.02.tt:0 "É criado imediatamente o §HServiço Nacional de Informações (SNI)§! quando selecionado."

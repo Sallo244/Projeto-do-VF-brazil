@@ -1027,6 +1027,30 @@ characters={
 
 	### POLITICAL ADVISORS ###
 	
+	BRA_golberry_couto={
+		name=BRA_golberry_couto
+		portraits={
+			army={
+				small="GFX_idea_advisor_golberry"
+			}
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = BRA_golberry_couto
+			allowed  = {
+				original_tag = BRA
+				has_dlc = "La Resistance"
+			}
+			available = {
+				has_completed_focus = BRA_sni
+			}
+			traits = {
+				vfb_trait_espionage
+			}
+		}		
+	}
+	
 	BRA_franscisco_morato={
 		name=BRA_franscisco_morato
 		portraits={
@@ -1039,7 +1063,7 @@ characters={
 			slot = political_advisor
 			idea_token = BRA_franscisco_morato
 			allowed  = {
-				original_tag  = BRA
+				original_tag = BRA
 			}
 			traits  = {
 				vfb_trait_morato
@@ -1059,7 +1083,7 @@ characters={
 			slot = political_advisor
 			idea_token = BRA_gustavo_capanema
 			allowed  = {
-				original_tag  = BRA
+				original_tag = BRA
 			}
 			traits  = {
 				vfb_trait_capanema
@@ -1080,7 +1104,7 @@ characters={
 			slot = political_advisor
 			idea_token = BRA_lindolfo_collor
 			allowed  = {
-				original_tag  = BRA
+				original_tag = BRA
 			}
 			visible = { NOT = { has_completed_focus = BRA_clt } }
 			traits  = {
@@ -1101,7 +1125,7 @@ characters={
 			slot = political_advisor
 			idea_token = BRA_alfredo_de_almeida
 			allowed  = {
-				original_tag  = BRA
+				original_tag = BRA
 			}
 			traits  = {
 				vfb_trait_alfredo
@@ -1121,7 +1145,7 @@ characters={
 			slot = political_advisor
 			idea_token = BRA_osvaldo_aranha
 			allowed  = {
-				original_tag  = BRA
+				original_tag = BRA
 			}
 			traits  = {
 				vfb_trait_aranha
@@ -1141,7 +1165,7 @@ characters={
 			slot = political_advisor
 			idea_token = BRA_afranio_de_mello_franco
 			allowed  = {
-				original_tag  = BRA
+				original_tag = BRA
 			}
 			traits  = {
 				vfb_trait_afranio
@@ -1161,11 +1185,11 @@ characters={
 			slot = political_advisor
 			idea_token = BRA_oswald_de_andrade
 			allowed  = {
-				original_tag  = BRA
+				original_tag = BRA
 			}
 			available = {
 				has_completed_focus = BRA_continuar_a_coluna_prestes
-				}
+			}
 			traits  = {
 				vfb_trait_oswald
 				vfb_trait_escritor
@@ -1185,7 +1209,7 @@ characters={
 			slot = political_advisor
 			idea_token = BRA_guimaraes_rosa
 			allowed  = {
-				original_tag  = BRA
+				original_tag = BRA
 			}
 			available = {
 				has_completed_focus = BRA_o_xadrez_de_vargas
@@ -1209,7 +1233,7 @@ characters={
 			slot = political_advisor
 			idea_token = BRA_menotti_del_picchia
 			allowed  = {
-				original_tag  = BRA
+				original_tag = BRA
 			}
 			available = {
 				has_completed_focus = BRA_formalizaraacao
@@ -1233,7 +1257,7 @@ characters={
 			slot = political_advisor
 			idea_token = BRA_monteiro_lobato
 			allowed  = {
-				original_tag  = BRA
+				original_tag = BRA
 			}
 			available = {
 				has_completed_focus = BRA_non_dvcor_dvco
@@ -1257,7 +1281,7 @@ characters={
 			slot = political_advisor
 			idea_token = BRA_arlindo_veiga
 			allowed  = {
-				original_tag  = BRA
+				original_tag = BRA
 			}
 			available = {
 				has_completed_focus = BRA_formalizar_o_patrianovismo_na_ilegalidade

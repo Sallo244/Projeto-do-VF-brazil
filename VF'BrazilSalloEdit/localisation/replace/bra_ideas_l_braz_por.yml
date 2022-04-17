@@ -68,6 +68,7 @@
  BRA_franscisco_morato:0 "Francisco Morato"
  BRA_gustavo_capanema:0 "Gustavo Capanema"
  BRA_lindolfo_collor:0 "Lindolfo Collor"
+ BRA_golberry_couto:0 "Golbery do Couto e Silva"
  #bra_fed_uni_imp_tdg:0 "Voluntários da Pátria"
  #bra_national_unity_weekly_tdg:0 "Tiro de Guerra"
  #bra_estadonovo_tdg:0 "Tiro de Guerra"
@@ -238,3 +239,9 @@
  
  bra_armed_forces_modernized:0 "Forças Armadas Brasileiras"
  bra_armed_forces_modernized_desc:0 "Depois de anos, de esforço, e investimentos árduos, conseguimos, deixar a dependência das táticas, dos velhos poderes, com nossas escolas de guerra, estrutura de nossas forças, design e desenvolvimento de meios, somos um exercito de ponta, capaz de enfrentar cada um dos grandes poderes, atingimos um ápice de uma maquina de guerra, e usaremos esse poder para defender cada metro quadrado de nossa continental nação."
+ bra_idea_sni1:0 "Prioridade na Defesa Interna"
+ bra_idea_sni1_desc:0 ""
+ bra_idea_sni2:0 "Prioridade no Impulso Internacional"
+ bra_idea_sni2_desc:0 ""
+ bra_idea_sni3:0 "Prioridade na infraestrutura da Agencia"
+ bra_idea_sni3_desc:0 ""

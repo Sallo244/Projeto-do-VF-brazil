@@ -550,4 +550,9 @@ spriteTypes = {
 		name = "GFX_focus_bra_ciopc"
 		texturefile = "gfx/interface/goals/bra_ciopc2.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_focus_bra_sni"
+		texturefile = "gfx/interface/goals/bra_sni.dds"
+	}
 }

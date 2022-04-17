@@ -41,6 +41,38 @@ country_event = {
 }
 
 country_event = {
+	id = bra.24
+	title = bra_sni_1.02.t
+	desc = bra_sni_1.02.d
+	picture = GFX_bra.24
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = bra_sni_1.02.a
+		ai_chance = { factor = 80 }
+		add_ideas = bra_idea_sni1
+		custom_effect_tooltip = bra_sni_1.02.tt
+		hidden_effect = { create_intelligence_agency = yes }
+	}
+	option = {
+		name = bra_sni_1.02.b
+		ai_chance = { factor = 10 }
+		add_ideas = bra_idea_sni2
+		custom_effect_tooltip = bra_sni_1.02.tt
+		hidden_effect = { create_intelligence_agency = yes }
+	}
+	option = {
+		name = bra_sni_1.02.c
+		ai_chance = { factor = 10 }
+		add_ideas = bra_idea_sni3
+		custom_effect_tooltip = bra_sni_1.02.tt
+		hidden_effect = { create_intelligence_agency = yes }
+	}
+}
+
+country_event = {
 	id = bra.21
 	title = bra.21.t
 	desc = bra.21.d

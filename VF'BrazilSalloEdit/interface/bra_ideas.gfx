@@ -6,6 +6,21 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_idea_bra_idea_sni_attack"
+		texturefile = "gfx//interface//ideas//bra_idea_sni_attack.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_bra_idea_sni_defense"
+		texturefile = "gfx//interface//ideas//bra_idea_sni_defense.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_bra_idea_sni_igual"
+		texturefile = "gfx//interface//ideas//bra_idea_sni_igual.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_idea_BRA_feb"
 		texturefile = "gfx//interface//ideas//idea_BRA_feb.dds"
 	}
@@ -198,6 +213,11 @@ spriteTypes = {
 	spriteType = {
     		name = "GFX_idea_advisor_aristides"
     		texturefile = "gfx//interface//ideas//idea_advisor_aristides.dds"
+	}
+	
+	spriteType = {
+    		name = "GFX_idea_advisor_golberry"
+    		texturefile = "gfx//interface//ideas//idea_advisor_golberry.dds"
 	}
 	
 	spriteType = {

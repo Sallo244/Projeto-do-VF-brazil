@@ -68,6 +68,7 @@
  BRA_franscisco_morato:0 "Francisco Morato"
  BRA_gustavo_capanema:0 "Gustavo Capanema"
  BRA_lindolfo_collor:0 "Lindolfo Collor"
+ BRA_golberry_couto:0 "Golbery do Couto e Silva"
  #bra_fed_uni_imp_tdg:0 "Fatherland Volunteers"
  #bra_national_unity_weekly_tdg:0 "Tiro de Guerra"
  #bra_estadonovo_tdg:0 "Tiro de Guerra"
@@ -239,3 +240,9 @@
  
  bra_armed_forces_modernized:0 "Brazilian Armed Forces"
  bra_armed_forces_modernized_desc:0 "After years, effort, and arduous investments, we managed to leave the dependence on tactics, on the old powers, with our schools of war, structure of our forces, design and development of means, we are a cutting-edge army, capable of facing every one of the great powers, we have reached the apex of a war machine, and we will use that power to defend every square meter of our continental nation."
+ bra_idea_sni1:0 "Priority in Internal Defense"
+ bra_idea_sni1_desc:0 ""
+ bra_idea_sni2:0 "Priority in International Impulse"
+ bra_idea_sni2_desc:0 ""
+ bra_idea_sni3:0 "Priority in the Agency's infrastructure"
+ bra_idea_sni3_desc:0 ""

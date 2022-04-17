@@ -129,3 +129,11 @@
  bra_armed_forces.02.d:0 "After years, effort, and arduous investments, we managed to leave the dependence on tactics, on the old powers, with our schools of war, structure of our forces, design and development of means, we are a cutting-edge army, capable of facing every one of the great powers, we have reached the apex of a war machine, and we will use that power to defend every square meter of our continental nation."
  bra_armed_forces.02.a:0 "it's incredible information."
  bra_armed_forces.02.tt:0 "It unifies the Three Armed Forces branches in the §HBrazilian Armed Forces§!"
+ 
+ bra.24:0 "Creation of a Spy Agency"
+ bra_sni_1.02.t:0 "Creation of the National Information Service (SNI)"
+ bra_sni_1.02.d:0 "With tensions looming beyond the horizon, now more than ever we need a well-prepared and equipped intelligence and counterintelligence force that will help us maintain both order and security in our territory, as well as keeping our eyes peeled for what is happening around the world. The first steps towards its creation have already been taken, but we still need a north in order to proceed, do you think we should focus on foreign espionage or internal defense sir?"
+ bra_sni_1.02.a:0 "We must focus on our own home before the worst happens."
+ bra_sni_1.02.b:0 "We must keep our eyes peeled for our enemies... and allies."
+ bra_sni_1.02.c:0 "What's the point of focusing on something at the moment, if we don't have a place to train our agents."
+ bra_sni_1.02.tt:0 "The §HNational Information Service (SNI)§! is created immediately when selected."
