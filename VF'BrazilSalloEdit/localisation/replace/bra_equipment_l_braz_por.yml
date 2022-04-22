@@ -172,3 +172,6 @@
  
  bra_fighter_multhole_equipment_1:0 "EMB-AMX 1A"
  bra_fighter_multhole_equipment_1_short:0 "EMB-AMX 1A"
+ 
+ ship_hull_submarine_nuclear:0 "Classe SCMPN Santa Catarina"
+ ship_hull_submarine_nuclear_short:0 "Classe SCMPN Santa Catarina"

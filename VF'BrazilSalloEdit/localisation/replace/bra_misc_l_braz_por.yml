@@ -17,12 +17,16 @@
  bra_cbc_flag:0 "Decisão de conceito dos equipamentos em progresso"
  bra_eng_flag:0 "Decisão de conceito dos equipamentos em progresso"
  bra_aviao_avaliable_flag:0 "Decisão de conceito dos equipamentos em progresso"
+ bra_navio_avaliable_flag:0 "Decisão de conceito dos equipamentos em progresso"
  
  bra_policia_militar:0 "Policia Militar"
  bra_selva:0 "Guerreiros da Selva"
  bra_caatinga:0 "Unidades do CIOpC"
  
- special_tech_subtitle_weapons:0 "PROJETOS ESPECIAIS"
+ bra_sub_reactor_module:0 "RMB-01"
+ bra_sub_reactor_module_desc:0 "O RMB-01(Reator Multipropósito Brasileiro 01) é o apice final da tecnologia brasileira quando se fala de propulsão nuclear, com capacidades nunca antes vistas no mundo."
+ 
+ EQ_MOD_CAT_sub_nuclear_reactor_TITLE:0 "Propulsor Nuclear"
  
  bra_bomber_multhole:0 "Bombardeiro Multimissão"
  bra_fighter_multhole:0 "Caça Multimissão"

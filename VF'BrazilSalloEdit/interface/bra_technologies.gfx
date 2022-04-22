@@ -219,4 +219,19 @@ spriteTypes = {
 		name = "GFX_bomber1_tech_medium"
 		texturefile = "gfx/interface/technologies/bra_bomber_multhole_equipment.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_submarine1_tech_medium"
+		texturefile = "gfx/interface/technologies/bra_nuclear_submarine.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ship_hull_submarine_nuclear_medium"
+		texturefile = "gfx/interface/technologies/bra_nuclear_submarine.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SMI_nuclear_reactor_module"
+		texturefile = "gfx/interface/technologies/nuclear_reator.dds"
+	}
 }

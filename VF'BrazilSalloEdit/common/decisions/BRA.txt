@@ -3603,6 +3603,7 @@ BRA_engesa_dec = {
 		}
 		
 		available = {
+			has_tech = experimental_rockets
 			NOT = {
 				has_country_flag = bra_eng_flag
 			}
@@ -4914,7 +4915,7 @@ BRA_aviao_dec = {
 		}
 		
 		cost = 75
-		days_remove = 35
+		days_remove = 100
 		fire_only_once = yes
 		
 		ai_will_do = {
@@ -4942,7 +4943,7 @@ BRA_aviao_dec = {
 				}
 				add_timed_idea = {
 					idea = bra_development_teams1
-					days = 70
+					days = 140
 				}
 			}
 			else_if = {
@@ -4952,7 +4953,7 @@ BRA_aviao_dec = {
 				hidden_effect = { remove_ideas = bra_development_teams1 }
 				add_timed_idea = {
 					idea = bra_development_teams2
-					days = 70
+					days = 140
 				}
 			}
 			else_if = {
@@ -4962,7 +4963,7 @@ BRA_aviao_dec = {
 				hidden_effect = { remove_ideas = bra_development_teams2 }
 				add_timed_idea = {
 					idea = bra_development_teams3
-					days = 70
+					days = 140
 				}
 			}
 			else_if = {
@@ -4971,7 +4972,7 @@ BRA_aviao_dec = {
 				}
 				modify_timed_idea = {
 					idea = bra_development_teams3
-					days = 70
+					days = 140
 				}
 			}
 		}
@@ -5171,7 +5172,7 @@ BRA_aviao_dec = {
 		}
 		
 		cost = 75
-		days_remove = 35
+		days_remove = 100
 		fire_only_once = yes
 		
 		ai_will_do = {
@@ -5191,6 +5192,93 @@ BRA_aviao_dec = {
 		
 		complete_effect = {
 			hidden_effect = { set_country_flag = bra_aviao_avaliable_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 140
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				hidden_effect = { remove_ideas = bra_development_teams1 }
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 140
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				hidden_effect = { remove_ideas = bra_development_teams2 }
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 140
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 140
+				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_aviacao_pesado3_tooltip
+			hidden_effect = { 	
+				set_technology = { bomber1_tech = 1 }
+				clr_country_flag = bra_aviao_avaliable_flag
+				clr_country_flag = bra_aviao_dec_2_flag
+			}
+		}
+	}
+}
+
+BRA_navio_dec = {
+	bra_submarino1 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			NOT = { has_country_flag = bra_navio_avaliable_flag }
+		}
+		
+		cost = 75
+		days_remove = 35
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_navio_dec_0_flag
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			original_tag = BRA
+		}
+		
+		modifier = {
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
+		}
+		
+		complete_effect = {
+			hidden_effect = { set_country_flag = bra_navio_avaliable_flag }
 			if = {
 				limit = {
 					NOT = { has_idea = bra_development_teams1 }
@@ -5233,11 +5321,877 @@ BRA_aviao_dec = {
 			}
 		}
 		remove_effect = {
-			custom_effect_tooltip = bra_aviacao_pesado3_tooltip
-			hidden_effect = { 	
-				set_technology = { bomber1_tech = 1 }
-				clr_country_flag = bra_aviao_avaliable_flag
-				clr_country_flag = bra_aviao_dec_2_flag
+			custom_effect_tooltip = bra_submarino1_tooltip
+			
+			hidden_effect = {
+				clr_country_flag = bra_navio_avaliable_flag
+				clr_country_flag = bra_navio_dec_0_flag
+				set_country_flag = bra_navio_dec_1_flag
+				add_ideas = bra_submarino_1
+			}
+		}
+	}
+	
+	bra_submarino2 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			NOT = { has_country_flag = bra_navio_avaliable_flag }
+		}
+		
+		cost = 75
+		days_remove = 35
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_navio_dec_0_flag
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			original_tag = BRA
+		}
+		
+		modifier = {
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
+		}
+		
+		complete_effect = {
+			hidden_effect = { set_country_flag = bra_navio_avaliable_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				hidden_effect = { remove_ideas = bra_development_teams1 }
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				hidden_effect = { remove_ideas = bra_development_teams2 }
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_submarino2_tooltip
+			
+			hidden_effect = {
+				clr_country_flag = bra_navio_avaliable_flag
+				clr_country_flag = bra_navio_dec_0_flag
+				set_country_flag = bra_navio_dec_1_flag
+				add_ideas = bra_submarino_2
+			}
+		}
+	}
+	
+	bra_submarino3 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			NOT = { has_country_flag = bra_navio_avaliable_flag }
+		}
+		
+		cost = 75
+		days_remove = 35
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_navio_dec_0_flag
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			original_tag = BRA
+		}
+		
+		modifier = {
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
+		}
+		
+		complete_effect = {
+			hidden_effect = { set_country_flag = bra_navio_avaliable_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				hidden_effect = { remove_ideas = bra_development_teams1 }
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				hidden_effect = { remove_ideas = bra_development_teams2 }
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_submarino3_tooltip
+			
+			hidden_effect = {
+				clr_country_flag = bra_navio_avaliable_flag
+				clr_country_flag = bra_navio_dec_0_flag
+				set_country_flag = bra_navio_dec_1_flag
+				add_ideas = bra_submarino_3
+			}
+		}
+	}
+	
+	bra_submarino4 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			NOT = { has_country_flag = bra_navio_avaliable_flag }
+		}
+		
+		cost = 75
+		days_remove = 100
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_navio_dec_0_flag
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			original_tag = BRA
+		}
+		
+		modifier = {
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
+		}
+		
+		complete_effect = {
+			hidden_effect = { set_country_flag = bra_navio_avaliable_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 140
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				hidden_effect = { remove_ideas = bra_development_teams1 }
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 140
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				hidden_effect = { remove_ideas = bra_development_teams2 }
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 140
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 140
+				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_submarino4_tooltip
+			
+			hidden_effect = {
+				set_technology = { submarine1_tech = 1 }
+				clr_country_flag = bra_navio_avaliable_flag
+				clr_country_flag = bra_navio_dec_0_flag
+				set_country_flag = bra_navio_dec_1_flag
+			}
+		}
+	}
+	
+	bra_DD_LC_1 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = BRA_encouracados
+			NOT = { has_country_flag = bra_navio_avaliable_flag }
+		}
+		
+		cost = 75
+		days_remove = 35
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_navio_dec_1_flag
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			original_tag = BRA
+		}
+		
+		modifier = {
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
+		}
+		
+		complete_effect = {
+			hidden_effect = { set_country_flag = bra_navio_avaliable_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				hidden_effect = { remove_ideas = bra_development_teams1 }
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				hidden_effect = { remove_ideas = bra_development_teams2 }
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_DD1_tooltip
+			
+			hidden_effect = {
+				clr_country_flag = bra_navio_avaliable_flag
+				clr_country_flag = bra_navio_dec_1_flag
+				set_country_flag = bra_navio_dec_2_flag
+				add_ideas = bra_destroyer_1
+			}
+		}
+	}
+	
+	bra_DD_LC_2 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = BRA_encouracados
+			NOT = { has_country_flag = bra_navio_avaliable_flag }
+		}
+		
+		cost = 75
+		days_remove = 35
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_navio_dec_1_flag
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			original_tag = BRA
+		}
+		
+		modifier = {
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
+		}
+		
+		complete_effect = {
+			hidden_effect = { set_country_flag = bra_navio_avaliable_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				hidden_effect = { remove_ideas = bra_development_teams1 }
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				hidden_effect = { remove_ideas = bra_development_teams2 }
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_DD2_tooltip
+			
+			hidden_effect = {
+				clr_country_flag = bra_navio_avaliable_flag
+				clr_country_flag = bra_navio_dec_1_flag
+				set_country_flag = bra_navio_dec_2_flag
+				add_ideas = bra_destroyer_2
+			}
+		}
+	}
+	
+	bra_DD_LC_3 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = BRA_encouracados
+			NOT = { has_country_flag = bra_navio_avaliable_flag }
+		}
+		
+		cost = 75
+		days_remove = 35
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_navio_dec_1_flag
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			original_tag = BRA
+		}
+		
+		modifier = {
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
+		}
+		
+		complete_effect = {
+			hidden_effect = { set_country_flag = bra_navio_avaliable_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				hidden_effect = { remove_ideas = bra_development_teams1 }
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				hidden_effect = { remove_ideas = bra_development_teams2 }
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_DD3_tooltip
+			
+			hidden_effect = {
+				clr_country_flag = bra_navio_avaliable_flag
+				clr_country_flag = bra_navio_dec_1_flag
+				set_country_flag = bra_navio_dec_2_flag
+				add_ideas = bra_destroyer_3
+			}
+		}
+	}
+	
+	bra_navio_pesado1 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = BRA_encouracados
+			NOT = { has_country_flag = bra_navio_avaliable_flag }
+		}
+		
+		cost = 75
+		days_remove = 35
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_navio_dec_2_flag
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			original_tag = BRA
+		}
+		
+		modifier = {
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
+		}
+		
+		complete_effect = {
+			hidden_effect = { set_country_flag = bra_navio_avaliable_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				hidden_effect = { remove_ideas = bra_development_teams1 }
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				hidden_effect = { remove_ideas = bra_development_teams2 }
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_pesado1_tooltip
+			
+			hidden_effect = {
+				clr_country_flag = bra_navio_avaliable_flag
+				clr_country_flag = bra_navio_dec_2_flag
+				add_ideas = bra_navio_pesado_1
+			}
+		}
+	}
+	
+	bra_navio_pesado2 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = BRA_encouracados
+			NOT = { has_country_flag = bra_navio_avaliable_flag }
+		}
+		
+		cost = 75
+		days_remove = 35
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_navio_dec_2_flag
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			original_tag = BRA
+		}
+		
+		modifier = {
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
+		}
+		
+		complete_effect = {
+			hidden_effect = { set_country_flag = bra_navio_avaliable_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				hidden_effect = { remove_ideas = bra_development_teams1 }
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				hidden_effect = { remove_ideas = bra_development_teams2 }
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_pesado2_tooltip
+			
+			hidden_effect = {
+				clr_country_flag = bra_navio_avaliable_flag
+				clr_country_flag = bra_navio_dec_2_flag
+				add_ideas = bra_navio_pesado_2
+			}
+		}
+	}
+	
+	bra_navio_pesado3 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = BRA_encouracados
+			NOT = { has_country_flag = bra_navio_avaliable_flag }
+		}
+		
+		cost = 75
+		days_remove = 35
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_navio_dec_2_flag
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			original_tag = BRA
+		}
+		
+		modifier = {
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
+		}
+		
+		complete_effect = {
+			hidden_effect = { set_country_flag = bra_navio_avaliable_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				hidden_effect = { remove_ideas = bra_development_teams1 }
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				hidden_effect = { remove_ideas = bra_development_teams2 }
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 70
+				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_pesado3_tooltip
+			
+			hidden_effect = { 
+				clr_country_flag = bra_navio_avaliable_flag
+				clr_country_flag = bra_navio_dec_2_flag
+				add_ideas = bra_navio_pesado_3
+			}
+		}
+	}
+	
+	bra_navio_pesado4 = {
+	
+		icon = generic_power_struggle
+		
+		allowed = {
+			original_tag = BRA
+		}
+		
+		available = {
+			has_completed_focus = BRA_encouracados
+			NOT = { has_country_flag = bra_navio_avaliable_flag }
+		}
+		
+		cost = 75
+		days_remove = 100
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		visible = {
+			has_country_flag = bra_navio_dec_2_flag
+			has_completed_focus = BRA_estudar_submarinos_italianos
+			original_tag = BRA
+		}
+		
+		modifier = {
+			civilian_factory_use = 1
+			research_speed_factor = -0.002
+		}
+		
+		complete_effect = {
+			hidden_effect = { set_country_flag = bra_navio_avaliable_flag }
+			if = {
+				limit = {
+					NOT = { has_idea = bra_development_teams1 }
+					NOT = { has_idea = bra_development_teams2 }
+					NOT = { has_idea = bra_development_teams3 }
+				}
+				add_timed_idea = {
+					idea = bra_development_teams1
+					days = 140
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams1
+				}
+				hidden_effect = { remove_ideas = bra_development_teams1 }
+				add_timed_idea = {
+					idea = bra_development_teams2
+					days = 140
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams2
+				}
+				hidden_effect = { remove_ideas = bra_development_teams2 }
+				add_timed_idea = {
+					idea = bra_development_teams3
+					days = 140
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_development_teams3
+				}
+				modify_timed_idea = {
+					idea = bra_development_teams3
+					days = 140
+				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = bra_pesado4_tooltip
+			hidden_effect = {
+				clr_country_flag = bra_navio_avaliable_flag
+				clr_country_flag = bra_navio_dec_2_flag
 			}
 		}
 	}

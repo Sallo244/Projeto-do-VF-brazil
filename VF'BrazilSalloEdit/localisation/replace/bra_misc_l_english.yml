@@ -17,10 +17,16 @@
  bra_cbc_flag:0 "Concept decision of the equipment in progress"
  bra_eng_flag:0 "Concept decision of the equipment in progress"
  bra_aviao_avaliable_flag:0 "Concept decision of the equipment in progress"
+ bra_navio_avaliable_flag:0 "Concept decision of the equipment in progress"
 
  bra_policia_militar:0 "'Policia Militar'"
  bra_selva:0 "jungle warriors"
  bra_caatinga:0 "Units of CIOpC"
+ 
+ bra_sub_reactor_module:0 "RMB-01"
+ bra_sub_reactor_module_desc:0 "The RMB-01 (Brazilian Multipurpose Reactor 01) is the final apex of Brazilian technology when it comes to nuclear propulsion, with capabilities never seen before in the world."
+ 
+ EQ_MOD_CAT_sub_nuclear_reactor_TITLE:0 "nuclear engine"
  
  bra_bomber_multhole:0 "Bomber Multhole"
  bra_fighter_multhole:0 "Fighter Multhole"

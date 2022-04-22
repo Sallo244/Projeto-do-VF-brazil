@@ -103,6 +103,16 @@ BRA_aviao_dec = {
 	}
 }
 
+BRA_navio_dec = {
+	
+	picture = GFX_decision_cat_navio
+	
+	icon = GFX_decision_category_military_operation
+	allowed = {
+		original_tag = BRA
+	}
+}
+
 BRA_voz_ligada_cat = {
 	
 	picture = GFX_decision_cat_voz_ligada
