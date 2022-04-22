@@ -5515,6 +5515,7 @@ BRA_navio_dec = {
 		}
 		
 		available = {
+			has_tech = nuclear_reactor
 			has_completed_focus = BRA_estudar_submarinos_italianos
 			NOT = { has_country_flag = bra_navio_avaliable_flag }
 		}
@@ -6121,6 +6122,7 @@ BRA_navio_dec = {
 		}
 		
 		available = {
+			has_tech = nuclear_reactor
 			has_completed_focus = BRA_encouracados
 			NOT = { has_country_flag = bra_navio_avaliable_flag }
 		}
