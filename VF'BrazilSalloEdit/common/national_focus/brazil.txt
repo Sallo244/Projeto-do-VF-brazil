@@ -1138,7 +1138,6 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = bra_armed_forces_lagged_tooltip
 			swap_ideas = { remove_idea = bra_1930 add_idea = bra_1930_2 }
-			set_technology = { encouracado1_tech = 1 }
 			hidden_effect = {
 				remove_ideas = { bra_armed_forces_lagged }
 				add_ideas = { bra_army_lagged }

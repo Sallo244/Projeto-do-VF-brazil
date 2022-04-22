@@ -6192,6 +6192,7 @@ BRA_navio_dec = {
 		remove_effect = {
 			custom_effect_tooltip = bra_pesado4_tooltip
 			hidden_effect = {
+				set_technology = { encouracado1_tech = 1 }
 				clr_country_flag = bra_navio_avaliable_flag
 				clr_country_flag = bra_navio_dec_2_flag
 			}
