@@ -19,7 +19,29 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.4
-			reliability = -0.1
+			reliability = -0.3
+		}
+	}
+	bra_heavy_reactor_module = {
+		category = heavy_nuclear_reactor
+		sfx = sfx_ui_sd_module_engine
+		gfx = nuclear_reactor_module
+				
+		add_stats = {
+			naval_speed = 6
+			fuel_consumption = -67
+			build_cost_ic = 1000
+			naval_range = 50000
+		}
+		
+		build_cost_resources = {
+			tungsten = 4
+			chromium = 4
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.90
+			reliability = -0.05
 		}
 	}
 }

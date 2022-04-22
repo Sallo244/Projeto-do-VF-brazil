@@ -231,6 +231,17 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_ship_hull_heavy_nuclear_medium"
+		texturefile = "gfx/interface/technologies/advanced_battleship.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_encouracado1_tech_medium"
+		texturefile = "gfx/interface/technologies/advanced_battleship.dds"
+	}
+	
+############################################################################################################### MODULOS ################################################################################################################################
+	SpriteType = {
 		name = "GFX_SMI_nuclear_reactor_module"
 		texturefile = "gfx/interface/technologies/nuclear_reator.dds"
 	}

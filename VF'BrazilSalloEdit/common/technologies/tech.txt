@@ -17,6 +17,23 @@ technologies = {
 		}
 	}
 	
+	encouracado1_tech = {
+
+		research_cost = 1
+
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+		
+		enable_equipment_modules = { 
+			bra_heavy_reactor_module
+		}
+		
+		enable_equipments = {
+			ship_hull_heavy_nuclear
+		}
+	}
+	
 	caca1_tech = {
 
 		research_cost = 1

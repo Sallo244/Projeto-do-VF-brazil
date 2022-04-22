@@ -1,0 +1,15 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SM_submarine_hull_nuclear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_nuclear.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_submarine_hull_nuclear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_nuclear.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SD_tv_submarine_nuclear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_submarine_nuclear.dds"
+	}
+}
