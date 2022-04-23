@@ -1,0 +1,179 @@
+﻿##### ARGENTINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+BRA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "NRB "
+	fallback_name = "Contratorpedeiro %d"					
+
+	unique = {
+		"São Paulo" "São Caetano" "Bertioga" "São Bernardo" "Santo Amaro" "Piracicaba" "Itú" "Sorocaba" "Campinas" "São José" "Ribeirão Preto" "Morumbi" "Anhangabaú" "Butantã" "Liberdade"
+		"Anhanguera" "Sé" "Lapa" "Mooca" "Consolação" "Rebouças" "Santa Ifigênia" "Brás" "Ipiranga" "Guarulhos" "Interlagos" "Jundiaí" "Taubaté" "Americana" "Santos" "Bauru" "Avaré" "Guarujá" "Ubatuba" "Campos do Jordão"
+		"Minas Gerais" "Belo Horizonte" "Uberaba" "Araxá" "Vila Rica" "Ouro Preto" "Barbacena" "São João Del Rei" "Alfenas" "Varginha" "Juiz de Fora" "Viçosa" "Ubá" "Itabira" "Ituiutaba" "Araguari"
+		"Rio de Janeiro" "Paraty" "Duque de Caxias" "Petrópolis" "Niterói" "Vassouras" "Macaé" "Volta Redonda" "Campos dos Goytacases" "Nova Friburgo" "Tijuca" "Ipanema" "Copacabana" "Anchieta" "Botafogo"
+		"Espírito Santo" "Vitória" "Serra Azul" "Linhares" "Itapemirim" "Paraná" "Curitiba" "Londrina" " Maringá" " Guarapuava" "Cascavel" "Apucarana" "Foz do Iguaçu" "Iguaçu"
+		"Santa Catarina" "Brusque" "Florianópolis" "Lages" "Tubarão" "Chapecó" "Caçador" "Rio Grande do Sul" "Santa Maria" 
+		"São Gabriel" "Bagé" "Pelotas" " Porto Alegre" "Passo Fundo" "Santo Ângelo" "São Borja" "Caxias do Sul" "Gramado" "Nova Hamburgo"
+		"Mato Grosso" "Cuiabá" "Ponta Porã" "Dourados" " Cáceres" "Corumbá" "Goiás" "Goiânia" "Anápolis" "Rio Verde" "Anápolis" "Amazonas" "Manaus" "Barcelos" "Acre" "Rio Branco"
+		"Rondônia" "Porto Velho" "Roraima" "Boa Vista" "Pará" "Belém" "Alta Mira" " Santarém" "Marajós" "Rio Grande do Norte" "Natal" "Mossoró"
+		"Ceará" "Fortaleza" "Sobral" "Juazeiro do Norte" "Pernambuco" "Olinda" "Recife" "Salgueiro"
+		"Paraíba" "João Pessoa" "Campina Grande" "Bahia" "Salvador" "Feira de Santana" "Ilhéus" "Porto Seguro" "Tocantins" "Palmas" "Piauí" "Teresina"
+		"Constituição" "Liberdade" "Pátria" "Nação" "Redentor" "Brasil" "Federal" "União" "Adhemar de Barros" "Armando Salles" "Campos Salles" "Prudente de Moraes" "Floriano Peixoto" 
+		"Deodoro da Fonseca" "D. Pedro I" "D. Pedro II" "Santos-Dummont" "Princesa Isabel" "Rodrigues Alves" "Afonso Pena" " Nilo Peçanha" "Rui Barbosa" "Hermes da Fonseca" "Delfim Moreira" "Epitácio Pessoa"
+		"Raposo Tavares" "Domingos Velho" "Bandeirante" "Sete Missões"
+		"Arthur Bernardes" "Washington Luís" "Venceslau Brás" "Barão do Rio Branco" "Humaytá" "Tupi" "Timbira" "Tamoio" "Tupinambá" "Tabajara" "Carijós" "Potiguara" "Ajuricaba" "Araguaya" "Apa" 
+		"Juruá" "Javari" "Jutahy" "Juruena" "Jaguaribe" "Japarua"  "Babitonga" "Baependi"  "Beberibe" "Benevente" "Bocaina" "Bracuí" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+BRA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "NRB "
+	fallback_name = "Cruzador Ligeiro %d"
+
+	unique = {
+		"Minas Gerais" "Belo Horizonte" "Uberaba" "Araxá" "Vila Rica" "Ouro Preto" "Barbacena" "São João Del Rei" "Alfenas" "Varginha" "Juiz de Fora" "Viçosa" "Ubá" "Itabira" "Ituiutaba" "Araguari"
+		"Rio de Janeiro" "Paraty" "Duque de Caxias" "Petrópolis" "Niterói" "Vassouras" "Macaé" "Volta Redonda" "Campos dos Goytacases" "Nova Friburgo" "Tijuca" "Ipanema" "Copacabana" "Anchieta" "Botafogo"
+		"Espírito Santo" "Vitória" "Serra Azul" "Linhares" "Itapemirim" "Paraná" "Curitiba" "Londrina" " Maringá" " Guarapuava" "Cascavel" "Apucarana" "Foz do Iguaçu" "Iguaçu"
+		"Santa Catarina" "Brusque" "Florianópolis" "Lages" "Tubarão" "Chapecó" "Caçador" "Rio Grande do Sul" "Santa Maria" 
+		"São Gabriel" "Bagé" "Pelotas" " Porto Alegre" "Passo Fundo" "Santo Ângelo" "São Borja" "Caxias do Sul" "Gramado" "Nova Hamburgo"
+		"São Paulo" "São Caetano" "Bertioga" "São Bernardo" "Santo Amaro" "Piracicaba" "Itú" "Sorocaba" "Campinas" "São José" "Ribeirão Preto" "Morumbi" "Anhangabaú" "Butantã" "Liberdade"
+		"Anhanguera" "Sé" "Lapa" "Mooca" "Consolação" "Rebouças" "Santa Ifigênia" "Brás" "Ipiranga" "Guarulhos" "Interlagos" "Jundiaí" "Taubaté" "Americana" "Santos" "Bauru" "Avaré" "Guarujá" "Ubatuba" "Campos do Jordão"
+		"Mato Grosso" "Cuiabá" "Ponta Porã" "Dourados" " Cáceres" "Corumbá" "Goiás" "Goiânia" "Anápolis" "Rio Verde" "Anápolis" "Amazonas" "Manaus" "Barcelos" "Acre" "Rio Branco"
+		"Rondônia" "Porto Velho" "Roraima" "Boa Vista" "Pará" "Belém" "Alta Mira" " Santarém" "Marajós" "Rio Grande do Norte" "Natal" "Mossoró"
+		"Ceará" "Fortaleza" "Sobral" "Juazeiro do Norte" "Pernambuco" "Olinda" "Recife" "Salgueiro"
+		"Paraíba" "João Pessoa" "Campina Grande" "Bahia" "Salvador" "Feira de Santana" "Ilhéus" "Porto Seguro" "Tocantins" "Palmas" "Piauí" "Teresina"
+		"Constituição" "Liberdade" "Pátria" "Nação" "Redentor" "Brasil" "Federal" "União" "Adhemar de Barros" "Armando Salles" "Campos Salles" "Prudente de Moraes" "Floriano Peixoto" 
+		"Deodoro da Fonseca" "D. Pedro I" "D. Pedro II" "Santos-Dummont" "Princesa Isabel" "Rodrigues Alves" "Afonso Pena" " Nilo Peçanha" "Rui Barbosa" "Hermes da Fonseca" "Delfim Moreira" "Epitácio Pessoa"
+		"Raposo Tavares" "Domingos Velho" "Bandeirante" "Sete Missões"
+		"Arthur Bernardes" "Washington Luís" "Venceslau Brás" "Barão do Rio Branco" "Humaytá" "Tupi" "Timbira" "Tamoio" "Tupinambá" "Tabajara" "Carijós" "Potiguara" "Ajuricaba" "Araguaya" "Apa" 
+		"Juruá" "Javari" "Jutahy" "Juruena" "Jaguaribe" "Japarua"  "Babitonga" "Baependi"  "Beberibe" "Benevente" "Bocaina" "Bracuí"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+BRA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "NRB "
+	fallback_name = "Cruzador Pesado %d"
+
+	unique = {
+		"Constituição" "Liberdade" "Pátria" "Nação" "Redentor" "Brasil" "Federal" "União" "Adhemar de Barros" "Armando Salles" "Campos Salles" "Prudente de Moraes" "Floriano Peixoto" 
+		"Deodoro da Fonseca" "D. Pedro I" "D. Pedro II" "Santos-Dummont" "Princesa Isabel" "Rodrigues Alves" "Afonso Pena" " Nilo Peçanha" "Rui Barbosa" "Hermes da Fonseca" "Delfim Moreira" "Epitácio Pessoa"
+		"Raposo Tavares" "Domingos Velho" "Bandeirante" "Sete Missões"
+		"Arthur Bernardes" "Washington Luís" "Venceslau Brás" "Barão do Rio Branco" "Humaytá" "Tupi" "Timbira" "Tamoio" "Tupinambá" "Tabajara" "Carijós" "Potiguara" "Ajuricaba" "Araguaya" "Apa" 
+		"Juruá" "Javari" "Jutahy" "Juruena" "Jaguaribe" "Japarua"  "Babitonga" "Baependi"  "Beberibe" "Benevente" "Bocaina" "Bracuí" 
+		"São Paulo" "São Paulo" "São Caetano" "Bertioga" "São Bernardo" "Santo Amaro" "Piracicaba" "Itú" "Sorocaba" "Campinas" "São José" "Ribeirão Preto" "Morumbi" "Anhangabaú" "Butantã" "Liberdade"
+		"Anhanguera" "Sé" "Lapa" "Mooca" "Consolação" "Rebouças" "Santa Ifigênia" "Brás" "Ipiranga" "Guarulhos" "Interlagos" "Jundiaí" "Taubaté" "Americana" "Santos" "Bauru" "Avaré" "Guarujá" "Ubatuba" "Campos do Jordão"
+		"Minas Gerais" "Belo Horizonte" "Uberaba" "Araxá" "Vila Rica" "Ouro Preto" "Barbacena" "São João Del Rei" "Alfenas" "Varginha" "Juiz de Fora" "Viçosa" "Ubá" "Itabira" "Ituiutaba" "Araguari"
+		"Rio de Janeiro" "Paraty" "Duque de Caxias" "Petrópolis" "Niterói" "Vassouras" "Macaé" "Volta Redonda" "Campos dos Goytacases" "Nova Friburgo" "Tijuca" "Ipanema" "Copacabana" "Anchieta" "Botafogo"
+		"Espírito Santo" "Vitória" "Serra Azul" "Linhares" "Itapemirim" "Paraná" "Curitiba" "Londrina" " Maringá" " Guarapuava" "Cascavel" "Apucarana" "Foz do Iguaçu" "Iguaçu"
+		"Santa Catarina" "Brusque" "Florianópolis" "Lages" "Tubarão" "Chapecó" "Caçador" "Rio Grande do Sul" "Santa Maria" 
+		"São Gabriel" "Bagé" "Pelotas" " Porto Alegre" "Passo Fundo" "Santo Ângelo" "São Borja" "Caxias do Sul" "Gramado" "Nova Hamburgo"
+		"Mato Grosso" "Cuiabá" "Ponta Porã" "Dourados" " Cáceres" "Corumbá" "Goiás" "Goiânia" "Anápolis" "Rio Verde" "Anápolis" "Amazonas" "Manaus" "Barcelos" "Acre" "Rio Branco"
+		"Rondônia" "Porto Velho" "Roraima" "Boa Vista" "Pará" "Belém" "Alta Mira" " Santarém" "Marajós" "Rio Grande do Norte" "Natal" "Mossoró"
+		"Ceará" "Fortaleza" "Sobral" "Juazeiro do Norte" "Pernambuco" "Olinda" "Recife" "Salgueiro"
+		"Paraíba" "João Pessoa" "Campina Grande" "Bahia" "Salvador" "Feira de Santana" "Ilhéus" "Porto Seguro" "Tocantins" "Palmas" "Piauí" "Teresina"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+BRA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "NRB "
+	fallback_name = "Couraçado %d"		
+
+	unique = {
+		"Morumbi" "São Paulo" "São Caetano" "Bertioga" "São Bernardo" "Santo Amaro" "Piracicaba" "Itú" "Sorocaba" "Campinas" "São José" "Ribeirão Preto"  "Anhangabaú" "Butantã" "Liberdade"
+		"Anhanguera" "Sé" "Lapa" "Mooca" "Consolação" "Rebouças" "Santa Ifigênia" "Brás" "Ipiranga" "Guarulhos" "Interlagos" "Jundiaí" "Taubaté" "Americana" "Santos" "Bauru" "Avaré" "Guarujá" "Ubatuba" "Campos do Jordão"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+BRA_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "NRB "
+	fallback_name = "Cuzador Couraçado %d"		
+
+	unique = {
+		"Minas Gerais" "Belo Horizonte" "Uberaba" "Araxá" "Vila Rica" "Ouro Preto" "Barbacena" "São João Del Rei" "Alfenas" "Varginha" "Juiz de Fora" "Viçosa" "Ubá" "Itabira" "Ituiutaba" "Araguari"
+		"Rio de Janeiro" "Paraty" "Duque de Caxias" "Petrópolis" "Niterói" "Vassouras" "Macaé" "Volta Redonda" "Campos dos Goytacases" "Nova Friburgo" "Tijuca" "Ipanema" "Copacabana" "Anchieta" "Botafogo"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+BRA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "NRB "
+	fallback_name = "Porta-Aviões %d"	
+
+	unique = {
+	"Espírito Santo" "Vitória" "Serra Azul" "Linhares" "Itapemirim" "Paraná" "Curitiba" "Londrina" " Maringá" " Guarapuava" "Cascavel" "Apucarana" "Foz do Iguaçu" "Iguaçu"
+	}
+}
+
+### SUBMARINES ###
+BRA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "NRB "
+	fallback_name = "Submarino %d"
+	
+	unique = {
+		"Juruá" "Javari" "Jutahy" "Juruena" "Jaguaribe" "Japarua"  "Babitonga" "Baependi"  "Beberibe" "Benevente" "Bocaina" "Bracuí"
+		"Mato Grosso" "Cuiabá" "Ponta Porã" "Dourados" " Cáceres" "Corumbá" "Goiás" "Goiânia" "Anápolis" "Rio Verde" "Anápolis" "Amazonas" "Manaus" "Barcelos" "Acre" "Rio Branco"
+		"Rondônia" "Porto Velho" "Roraima" "Boa Vista" "Pará" "Belém" "Alta Mira" " Santarém" "Marajós" "Rio Grande do Norte" "Natal" "Mossoró"
+		"Ceará" "Fortaleza" "Sobral" "Juazeiro do Norte" "Pernambuco" "Olinda" "Recife" "Salgueiro"
+		"Paraíba" "João Pessoa" "Campina Grande" "Bahia" "Salvador" "Feira de Santana" "Ilhéus" "Porto Seguro" "Tocantins" "Palmas" "Piauí" "Teresina"
+		"Constituição" "Liberdade" "Pátria" "Nação" "Redentor" "Brasil" "Federal" "União" "Adhemar de Barros" "Armando Salles" "Campos Salles" "Prudente de Moraes" "Floriano Peixoto"
+		"São Paulo" "São Paulo" "São Caetano" "Bertioga" "São Bernardo" "Santo Amaro" "Piracicaba" "Itú" "Sorocaba" "Campinas" "São José" "Ribeirão Preto" "Morumbi" "Anhangabaú" "Butantã" "Liberdade"
+		"Anhanguera" "Sé" "Lapa" "Mooca" "Consolação" "Rebouças" "Santa Ifigênia" "Brás" "Ipiranga" "Guarulhos" "Interlagos" "Jundiaí" "Taubaté" "Americana" "Santos" "Bauru" "Avaré" "Guarujá" "Ubatuba" "Campos do Jordão"
+		"Minas Gerais" "Belo Horizonte" "Uberaba" "Araxá" "Vila Rica" "Ouro Preto" "Barbacena" "São João Del Rei" "Alfenas" "Varginha" "Juiz de Fora" "Viçosa" "Ubá" "Itabira" "Ituiutaba" "Araguari"
+		"Rio de Janeiro" "Paraty" "Duque de Caxias" "Petrópolis" "Niterói" "Vassouras" "Macaé" "Volta Redonda" "Campos dos Goytacases" "Nova Friburgo" "Tijuca" "Ipanema" "Copacabana" "Anchieta" "Botafogo"
+		"Espírito Santo" "Vitória" "Serra Azul" "Linhares" "Itapemirim" "Paraná" "Curitiba" "Londrina" " Maringá" " Guarapuava" "Cascavel" "Apucarana" "Foz do Iguaçu" "Iguaçu"
+		"Santa Catarina" "Brusque" "Florianópolis" "Lages" "Tubarão" "Chapecó" "Caçador" "Rio Grande do Sul" "Santa Maria" 
+		"São Gabriel" "Bagé" "Pelotas" " Porto Alegre" "Passo Fundo" "Santo Ângelo" "São Borja" "Caxias do Sul" "Gramado" "Nova Hamburgo"
+	}
+}

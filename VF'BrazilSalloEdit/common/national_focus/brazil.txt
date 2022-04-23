@@ -1,0 +1,4308 @@
+focus_tree = {
+	id = brazilian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			original_tag = BRA
+		}
+	}
+	
+	continuous_focus_position = { x = 450 y = 900 }
+	
+	default = no
+	
+	###########################################################################################################################################################################################
+	############################################################################ PARTE DA IDEOLOGIA ###########################################################################################
+	###########################################################################################################################################################################################
+
+	#Lei de Segurança Nacional
+	focus = {
+		id = BRA_leidesegurancanacional
+		icon = GFX_focus_bra_national_security_law
+		x = -1
+		y = 0
+		cost = 1
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 75
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_proclamacao_so_1 } }	
+		}
+	}
+
+	#A Polaca
+	focus = {
+		id = BRA_a_polaca
+		icon = GFX_focus_bra_polaca
+		x = 1
+		y = 0
+		cost = 5
+		ai_will_do = { factor = 1 }
+		available = {
+			AND = {
+				has_completed_focus = BRA_leidesegurancanacional
+				has_completed_focus = BRA_a_voz_do_brasil
+				has_completed_focus = BRA_ministeriodasforcasarmadas
+			}
+		}
+		completion_reward = {
+			add_political_power = 75
+			country_event = { id = bra.2 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_quereismo } }
+		}
+	}
+
+	#A Voz do Brasil
+	focus = {
+		id = BRA_a_voz_do_brasil
+		icon = GFX_focus_bra_a_voz_do_brasil
+		x = 3
+		y = 0
+		cost = 1
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_political_power = 75
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_a_voz_do_brasil } }
+		}
+	}
+
+	#Amor
+	focus = {
+		id = BRA_amor
+		icon = GFX_focus_bra_monarquia_focus
+		x = -3
+		y = 1
+		prerequisite = { focus = BRA_a_polaca }
+		prerequisite = { focus = BRA_a_voz_do_brasil }
+		prerequisite = { focus = BRA_leidesegurancanacional }
+		
+		mutually_exclusive = { focus = BRA_ordem  focus = BRA_progresso  }
+		cost = 1
+		ai_will_do = { factor = 1 }
+		available = {
+			has_idea = bra_instabilidade
+		}
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_instabilidade add_idea = bra_instabilidade_2 }
+			custom_effect_tooltip = bra_monarquia_tooltip
+		}
+	}
+
+	#Formalizar o Patrianovismo na Ilegalidade
+	focus = {
+		id = BRA_formalizar_o_patrianovismo_na_ilegalidade
+		icon = GFX_focus_bra_patri_1
+		x = -3
+		y = 2
+		cost = 5
+		
+		prerequisite = { focus = BRA_amor }
+		ai_will_do = { factor = 1 }
+
+		completion_reward = {
+			add_ideas = bra_march_in_silence
+			add_popularity = { ideology = neutrality popularity = 0.025 }
+			add_popularity = { ideology = fascism popularity = 0.025 }
+		}
+	}
+
+	#O Exército de Caxias
+	focus = {
+		id = BRA_oexercitodecaxias
+		icon = GFX_focus_bra_patri_2_focus
+		x = -4
+		y = 3
+		cost = 5
+		
+		prerequisite = { focus = BRA_formalizar_o_patrianovismo_na_ilegalidade  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			remove_ideas = bra_1930_2
+			add_popularity = { ideology = neutrality popularity = 0.025 }
+			add_popularity = { ideology = fascism popularity = 0.025 }
+		}
+	}
+
+	#Memórias da Libertadora
+	focus = {
+		id = BRA_memoriasdalibertadora
+		icon = GFX_focus_bra_patri_3_focus
+		x = -2
+		y = 3
+		cost = 5
+		
+		prerequisite = { focus = BRA_formalizar_o_patrianovismo_na_ilegalidade  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_march_in_silence add_idea = bra_march_in_silence_2 }
+			add_popularity = { ideology = neutrality popularity = 0.025 }
+			add_popularity = { ideology = fascism popularity = 0.025 }
+		}
+	}
+
+	#Negociar com os Integralistas
+	#focus = {
+	#	id = BRA_negociar_com_os_integralistas
+	#	icon = GFX_focus_bra_brazilian_action
+	#	x = -3
+	#	y = 4
+	#	cost = 5
+	#	
+	#	prerequisite = { focus = BRA_formalizar_o_patrianovismo_na_ilegalidade  }
+	#	ai_will_do = { factor = 1 }
+	#	completion_reward = {
+	#		swap_ideas = { remove_idea = bra_instabilidade add_idea = bra_instabilidade_2 }
+	#		add_popularity = { ideology = neutrality popularity = 0.025 }
+	#		add_popularity = { ideology = fascism popularity = 0.025 }
+	#	}
+	#}
+
+	#O Cisma da Maçonaria
+	focus = {
+		id = BRA_ocismadamaconaria
+		icon = GFX_focus_bra_patri_4_focus
+		x = -3
+		y = 4
+		cost = 1
+		prerequisite = { focus = BRA_oexercitodecaxias  }
+		#prerequisite = { focus = BRA_negociar_com_os_integralistas  }
+		prerequisite = { focus = BRA_memoriasdalibertadora  }
+		
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = { id = bra.17 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_piano } }
+		}
+	}
+
+	#Restaurar o Padroado
+	focus = {
+		id = BRA_restaurar_o_padroado
+		icon = GFX_focus_bra_patri_5_focus
+		x = -4
+		y = 5
+		cost = 5
+		
+		prerequisite = { focus = BRA_ocismadamaconaria  }
+		mutually_exclusive = { focus = BRA_opactodesaocristovao  }
+		ai_will_do = { factor = 1 }
+		available = {
+			has_idea = bra_march_in_silence_3_m
+		}
+		completion_reward = {
+			custom_effect_tooltip = bra_patri_5_tooltip
+			remove_ideas = bra_instabilidade_2
+			add_popularity = { ideology = neutrality popularity = 0.05 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_piano } }
+		}
+	}
+
+	#O Pacto de São Cristóvão
+	focus = {
+		id = BRA_opactodesaocristovao
+		icon = GFX_focus_bra_patri_6_focus
+		x = -2
+		y = 5
+		cost = 5
+		
+		prerequisite = { focus = BRA_ocismadamaconaria  }
+		mutually_exclusive = { focus = BRA_restaurar_o_padroado  }
+		ai_will_do = { factor = 1 }
+		available = {
+			has_idea = bra_march_in_silence_3_n
+		}
+		completion_reward = {
+			custom_effect_tooltip = bra_patri_6_tooltip
+			remove_ideas = bra_instabilidade_2
+			add_popularity = { ideology = fascism popularity = 0.05 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_piano } }
+		}
+	}
+
+	#Parlamentarismo à Brasileira
+	focus = {
+		id = BRA_parlamentarismoabrasileira
+		icon = GFX_focus_bra_patri_7_focus
+		x = -4
+		y = 6
+		cost = 5
+		
+		prerequisite = { focus = BRA_restaurar_o_padroado  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = { id = bra.18 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sentinela_brasil_so_2 } }
+		}
+	}
+
+	#O Império Orgânico
+	focus = {
+		id = BRA_oimperioorganico
+		icon = GFX_focus_bra_patri_8_focus
+		x = -2
+		y = 6
+		cost = 5
+		prerequisite = { focus = BRA_opactodesaocristovao  }
+		
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = { id = bra.18 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sentinela_brasil_so_2 } }
+		}
+	}
+
+	#A Restauração
+	focus = {
+		id = BRA_arestauracao
+		icon = GFX_focus_bra_patri_9_focus
+		x = -3
+		y = 7
+		cost = 5
+		prerequisite = { focus = BRA_oimperioorganico focus = BRA_parlamentarismoabrasileira }
+		
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = { id = bra.19 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_monarquia_focus } }
+		}
+	}
+
+	#'Ordem'
+	focus = {
+		id = BRA_ordem
+		icon = GFX_focus_bra_populism
+		x = 1
+		y = 1
+		prerequisite = { focus = BRA_a_polaca }
+		prerequisite = { focus = BRA_a_voz_do_brasil }
+		prerequisite = { focus = BRA_leidesegurancanacional }
+		
+		mutually_exclusive = { focus = BRA_progresso  focus = BRA_amor  }
+		available = {
+			has_completed_focus = BRA_ministeriodasforcasarmadas 
+			has_idea = bra_instabilidade
+		}
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_instabilidade add_idea = bra_instabilidade_2 }
+			#hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } #sound_effect =  bra_populism } }
+		}
+	}
+	
+	#Continuar a Coluna Prestes
+	focus = {
+		id = BRA_continuar_a_coluna_prestes
+		icon = GFX_focus_bra_2_prestes_column
+		x = 0
+		y = 2
+		prerequisite = { focus = BRA_ordem  }
+		mutually_exclusive = { focus = BRA_o_xadrez_de_vargas  }
+		available = {
+			has_government = neutrality 
+		}
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_antropofagia add_idea = bra_antropofagia_com_1 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_2_prestes_column } }
+		}
+	}
+
+	#O Revôo das Galinhas Verdes
+	focus = {
+		id = BRA_orevoodasgalinhasverdes
+		icon = GFX_focus_bra_plan_cohen
+		x = 0
+		y = 3
+		prerequisite = { focus = BRA_continuar_a_coluna_prestes  }
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_antropofagia_com_1 add_idea = bra_antropofagia_com_2 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_plan_cohen } }
+		}
+	}
+
+	#A 2a Intentona Comunista
+	focus = {
+		id = BRA_a_2a_intentona_comunista
+		icon = GFX_focus_bra_cosmopolitanism
+		x = 0
+		y = 4
+		prerequisite = { focus = BRA_orevoodasgalinhasverdes  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = { id = bra.13 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_cosmopolitanism } }
+		}
+	}
+
+	#O Xadrez de Vargas
+	focus = {
+		id = BRA_o_xadrez_de_vargas
+		icon = GFX_focus_bra_quereismo
+		x = 2
+		y = 2
+		prerequisite = { focus = BRA_ordem  }
+		mutually_exclusive = { focus = BRA_continuar_a_coluna_prestes  }
+		available = {
+			 has_government = neutrality 
+		}
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_antropofagia add_idea = bra_antropofagia_neu_1 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_quereismo } }
+		}
+	}
+
+	#O Estado Novo
+	focus = {
+		id = BRA_o_estado_novo
+		icon = GFX_focus_bra_estado_novo
+		x = 2
+		y = 3
+		prerequisite = { focus = BRA_o_xadrez_de_vargas  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_antropofagia_neu_1 add_idea = bra_antropofagia_neu_2 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_estado_novo } }
+		}
+	}
+
+	#Departamento de Imprensa e Propaganda
+	focus = {
+		id = BRA_departamento_de_imprensa_e_propaganda
+		icon = GFX_focus_bra_patriotic_effort
+		x = 2
+		y = 4
+		prerequisite = { focus = BRA_o_estado_novo  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = { id = bra.15 }
+			#hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } #sound_effect =  bra_populism } }
+		}
+	}
+
+	#'Progresso'
+	focus = {
+		id = BRA_progresso
+		icon = GFX_focus_bra_federalism
+		x = 5
+		y = 1
+		prerequisite = { focus = BRA_a_polaca }
+		prerequisite = { focus = BRA_a_voz_do_brasil }
+		prerequisite = { focus = BRA_leidesegurancanacional }
+		
+		mutually_exclusive = { focus = BRA_ordem  focus = BRA_amor  }
+		available = {
+			has_completed_focus = BRA_ministeriodasforcasarmadas
+			has_idea = bra_instabilidade
+		}
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_instabilidade add_idea = bra_instabilidade_2 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_tecnocratic_reform } }	
+		}
+	}
+
+	#Non Dvcor Dvco
+	focus = {
+		id = BRA_non_dvcor_dvco
+		icon = GFX_focus_bra_regionalism
+		x = 4
+		y = 2
+		prerequisite = { focus = BRA_progresso  }
+		mutually_exclusive = { focus = BRA_formalizaraacao  }
+		available = {
+			has_government = neutrality 
+		}
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_antropofagia add_idea = bra_antropofagia_dem_1 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_regionalism } }
+		}
+	}
+
+	#O Manifesto Mineiro
+	focus = {
+		id = BRA_manifesto_mineiro
+		icon = GFX_focus_bra_abertura
+		x = 4
+		y = 3
+		prerequisite = { focus = BRA_non_dvcor_dvco  }
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_antropofagia_dem_1 add_idea = bra_antropofagia_dem_2 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_abertura } }
+		}
+	}
+
+	#Golpe de Dutra
+	focus = {
+		id = BRA_golpe_de_dutra
+		icon = GFX_focus_bra_tecnocratic_reform
+		x = 4
+		y = 4
+		prerequisite = { focus = BRA_manifesto_mineiro  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = { id = bra.16 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_tecnocratic_reform } }
+		}
+	}
+
+	#Formalizar a Ação
+	focus = {
+		id = BRA_formalizaraacao
+		icon = GFX_focus_bra_brazilian_action
+		x = 6
+		y = 2
+		prerequisite = { focus = BRA_progresso  }
+		mutually_exclusive = { focus = BRA_non_dvcor_dvco  }
+		ai_will_do = { factor = 1 }
+		cost = 5
+		available = {
+			has_government = neutrality 
+		}
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_antropofagia add_idea = bra_antropofagia_fasc_1 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_brazilian_action } }
+		}
+	}
+
+	#O Ministério de Plínio
+	focus = {
+		id = BRA_oministeriodeplinio
+		icon = GFX_focus_bra_dreams_of_an_empire
+		x = 6
+		y = 3
+		prerequisite = { focus = BRA_formalizaraacao  }
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_antropofagia_fasc_1 add_idea = bra_antropofagia_fasc_2 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_dreams_of_an_empire } }	
+		}
+	}
+
+	#O Levante Integralista
+	focus = {
+		id = BRA_o_levante_integralista
+		icon = GFX_focus_bra_vital_espace
+		x = 6
+		y = 4
+		prerequisite = { focus = BRA_oministeriodeplinio  }
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+			country_event = { id = bra.14 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_equip_ind } }
+		}
+	}
+	
+	#Brasília
+	focus = {
+		id = BRA_brasilia
+		icon = GFX_focus_bra_brasilia
+		x = 5
+		y = 5
+		prerequisite = { focus = BRA_departamento_de_imprensa_e_propaganda focus = BRA_o_levante_integralista focus = BRA_golpe_de_dutra focus = BRA_a_2a_intentona_comunista }
+		
+		available = {
+			if = { 
+				limit = { 
+					has_government = neutrality
+				}
+				neutrality > 0.5
+			}
+
+			if = { 
+				limit = { 
+					has_government = democratic
+				}
+				democratic > 0.5
+			}
+			
+			if = { 
+				limit = { 
+					has_government = communism
+				}
+				communism > 0.5
+			}
+			
+			if = { 
+				limit = { 
+					has_government = fascism
+				}
+				fascism > 0.5
+			}
+
+			has_civil_war = no
+
+			AND = {
+				NOT = {
+					has_country_leader = {
+						name = "Prince Pedro of Orleáns-Bragança"
+						ruling_only = yes
+					}
+				}
+				NOT = {
+					has_country_leader = {	
+						name = "Pedro III"
+						ruling_only = yes
+					}
+				}
+				NOT = {
+					has_country_leader = {
+						name = "Arlindo Veiga dos Santos"
+						ruling_only = yes
+					}
+				}
+			}		
+		}
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			remove_ideas = bra_1930_2
+			remove_ideas = bra_instabilidade_2
+
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_brasilia } }
+
+			hidden_effect = {
+	
+				if = { limit = { BRA = { has_government = fascism } }
+
+					set_party_name = { ideology = neutrality long_name = "Movimento Democrático Brasileiro" name = "MDB" }
+					set_party_name = { ideology = communism long_name = "Partido Comunista do Brasil" name = "PCdoB" }
+					set_party_name = { ideology = fascism long_name = "Aliança Renovadora Nacional" name = "ARENA" }
+					set_party_name = { ideology = democratic long_name = "Movimento Democrático Brasileiro" name = "MDB" }
+
+					hidden_effect = {
+						create_country_leader = {
+							name = "Tancredo Neves"
+							desc = "POLITICS_NEVES_DESC"
+							picture = "gfx/leaders/BRA/Neves.dds"
+							expire = "1965.1.1"
+							ideology = moderatism
+							traits = {
+								vfb_trait_neves
+							}
+						}
+					}
+
+					hidden_effect = {
+						create_country_leader = {
+							name = "Tancredo Neves"
+							desc = "POLITICS_NEVES_DESC"
+							picture = "gfx/leaders/BRA/Neves.dds"
+							expire = "1965.1.1"
+							ideology = liberalism
+							traits = {
+								vfb_trait_neves
+							}
+						}
+					}
+
+					hidden_effect = {
+						create_country_leader = {
+							name = "João Goulart"
+							desc = "POLITICS_JANGO_DESC"
+							picture = "gfx/leaders/BRA/Jango.dds"
+							expire = "1965.1.1"
+							ideology = marxism
+							traits = {
+								vfb_trait_jango
+							}
+						}
+					}
+				}
+
+				if = { limit = { BRA = { has_government = communism } }
+
+					set_party_name = { ideology = neutrality long_name = "Coluna Miguel Costa" name = "Coluna Miguel Costa" }
+					set_party_name = { ideology = communism long_name = "Partido Comunista Brasileiro" name = "PCB" }
+					set_party_name = { ideology = fascism long_name = "Comando Militar do Leste" name = "CML" }
+					set_party_name = { ideology = democratic long_name = "2º Convênio de Taubaté" name = "Frente Democrática" }
+
+					hidden_effect = {
+						create_country_leader = {
+							name = "Miguel Costa"
+							desc = "POLITICS_MC_DESC"
+							picture = "gfx/leaders/BRA/G13.dds"
+							expire = "1965.1.1"
+							ideology = moderatism
+							traits = {
+								vfb_trait_mc
+								vfb_trait_officer
+								vfb_trait_tenentista
+							}
+						}
+					}
+					hidden_effect = {
+						create_country_leader = {
+							name = "Júlio Prestes"
+							desc = "POLITICS_JPRESTES_DESC"
+							picture = "gfx/leaders/BRA/JP.dds"
+							expire = "1965.1.1"
+							ideology = conservatism
+							traits = {
+								vfb_trait_jprestes
+							}
+						}
+					}
+					hidden_effect = {
+						create_country_leader = {
+							name = "Olímpio Mourão Filho"
+							desc = "POLITICS_MOURAO_DESC"
+							picture = "gfx/leaders/BRA/Mourao.dds"
+							expire = "1965.1.1"
+							ideology = fascism_ideology
+							traits = {
+								vfb_trait_mourao
+								vfb_trait_linhadura
+								vfb_trait_officer
+							}
+						}
+					}
+				}
+
+				if = { limit = { BRA = { has_government = democratic } }
+							
+					set_party_name = { ideology = neutrality long_name = "Partido Social Democrático/Partido Trabalhista Brasileiro" name = "PSD/PTB" }
+					set_party_name = { ideology = communism long_name = "Partido Comunista do Brasil" name = "PCB" }
+					set_party_name = { ideology = fascism long_name = "Estado Maior do Exército" name = "EME" }
+					set_party_name = { ideology = democratic long_name = "União Democrática Nacional" name = "UDN" }
+
+					hidden_effect = {
+						create_country_leader = {
+							name = "Eurico Gaspar Dutra"
+							desc = "POLITICS_DUTRA_DESC"
+							picture = "gfx/leaders/BRA/Dutra.dds"
+							expire = "1965.1.1"
+							ideology = moderatism
+							traits = {
+								vfb_trait_dutra
+								vfb_trait_officer
+							}
+						}
+					}
+					hidden_effect = {
+						create_country_leader = {
+							name = "Humberto de Alencar Castelo Branco"
+							desc = "POLITICS_CB_DESC"
+							picture = "gfx/leaders/BRA/Branco.dds"
+							expire = "1965.1.1"
+							ideology = fascism_ideology
+							traits = {
+								vfb_trait_cb
+								vfb_trait_castelista
+								vfb_trait_officer
+							}
+						}
+					}
+					hidden_effect = {
+						create_country_leader = {
+							name = "João Goulart"
+							desc = "POLITICS_JANGO_DESC"
+							picture = "gfx/leaders/BRA/Jango.dds"
+							expire = "1965.1.1"
+							ideology = marxism
+							traits = {
+							vfb_trait_jango
+							}
+						}
+					}
+				}
+				
+				if = { limit = { BRA = { has_government = neutrality } }
+
+					set_party_name = { ideology = neutrality long_name = "Partido Social Democrático/Partido Trabalhista Brasileiro" name = "PSD/PTB" }
+					set_party_name = { ideology = communism long_name = "Partido Comunista do Brasil" name = "PCB" }
+					set_party_name = { ideology = fascism long_name = "Estado Maior do Exército" name = "EME" }
+					set_party_name = { ideology = democratic long_name = "União Democrática Nacional" name = "UDN" }
+
+					hidden_effect = {
+						create_country_leader = {
+							name = "Eduardo Gomes"
+							desc = "POLITICS_EG_DESC"
+							picture = "gfx/leaders/BRA/EG.dds"
+							expire = "1965.1.1"
+							ideology = conservatism
+							traits = {
+								vfb_trait_eg
+								vfb_trait_tenentista
+							}
+						}
+					}
+					hidden_effect = {
+						create_country_leader = {
+							name = "Humberto de Alencar Castelo Branco"
+							desc = "POLITICS_CB_DESC"
+							picture = "gfx/leaders/BRA/Branco.dds"
+							expire = "1965.1.1"
+							ideology = fascism_ideology
+							traits = {
+								vfb_trait_cb
+								vfb_trait_castelista
+								vfb_trait_officer
+							}
+						}
+					}
+					hidden_effect = {
+						create_country_leader = {
+							name = "João Goulart"
+							desc = "POLITICS_JANGO_DESC"
+							picture = "gfx/leaders/BRA/Jango.dds"
+							expire = "1965.1.1"
+							ideology = marxism
+							traits = {
+								vfb_trait_jango
+							}
+						}
+					}
+				}	
+			
+				set_victory_points = {
+					province = 8140
+					value = 35
+				}
+				505 = {
+					add_building_construction = {
+						type = supply_node
+						level = 1
+						province = 8140
+						instant_build = yes
+					}
+				}
+				set_capital = {
+					state = 505 
+					remember_old_capital = no
+				}
+			}
+			custom_effect_tooltip = bra_brasilia_tooltip
+		}
+	}
+
+	#'Tiro de Guerra'
+	focus = {
+		id = BRA_tirodeguerra
+		icon = GFX_focus_bra_tiro_de_guerra
+		x = 3
+		y = 5
+		prerequisite = { focus = BRA_departamento_de_imprensa_e_propaganda focus = BRA_o_levante_integralista focus = BRA_golpe_de_dutra focus = BRA_a_2a_intentona_comunista }
+		
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			if = {
+				limit = {
+					has_government = neutrality
+				}
+				swap_ideas = { remove_idea = bra_antropofagia_neu_2 add_idea = bra_antropofagia_neu_3 }	
+			}
+			if = {
+				limit = {
+					has_government = fascism
+				}
+				swap_ideas = { remove_idea = bra_antropofagia_fasc_2 add_idea = bra_antropofagia_fasc_3 }	
+			}
+			if = { 
+				limit = {
+					has_government = democratic
+				}
+				swap_ideas = { remove_idea = bra_antropofagia_dem_2 add_idea = bra_antropofagia_dem_3 }	
+			}
+			if = {
+				limit = {
+					has_government = communism
+				}
+				swap_ideas = { remove_idea = bra_antropofagia_com_2 add_idea = bra_antropofagia_com_3 }	
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_vacinado_2 } }
+		}
+	}
+	
+	#Força Expedicionária Brasileira
+	focus = {
+		id = BRA_forcaexpedicionariabrasileira
+		icon = GFX_focus_bra_feb
+		x = 1
+		y = 5
+		prerequisite = { focus = BRA_departamento_de_imprensa_e_propaganda focus = BRA_o_levante_integralista focus = BRA_golpe_de_dutra focus = BRA_a_2a_intentona_comunista }
+		
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			set_rule = { can_send_volunteers = yes }
+			add_ideas = { bra_feb_idea }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_feb } }
+		}
+	}
+
+	###########################################################################################################################################################################################
+	############################################################################ PARTE DA PESQUISA ############################################################################################
+	###########################################################################################################################################################################################
+
+	#Escolas Técnicas
+	focus = {
+		id = BRA_escolastecnicas
+		icon = GFX_focus_bra_technical_schools
+		x = 7
+		y = 0
+		cost = 5
+		ai_will_do = { factor = 1 }
+		available = {
+			has_completed_focus = BRA_a_polaca 
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_research_generic } }
+		}
+	}
+
+	#Expandir os Magistrados
+	focus = {
+		id = BRA_expandir_os_magistrados
+		icon = GFX_focus_bra_federal_institutes
+		x = 11
+		y = 0
+		cost = 5
+		ai_will_do = { factor = 1 }
+		available = {
+			has_completed_focus = BRA_a_polaca 
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_research_generic } }
+		}
+	}
+
+	#Colégios Politécnicos
+	focus = {
+		id = BRA_colegiospolitecnicos
+		icon = GFX_focus_bra_politechnical_colleges
+		x = 8
+		y = 1
+		prerequisite = { focus = BRA_escolastecnicas  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+				name = enginners_bonus
+				bonus = 1
+				uses = 1
+				category = engineers_tech
+			}	
+			add_tech_bonus = {
+				name = artillery_bonus
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_research_generic } }
+		}
+	}
+
+	#Institutos Nacionais
+	focus = {
+		id = BRA_institutos_nacionais
+		icon = GFX_focus_bra_national_institutes
+		x = 10
+		y = 1
+		prerequisite = { focus = BRA_expandir_os_magistrados  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+				name = medicine_bonus
+				bonus = 1
+				uses = 1
+				category = hospital_tech
+			}
+			add_tech_bonus = {
+				name = electronics_bonus
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_research_generic } }
+		}
+	}
+	
+	#Universidades Federais
+	focus = {
+		id = BRA_universidades_federais
+		icon = GFX_focus_bra_federal_universities
+		x = 9
+		y = 2
+		prerequisite = { focus = BRA_escolastecnicas focus = BRA_expandir_os_magistrados }
+		
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_research_slot = 1
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_uni_so_1 } }
+		}
+	}
+
+	#Ministério do Trabalho, Comércio e Indústria
+	focus = {
+		id = BRA_ministeriodotrabalhocomercioeindustria
+		icon = GFX_focus_bra_ministerio
+		x = 10
+		y = 3
+		prerequisite = { focus = BRA_institutos_nacionais  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_1 } }
+		}
+	}
+
+	#Instituto Militar de Engenharia
+	focus = {
+		id = BRA_instituto_militar_de_engenharia
+		icon = GFX_focus_bra_military_projects
+		x = 8
+		y = 3
+		prerequisite = { focus = BRA_colegiospolitecnicos  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_art } }
+		}
+	}
+
+	#Campii Federal
+	focus = {
+		id = BRA_campii_federal
+		icon = GFX_focus_bra_more_federal_universities
+		x = 9
+		y = 4
+		prerequisite = { focus = BRA_ministeriodotrabalhocomercioeindustria }
+		prerequisite = { focus = BRA_instituto_militar_de_engenharia }
+		prerequisite = { focus = BRA_universidades_federais }
+		
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+				name = medicine_bonus
+				bonus = 1
+				uses = 1
+				category = hospital_tech
+			}
+			add_tech_bonus = {
+				name = enginners_bonus
+				bonus = 1
+				uses = 1
+				category = engineers_tech
+			}	
+			add_tech_bonus = {
+				name = signal_bonus
+				bonus = 1
+				uses = 1
+				category = signal_company_tech
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_research_generic } }
+		}
+	}
+
+	#Universidade de São Paulo
+	focus = {
+		id = BRA_universidadedesaopaulo
+		icon = GFX_focus_bra_r_s_1
+		x = 7
+		y = 5
+		prerequisite = { focus = BRA_campii_federal }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_research_slot = 1
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_research_generic } }
+		}
+	}
+
+	#Ministério da Ciência e Tecnologia
+	focus = {
+		id = BRA_ministeriodacienciaetecnologia
+		icon = GFX_focus_bra_ministerio
+		x = 9
+		y = 5
+		prerequisite = { focus = BRA_campii_federal }
+		available = {
+			num_of_factories > 60
+		}
+		cost = 10
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_research_slot = 1
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 1
+				category = rocketry
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_research_generic } }
+		}
+	}
+
+	#Universidade Federal do Rio de Janeiro
+	focus = {
+		id = BRA_universidade_federal_do_rio_de_janeiro
+		icon = GFX_focus_bra_r_s_2
+		x = 11
+		y = 5
+		prerequisite = { focus = BRA_campii_federal }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_research_slot = 1
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_research_generic } }
+		}
+	}
+
+	#O Programa Paralelo
+	focus = {
+		id = BRA_o_programa_paralelo
+		icon = GFX_focus_bra_nuclear_research_bureau
+		x = 9
+		y = 6
+		prerequisite = { focus = BRA_ministeriodacienciaetecnologia }
+		prerequisite = { focus = BRA_universidadedesaopaulo }
+		prerequisite = { focus = BRA_universidade_federal_do_rio_de_janeiro }
+		
+		available = {
+			is_major = yes
+			num_of_factories > 100
+		}
+		cost = 10
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_tech_bonus = {
+				name = bra_2_nuclear_bonus
+				bonus = 0.5
+				uses = 1
+				category = nuclear
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_nuclear_research_bureau } }
+		}
+	}
+	
+	###########################################################################################################################################################################################	
+	############################################################################ PARTE DA FORÇAS ARMADAS ######################################################################################
+	###########################################################################################################################################################################################
+
+	#Ministério das Forças Armadas
+	focus = {
+		id = BRA_ministeriodasforcasarmadas
+		icon = GFX_focus_bra_ministerio
+		x = 17
+		y = 0
+		ai_will_do = { factor = 1 }
+		cost = 2
+		completion_reward = {
+			custom_effect_tooltip = bra_armed_forces_lagged_tooltip
+			swap_ideas = { remove_idea = bra_1930 add_idea = bra_1930_2 }
+			hidden_effect = {
+				remove_ideas = { bra_armed_forces_lagged }
+				add_ideas = { bra_army_lagged }
+				add_ideas = { bra_navy_lagged }
+				add_ideas = { bra_air_lagged }
+				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_proclamacao_so_2 }
+			}
+		}
+	}
+
+	#Análise da Guerra Civil de 1932
+	focus = {
+		id = BRA_analisedaguerracivilde1932
+		icon = GFX_focus_bra_ana_guerra_civil
+		x = 17
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = BRA_reorganizar_o_exercito  }
+		prerequisite = { focus = BRA_invocar_os_veteranos  }
+		prerequisite = { focus = BRA_reorganizarasforcaspublicas  }
+		
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			army_experience = 100
+			swap_ideas = { remove_idea = bra_army_obsolete add_idea = bra_army_acceptable }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_hino_const_so_2 } }
+		}
+	}
+
+	#Reformar o Almirantado
+	focus = {
+		id = BRA_reformar_o_almirantado
+		icon = GFX_focus_bra_modernizacao_marinha
+		x = 14
+		y = 1
+		cost = 2
+		
+		prerequisite = { focus = BRA_ministeriodasforcasarmadas  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			navy_experience = 25
+			swap_ideas = { remove_idea = bra_navy_lagged add_idea = bra_navy_obsolete }
+			hidden_effect = {
+				recruit_character = BRA_jose_isaias
+				recruit_character = BRA_protogenes
+				recruit_character = BRA_henrique_aristides
+				recruit_character = BRA_julio_regis
+				recruit_character = BRA_renato_de_almeida
+				recruit_character = BRA_pedro_max
+			}
+			custom_effect_tooltip = bra_modernizacao_marinha_tooltip
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_cisne_branco_so_1 } }
+		}
+	}
+
+	#O Legado do Brigadeiro
+	focus = {
+		id = BRA_o_legado_do_brigadeiro
+		icon = GFX_focus_bra_bombardeiro
+		x = 20
+		y = 5
+		cost = 5
+		
+		prerequisite = { focus = BRA_aforcaaereabrasileira  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = BRA_brigadeiro_tooltip
+			air_experience = 25
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cat_strategic_bomber
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_hino_aviador_so_1 } }
+		}
+	}
+
+	#Doutrina de Guerra Mineira
+	focus = {
+		id = BRA_doutrina_de_guerra_mineira
+		icon = GFX_focus_bra_ana_mineira
+		x = 16
+		y = 4
+		cost = 5
+		prerequisite = { focus = BRA_analisedaguerracivilde1932  }
+		mutually_exclusive = { focus = BRA_doutrina_de_guerra_paulista  }
+		
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			army_experience = 50
+			swap_ideas = { remove_idea = bra_army_acceptable add_idea = bra_army_in_modernization_1 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_paris_belfort_so_2 } }
+		}
+	}
+
+	#Doutrina de Guerra Paulista
+	focus = {
+		id = BRA_doutrina_de_guerra_paulista
+		icon = GFX_focus_bra_ana_paulista
+		x = 18
+		y = 4
+		cost = 5
+		
+		prerequisite = { focus = BRA_analisedaguerracivilde1932  }
+		mutually_exclusive = { focus = BRA_doutrina_de_guerra_mineira  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			army_experience = 50
+			swap_ideas = { remove_idea = bra_army_acceptable add_idea = bra_army_in_modernization_2 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_paris_belfort_so_1 } }
+		}
+	}
+
+	#Revolta da Armada
+	focus = {
+		id = BRA_revolta_da_armada
+		icon = GFX_focus_bra_almirantado
+		x = 14
+		y = 4
+		cost = 10
+		
+		prerequisite = { focus = BRA_estudar_submarinos_italianos  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_navy_acceptable add_idea = bra_navy_in_modernization }
+			navy_experience = 50
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_cisne_branco_so_2 } }
+		}
+	}
+
+	#Estudar Submarinos Italianos
+	focus = {
+		id = BRA_estudar_submarinos_italianos
+		icon = GFX_focus_bra_submarinos
+		x = 14
+		y = 3
+		
+		prerequisite = { focus = BRA_cisnei_branco  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = BRA_estudar_submarinos_italianos_tooltip
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = ss_tech
+			}
+			hidden_effect = {
+				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_cisne_branco_so_3 }
+				set_country_flag = bra_navio_dec_0_flag
+			}
+		}
+	}
+
+	#Encouraçados
+	focus = {
+		id = BRA_encouracados
+		icon = GFX_focus_bra_cruzadores
+		x = 14
+		y = 5
+		prerequisite = { focus = BRA_revolta_da_armada  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = BRA_encouracados_tooltip
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 2
+				category = bb_tech
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_cisne_branco_so_4 } }
+		}
+	}
+
+	#A Força Aérea Brasileira
+	focus = {
+		id = BRA_aforcaaereabrasileira
+		icon = GFX_focus_bra_modernizacao_aerea
+		x = 20
+		y = 4
+		prerequisite = { focus = BRA_lagoa_santa  }
+		cost = 10
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_air_acceptable add_idea = bra_air_in_modernization }
+			air_experience = 25
+			add_ace = {
+				name = "Eduardo"
+				surname = "Gomes"
+				callsign = "O Brigadeiro"
+				type = bomber_genius
+				is_female = no
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_hino_aviador_so_2 } }
+		}
+	}
+
+	#Ministério da Aeronáutica
+	focus = {
+		id = BRA_ministeriodaaeronautica
+		icon = GFX_focus_bra_ministerio
+		x = 20
+		y = 1
+		cost = 2
+		
+		prerequisite = { focus = BRA_ministeriodasforcasarmadas  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_air_lagged add_idea = bra_air_obsolete }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_hino_aviador_so_3 } }
+		}
+	}
+
+	#Lagoa Santa
+	focus = {
+		id = BRA_lagoa_santa
+		icon = GFX_focus_bra_CAS
+		x = 20
+		y = 3
+		
+		prerequisite = { focus = BRA_harpias_altaneiras  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = BRA_lagoa_santa_tooltip
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = light_fighter
+			}
+			hidden_effect = {
+				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_hino_aviador_so_4 }
+				set_country_flag = bra_aviao_dec_0_flag
+			}
+		}
+	}
+
+	#IMBEL
+	focus = {
+		id = BRA_imbel
+		icon = GFX_focus_bra_equip_ind
+		x = 16
+		y = 5
+		prerequisite = { focus = BRA_doutrina_de_guerra_mineira  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = BRA_imbel_tooltip
+			hidden_effect = {
+				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_equip_ind }
+				set_country_flag = bra_cbc_1_flag
+			}
+		}
+	}
+
+	#CBC
+	focus = {
+		id = BRA_cbc
+		icon = GFX_focus_bra_art
+		x = 16
+		y = 6
+		prerequisite = { focus = BRA_imbel  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = BRA_cbc_tooltip
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_art } }
+		}
+	}
+
+	#Escola Superior de Guerra
+	focus = {
+		id = BRA_escola_superior_de_guerra
+		icon = GFX_focus_bra_barragem
+		x = 15
+		y = 7
+		cost = 5
+		
+		prerequisite = { focus = BRA_cbc  }
+		
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_army_in_modernization_1 add_idea = bra_army_modernized_1 }
+			
+			if = {
+				limit = {
+					has_idea = bra_bandeirantes
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes add_idea = bra_bandeirantes_v3 }
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_bandeirantes_v1
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v1 add_idea = bra_bandeirantes_v5 }
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_bandeirantes_v2
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v2 add_idea = bra_bandeirantes_v4 }
+			}
+			else_if = {
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v5
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v5 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v4
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v4 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v6
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v6 add_idea = bra_bandeirantes_ult }
+				}
+			}
+			
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_art } }
+		}
+	}
+
+	#FNM
+	focus = {
+		id = BRA_fnm
+		icon = GFX_focus_bra_mot
+		x = 18
+		y = 5
+		prerequisite = { focus = BRA_doutrina_de_guerra_paulista  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = BRA_fnm_tooltip
+			hidden_effect = {
+				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_mot }
+				set_country_flag = bra_engesa_1_flag
+			}
+		}
+	}
+
+	#ENGESA
+	focus = {
+		id = BRA_engesa
+		icon = GFX_focus_bra_mec
+		x = 18
+		y = 6
+		prerequisite = { focus = BRA_fnm  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = BRA_engesa_tooltip
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_mec } }
+		}
+	}
+
+	#Academia Militar das Agulhas Negras
+	focus = {
+		id = BRA_academia_militar_das_agulhas_negras
+		icon = GFX_focus_bra_blitz
+		x = 19
+		y = 7
+		cost = 5
+		
+		prerequisite = { focus = BRA_engesa  }
+		
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_army_in_modernization_2 add_idea = bra_army_modernized_2 }
+			
+			if = {
+				limit = {
+					has_idea = bra_bandeirantes
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes add_idea = bra_bandeirantes_v3 }
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_bandeirantes_v1
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v1 add_idea = bra_bandeirantes_v5 }
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_bandeirantes_v2
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v2 add_idea = bra_bandeirantes_v4 }
+			}
+			else_if = {
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v5
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v5 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v4
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v4 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v6
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v6 add_idea = bra_bandeirantes_ult }
+				}
+			}
+			
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_mec } }
+		}
+	}
+
+	#Tanques de Guerra
+	focus = {
+		id = BRA_tanques_de_guerra
+		icon = GFX_focus_bra_armor
+		x = 17
+		y = 7
+		cost = 10
+		
+		prerequisite = { focus = BRA_cbc focus = BRA_engesa }
+		
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			custom_effect_tooltip = BRA_tanque_tooltip
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = armor
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_armor } }
+		}
+	}
+
+	#Reorganizar as Forças Públicas
+	focus = {
+		id = BRA_reorganizarasforcaspublicas
+		icon = GFX_focus_bra_pm
+		x = 16
+		y = 2
+		cost = 2
+		
+		prerequisite = { focus = BRA_reorganizar_o_exercito  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			set_technology = { policia_militar_tech = 1 }
+			custom_effect_tooltip = BRA_policia_militar
+			hidden_effect = {
+				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_paris_belfort_so_1 }
+				load_oob = BRA_police
+			}
+		}
+	}
+	
+	#Invocar os Veteranos
+	focus = {
+		id = BRA_invocar_os_veteranos
+		icon = GFX_focus_bra_veteranos
+		x = 18
+		y = 2
+		cost = 2
+		
+		prerequisite = { focus = BRA_reorganizar_o_exercito  }
+		completion_reward = {
+			army_experience = 50
+			hidden_effect = {
+				load_oob = BRA_cohen
+				recruit_character = BRA_isidoro
+				recruit_character = BRA_euclides
+				recruit_character = BRA_miguel_costa
+			}
+			custom_effect_tooltip =  bra_tropas_1932_tooltip
+		}
+	}
+
+	#Reorganizar o Exercito
+	focus = {
+		id = BRA_reorganizar_o_exercito
+		icon = GFX_focus_bra_exercito
+		x = 17
+		y = 1
+		cost = 2
+		
+		prerequisite = { focus = BRA_ministeriodasforcasarmadas  }
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_army_lagged add_idea = bra_army_obsolete }
+		}
+	}
+
+	#Harpias Altaneiras
+	focus = {
+		id = BRA_harpias_altaneiras
+		icon = GFX_focus_bra_harpias
+		x = 20
+		y = 2
+		cost = 5
+		
+		prerequisite = { focus = BRA_ministeriodaaeronautica  }
+		
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_air_obsolete add_idea = bra_air_acceptable }
+		}
+	}
+
+	#Cisnei Branco
+	focus = {
+		id = BRA_cisnei_branco
+		icon = GFX_focus_bra_cisne_branc
+		x = 14
+		y = 2
+		cost = 5
+		
+		prerequisite = { focus = BRA_reformar_o_almirantado  }
+		
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_navy_obsolete add_idea = bra_navy_acceptable }
+		}
+	}
+
+	#E.A.O.A.R.
+	focus = {
+		id = BRA_eaoar
+		icon = GFX_focus_bra_eaoar
+		x = 20
+		y = 6
+		cost = 5
+		
+		prerequisite = { focus = BRA_o_legado_do_brigadeiro  }
+		
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_air_in_modernization add_idea = bra_air_modernized }
+			if = {
+				limit = {
+					has_idea = bra_bandeirantes
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes add_idea = bra_bandeirantes_v1 }
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_bandeirantes_v2
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v2 add_idea = bra_bandeirantes_v6 }
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_bandeirantes_v3
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v3 add_idea = bra_bandeirantes_v5 }
+			}
+			else_if = {
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v6
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v6 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v5
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v5 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v4
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v4 add_idea = bra_bandeirantes_ult }
+				}
+			}
+		}
+	}
+	
+	#Escola de Guerra Naval
+	focus = {
+		id = BRA_escola_guerra_naval
+		icon = GFX_focus_bra_egn
+		x = 14
+		y = 6
+		cost = 5
+		
+		prerequisite = { focus = BRA_encouracados  }
+		
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_navy_in_modernization add_idea = bra_navy_modernized }
+			if = {
+				limit = {
+					has_idea = bra_bandeirantes
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes add_idea = bra_bandeirantes_v2 }
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_bandeirantes_v1
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v1 add_idea = bra_bandeirantes_v6 }
+			}
+			else_if = {
+				limit = {
+					has_idea = bra_bandeirantes_v3
+				}
+				swap_ideas = {remove_idea = bra_bandeirantes_v3 add_idea = bra_bandeirantes_v4 }
+			}
+			else_if = {
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v6
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v6 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v4
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v4 add_idea = bra_bandeirantes_ult }
+				}
+				if = {
+					limit = {
+						has_idea = bra_bandeirantes_v5
+					}
+				swap_ideas = {remove_idea = bra_bandeirantes_v5 add_idea = bra_bandeirantes_ult }
+				}
+			}
+		}
+	}
+	
+	#CIGS
+	focus = {
+		id = BRA_cigs
+		icon = GFX_focus_bra_territoriosfederais
+		x = 16
+		y = 8
+		cost = 5
+		
+		prerequisite = { focus = BRA_escola_superior_de_guerra focus = BRA_academia_militar_das_agulhas_negras focus = BRA_eaoar focus = BRA_escola_guerra_naval }
+		
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			set_technology = { selva_tech = 1 }
+			custom_effect_tooltip = bra_selva_tech_tooltip
+			hidden_effect = {
+				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect = bra_sentinela_brasil_so_2 }
+				load_oob = BRA_selva
+			}
+		}
+	}
+	
+	#SNI
+	focus = {
+		id = BRA_sni
+		icon = GFX_focus_bra_sni
+		x = 14
+		y = 0
+		cost = 5
+		
+		available = {
+			has_completed_focus = BRA_reorganizarasforcaspublicas
+			has_completed_focus = BRA_a_polaca
+		}
+		
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			country_event = bra.24
+		}
+	}
+	
+	#CIOpC
+	focus = {
+		id = BRA_ciopc
+		icon = GFX_focus_bra_ciopc
+		x = 18
+		y = 8
+		cost = 5
+		
+		prerequisite = { focus = BRA_escola_superior_de_guerra focus = BRA_academia_militar_das_agulhas_negras focus = BRA_eaoar focus = BRA_escola_guerra_naval }
+		
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			set_technology = { ciopc_tech = 1 }
+			custom_effect_tooltip = bra_ciopc_tech_tooltip
+			hidden_effect = {
+				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect = bra_sentinela_brasil_so_2 }
+				load_oob = BRA_caatinga
+			}
+		}
+	}
+	
+	###########################################################################################################################################################################################
+	####################################################### PARTE DA INDUSTRIA ################################################################################################################
+	###########################################################################################################################################################################################
+	
+	#Conselho Técnico de Economia e Finanças
+	focus = {
+		id = BRA_conselhotecnicodeeconomiaefinancas
+		icon = GFX_focus_bra_CTEF_CLT
+		x = 25
+		y = 0
+		ai_will_do = { factor = 1 }
+		cost = 1
+		available = {
+			has_completed_focus = BRA_a_polaca 
+		}
+		completion_reward = {
+			swap_ideas = { remove_idea = bra_rural_elite add_idea = bra_eficiencia_1 }
+			add_timed_idea = {
+				idea = bra_industrial_elite
+				days = 100
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_CTEF_CLT } }
+		}
+	}
+	
+	#Ministério da Viação e Obras Públicas
+	focus = {
+		id = BRA_ministeriodaviacaoeobraspublicas
+		icon = GFX_focus_bra_ministerio
+		x = 27
+		y = 0
+		cost = 2
+		ai_will_do = { factor = 1 }
+		available = {
+			has_completed_focus = BRA_conselhotecnicodeeconomiaefinancas 
+		}
+		completion_reward = {
+			
+			custom_effect_tooltip = bra_viacao_tooltip
+			country_event = { id = bra.21 }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_transamazonica_so_1 } }
+		}
+	}
+
+	#CLT
+	focus = {
+		id = BRA_clt
+		icon = GFX_focus_bra_sub_priv
+		x = 23
+		y = 1
+		cost = 5
+		prerequisite = { focus = BRA_itabira }
+		prerequisite = { focus = BRA_conselhotecnicodeeconomiaefinancas }
+		prerequisite = { focus = BRA_ministeriodaviacaoeobraspublicas }
+		
+		ai_will_do = { factor = 1 }
+		available = {
+			has_idea = BRA_lindolfo_collor 
+		}
+		completion_reward = {
+			hidden_effect = { remove_ideas = { BRA_lindolfo_collor } }
+			custom_effect_tooltip = bra_clt_tooltip
+			swap_ideas = { remove_idea = bra_eficiencia_1 add_idea = bra_eficiencia_1_0 }
+			every_owned_state = {
+				limit = {
+					is_core_of = BRA
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_sub_priv } }
+		}
+	}
+
+	#Votorantim S.A
+	focus = {
+		id = BRA_votorantim_sa
+		icon = GFX_focus_bra_eng_mart
+		x = 23
+		y = 2
+		prerequisite = { focus = BRA_clt  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			swap_ideas = { remove_idea = bra_eficiencia_1_0 add_idea = bra_eficiencia_2 }
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_1 } }
+		}
+	}
+
+	#Indústrias Reunidas Fábricas Matarazzo
+	focus = {
+		id = BRA_industriasreunidasfabricasmatarazzo
+		icon = GFX_focus_bra_IRFM
+		x = 23
+		y = 3
+		prerequisite = { focus = BRA_votorantim_sa  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			swap_ideas = { remove_idea = bra_eficiencia_2 add_idea = bra_eficiencia_3 }
+			501 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+	
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_1 } }
+		}
+	}
+
+	#Incentivar as Frentes Migratórias
+	focus = {
+		id = BRA_incentivarasfrentesmigratorias
+		icon = GFX_focus_bra_cmsp
+		x = 23
+		y = 4
+		prerequisite = { focus = BRA_ferrovia_nortesul focus = BRA_br163 focus = BRA_industriasreunidasfabricasmatarazzo focus = BRA_porto_de_natal }
+		
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			501 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_hino_const_so_1 } }
+		}
+	}
+
+	#FIESP
+	focus = {
+		id = BRA_fiesp
+		icon = GFX_focus_bra_fiesp
+		x = 23
+		y = 5
+		prerequisite = { focus = BRA_incentivarasfrentesmigratorias }
+		prerequisite = { focus = BRA_cnaee }
+		prerequisite = { focus = BRA_br230 focus = BRA_expansaodamalhaferroviaria }
+		cost = 5
+		available = {
+			has_idea = bra_eficiencia_3 
+		}
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			swap_ideas = { remove_idea = bra_eficiencia_3 add_idea = bra_eficiencia_4 }
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_1 } }
+		}
+	}
+
+	###########################################################################################################################################################################################
+	####################################################### PARTE DA INFRAESTRUTURA ###########################################################################################################
+	###########################################################################################################################################################################################
+
+	#Rodovias Federais
+	focus = {
+		id = BRA_rodovias_federais
+		icon = GFX_focus_bra_obras_exterior
+		x = 25
+		y = 1
+		prerequisite = { focus = BRA_itabira }
+		prerequisite = { focus = BRA_conselhotecnicodeeconomiaefinancas }
+		prerequisite = { focus = BRA_ministeriodaviacaoeobraspublicas }
+		mutually_exclusive = { focus = BRA_ferrovias_nacionais  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			add_timed_idea = {
+				idea = bra_motorized_effort
+				days = 365
+			}
+			
+			every_owned_state = {
+				limit = {
+					is_core_of = BRA
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_obras_exterior } }
+		}
+	}
+
+	#BR-116
+	focus = {
+		id = BRA_br116
+		icon = GFX_focus_bra_infra_gen
+		x = 25
+		y = 2
+		prerequisite = { focus = BRA_rodovias_federais  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			498 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			499 = { 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			496 = { 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			500 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			501 = { 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			503 = { 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			835 = { 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			502 = { 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_transamazonica_so_2 } }
+		}
+	}
+	
+	#BR-163
+	focus = {
+		id = BRA_br163
+		icon = GFX_focus_bra_infra_gen
+		x = 25
+		y = 3
+		prerequisite = { focus = BRA_br116  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			835 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			503 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			280 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			838 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			837 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_rodovia_so_1 } }
+		}
+	}
+	
+	#BR-230
+	focus = {
+		id = BRA_br230
+		icon = GFX_focus_bra_infra_gen
+		x = 25
+		y = 4
+		prerequisite = { focus = BRA_br163  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			498 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			497 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			837 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			495 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_transamazonica_so_1 } }
+		}
+	}
+
+	#Via Anhanguera
+	focus = {
+		id = BRA_via_anhanguera
+		icon = GFX_focus_bra_infra_gen
+		x = 27
+		y = 6
+		prerequisite = { focus = BRA_br230 focus = BRA_expansaodamalhaferroviaria }
+		
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+
+			501 = {
+				set_building_level = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+			}
+			every_owned_state = { 
+				limit = {
+					is_core_of = BRA
+				}
+				add_extra_state_shared_building_slots = 2 
+			}
+
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_anhanguera } }
+		}
+	}
+
+	#Ferrovias Nacionais
+	focus = {
+		id = BRA_ferrovias_nacionais
+		icon = GFX_focus_bra_ferrovia
+		x = 29
+		y = 1
+		prerequisite = { focus = BRA_itabira }
+		prerequisite = { focus = BRA_conselhotecnicodeeconomiaefinancas }
+		prerequisite = { focus = BRA_ministeriodaviacaoeobraspublicas }
+		mutually_exclusive = { focus = BRA_rodovias_federais  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			add_timed_idea = {
+				idea = bra_train_effort
+				days = 365
+			}
+			
+			hidden_effect = {
+				build_railway = {
+					level = 5
+					path = {10980 13311 13282 8226 8148 7589 12938}
+				}
+				build_railway = {
+					level = 5
+					path = {13378 8140 12923 13289 12977 7636 13271 13275 10947 10513}
+				}
+				build_railway = {
+					level = 5
+					path = {10447 7594 12396 4548 10405 13250 4533 13252 8181 11008 13273 10947}
+				}
+				build_railway = {
+					level = 5
+					path = {10513 10432 5172 10980 8190 12996 2153 10999}
+				}
+			}
+			custom_effect_tooltip = bra_ferrovias_nacionais_tooltip
+			every_owned_state = {
+				limit = {
+					is_core_of = BRA
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+		}
+	}
+
+	#Ferrovia Transnordestina
+	focus = {
+		id = BRA_ferrovia_transnordestina
+		icon = GFX_focus_bra_ferrovia_2
+		x = 29
+		y = 2
+		prerequisite = { focus = BRA_ferrovias_nacionais  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			hidden_effect = {
+				build_railway = {
+					level = 5
+					path = {12853 12999 5220 13363 12933 13364 2228 2132 13349 5107 8179 2175 10933 2227 5168 13353 10939 10998 8143 13323 13321 10946}
+				}
+				build_railway = {
+					level = 5
+					path = {2228 13354 5153 13436 13370 13371}
+				}
+				build_railway = {
+					level = 5
+					path = {5168 1446 12961 10345 8242 8227 13372 13371}
+				}
+				497 = { add_extra_state_shared_building_slots = 1 }
+				498 = { add_extra_state_shared_building_slots = 1 }
+				499 = { add_extra_state_shared_building_slots = 1 }
+			}
+		
+			custom_effect_tooltip = bra_ferrovia_2_tooltip
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+		}
+	}
+
+	#Ferrovia Norte-Sul
+	focus = {
+		id = BRA_ferrovia_nortesul
+		icon = GFX_focus_bra_ferrovia_2
+		x = 29
+		y = 3
+		prerequisite = { focus = BRA_ferrovia_transnordestina  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			hidden_effect = {
+				build_railway = {
+					level = 5
+					path = {8181 13257 13260 13261 13264 8224 13394 13395 10959 13391 2111 13400 13403 8175 13419 1979 10934 }
+				}
+				838 = {
+					add_building_construction = {
+						type = supply_node
+						level = 1
+						province = 13395
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+				502 = { add_extra_state_shared_building_slots = 1 }
+				503 = { add_extra_state_shared_building_slots = 1 }
+				838 = { add_extra_state_shared_building_slots = 1 }
+				505 = { add_extra_state_shared_building_slots = 1 }
+				496 = { add_extra_state_shared_building_slots = 1 }
+				837 = { add_extra_state_shared_building_slots = 1 }
+				280 = { add_extra_state_shared_building_slots = 1 }
+			}
+			
+			custom_effect_tooltip = bra_ferrovia_3_tooltip
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+		}
+	}
+
+	#Expansão da Malha Ferroviaria
+	focus = {
+		id = BRA_expansaodamalhaferroviaria
+		icon = GFX_focus_bra_ferrovia_2
+		x = 29
+		y = 4
+		prerequisite = { focus = BRA_ferrovia_nortesul  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			hidden_effect = {
+				build_railway = {
+					level = 5
+					path = {13378 5208 13386 5151 13358 12913 13430 13426 12853}
+				}
+				build_railway = {
+					level = 5
+					path = {13371 13374 5204 13387 5151}
+				}
+				build_railway = {
+					level = 5
+					path = {10934 13414 13421 13433 2035 10874 13427 13426}
+				}
+				build_railway = {
+					level = 5
+					path = {13391 13377 13376 8140 13382 2218 13306 13305 13300 10931 12938}
+				}
+				build_railway = {
+					level = 5
+					path = {10999 13313 13316 11002 10419 8197 13320 10946}
+				}
+				495 = { add_extra_state_shared_building_slots = 1 }
+				437 = { add_extra_state_shared_building_slots = 1 }
+				499 = { add_extra_state_shared_building_slots = 1 }
+				505 = { add_extra_state_shared_building_slots = 1 }
+				836 = { add_extra_state_shared_building_slots = 1 }
+			}
+			
+			custom_effect_tooltip = bra_ferrovia_4_tooltip
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+		}
+	}
+
+	#Porto de Belém
+	focus = {
+		id = BRA_portodebelem
+		icon = GFX_focus_bra_porto_gen
+		x = 27
+		y = 2
+		prerequisite = { focus = BRA_rodovias_federais focus = BRA_ferrovias_nacionais }
+		
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			837 = { 
+				add_extra_state_shared_building_slots = 2 
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = { type = naval_base province = 12853 level = 3 instant_build = yes }
+			}
+
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_belem_porto } }
+		}
+	}
+
+	#Porto de Natal
+	focus = {
+		id = BRA_porto_de_natal
+		icon = GFX_focus_bra_porto_gen
+		x = 27
+		y = 3
+		prerequisite = { focus = BRA_portodebelem focus = BRA_br116 focus = BRA_ferrovia_transnordestina }
+		
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			498 = { 
+				add_extra_state_shared_building_slots = 2 
+				add_building_construction = { type = dockyard level = 2 instant_build = yes }
+				add_building_construction = { type = naval_base province = 10933 level = 7 instant_build = yes }
+			}
+
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_belem_porto } }
+		}
+	}
+
+	#CNAEE
+	focus = {
+		id = BRA_cnaee
+		icon = GFX_focus_bra_elet_gen
+		x = 27
+		y = 4
+		prerequisite = { focus = BRA_ferrovia_nortesul focus = BRA_br163 focus = BRA_industriasreunidasfabricasmatarazzo focus = BRA_porto_de_natal }
+		
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+	
+		add_ideas = bra_eficiencia_5
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_vacinado_1 } }
+		}
+	}
+
+	#Eletrobrás
+	focus = {
+		id = BRA_eletrobras
+		icon = GFX_focus_bra_elet_gen
+		x = 27
+		y = 5
+		prerequisite = { focus = BRA_cnaee  focus = BRA_incentivarasfrentesmigratorias  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			swap_ideas = { remove_idea = bra_eficiencia_5 add_idea = bra_eficiencia_7 }
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_vacinado_1 } }
+		}
+	}
+
+	#Decreto de Mobilização Nacional
+	focus = {
+		id = BRA_decretodemobilizacaonacional
+		icon = GFX_focus_bra_ministerio
+		x = 23
+		y = 6
+		prerequisite = { focus = BRA_eletrobras }
+		prerequisite = { focus = BRA_fiesp }
+		cost = 5
+		cancel_if_invalid = no
+		ai_will_do = { factor = 1 }
+		available = {
+			has_war = yes
+		}
+		completion_reward = {
+			
+			swap_ideas = { remove_idea = bra_eficiencia_7 add_idea = bra_eficiencia_8 }
+			country_event = { id = bra.9 }
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_mobilizacao_ind_so } }
+		}
+	}
+	
+	###########################################################################################################################################################################################
+	####################################################### PARTE DA SOJA #####################################################################################################################
+	###########################################################################################################################################################################################
+
+	#EMBRAPA
+	focus = {
+		id = BRA_embrapa
+		icon = GFX_focus_bra_agro_gen
+		x = 23
+		y = 7
+		prerequisite = { focus = BRA_via_anhanguera }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			add_ideas = bra_ciclocana_idea
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_feito_nos } }
+		}
+	}
+
+	#O Ciclo da Soja
+	focus = {
+		id = BRA_o_ciclo_da_soja
+		icon = GFX_focus_bra_agro_gen
+		x = 25
+		y = 7
+		prerequisite = { focus = BRA_via_anhanguera }
+		available = {
+			has_idea = bra_ciclocana_idea 
+		}
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			swap_ideas = { remove_idea = bra_ciclocana_idea add_idea = bra_ciclosoja_idea }
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_transamazonica_so_3 } }
+		}
+	}
+
+	#Proálcool
+	focus = {
+		id = BRA_proalcool
+		icon = GFX_focus_bra_etanol
+		x = 27
+		y = 7
+		prerequisite = { focus = BRA_via_anhanguera }
+		available = {
+			has_idea = bra_ciclosoja_idea 
+		}
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			swap_ideas = { remove_idea = bra_ciclosoja_idea add_idea = bra_etanol_idea }
+			500 = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			501 = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			custom_effect_tooltip = bra_etanol_focus_tooltip
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_etanol_so } }
+		}
+	}
+
+	###########################################################################################################################################################################################
+	####################################################### PARTE DOS RECURSOS ################################################################################################################
+	###########################################################################################################################################################################################
+
+	#Itabira
+	focus = {
+		id = BRA_itabira
+		icon = GFX_focus_bra_itabira
+		x = 33
+		y = 0
+		available = {
+			has_completed_focus = BRA_conselhotecnicodeeconomiaefinancas
+		}
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			add_resource = { type = steel amount = 8 state = 496 }
+			if = {
+				limit = {
+					has_idea = free_trade
+				}
+				add_ideas = export_focus
+			}
+
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
+		}
+	}
+
+	#Aliperti S.A
+	focus = {
+		id = BRA_aliperti_sa
+		icon = GFX_focus_bra_cosipa
+		x = 31
+		y = 1
+		prerequisite = { focus = BRA_ministeriodaviacaoeobraspublicas  }
+		prerequisite = { focus = BRA_itabira }
+		prerequisite = { focus = BRA_conselhotecnicodeeconomiaefinancas }
+		
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			add_resource = { type = steel amount = 16 state = 496 }
+			add_resource = { type = steel amount = 16 state = 501 }
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
+		}
+	}
+
+	#Grupo Gerdau
+	focus = {
+		id = BRA_grupo_gerdau
+		icon = GFX_focus_bra_acogerdau
+		x = 33
+		y = 1
+		prerequisite = { focus = BRA_itabira }
+		prerequisite = { focus = BRA_conselhotecnicodeeconomiaefinancas }
+		prerequisite = { focus = BRA_ministeriodaviacaoeobraspublicas }
+		
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			add_resource = { type = steel amount = 16 state = 496 }
+			add_resource = { type = steel amount = 16 state = 502 }
+
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
+		}
+	}
+
+	#Tupy S.A
+	focus = {
+		id = BRA_tupy_sa
+		icon = GFX_focus_bra_acominas
+		x = 35
+		y = 1
+		prerequisite = { focus = BRA_itabira }
+		prerequisite = { focus = BRA_conselhotecnicodeeconomiaefinancas }
+		prerequisite = { focus = BRA_ministeriodaviacaoeobraspublicas }
+		
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			add_resource = { type = steel amount = 16 state = 496 }
+			add_resource = { type = steel amount = 16 state = 503 }
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
+		}
+	}
+
+	#Companhia Siderúrgica Nacional
+	focus = {
+		id = BRA_companhiasiderurgicanacional
+		icon = GFX_focus_bra_csn
+		x = 32
+		y = 2
+		prerequisite = { focus = BRA_tupy_sa  }
+		prerequisite = { focus = BRA_aliperti_sa }
+		prerequisite = { focus = BRA_grupo_gerdau }
+		
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			add_resource = { type = steel amount = 16 state = 496 }
+			add_resource = { type = steel amount = 16 state = 500 }
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
+		}
+	}
+
+	#Vale do Rio Doce
+	focus = {
+		id = BRA_vale_do_rio_doce
+		icon = GFX_focus_bra_vale
+		x = 34
+		y = 2
+		prerequisite = { focus = BRA_tupy_sa  }
+		prerequisite = { focus = BRA_aliperti_sa }
+		prerequisite = { focus = BRA_grupo_gerdau }
+		
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			add_resource = { type = tungsten amount = 32 state = 498 }
+			add_resource = { type = chromium amount = 32 state = 495 }
+			add_resource = { type = aluminium amount = 32 state = 497 }
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_vale } }
+		}
+	}
+
+	#Lobato
+	focus = {
+		id = BRA_lobato
+		icon = GFX_focus_bra_lobato
+		x = 36
+		y = 0
+		ai_will_do = { factor = 1 }
+		available = {
+			has_completed_focus = BRA_conselhotecnicodeeconomiaefinancas
+		}
+		cost = 5
+		completion_reward = {
+			
+			add_resource = { type = oil amount = 5 state = 499 }
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
+		}
+	}
+
+	#Conselho Nacional do Petróleo
+	focus = {
+		id = BRA_conselhonacionaldopetroleo
+		icon = GFX_focus_bra_salvador
+		x = 37
+		y = 1
+		prerequisite = { focus = BRA_lobato  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			add_resource = { type = oil amount = 5 state = 499 }
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
+		}
+	}
+
+	#Petrobrás
+	focus = {
+		id = BRA_petrobras
+		icon = GFX_focus_bra_petrobras
+		x = 36
+		y = 2
+		prerequisite = { focus = BRA_conselhonacionaldopetroleo  }
+		mutually_exclusive = { focus = BRA_entreguismo  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			add_resource = { type = oil amount = 5 state = 499 }
+			add_resource = { type = oil amount = 5 state = 500 }
+			add_resource = { type = oil amount = 5 state = 838 }
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_2 } }
+		}
+	}
+
+	###########################################################################################################################################################################################
+	########################################### PARTE DOS BANCOS, IDROELETRICAS E GRANDES SIDERURGICAS ########################################################################################
+	###########################################################################################################################################################################################
+
+	#BNDE
+	focus = {
+		id = BRA_bnde
+		icon = GFX_focus_bra_bndes
+		x = 34
+		y = 3
+		prerequisite = { focus = BRA_vale_do_rio_doce  }
+		prerequisite = { focus = BRA_entreguismo focus = BRA_petrobras  }
+		prerequisite = { focus = BRA_companhiasiderurgicanacional  }
+		
+		available = {
+			AND = { 
+				has_completed_focus = BRA_fiesp
+				has_idea = bra_eficiencia_4
+			}
+		}
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			swap_ideas = { remove_idea = bra_eficiencia_4 add_idea = bra_eficiencia_bndes }
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_bndes } }
+		}
+	}
+
+	#Montreal Engenharia S.A
+	focus = {
+		id = BRA_montreal_engenharia_sa
+		icon = GFX_focus_bra_gerdau
+		x = 33
+		y = 4
+		prerequisite = { focus = BRA_bnde  }
+		mutually_exclusive = { focus = BRA_tecnicanacionaldeengenhariasa  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			swap_ideas = { remove_idea = bra_eficiencia_bndes add_idea = bra_eficiencia_gerdau_1 }
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_assovio_1 } }
+		}
+	}
+
+	#Técnica Nacional de Engenharia S.A
+	focus = {
+		id = BRA_tecnicanacionaldeengenhariasa
+		icon = GFX_focus_bra_tenenge
+		x = 35
+		y = 4
+		prerequisite = { focus = BRA_bnde  }
+		mutually_exclusive = { focus = BRA_montreal_engenharia_sa  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			swap_ideas = { remove_idea = bra_eficiencia_bndes add_idea = bra_eficiencia_tenenge_1 }
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_rodovia_so_2 } }
+		}
+	}
+
+	#Companhia Hidrelétrica do São Francisco
+	focus = {
+		id = BRA_companhiahidreletricadosaofrancisco
+		icon = GFX_focus_bra_elet_gen
+		x = 31
+		y = 5
+		prerequisite = { focus = BRA_bnde  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			499 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_infra_generic } }
+		}
+	}
+
+	#Usina Hidroelétrica de Itaipu
+	focus = {
+		id = BRA_usinahidroeletricadeitaipu
+		icon = GFX_focus_bra_itaipu
+		x = 34
+		y = 5
+		prerequisite = { focus = BRA_montreal_engenharia_sa focus = BRA_tecnicanacionaldeengenhariasa }
+		
+		available = {
+			BRA = {
+				NOT = { 
+					has_war_with = PAR
+				}
+				has_full_control_of_state = 503
+				owns_state = 503
+			}
+		}
+		cost = 10
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			if = { limit = { has_completed_focus = BRA_montreal_engenharia_sa } swap_ideas = { remove_idea = bra_eficiencia_gerdau_1 add_idea = bra_eficiencia_gerdau_2 } }
+			if = { limit = { has_completed_focus = BRA_tecnicanacionaldeengenhariasa } swap_ideas = { remove_idea = bra_eficiencia_tenenge_1 add_idea = bra_eficiencia_tenenge_2 } }
+			set_major = yes
+			if = {
+				limit = {
+					PAR = {
+						exists = yes
+						NOT = { has_war_with = BRA } 
+					}
+				}
+				add_opinion_modifier = {
+					target = PAR
+					modifier = bra_amigo_modifier
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_itaipu } }
+		}
+	}
+
+	#Zona Franca de Manaus
+	focus = {
+		id = BRA_zona_franca_de_manaus
+		icon = GFX_focus_bra_infra_gen
+		x = 37
+		y = 5
+		prerequisite = { focus = BRA_bnde  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			495 = { add_extra_state_shared_building_slots = 2 }
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_infra_generic } }
+		}
+	}
+
+	#Telebrás
+	focus = {
+		id = BRA_telebras
+		icon = GFX_focus_bra_elet_gen
+		x = 34
+		y = 6
+		prerequisite = { focus = BRA_zona_franca_de_manaus }
+		prerequisite = { focus = BRA_usinahidroeletricadeitaipu }
+		prerequisite = { focus = BRA_companhiahidreletricadosaofrancisco }
+		
+		cost = 10
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			every_owned_state = {
+				limit = {
+					is_core_of = BRA
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			
+			if = {
+				limit = {
+					AND = {
+						has_idea = bra_industrial_elite
+					}
+				}
+				modify_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_idea = bra_industrial_elite }
+				}
+				add_timed_idea = {
+					idea = bra_industrial_elite
+					days = 40
+				}
+			}
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_itaipu } }
+		}
+	}
+
+	###########################################################################################################################################################################################
+	########################################################################## PARTE DA DIPLOMACIA ############################################################################################
+	###########################################################################################################################################################################################
+
+	#Itamaraty
+	focus = {
+		id = BRA_itamaraty
+		icon = GFX_focus_bra_diplomacia
+		x = 43
+		y = 0
+		ai_will_do = { factor = 1 }
+		available = {
+			has_completed_focus = BRA_a_polaca
+		}
+		cost = 5
+		completion_reward = {
+			custom_effect_tooltip = bra_diplomacia_tooltip
+		}
+	}
+
+	#Participar da Política Internacional
+	focus = {
+		id = BRA_participardapoliticainternacional
+		icon = GFX_focus_bra_heal_wounds
+		x = 41
+		y = 1
+		prerequisite = { focus = BRA_itamaraty  }
+		mutually_exclusive = { focus = BRA_ouiracu  }
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+			custom_effect_tooltip = bra_heal_wounds_tooltip
+		}
+	}
+
+	#'Entreguismo'
+	focus = {
+		id = BRA_entreguismo
+		icon = GFX_focus_bra_entreguismo
+		x = 38
+		y = 2
+		prerequisite = { focus = BRA_participardapoliticainternacional  }
+		mutually_exclusive = { focus = BRA_petrobras  }
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+			custom_effect_tooltip = bra_entreguismo_tooltip
+			hidden_effect = { BRA = { set_country_flag = bra_entreguismo_flag } }
+		}
+	}
+
+	#Um Bom Vizinho
+	focus = {
+		id = BRA_um_bom_vizinho
+		icon = GFX_focus_bra_amigo_eua
+		x = 40
+		y = 4
+		prerequisite = { focus = BRA_participardapoliticainternacional  }
+		mutually_exclusive = { }
+		ai_will_do = { factor = 1 }
+		available = {
+			country_exists = USA
+			AND = {
+				OR = { 
+					has_government = democratic
+					has_government = neutrality
+				} 
+				USA = {
+					OR = {
+						has_government = democratic
+						has_government = neutrality
+					}
+					is_puppet = no
+					NOT = { has_war_with = BRA }
+				}
+				BRA = {
+					NOT = {
+						has_completed_focus = BRA_amizadecomercioenavegacao
+						has_completed_focus = BRA_oprincipiodeautoridade
+						has_completed_focus = BRA_uma_segunda_urss
+					}
+				}
+			}
+		}
+		cost = 5
+		completion_reward = {
+			
+			custom_effect_tooltip = bra_amigo_eua_tooltip
+			if = {
+				limit = {
+					USA = {
+						is_in_faction_with = ENG
+						has_government = democratic
+					}
+					ENG = {
+						is_faction_leader = yes
+						has_government = democratic
+					}
+					BRA = {
+						OR = {
+							has_government = democratic
+							has_government = neutrality
+						}
+						is_in_faction = no
+					}
+				}
+				ENG = { country_event = { id = bra.7 } }
+			}
+			else_if = {
+				limit = {
+					USA = {
+						has_government = neutrality
+						is_faction_leader = yes
+					}
+					BRA = {	
+						has_government = neutrality	
+						is_in_faction = no
+					}
+				}
+				USA = { country_event = { id = bra.7 } }
+			}
+		
+			hidden_effect = { BRA = { add_opinion_modifier = { target = USA modifier = bra_amigo_outro_modifier } } }
+			USA = { add_opinion_modifier = { target = BRA modifier = bra_amigo_modifier } }
+			USA = { add_opinion_modifier = { target = BRA modifier = bra_comercio_modifier } }
+			
+			if = {
+				limit = {
+					BRA = {
+						has_country_flag = bra_entreguismo_flag
+					}
+				}
+				BRA = { 
+					add_timed_idea = { 
+						idea = bra_entreguismo_eua
+						days = 365
+					}
+				}
+				USA = {
+					add_ideas = bra_entreguismo_eua_outro
+				}
+			}
+		}
+	}
+
+	#Amizade, Comércio e Navegação
+	focus = {
+		id = BRA_amizadecomercioenavegacao
+		icon = GFX_focus_bra_amigo_uk
+		x = 41
+		y = 3
+		prerequisite = { focus = BRA_participardapoliticainternacional  }
+		ai_will_do = { factor = 1 }
+		cost = 5
+		available = {
+			country_exists = ENG
+			AND = {
+				OR = { 
+					has_government = democratic
+					has_government = neutrality
+				} 
+				ENG = { 
+					has_government = democratic
+					is_puppet = no
+					is_faction_leader = yes
+					NOT = { has_war_with = BRA }
+				}
+				BRA = {
+					NOT = {
+						has_completed_focus = BRA_um_bom_vizinho
+						has_completed_focus = BRA_uma_segunda_urss
+						has_completed_focus = BRA_oprincipiodeautoridade
+					}
+				}
+			}
+		}
+		completion_reward = {
+	
+			if = {
+				limit = {
+					BRA = {
+						is_in_faction = no
+					}
+				}
+				ENG = { country_event = { id = bra.7 } }
+			}
+			
+			hidden_effect = { BRA = { add_opinion_modifier = { target = ENG modifier = bra_amigo_outro_modifier } } }
+			ENG = { add_opinion_modifier = { target = BRA modifier = bra_amigo_modifier } }
+			ENG = { add_opinion_modifier = { target = BRA modifier = bra_comercio_modifier } }
+			
+			if = {
+				limit = {
+					BRA = {
+						has_country_flag = bra_entreguismo_flag
+					}
+				}
+				BRA = {
+					add_timed_idea = { 
+						idea = bra_entreguismo_eng
+						days = 365
+					}
+				}
+				ENG = {
+					add_ideas = bra_entreguismo_eng_outro
+				}
+			}
+		}
+	}
+
+	#O Princípio de Autoridade
+	focus = {
+		id = BRA_oprincipiodeautoridade
+		icon = GFX_focus_bra_amigo_alemanha
+		x = 42
+		y = 4
+		prerequisite = { focus = BRA_participardapoliticainternacional  }
+		available = {
+			country_exists = GER
+			AND = {
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				} 
+				GER = { 
+					has_government = fascism
+					is_puppet = no
+					is_faction_leader = yes
+					NOT = { has_war_with = BRA }
+				}
+				BRA = {
+					NOT = {
+						has_completed_focus = BRA_um_bom_vizinho
+						has_completed_focus = BRA_amizadecomercioenavegacao
+						has_completed_focus = BRA_uma_segunda_urss
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+	
+			if = {
+				limit = {
+					BRA = {
+						is_in_faction = no
+					}
+				}
+				GER = { country_event = { id = bra.7 } }
+			}
+			
+			hidden_effect = { BRA = { add_opinion_modifier = { target = GER modifier = bra_amigo_outro_modifier } } }
+			GER = { add_opinion_modifier = { target = BRA modifier = bra_amigo_modifier } }
+			GER = { add_opinion_modifier = { target = BRA modifier = bra_comercio_modifier } }
+			
+			if = {
+				limit = {
+					BRA = {
+						has_country_flag = bra_entreguismo_flag
+					}
+				}
+				BRA = {
+					add_timed_idea = { 
+						idea = bra_entreguismo_ger
+						days = 365
+					}
+				}
+				GER = {
+					add_ideas = bra_entreguismo_ger_outro
+				}
+			}
+		}
+	}
+
+	#Uma Segunda URSS
+	focus = {
+		id = BRA_uma_segunda_urss
+		icon = GFX_focus_bra_amigo_urss
+		x = 43
+		y = 3
+		prerequisite = { focus = BRA_participardapoliticainternacional  }
+		available = {
+		
+			country_exists = SOV
+			AND = {
+				has_government = communism
+				SOV = { 
+					has_government = communism
+					is_puppet = no
+					is_faction_leader = yes
+					NOT = { has_war_with = BRA }
+				}
+				BRA = {
+					NOT = {
+						has_completed_focus = BRA_amizadecomercioenavegacao
+						has_completed_focus = BRA_oprincipiodeautoridade
+						has_completed_focus = BRA_um_bom_vizinho
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+			
+			if = {
+				limit = {
+					BRA = {
+						is_in_faction = no
+					}
+				}
+				SOV = { country_event = { id = bra.7 } }
+			}
+			hidden_effect = { BRA = { add_opinion_modifier = { target = SOV modifier = bra_amigo_outro_modifier } } }
+			SOV = { add_opinion_modifier = { target = BRA modifier = bra_amigo_modifier } }
+			SOV = { add_opinion_modifier = { target = BRA modifier = bra_comercio_modifier } }
+			
+			if = {
+				limit = {
+					BRA = {
+						has_country_flag = bra_entreguismo_flag
+					}
+				}
+				BRA = {
+					add_timed_idea = { 
+						idea = bra_entreguismo_sov
+						days = 365
+					}
+				}
+				SOV = {
+					add_ideas = bra_entreguismo_sov_outro
+				}
+			}
+		}
+	}
+
+	#'O Uiraçu'
+	focus = {
+		id = BRA_ouiracu
+		icon = GFX_focus_bra_sem_eixo
+		x = 44
+		y = 1
+		prerequisite = { focus = BRA_itamaraty }
+		mutually_exclusive = { focus = BRA_participardapoliticainternacional }
+		
+		available = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			} 
+		}
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+			
+			custom_effect_tooltip = bra_uiracu_tooltip
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_marcha_de_guerra_so_1 } }
+		}
+	}
+
+	#Basta!
+	focus = {
+		id = BRA_basta
+		icon = GFX_focus_bra_basta
+		x = 44
+		y = 5
+		cost = 5
+
+		prerequisite = { focus = BRA_ouiracu focus = BRA_unasul focus = BRA_uma_segunda_urss focus = BRA_oprincipiodeautoridade  }
+		ai_will_do = { factor = 1 }
+		available = {
+			country_exists = USA
+			USA = {	is_puppet = no }
+			OR = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = USA }
+			hidden_effect = { if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_proclamacao_so_3 } }
+		}
+	}
+
+	#O Cruzeiro do Sul
+	focus = {
+		id = BRA_o_cruzeiro_do_sul
+		icon = GFX_focus_bra_guide_latam
+		x = 46
+		y = 1
+		prerequisite = { focus = BRA_itamaraty  }
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+			
+			custom_effect_tooltip = bra_guide_latam_tooltip
+			set_rule = { can_create_factions = yes }
+		}
+	}
+
+	#MERCOSUL
+	focus = {
+		id = BRA_mercosul
+		icon = GFX_focus_bra_mercosul_focus
+		x = 46
+		y = 2
+		prerequisite = { focus = BRA_o_cruzeiro_do_sul  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+		add_ideas = bra_mercosul_idea_outro
+			custom_effect_tooltip = bra_mercosul_tooltip
+			if = {
+				limit = {
+					BRA = { 
+						OR = {
+							has_government = democratic
+							has_government = neutrality
+						}
+					}
+				}	
+				every_other_country = {
+					limit = {
+						AND = {
+							capital_scope = { is_on_continent = south_america }
+							OR = { 
+								has_government = democratic
+								has_government = neutrality
+							}
+							NOT = { tag = BRA }
+							NOT = { has_war_with = BRA }
+						}
+					}
+					add_opinion_modifier = {
+						target = BRA 
+						modifier = bra_amigo_modifier
+					}
+					add_opinion_modifier = { 
+						target = BRA 
+						modifier = bra_comercio_mercosul_modifier
+					}
+					add_ideas = bra_mercosul_idea_outro
+				}
+			}
+			else_if = {
+				limit = {
+					BRA = {
+						has_government = communism
+					}
+				}
+				every_other_country = {
+					limit = {
+						AND = {
+							capital_scope = { is_on_continent = south_america }
+							has_government = communism
+							NOT = { tag = BRA }
+							NOT = { has_war_with = BRA }
+						}
+					}
+					add_opinion_modifier = {
+						target = BRA 
+						modifier = bra_amigo_modifier
+					}
+					add_opinion_modifier = { 
+						target = BRA 
+						modifier = bra_comercio_mercosul_modifier
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					BRA = {
+						has_government = fascism
+					}
+				}
+				every_other_country = {
+					limit = {
+						AND = {
+							capital_scope = { is_on_continent = south_america }
+							has_government = fascism
+							NOT = { tag = BRA }
+							NOT = { has_war_with = BRA }
+						}
+					}
+					add_opinion_modifier = {
+						target = BRA 
+						modifier = bra_amigo_modifier
+					}
+					add_opinion_modifier = { 
+						target = BRA 
+						modifier = bra_comercio_mercosul_modifier
+					}
+				}
+			}
+		}
+	}
+
+	#Erguer a América Latina
+	focus = {
+		id = BRA_ergueraamericalatina
+		icon = GFX_focus_bra_mercosul_militar_focus
+		x = 46
+		y = 3
+		prerequisite = { focus = BRA_mercosul  }
+		cost = 5
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+			custom_effect_tooltip = bra_mercosul_militar_tooltip
+			hidden_effect = {
+				every_other_country = {
+					limit = { 
+						AND = {
+							capital_scope = { is_on_continent = south_america }
+							has_opinion_modifier = bra_comercio_mercosul_modifier
+							NOT = { tag = GUA }
+							NOT = { tag = NIC }
+							NOT = { tag = COS }
+							NOT = { tag = PAN }
+							NOT = { tag = DOM }
+							NOT = { tag = CUB }
+						}
+						NOT = { has_war_with = BRA }
+					}
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#UNASUL
+	focus = {
+		id = BRA_unasul
+		icon = GFX_focus_bra_mercosul_expansao_focus
+		x = 46
+		y = 4
+		prerequisite = { focus = BRA_ergueraamericalatina  }
+		available = {
+			BRA = { is_in_faction = no }
+		}
+		ai_will_do = { factor = 1 }
+		cost = 5
+		completion_reward = {
+			
+			custom_effect_tooltip = bra_mercosul_expansao_tooltip
+			
+			create_faction = "UNASUL"
+			
+			every_other_country = {
+				limit = { 
+					AND = {
+						capital_scope = { is_on_continent = south_america }
+						has_opinion_modifier = bra_comercio_mercosul_modifier
+						NOT = { has_war_with = BRA }
+						NOT = { tag = BRA }
+						is_in_faction = no
+					}
+				}
+				country_event = { id = bra.6 }
+			}
+		}
+	}
+}

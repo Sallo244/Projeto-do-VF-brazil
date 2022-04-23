@@ -1,0 +1,156 @@
+technologies = {
+	
+	submarine1_tech = {
+
+		research_cost = 1
+
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+		
+		enable_equipment_modules = { 
+			bra_sub_reactor_module
+		}
+		
+		enable_equipments = {
+			ship_hull_submarine_nuclear
+		}
+	}
+	
+	encouracado1_tech = {
+
+		research_cost = 1
+
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+		
+		enable_equipment_modules = { 
+			bra_heavy_reactor_module
+		}
+		
+		enable_equipments = {
+			ship_hull_heavy_nuclear
+		}
+	}
+	
+	caca1_tech = {
+
+		research_cost = 1
+
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+		
+		enable_equipments = {
+			bra_fighter_multhole_equipment_1
+		}
+	}
+	
+	bomber1_tech = {
+
+		research_cost = 1
+
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+		
+		enable_equipments = {
+			bra_bomber_multhole_equipment_1
+		}
+	}
+
+	policia_militar_tech = {
+
+		research_cost = 1
+
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+
+		enable_subunits = {
+			bra_policia_militar
+		}
+
+	}
+
+	selva_tech = {
+
+		research_cost = 1
+		
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		enable_subunits = {
+			bra_selva
+		}
+	}
+	
+	ciopc_tech = {
+
+		research_cost = 1
+		
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		enable_subunits = {
+			bra_caatinga
+		}
+
+	}
+	
+	anfibio_tech = {
+
+		research_cost = 1
+
+		dependencies = {
+			bra_trigger_tech = 1
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		amphibious_mechanized = {
+			amphibious = {
+				movement = 0.2
+			}
+			river = {
+				movement = 0.2
+			}
+		}
+		
+		mechanized = {
+			amphibious = {
+				movement = 0.2
+			}
+			river = {
+				movement = 0.2
+			}
+		}
+
+	}
+	
+	bra_trigger_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+	}
+}

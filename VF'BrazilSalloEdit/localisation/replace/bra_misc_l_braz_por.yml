@@ -1,0 +1,35 @@
+﻿l_braz_por:
+ BRA_nero_fiuza_de_castro_vfb:0 "Álvaro Fiúza de Castro"
+ BRA_joao_neves_da_fontoura_vfb:0 "João Neves da Fontoura"
+ BRA_salgado_filho_vfb:0 "Joaquim Pedro Salgado Filho"
+ BRA_armando_trompowsky_vfb:0 "Armando Figueira Trompowsky de Almeida"
+ BRA_aristides_guilhem_vfb:0 "Henrique Aristides Guilhem"
+ BRA_pedro_max_vfb:0 "Pedro Max Fernando Frontin"
+ BRA_protogenes_guimaraes_vfb:0 "Protógenes Guimarães"
+ BRA_moreira_lima_vfb:0 "Octávio Júlio Moreira Lima"
+ BRA_artur_da_costa_e_silva_vfb:0 "Artur da Costa e Silva"
+ BRA_francisco_correa_vfb:0 "Francisco de Assis Correia de Mello"
+ BRA_epaminondas_dos_santos_vfb:0 "Epaminondas Gomes dos Santos"
+ BRA_eduardo_gomes_vfb:0 "Eduardo Gomes"
+ BRA_newton_cavalcanti_vfb:0 "Newton de Andrade Cavalcanti"
+ BRA_joao_candido_vfb:0 "João Cândido Felisberto"
+ 
+ bra_cbc_flag:0 "Decisão de conceito dos equipamentos em progresso"
+ bra_eng_flag:0 "Decisão de conceito dos equipamentos em progresso"
+ bra_aviao_avaliable_flag:0 "Decisão de conceito dos equipamentos em progresso"
+ bra_navio_avaliable_flag:0 "Decisão de conceito dos equipamentos em progresso"
+ 
+ bra_policia_militar:0 "Policia Militar"
+ bra_selva:0 "Guerreiros da Selva"
+ bra_caatinga:0 "Unidades do CIOpC"
+ 
+ bra_sub_reactor_module:0 "RMB-01"
+ bra_sub_reactor_module_desc:0 "O RMB-01(Reator Multipropósito Brasileiro 01) é o apice final da tecnologia brasileira quando se fala de propulsão nuclear, com capacidades nunca antes vistas no mundo."
+ bra_heavy_reactor_module:0 "RMB-01/B"
+ bra_heavy_reactor_module_desc:0 "O RMB-01(Reator Multipropósito Brasileiro 01) é o apice final da tecnologia brasileira. Com a versão 'B' sendo uma melhoria do reator proposto para os submarinos nucleares."
+ 
+ EQ_MOD_CAT_sub_nuclear_reactor_TITLE:0 "Propulsor Nuclear"
+ EQ_MOD_CAT_heavy_nuclear_reactor_TITLE:0 "Propulsor Nuclear"
+ 
+ bra_bomber_multhole:0 "Bombardeiro Multimissão"
+ bra_fighter_multhole:0 "Caça Multimissão"

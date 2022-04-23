@@ -1,0 +1,17 @@
+sub_units = {
+	bra_fighter_multhole = {
+		sprite = jet_plane
+		priority = 10
+		active = yes
+		type = { fighter cas naval_bomber }
+		need = { bra_fighter_multhole_equipment = 1 }
+	}
+	
+	bra_bomber_multhole = {
+		sprite = heavy_plane
+		priority = 11
+		active = yes
+		type = { tactical_bomber air_transport scout_plane }
+		need = { bra_bomber_multhole_equipment = 1 }
+	}
+}

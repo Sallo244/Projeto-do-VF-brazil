@@ -1,0 +1,64 @@
+
+state={
+	id=498
+	name="STATE_498"
+	resources={
+		#oil=2.000 #was: 0
+		tungsten=2.000 #was: 0
+	}
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			air_base = 2
+			5107 = {
+				naval_base = 3
+
+			}
+			5168 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = BRA
+		victory_points = {
+			10933 10 
+		}
+		victory_points = {
+			5168 2 
+		}
+		victory_points = {
+			5107 2
+		}
+		victory_points = {
+			10998 1 
+		}
+		victory_points = {
+			2227 1 
+		}
+		victory_points = {
+			8227 1 
+		}
+		victory_points = {
+			10939 1 
+		}
+		victory_points = {
+			13352 1 
+		}
+		victory_points = {
+			2175 1 
+		}
+
+	}
+
+	provinces={
+		1446 1524 2132 2164 2175 2178 2227 5107 5168 5182 7561 8179 8227 10345 10933 10939 10967 10989 10998 12961 13341 13342 13343 13344 13345 13346 13347 13348 13349 13350 13351 13352 13353
+	}
+	manpower=7811000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

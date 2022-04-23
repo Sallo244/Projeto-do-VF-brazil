@@ -1,0 +1,47 @@
+state={
+	id=835
+	name="STATE_835"
+	
+	manpower=1012424
+	state_category=large_town
+	buildings_max_level_factor=1.000
+	
+	resources={
+		tungsten=2 # was: 0
+	}
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+			10405 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = BRA
+		victory_points = {
+			10405 5
+		}
+		victory_points = {
+			4533 2
+		}
+		victory_points = {
+			4548 1
+		}
+		victory_points = {
+			13250 1
+		}
+		victory_points = {
+			13249 1
+		}
+		victory_points = {
+			12466 1
+		}
+	}
+	
+	provinces={
+		1529 4533 4548 5156 10405 12466 13247 13248 13249 13250 13251
+	}
+}

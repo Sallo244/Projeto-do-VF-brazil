@@ -1,0 +1,88 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SM_submarine_hull_nuclear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_nuclear.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_submarine_hull_nuclear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_nuclear.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_module_blueprint_radar_nuclear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_radar_nuclear.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_module_blueprint_radar_nuclear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_radar_nuclear.dds"
+	}	
+	spriteType = {
+		name = "GFX_SM_module_blueprint_snorkel_nuclear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_snorkel_nuclear.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_module_blueprint_snorkel_nuclear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_snorkel_nuclear.dds"
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_SM_submarine_hull_front_torpedos_nuclear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine_hull_front_torpedos_nuclear.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_submarine_hull_front_torpedos_nuclear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine_hull_front_torpedos_nuclear@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_mid1_airplane_launcher_nuclear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull_mid1_airplane_launcher_nuclear.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_mid1_airplane_launcher_nuclear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull_mid1_airplane_launcher_nuclear@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_fixed_anti_air_nuclear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull_fixed_anti_air_nuclear.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_fixed_anti_air_nuclear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull_fixed_anti_air_nuclear@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_fixed_anti_air2_nuclear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull_fixed_anti_air2_nuclear.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_fixed_anti_air2_nuclear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull_fixed_anti_air2_nuclear@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_mid3_secondaries_nuclear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull_mid3_secondaries_nuclear.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_mid3_secondaries_nuclear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull_mid3_secondaries_nuclear@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_mid3_secondaries2_nuclear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull_mid3_secondaries2_nuclear.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_mid3_secondaries2_nuclear@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/heavy_hull_mid3_secondaries2_nuclear@highlight.dds"
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_SD_tv_submarine_nuclear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_submarine_nuclear.dds"
+	}
+	spriteType = {
+		name = "GFX_SD_tv_battleship_nuclear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_battleship_nuclear.dds"
+	}
+}

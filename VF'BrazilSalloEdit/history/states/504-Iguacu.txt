@@ -1,0 +1,32 @@
+
+state={
+	id=504
+	name="STATE_504"
+	resources={
+		rubber=5.000 #was: 0
+	}
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = BRA
+		victory_points = {
+			10960 5 
+		}
+		victory_points = {
+			13417 1 
+		}
+
+	}
+
+	provinces={
+		10960 13415 13416 13417 13418
+	}
+	manpower=117057
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
