@@ -1,5 +1,6 @@
 ideas = { 
 	hidden_ideas = {
+	
 #############################################################################  DECISOES NAVAIS EFEITOS  ###################################################################################################
 		bra_submarino_1 = {
 		
@@ -943,6 +944,26 @@ ideas = {
 	}
 	# Special ones that can be applied on other countries through focus system.
 	country = {
+		
+		bra_policia_mili = {
+		
+			allowed = {
+				original_tag = BRA
+				always = yes
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = bra_military_pol
+			removal_cost = -1
+	
+			modifier = {
+				drift_defence_factor = 0.2
+				stability_factor = 0.1
+			}
+		}
 		
 		bra_armed_forces_lagged = {
 			

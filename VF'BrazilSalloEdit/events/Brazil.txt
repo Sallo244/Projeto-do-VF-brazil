@@ -41,6 +41,31 @@ country_event = {
 }
 
 country_event = {
+	id = bra.25
+	title = bra_forca_publica.01.t
+	desc = bra_forca_publica.01.d
+	picture = GFX_bra.25
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = bra_forca_publica.01.a
+		ai_chance = { factor = 80 }
+		add_ideas = bra_policia_mili
+	}
+	option = {
+		name = bra_forca_publica.01.b
+		ai_chance = { factor = 10 }
+		custom_effect_tooltip = bra_forca_publica.01.tt
+		hidden_effect = { 
+			set_technology = { policia_militar_tech = 1 }
+			load_oob = BRA_police
+		}
+	}
+}
+
+country_event = {
 	id = bra.24
 	title = bra_sni_1.02.t
 	desc = bra_sni_1.02.d

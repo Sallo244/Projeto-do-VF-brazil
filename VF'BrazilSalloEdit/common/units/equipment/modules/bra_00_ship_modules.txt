@@ -40,8 +40,8 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.90
-			reliability = -0.05
+			naval_speed = 0.45
+			reliability = -0.15
 		}
 	}
 }

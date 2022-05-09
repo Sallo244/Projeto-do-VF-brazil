@@ -245,3 +245,6 @@
  bra_idea_sni2_desc:0 ""
  bra_idea_sni3:0 "Prioridade na infraestrutura da Agencia"
  bra_idea_sni3_desc:0 ""
+ 
+ bra_policia_mili:0 "Policia Militar autônoma"
+ bra_policia_mili_desc:0 "Com o controle das Forças Publicas continuando nas mãos dos estados Brasileiros, e com a Policia Militar servindo de braço armado contra o crime organizado, faz com que seja possível que as forças de segurança se adequem melhor a realidade de cada estado."

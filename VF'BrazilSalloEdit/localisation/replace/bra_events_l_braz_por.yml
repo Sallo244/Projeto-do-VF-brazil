@@ -137,3 +137,10 @@
  bra_sni_1.02.b:0 "Devemos ficar de olhos abertos em nossos inimigos... e aliados."
  bra_sni_1.02.c:0 "Do que adianta focarmos em algo no momento, se não temos um local para treinarmos nossos agentes."
  bra_sni_1.02.tt:0 "É criado imediatamente o §HServiço Nacional de Informações (SNI)§! quando selecionado."
+ 
+ bra.25:0 "Reorganizar as Forças Públicas"
+ bra_forca_publica.01.t:0 "Reorganizar as Forças Públicas"
+ bra_forca_publica.01.d:0 "Com a reorganização das forças públicas, criamos as Polícias Militares, modeladas a partir do Exército, mas acabamos chegando a um impasse. Nos podemos dar o controle da Polícia Militar para os estados, dando mais estabilidade e mais apoio da população ao nosso governo, ou poderíamos Deixar a Policia Militar sob o controle das forças armadas, podendo ser utilizadas nas mais variadas missões."
+ bra_forca_publica.01.a:0 "Dar o controle da Policia Militar para os estados"
+ bra_forca_publica.01.b:0 "Deixar a Policia Militar nas mãos das Forças Armadas"
+ bra_forca_publica.01.tt:0 "§CSão criados unidades da Polícia Militar nas principais cidades do pais§!"
