@@ -246,3 +246,6 @@
  bra_idea_sni2_desc:0 ""
  bra_idea_sni3:0 "Priority in the Agency's infrastructure"
  bra_idea_sni3_desc:0 ""
+ 
+ bra_policia_mili:0 "autonomous military police"
+ bra_policia_mili_desc:0 "With the control of the Public Forces remaining in the hands of the Brazilian states, and with the Military Police serving as an armed wing against organized crime, it makes it possible for the security forces to better adapt to the reality of each state."

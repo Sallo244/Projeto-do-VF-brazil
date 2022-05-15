@@ -3,10 +3,6 @@ technologies = {
 	submarine1_tech = {
 
 		research_cost = 1
-
-		dependencies = {
-			bra_trigger_tech = 1
-		}
 		
 		enable_equipment_modules = { 
 			bra_sub_reactor_module
@@ -20,10 +16,6 @@ technologies = {
 	encouracado1_tech = {
 
 		research_cost = 1
-
-		dependencies = {
-			bra_trigger_tech = 1
-		}
 		
 		enable_equipment_modules = { 
 			bra_heavy_reactor_module
@@ -37,10 +29,6 @@ technologies = {
 	caca1_tech = {
 
 		research_cost = 1
-
-		dependencies = {
-			bra_trigger_tech = 1
-		}
 		
 		enable_equipments = {
 			bra_fighter_multhole_equipment_1
@@ -50,10 +38,6 @@ technologies = {
 	bomber1_tech = {
 
 		research_cost = 1
-
-		dependencies = {
-			bra_trigger_tech = 1
-		}
 		
 		enable_equipments = {
 			bra_bomber_multhole_equipment_1
@@ -63,10 +47,6 @@ technologies = {
 	policia_militar_tech = {
 
 		research_cost = 1
-
-		dependencies = {
-			bra_trigger_tech = 1
-		}
 		
 		categories = {
 			infantry_weapons
@@ -82,10 +62,6 @@ technologies = {
 
 		research_cost = 1
 		
-		dependencies = {
-			bra_trigger_tech = 1
-		}
-		
 		categories = {
 			infantry_weapons
 		}
@@ -98,10 +74,6 @@ technologies = {
 	ciopc_tech = {
 
 		research_cost = 1
-		
-		dependencies = {
-			bra_trigger_tech = 1
-		}
 		
 		categories = {
 			infantry_weapons
@@ -116,10 +88,6 @@ technologies = {
 	anfibio_tech = {
 
 		research_cost = 1
-
-		dependencies = {
-			bra_trigger_tech = 1
-		}
 		
 		categories = {
 			infantry_tech
@@ -143,14 +111,5 @@ technologies = {
 			}
 		}
 
-	}
-	
-	bra_trigger_tech = {
-
-		research_cost = 1
-
-		allow = {
-			always = no
-		}
 	}
 }

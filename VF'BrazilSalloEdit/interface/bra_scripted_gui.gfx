@@ -1,0 +1,67 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_decision_slot_lock"
+		textureFile = "/gfx/interface/scripted_gui/decision_slot_lock.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_slot_unlock"
+		textureFile = "/gfx/interface/scripted_gui/decision_slot_unlock.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_slot_complete"
+		textureFile = "/gfx/interface/scripted_gui/decision_slot_complete.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_scripted_gui_bra_engesa_gui"
+		textureFile = "/gfx/interface/scripted_gui/bra_engesa_gui.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_engesa_ind"
+		textureFile = "/gfx/interface/scripted_gui/decision_engesa_ind.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_tank_ind"
+		textureFile = "/gfx/interface/scripted_gui/decision_tank_ind.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_scripted_gui_bra_cbc_gui"
+		textureFile = "/gfx/interface/scripted_gui/bra_cbc_gui.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cbc_ind"
+		textureFile = "/gfx/interface/scripted_gui/decision_cbc_ind.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_scripted_gui_bra_aviao_gui"
+		textureFile = "/gfx/interface/scripted_gui/bra_aviao_gui.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_bombardeiro_ind"
+		textureFile = "/gfx/interface/scripted_gui/decision_bombardeiro_ind.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_scripted_gui_bra_navio_gui"
+		textureFile = "/gfx/interface/scripted_gui/bra_navio_gui.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cruzadores_ind"
+		textureFile = "/gfx/interface/scripted_gui/decision_cruzadores_ind.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_bra_audio_scripted_gui"
+		textureFile = "/gfx/interface/scripted_gui/bra_audio_scripted_gui.dds"
+	}
+}

@@ -19,7 +19,7 @@
  bra_aviao_avaliable_flag:0 "Concept decision of the equipment in progress"
  bra_navio_avaliable_flag:0 "Concept decision of the equipment in progress"
 
- bra_policia_militar:0 "'Policia Militar'"
+ bra_policia_militar:0 "BOPE"
  bra_selva:0 "jungle warriors"
  bra_caatinga:0 "Units of CIOpC"
  

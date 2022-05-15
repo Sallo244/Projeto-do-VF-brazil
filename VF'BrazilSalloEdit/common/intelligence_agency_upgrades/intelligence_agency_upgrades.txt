@@ -407,9 +407,8 @@ branch_operative = {
 		}
 		level = {
 			modifier = {
-				enemy_operative_recruitment_chance = 0.5
-				occupied_operative_recruitment_chance = 0.5
-				enemy_operative_capture_chance_factor = 1
+				foreign_subversive_activites = -0.1
+				enemy_operative_capture_chance_factor = 0.5
 			}
 		}
 		

@@ -309,32 +309,32 @@ BRA_MIP_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { BRA_INF_01 }
 
-	fallback_name = "%da Regimento da Polícia Militar"
+	fallback_name = "%da Batalhão de Operações Policiais Especiais"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da Regimento da Polícia Militar" }
-		2 = { "%da Regimento da Polícia Militar" }
-		3 = { "%da Regimento da Polícia Militar" }
-		4 = { "%da Regimento da Polícia Militar" }
-		5 = { "%da Regimento da Polícia Militar" }
-		6 = { "%da Regimento da Polícia Militar" }
-		7 = { "%da Regimento da Polícia Militar" }
-		8 = { "%da Regimento da Polícia Militar" }
-		9 = { "%da Regimento da Polícia Militar" }
-		10 = { "%da Regimento da Polícia Militar" }
-		11 = { "%da Regimento da Polícia Militar" }
-		12 = { "%da Regimento da Polícia Militar" }
-		13 = { "%da Regimento da Polícia Militar" }
-		14 = { "%da Regimento da Polícia Militar" }
-		15 = { "%da Regimento da Polícia Militar" }
-		16 = { "%da Regimento da Polícia Militar" }
-		17 = { "%da Regimento da Polícia Militar" }
-		18 = { "%da Regimento da Polícia Militar" }
-		19 = { "%da Regimento da Polícia Militar" }
-		20 = { "%da Regimento da Polícia Militar" }
+		1 = { "%da Batalhão de Operações Policiais Especiais" }
+		2 = { "%da Batalhão de Operações Policiais Especiais" }
+		3 = { "%da Batalhão de Operações Policiais Especiais" }
+		4 = { "%da Batalhão de Operações Policiais Especiais" }
+		5 = { "%da Batalhão de Operações Policiais Especiais" }
+		6 = { "%da Batalhão de Operações Policiais Especiais" }
+		7 = { "%da Batalhão de Operações Policiais Especiais" }
+		8 = { "%da Batalhão de Operações Policiais Especiais" }
+		9 = { "%da Batalhão de Operações Policiais Especiais" }
+		10 = { "%da Batalhão de Operações Policiais Especiais" }
+		11 = { "%da Batalhão de Operações Policiais Especiais" }
+		12 = { "%da Batalhão de Operações Policiais Especiais" }
+		13 = { "%da Batalhão de Operações Policiais Especiais" }
+		14 = { "%da Batalhão de Operações Policiais Especiais" }
+		15 = { "%da Batalhão de Operações Policiais Especiais" }
+		16 = { "%da Batalhão de Operações Policiais Especiais" }
+		17 = { "%da Batalhão de Operações Policiais Especiais" }
+		18 = { "%da Batalhão de Operações Policiais Especiais" }
+		19 = { "%da Batalhão de Operações Policiais Especiais" }
+		20 = { "%da Batalhão de Operações Policiais Especiais" }
 	}
 }
 

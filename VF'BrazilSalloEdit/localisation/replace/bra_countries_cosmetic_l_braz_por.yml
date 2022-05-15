@@ -15,7 +15,6 @@
  PAR_BRA_autonomy_integrated_puppet:0 "Estado do Mato Grosso Oriental"
  PAR_BRA_autonomy_puppet:0 "Estado do Mato Grosso Oriental"
  PAR_BRA_autonomy_colony:0 "Território Federal do Mato Grosso Oriental"
- PAR_BRA_autonomy_dominion:0 "República Federal do Paraguai"
  
  URG_BRA_autonomy_integrated_puppet:0 "Estado da Cisplatina"
  URG_BRA_autonomy_puppet:0 "Estado da Cisplatina"
@@ -25,7 +24,6 @@
  BOL_BRA_autonomy_integrated_puppet:0 "Estado dos Paranhos"
  BOL_BRA_autonomy_puppet:0 "Estado dos Paranhos"
  BOL_BRA_autonomy_colony:0 "Território Federal dos Paranhos"
- BOL_BRA_autonomy_dominion:0 "República Federal da Bolívia"
  
  ARG_BRA_autonomy_integrated_puppet:0 "Estados Platinos"
  ARG_BRA_autonomy_puppet:0 "Estados Platinos"
@@ -45,7 +43,6 @@
  URG_BRA_autonomy_reichskommissariat:0 "Estado da Cisplatina"
  URG_BRA_autonomy_reichsprotectorate:0 "Estado da Cisplatina"
  URG_BRA_autonomy_satellite:0 "Território Federal da Cisplatina"
- URG_BRA_autonomy_dominion:0 "República Federal do Uruguai"
  
  BOL_BRA_autonomy_reichskommissariat:0 "Estado dos Paranhos"
  BOL_BRA_autonomy_reichsprotectorate:0 "Estado dos Paranhos"
@@ -55,10 +52,8 @@
  ARG_BRA_autonomy_reichskommissariat:0 "Estados Platinos"
  ARG_BRA_autonomy_reichsprotectorate:0 "Estados Platinos"
  ARG_BRA_autonomy_satellite:0 "Territórios Federais da Argentina "
- ARG_BRA_autonomy_dominion:0 "Repúblicas Federais da Argentina"
  
  VEN_BRA_autonomy_reichskommissariat:0 "Estados Caribenhos"
  VEN_BRA_autonomy_reichsprotectorate:0 "Estados Caribenhos"
  VEN_BRA_autonomy_satellite:0 "Territórios Federais do Caribe"
- VEN_BRA_autonomy_dominion:0 "Repúblicas Federais do Caribe"
  

@@ -29,35 +29,10 @@ spriteTypes = {
 		name = "GFX_decision_cat_metas"
 		texturefile = "gfx/interface/decisions/decision_cat_metas.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_decision_cat_voz_ligada"
-		texturefile = "gfx/interface/decisions/decision_cat_voz_ligada.dds"
-	}
 
 	spriteType = {
 		name = "GFX_decision_cat_proalcool"
 		texturefile = "gfx/interface/decisions/decision_cat_proalcool.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_decision_cat_cbc"
-		texturefile = "gfx/interface/decisions/decision_cat_cbc.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_decision_cat_engesa"
-		texturefile = "gfx/interface/decisions/decision_cat_engesa.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_decision_cat_aviao"
-		texturefile = "gfx/interface/decisions/decision_cat_aviao.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_decision_cat_navio"
-		texturefile = "gfx/interface/decisions/decision_cat_navio.dds"
 	}
 	
 }
