@@ -1,5 +1,5 @@
 division_template = {
-	name = "Batalhão de Operações Policiais Especiais"
+	name = "Batalhão da Polícia Militar Estadual"
 	division_names_group = BRA_MIP_01
 
 	regiments = {
@@ -10,47 +10,4 @@ division_template = {
 		bra_policia_militar = { x = 0 y = 4 }
 	}
 
-}
-
-units = {
-	division= {	
-		name = "1o Batalhão de Operações Policiais Especiais"
-		location = 10980 # Rio de Janeiro
-		division_template = "Batalhão de Operações Policiais Especiais"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "2o Batalhão de Operações Policiais Especiais"
-		location = 10513 # São Paulo
-		division_template = "Batalhão de Operações Policiais Especiais"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "3o Batalhão de Operações Policiais Especiais"
-		location = 12938 # Belo Horizonte
-		division_template = "Batalhão de Operações Policiais Especiais"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "4o Batalhão de Operações Policiais Especiais"
-		location = 5168 # Recife
-		division_template = "Batalhão de Operações Policiais Especiais"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}
-	division= {	
-		name = "5o Batalhão de Operações Policiais Especiais"
-		location = 10447 # Porto Alegre
-		division_template = "Batalhão de Operações Policiais Especiais"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
-
-	}
 }

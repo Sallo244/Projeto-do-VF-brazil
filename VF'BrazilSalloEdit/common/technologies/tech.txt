@@ -57,6 +57,20 @@ technologies = {
 		}
 
 	}
+	
+	bope_tech = {
+
+		research_cost = 1
+		
+		categories = {
+			infantry_weapons
+		}
+
+		enable_subunits = {
+			bra_bope
+		}
+
+	}
 
 	selva_tech = {
 

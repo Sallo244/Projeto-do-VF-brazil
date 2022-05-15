@@ -389,9 +389,4 @@ spriteTypes = {
     	name = "GFX_idea_bra_navy_lagged"
     	texturefile = "gfx//interface//ideas//bra_naval_mor.dds"
 	}
-	
-	spriteType = {
-    	name = "GFX_idea_bra_military_pol"
-    	texturefile = "gfx//interface//ideas//bra_military_pol.dds"
-	}
 }

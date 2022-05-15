@@ -142,5 +142,6 @@
  bra_forca_publica.01.t:0 "Reorganizar as Forças Públicas"
  bra_forca_publica.01.d:0 "Com a reorganização das forças públicas, criamos as Polícias Militares, modeladas a partir do Exército, mas acabamos chegando a um impasse. Nos podemos dar o controle da Polícia Militar para os estados, dando mais estabilidade e mais apoio da população ao nosso governo, ou poderíamos Deixar a Policia Militar sob o controle das forças armadas, podendo ser utilizadas nas mais variadas missões."
  bra_forca_publica.01.a:0 "Dar o controle da Policia Militar para os estados"
+ bra_forca_publica.01.tt:0 "§CÉ criado um modelo para Batalhões da§! §HPolícia Militar Estadual§!§C, especializado na supressão em territorios hostis.§!"
  bra_forca_publica.01.b:0 "Deixar a Policia Militar nas mãos das Forças Armadas"
- bra_forca_publica.01.tt:0 "§CSão criados unidades da Polícia Militar nas principais cidades do pais§!"
+ bra_forca_publica.02.tt:0 "§CSão criados unidades do§! §HBatalhão de Operações Policiais Especiais§! §Cnas principais cidades do pais§!"

@@ -52,15 +52,19 @@ country_event = {
 	option = {
 		name = bra_forca_publica.01.a
 		ai_chance = { factor = 80 }
-		add_ideas = bra_policia_mili
-	}
-	option = {
-		name = bra_forca_publica.01.b
-		ai_chance = { factor = 10 }
 		custom_effect_tooltip = bra_forca_publica.01.tt
 		hidden_effect = { 
 			set_technology = { policia_militar_tech = 1 }
 			load_oob = BRA_police
+		}
+	}
+	option = {
+		name = bra_forca_publica.01.b
+		ai_chance = { factor = 10 }
+		custom_effect_tooltip = bra_forca_publica.02.tt
+		hidden_effect = { 
+			set_technology = { bope_tech = 1 }
+			load_oob = BRA_bope
 		}
 	}
 }

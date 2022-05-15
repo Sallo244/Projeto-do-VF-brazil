@@ -142,5 +142,6 @@
  bra_forca_publica.01.t:0 "Reorganize the Public Forces"
  bra_forca_publica.01.d:0 "With the reorganization of the public forces, we created the Military Police, modeled after the Army, but we ended up reaching an impasse. We can give control of the Military Police to the states, giving more stability and more support from the population to our government, or we could leave the Military Police under the control of the armed forces, which can be used in the most varied missions."
  bra_forca_publica.01.a:0 "Give control of the Military Police to the states"
+ bra_forca_publica.01.tt:0 "§CA model is created for§! §HState Military Police Battalions§!§C, specialized in suppression in hostile territories.§!"
  bra_forca_publica.01.b:0 "Leaving the Military Police in the hands of the Armed Forces"
- bra_forca_publica.01.tt:0 "§CThey are Military Police Units in the main cities of the country§!"
+ bra_forca_publica.02.tt:0 "§CUnits of the§! §HSpecial Police Operations Battalion§! §Care created in the main cities of the country.§!"

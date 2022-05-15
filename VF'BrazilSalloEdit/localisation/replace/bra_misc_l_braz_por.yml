@@ -19,7 +19,8 @@
  bra_aviao_avaliable_flag:0 "Decisão de conceito dos equipamentos em progresso"
  bra_navio_avaliable_flag:0 "Decisão de conceito dos equipamentos em progresso"
  
- bra_policia_militar:0 "BOPE"
+ bra_policia_militar:0 "Polícia Militar Estadual"
+ bra_bope:0 "BOPE"
  bra_selva:0 "Guerreiros da Selva"
  bra_caatinga:0 "Unidades do CIOpC"
  
