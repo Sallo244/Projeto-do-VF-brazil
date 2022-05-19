@@ -18,7 +18,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="engesa_desc"
 			position = { x = 5 y = 5 }
-			font = "hoi_24mbs"
+			font = "hoi_18mbs"
 			text = "bra_engesa_gui_text"
 			maxWidth = 480
 			maxHeight = 400
@@ -29,30 +29,35 @@ guiTypes = {
 			name ="fnm_ind_act"
 			spriteType = "GFX_focus_bra_mot"
 			position = { x= 40 y = 100 }
+			pdx_tooltip = "bra_1slot_unlock"
 		}
 		
 		iconType = {
 			name ="engesa_ind"
 			spriteType = "GFX_decision_engesa_ind"
 			position = { x= 190 y = 100 }
+			pdx_tooltip = "bra_2slot_lock"
 		}
 		
 		iconType = {
 			name ="engesa_ind_act"
 			spriteType = "GFX_focus_bra_mec"
 			position = { x= 190 y = 100 }
+			pdx_tooltip = "bra_2slot_unlock"
 		}
 		
 		iconType = {
 			name ="tank_ind"
 			spriteType = "GFX_decision_tank_ind"
 			position = { x= 340 y = 100 }
+			pdx_tooltip = "bra_1slot_lock"
 		}
 		
 		iconType = {
 			name ="tank_ind_act"
 			spriteType = "GFX_focus_bra_armor"
 			position = { x= 340 y = 100 }
+			pdx_tooltip = "bra_1slot_unlock"
 		}
 ################################################# SLOT 1 ######################################################################		
 		iconType = {
@@ -186,7 +191,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="cbc_desc"
 			position = { x = 5 y = 5 }
-			font = "hoi_24mbs"
+			font = "hoi_18mbs"
 			text = "bra_cbc_gui_text"
 			maxWidth = 480
 			maxHeight = 400
@@ -197,30 +202,35 @@ guiTypes = {
 			name ="imbel_ind_act"
 			spriteType = "GFX_focus_bra_equip_ind"
 			position = { x= 40 y = 100 }
+			pdx_tooltip = "bra_1slot_unlock"
 		}
 		
 		iconType = {
 			name ="cbc_ind"
 			spriteType = "GFX_decision_cbc_ind"
 			position = { x= 190 y = 100 }
+			pdx_tooltip = "bra_1slot_lock"
 		}
 		
 		iconType = {
 			name ="cbc_ind_act"
 			spriteType = "GFX_focus_bra_art"
 			position = { x= 190 y = 100 }
+			pdx_tooltip = "bra_1slot_unlock"
 		}
 		
 		iconType = {
 			name ="tank_ind"
 			spriteType = "GFX_decision_tank_ind"
 			position = { x= 340 y = 100 }
+			pdx_tooltip = "bra_1slot_lock"
 		}
 		
 		iconType = {
 			name ="tank_ind_act"
 			spriteType = "GFX_focus_bra_armor"
 			position = { x= 340 y = 100 }
+			pdx_tooltip = "bra_1slot_unlock"
 		}
 ################################################# SLOT 1 ######################################################################		
 		iconType = {
@@ -334,7 +344,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="aviao_desc"
 			position = { x = 5 y = 5 }
-			font = "hoi_24mbs"
+			font = "hoi_18mbs"
 			text = "bra_aviao_gui_text"
 			maxWidth = 480
 			maxHeight = 400
@@ -345,18 +355,21 @@ guiTypes = {
 			name ="cas_ind_act"
 			spriteType = "GFX_focus_bra_CAS"
 			position = { x= 120 y = 100 }
+			pdx_tooltip = "bra_2slot_unlock"
 		}
 		
 		iconType = {
 			name ="bombardeiro_ind"
 			spriteType = "GFX_decision_bombardeiro_ind"
 			position = { x= 260 y = 100 }
+			pdx_tooltip = "bra_1slot_lock"
 		}
 		
 		iconType = {
 			name ="bombardeiro_ind_act"
 			spriteType = "GFX_focus_bra_bombardeiro"
 			position = { x= 260 y = 100 }
+			pdx_tooltip = "bra_1slot_unlock"
 		}
 
 ################################################# SLOT 1 ######################################################################		
@@ -470,7 +483,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="navio_desc"
 			position = { x = 5 y = 5 }
-			font = "hoi_24mbs"
+			font = "hoi_18mbs"
 			text = "bra_navio_gui_text"
 			maxWidth = 480
 			maxHeight = 400
@@ -481,18 +494,21 @@ guiTypes = {
 			name ="submarinos_ind_act"
 			spriteType = "GFX_focus_bra_submarinos"
 			position = { x= 120 y = 100 }
+			pdx_tooltip = "bra_1slot_unlock"
 		}
 		
 		iconType = {
 			name ="cruzadores_ind"
 			spriteType = "GFX_decision_cruzadores_ind"
 			position = { x= 260 y = 100 }
+			pdx_tooltip = "bra_2slot_lock"
 		}
 		
 		iconType = {
 			name ="cruzadores_ind_act"
 			spriteType = "GFX_focus_bra_cruzadores"
 			position = { x= 260 y = 100 }
+			pdx_tooltip = "bra_2slot_unlock"
 		}
 
 ################################################# SLOT 1 ######################################################################		
@@ -605,7 +621,7 @@ guiTypes = {
 ################################################################################
 	containerWindowType = {
 		name = "bra_audio_gui_window"
-		position = { x = 1100 y = -2 }
+		position = { x = 270 y = 5 }
 		size = { width = 178 height= 41 }
 		fade_time = 100
 		moveable = yes
@@ -623,7 +639,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="bra_audio_desc"
 			position = { x = 8 y = 9 }
-			font = "hoi_24mbs"
+			font = "hoi_18mbs"
 			text = "bra_audio_gui_text"
 			maxWidth = 150
 			maxHeight = 40
@@ -646,5 +662,521 @@ guiTypes = {
 			pdx_tooltip = "bra_audio_desabilitar_text"
 		}
 		
+	}
+################################################################################
+################################### Tech #######################################
+################################################################################	
+	containerWindowType = {
+		name = "bra_tech_gui_button_window"
+		size = { width = 82 height= 37 }
+		position = { x=1100 y=0 }
+	
+		iconType = {
+			name = "button_open_background"
+			position = { x=0 y=0 }
+			quadTextureSprite = "GFX_button_background9"
+		}
+		
+		buttonType = {
+			name = "button_open"
+			position = { x=0 y=3 }
+			quadTextureSprite = "GFX_expand_all_checkbox"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_default
+			frame = 2
+		}
+	}
+	containerWindowType = {
+		name = "bra_tech_gui_window"
+		size = { width = 550 height= 457 }
+		position = { x=1095 y=-457 }	
+		show_position = { x=1095 y =-1 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_border"
+		}
+		
+		containerWindowType = {
+			name = "bra_tech_grid_container"
+			position = {x = 5 y = 15}
+			size = {width=-1 height=430 } # Y Set in code to match the window size, but initial value is used as extra space in height
+			Orientation = upper_left
+			verticalScrollbar = "right_vertical_slider"
+			vertical_scroll_step = 11
+			scroll_wheel_factor = 10
+			smooth_scrolling = yes
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_transparent"
+			}			
+			
+			gridboxtype = {
+				name = "bra_tech"
+				position = { x = 15 y = 10 }
+				size = { width = 521 height = 510 }
+				slotsize = { width= 512 height= 430 }
+				max_slots_vertical = 1
+			}
+############################################### Engesa/CBC ####################################################################				
+			iconType = {
+				name ="bar_desc1"
+				spriteType = "GFX_category_header"
+				position = { x = 10 y = 0 }
+			}
+			iconType = {
+				name ="exercito_icon"
+				spriteType = "GFX_idea_bra_army_lagged"
+				position = { x = 10 y = -10 }
+			}
+			instantTextBoxType = {
+				name ="exercito_titulo"
+				position = { x = 70 y = 8 }
+				font = "hoi_24header"
+				text = "bra_exercito_titulo"
+				maxWidth = 550
+				maxHeight = 40
+			}
+################################################# SLOT 1 ######################################################################		
+			iconType = {
+				name ="slot_lock1.engesa"
+				spriteType = "GFX_decision_slot_lock"
+				pdx_tooltip = "bra_slot_lock"
+				position = { x= 75 y = 70 }
+			}
+			iconType = {
+				name ="slot_unlock1.engesa"
+				spriteType = "GFX_decision_slot_unlock"
+				pdx_tooltip = "bra_slot_unlock"
+				position = { x= 75 y = 70 }
+			}
+		
+			iconType = {
+				name ="motorizado_fog_eng1"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "motor_1_eng"
+				position = { x= 75 y = 70 }
+			}	
+			iconType = {
+				name ="motorizado_eng1"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "motor_2_eng"
+				position = { x= 75 y = 70 }
+			}
+			iconType = {
+				name ="infantaria1"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "infant_1_cbc"
+				position = { x= 75 y = 70 }
+			}	
+			iconType = {
+				name ="infantaria2"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "infant_2_cbc"
+				position = { x= 75 y = 70 }
+			}
+			iconType = {
+				name ="infantaria3"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "infant_3_cbc"
+				position = { x= 75 y = 70 }
+			}
+			iconType = {
+				name ="infantaria4"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "infant_4_cbc"
+				position = { x= 75 y = 70 }
+			}
+################################################# SLOT 2 ######################################################################		
+			iconType = {
+				name ="slot_lock2.engesa"
+				spriteType = "GFX_decision_slot_lock"
+				pdx_tooltip = "bra_slot_lock"
+				position = { x= 175 y = 70 }
+			}
+		
+			iconType = {
+				name ="slot_unlock2.engesa"
+				spriteType = "GFX_decision_slot_unlock"
+				pdx_tooltip = "bra_slot_unlock"
+				position = { x= 175 y = 70 }
+			}
+		
+			iconType = {
+				name ="mecanizado1"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "mec_1_eng"
+				position = { x= 175 y = 70 }
+			}
+			iconType = {
+				name ="mecanizado2"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "mec_2_eng"
+				position = { x= 175 y = 70 }
+			}
+			iconType = {
+				name ="mecanizado3"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "mec_3_eng"
+				position = { x= 175 y = 70 }
+			}
+			iconType = {
+				name ="anfibio"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "anfib_eng"
+				position = { x= 175 y = 70 }
+			}
+			iconType = {
+				name ="artilharia1"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "artil_1_cbc"
+				position = { x= 175 y = 70 }
+			}
+			iconType = {
+				name ="artilharia2"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "artil_2_cbc"
+				position = { x= 175 y = 70 }
+			}
+			iconType = {
+				name ="artilharia3"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "artil_3_cbc"
+				position = { x= 175 y = 70 }
+			}
+			iconType = {
+				name ="artilharia4"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "artil_4_cbc"
+				position = { x= 175 y = 70 }
+			}
+################################################# SLOT 3 ######################################################################		
+			iconType = {
+				name ="slot_lock3.engesa"
+				spriteType = "GFX_decision_slot_lock"
+				pdx_tooltip = "bra_slot_lock"
+				position = { x= 275 y = 70 }
+			}
+		
+			iconType = {
+				name ="slot_unlock3.engesa"
+				spriteType = "GFX_decision_slot_unlock"
+				pdx_tooltip = "bra_slot_unlock"
+				position = { x= 275 y = 70 }
+			}
+		
+			iconType = {
+				name = "carro1"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "car_1_eng"
+				position = { x= 275 y = 70 }
+			}
+			iconType = {
+				name = "carro2"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "car_2_eng"
+				position = { x= 275 y = 70 }
+			}
+			iconType = {
+				name = "carro3"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "car_3_eng"
+				position = { x= 275 y = 70 }
+			}
+################################################# SLOT 4 ######################################################################		
+			iconType = {
+				name ="slot_lock4.engesa"
+				spriteType = "GFX_decision_slot_lock"
+				pdx_tooltip = "bra_slot_lock"
+				position = { x= 375 y = 70 }
+			}
+		
+			iconType = {
+				name ="slot_unlock4.engesa"
+				spriteType = "GFX_decision_slot_unlock"
+				pdx_tooltip = "bra_slot_unlock"
+				position = { x= 375 y = 70 }
+			}
+		
+			iconType = {
+				name ="tonk1"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "tank_1_eng"
+				position = { x= 375 y = 70 }
+			}
+			iconType = {
+				name ="tonk2"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "tank2_cbc"
+				position = { x= 275 y = 70 }
+			}
+############################################### Lagoa Santa ####################################################################				
+			iconType = {
+				name ="bar_desc2"
+				spriteType = "GFX_category_header"
+				position = { x = 10 y = 168 }
+			}
+			iconType = {
+				name ="aeronautica_icon"
+				spriteType = "GFX_idea_bra_air_lagged"
+				position = { x = 10 y = 158 }
+			}
+			instantTextBoxType = {
+				name ="aeronautica_titulo"
+				position = { x = 70 y = 176 }
+				font = "hoi_24header"
+				text = "bra_aeronautica_titulo"
+				maxWidth = 550
+				maxHeight = 40
+			}
+################################################# SLOT 1 ######################################################################		
+			iconType = {
+				name ="slot_lock1.santa"
+				spriteType = "GFX_decision_slot_lock"
+				pdx_tooltip = "bra_slot_lock"
+				position = { x= 75 y = 238 }
+			}
+			
+			iconType = {
+				name ="slot_unlock1.santa"
+				spriteType = "GFX_decision_slot_unlock"
+				pdx_tooltip = "bra_slot_unlock"
+				position = { x= 75 y = 238 }
+			}
+		
+			iconType = {
+				name ="aviacao_leve1"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "aviacao_leve1_tooltip"
+				position = { x= 75 y = 238 }
+			}	
+			iconType = {
+				name ="aviacao_leve2"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "aviacao_leve2_tooltip"
+				position = { x= 75 y = 238 }
+			}
+			iconType = {
+				name ="aviacao_leve3"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "aviacao_leve3_tooltip"
+				position = { x= 75 y = 238 }
+			}
+################################################# SLOT 2 ######################################################################		
+			iconType = {
+				name ="slot_lock2.santa"
+				spriteType = "GFX_decision_slot_lock"
+				pdx_tooltip = "bra_slot_lock"
+				position = { x= 225 y = 238 }
+			}
+		
+			iconType = {
+				name ="slot_unlock2.santa"
+				spriteType = "GFX_decision_slot_unlock"
+				pdx_tooltip = "bra_slot_unlock"
+				position = { x= 225 y = 238 }
+			}
+		
+			iconType = {
+				name ="aviacao_media1"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "aviacao_media1_tooltip"
+				position = { x= 225 y = 238 }
+			}
+			iconType = {
+				name ="aviacao_media2"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "aviacao_media2_tooltip"
+				position = { x= 225 y = 238 }
+			}
+			iconType = {
+				name ="aviacao_media3"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "aviacao_media3_tooltip"
+				position = { x= 225 y = 238 }
+			}
+################################################# SLOT 3 ######################################################################		
+			iconType = {
+				name ="slot_lock3.santa"
+				spriteType = "GFX_decision_slot_lock"
+				pdx_tooltip = "bra_slot_lock"
+				position = { x= 375 y = 238 }
+			}
+		
+			iconType = {
+				name ="slot_unlock3.santa"
+				spriteType = "GFX_decision_slot_unlock"
+				pdx_tooltip = "bra_slot_unlock"
+				position = { x= 375 y = 238 }
+			}
+		
+			iconType = {
+				name ="aviacao_pesado1"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "aviacao_pesado1_tooltip"
+				position = { x= 375 y = 238 }
+			}
+			iconType = {
+				name ="aviacao_pesado2"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "aviacao_pesado2_tooltip"
+				position = { x= 375 y = 238 }
+			}
+			iconType = {
+				name ="aviacao_pesado3"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "aviacao_pesado3_tooltip"
+				position = { x= 375 y = 238 }
+			}
+############################################### Arsenal da Marinha ####################################################################
+			iconType = {
+				name ="bar_desc3"
+				spriteType = "GFX_category_header"
+				position = { x = 10 y = 336 }
+			}
+			iconType = {
+				name ="marinha_icon"
+				spriteType = "GFX_idea_bra_navy_lagged"
+				position = { x = 10 y = 326 }
+			}
+			instantTextBoxType = {
+				name ="marinha_titulo"
+				position = { x = 70 y = 344 }
+				font = "hoi_24header"
+				text = "bra_marinha_titulo"
+				maxWidth = 550
+				maxHeight = 40
+			}
+################################################# SLOT 1 ######################################################################		
+			iconType = {
+				name ="slot_lock1.arsenal"
+				spriteType = "GFX_decision_slot_lock"
+				pdx_tooltip = "bra_slot_lock"
+				position = { x= 75 y = 406 }
+			}
+			
+			iconType = {
+				name ="slot_unlock1.arsenal"
+				spriteType = "GFX_decision_slot_unlock"
+				pdx_tooltip = "bra_slot_unlock"
+				position = { x= 75 y = 406 }
+			}
+		
+			iconType = {
+				name ="submarino1"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "submarino1_tooltip"
+				position = { x= 75 y = 406 }
+			}	
+			iconType = {
+				name ="submarino2"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "submarino2_tooltip"
+				position = { x= 75 y = 406 }
+			}
+			iconType = {
+				name ="submarino3"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "submarino3_tooltip"
+				position = { x= 75 y = 406 }
+			}
+			iconType = {
+				name ="submarino4"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "submarino4_tooltip"
+				position = { x= 75 y = 406 }
+			}
+################################################# SLOT 2 ######################################################################		
+			iconType = {
+				name ="slot_lock2.arsenal"
+				spriteType = "GFX_decision_slot_lock"
+				pdx_tooltip = "bra_slot_lock"
+				position = { x= 225 y = 406 }
+			}
+		
+			iconType = {
+				name ="slot_unlock2.arsenal"
+				spriteType = "GFX_decision_slot_unlock"
+				pdx_tooltip = "bra_slot_unlock"
+				position = { x= 225 y = 406 }
+			}
+		
+			iconType = {
+				name ="DD_LC_1"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "DD1_tooltip"
+				position = { x= 225 y = 406 }
+			}
+			iconType = {
+				name ="DD_LC_2"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "DD2_tooltip"
+				position = { x= 225 y = 406 }
+			}
+			iconType = {
+				name ="DD_LC_3"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "DD3_tooltip"
+				position = { x= 225 y = 406 }
+			}
+################################################# SLOT 3 ######################################################################		
+			iconType = {
+				name ="slot_lock3.arsenal"
+				spriteType = "GFX_decision_slot_lock"
+				pdx_tooltip = "bra_slot_lock"
+				position = { x= 375 y = 406 }
+			}
+		
+			iconType = {
+				name ="slot_unlock3.arsenal"
+				spriteType = "GFX_decision_slot_unlock"
+				pdx_tooltip = "bra_slot_unlock"
+				position = { x= 375 y = 406 }
+			}
+		
+			iconType = {
+				name ="navio_pesado1"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "pesado1_tooltip"
+				position = { x= 375 y = 406 }
+			}
+			iconType = {
+				name ="navio_pesado2"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "pesado2_tooltip"
+				position = { x= 375 y = 406 }
+			}
+			iconType = {
+				name ="navio_pesado3"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "pesado3_tooltip"
+				position = { x= 375 y = 406 }
+			}
+			iconType = {
+				name ="navio_pesado4"
+				spriteType = "GFX_decision_slot_complete"
+				pdx_tooltip = "pesado4_tooltip"
+				position = { x= 375 y = 406 }
+			}
+		}
+		
+		iconType = {
+			name = "button_colapse_background"
+			position = { x=4 y=420 }
+			quadTextureSprite = "GFX_button_background9"
+		}
+		
+		buttonType = {
+			name = "button_colapse"
+			position = { x=4 y=423 }
+			quadTextureSprite = "GFX_expand_all_checkbox"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_default
+			frame = 1
+		}
 	}
 }

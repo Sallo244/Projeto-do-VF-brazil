@@ -64,4 +64,10 @@ spriteTypes = {
 		name = "GFX_bra_audio_scripted_gui"
 		textureFile = "/gfx/interface/scripted_gui/bra_audio_scripted_gui.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_button_background9"
+		textureFile = "/gfx/interface/scripted_gui/button_background9.dds"
+	}
+	
 }

@@ -145,3 +145,8 @@
  bra_forca_publica.01.tt:0 "§CA model is created for§! §HState Military Police Battalions§!§C, specialized in suppression in hostile territories.§!"
  bra_forca_publica.01.b:0 "Leaving the Military Police in the hands of the Armed Forces"
  bra_forca_publica.02.tt:0 "§CUnits of the§! §HSpecial Police Operations Battalion§! §Care created in the main cities of the country.§!"
+ 
+ bra.26:0 "Concepts Tab"
+ tab_tech.01.t:0 "Concepts Tab"
+ tab_tech.01.d:0 "This tab will serve to show all the concepts obtained by the player through the decisions so far, just click on the icon to open it."
+ tab_tech.01.a:0 "I understood!"

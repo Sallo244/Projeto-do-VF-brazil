@@ -1292,6 +1292,7 @@ focus_tree = {
 			}
 			hidden_effect = {
 				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_cisne_branco_so_3 }
+				if = { limit = { NOT = { has_country_flag = unlock_tech_tab } } country_event = bra.26 }
 				set_country_flag = bra_navio_dec_0_flag
 			}
 		}
@@ -1386,6 +1387,7 @@ focus_tree = {
 			}
 			hidden_effect = {
 				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_hino_aviador_so_4 }
+				if = { limit = { NOT = { has_country_flag = unlock_tech_tab } } country_event = bra.26 }
 				set_country_flag = bra_aviao_dec_0_flag
 			}
 		}
@@ -1404,6 +1406,7 @@ focus_tree = {
 			custom_effect_tooltip = BRA_imbel_tooltip
 			hidden_effect = {
 				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_equip_ind }
+				if = { limit = { NOT = { has_country_flag = unlock_tech_tab } } country_event = bra.26 }
 				set_country_flag = bra_cbc_1_flag
 			}
 		}
@@ -1494,6 +1497,7 @@ focus_tree = {
 			custom_effect_tooltip = BRA_fnm_tooltip
 			hidden_effect = {
 				if = { limit = { BRA = { AND = { is_ai = no has_country_flag = bra_voz_ligada_flag } } } sound_effect =  bra_mot }
+				if = { limit = { NOT = { has_country_flag = unlock_tech_tab } } country_event = bra.26 }
 				set_country_flag = bra_engesa_1_flag
 			}
 		}

@@ -3,6 +3,11 @@
  bra_slot_lock:0 "§RLocked Concept Slot§!"
  bra_slot_unlock:0 "§GAvailable Concept Slot§!"
 
+ bra_2slot_lock:0 "§RLocked§!\nUnlocks §G2 slots§! of concepts\n "
+ bra_2slot_unlock:0 "§GUnlocked§!\nUnlocks §G2 slots§! of concepts\n "
+ bra_1slot_lock:0 "§RLocked§!\nUnlocks §G1 slot§! of concepts\n "
+ bra_1slot_unlock:0 "§GUnlocked§!\nUnlocks §G1 slot§! of concepts\n "
+ 
 ################################################################################
 ################################ ENGESA ########################################
 ################################################################################
@@ -87,3 +92,11 @@
  bra_audio_desc_text:0 "As we progress further in the development of the Nation, we can take advices from other great leaders of Brazil, whatever their timeline, after any major goal is achieved. §GEnables§! §Yor§! §RDisables§! §Yaudios that play after Focus completion.§!"
  bra_audio_abilitar_text:0 "§GEnable§! the Audios"
  bra_audio_desabilitar_text:0 "§RDisable§! the Audios"
+ 
+################################################################################
+################################### Tech #######################################
+################################################################################
+
+ bra_exercito_titulo:0 "Brazilian Army Concepts"
+ bra_marinha_titulo:0 "Brazilian Navy Concepts"
+ bra_aeronautica_titulo:0 "Brazilian Air Force Concepts"

@@ -233,6 +233,7 @@ scripted_gui = {
 	bra_audio_ui = {
 		window_name = "bra_audio_gui_window"
 		context_type = player_context
+		parent_window_token = politics_tab
 
 		visible = {
 			original_tag = BRA
@@ -253,6 +254,224 @@ scripted_gui = {
 			}
 			audio_abilitado_visible = {
 				has_country_flag = bra_voz_ligada_flag
+			}
+		}
+		ai_test_interval = 290  # The higher, the long it takes the ai to do actions
+		ai_test_variance = 0.5
+	}
+	
+	bra_tech_button_ui = {
+		window_name = "bra_tech_gui_button_window"
+		context_type = player_context
+		
+		visible = {
+			original_tag = BRA
+			has_country_flag = unlock_tech_tab
+		}
+		
+		effects = {
+			button_open_click = {
+				set_country_flag = bra_tech_ligada_flag
+			}
+		}
+		ai_test_interval = 290  # The higher, the long it takes the ai to do actions
+		ai_test_variance = 0.5
+	}
+	bra_tech_ui = {
+		window_name = "bra_tech_gui_window"
+		context_type = player_context
+		
+		visible = {
+			original_tag = BRA
+			has_country_flag = bra_tech_ligada_flag
+			has_country_flag = unlock_tech_tab
+		}
+		
+		effects = {
+			button_colapse_click = {
+				clr_country_flag = bra_tech_ligada_flag
+			}
+		}
+		
+		triggers = {
+			################################ SLOT 1 - CBC/ENGESA ###################################
+			slot_unlock1.engesa_visible = {
+				OR = {
+					has_completed_focus = BRA_imbel
+					has_completed_focus = BRA_fnm
+				}
+			}
+			motorizado_fog_eng1_visible = {
+				has_idea = bra_motorizado_foge
+			}
+			motorizado_eng1_visible = {
+				has_idea = bra_motorizado
+			}
+			infantaria1_visible = {
+				has_idea = bra_infantaria1
+			}
+			infantaria2_visible = {
+				has_idea = bra_infantaria2
+			}
+			infantaria3_visible = {
+				has_idea = bra_infantaria3
+			}
+			infantaria4_visible = {
+				has_idea = bra_infantaria4
+			}
+		################################ SLOT 2 - CBC/ENGESA ###################################
+			slot_unlock2.engesa_visible = {
+				OR = {
+					has_completed_focus = BRA_engesa
+					has_completed_focus = BRA_cbc
+				}
+			}
+			mecanizado1_visible = {
+				has_idea = bra_mecanizado1
+			}
+			mecanizado2_visible = {
+				has_idea = bra_mecanizado2
+			}
+			mecanizado3_visible = {
+				has_idea = bra_mecanizado3
+			}
+			anfibio_visible = {
+				has_idea = bra_anfibio1
+			}
+			artilharia1_visible = {
+				has_idea = bra_artilharia1
+			}
+			artilharia2_visible = {
+				has_idea = bra_artilharia2
+			}
+			artilharia3_visible = {
+				has_idea = bra_artilharia3
+			}
+			artilharia4_visible = {
+				has_idea = bra_artilharia4
+			}
+		################################ SLOT 3 - CBC/ENGESA ###################################
+			slot_unlock3.engesa_visible = {
+				if = {
+					limit = {
+						has_completed_focus = BRA_imbel
+					}
+				has_completed_focus = BRA_tanques_de_guerra
+				}
+				else_if = {
+					has_completed_focus = BRA_engesa
+				}
+			}
+			carro1_visible = {
+				has_idea = bra_carro1
+			}
+			carro2_visible = {
+				has_idea = bra_carro2
+			}
+			carro3_visible = {
+				has_idea = bra_carro3
+			}
+		################################ SLOT 4 - CBC/ENGESA ###################################
+			slot_unlock4.engesa_visible = {
+				if = {
+					limit = {
+						has_completed_focus = BRA_fnm
+					}
+					has_completed_focus = BRA_tanques_de_guerra
+				}
+				else_if = {
+				has_country_flag = bra_blocked
+				}
+			}
+			tonk1_visible = {
+				has_idea = bra_tonk1
+			}
+			tonk2_visible = {
+				has_idea = bra_tonk2
+			}
+		################################ SLOT 1 - Lagoa Santa ###################################
+			slot_unlock1.santa_visible = {
+				has_completed_focus = BRA_lagoa_santa
+			}
+			aviacao_leve1_visible = {
+				has_idea = bra_aviao_leve_1
+			}
+			aviacao_leve2_visible = {
+				has_idea = bra_aviao_leve_2
+			}
+			aviacao_leve3_visible = {
+				has_idea = bra_aviao_leve_3
+			}
+		################################ SLOT 2 - Lagoa Santa ###################################
+			slot_unlock2.santa_visible = {
+				has_completed_focus = BRA_lagoa_santa
+			}
+			aviacao_media1_visible = {
+				has_idea = bra_aviao_medio_1
+			}
+			aviacao_media2_visible = {
+				has_idea = bra_aviao_medio_2
+			}
+			aviacao_media3_visible = {
+				has_tech = caca1_tech
+			}
+		################################ SLOT 3 - Lagoa Santa ###################################
+			slot_unlock3.santa_visible = {
+				has_completed_focus = BRA_o_legado_do_brigadeiro
+			}
+			aviacao_pesado1_visible = {
+				has_idea = bra_aviao_pesado_1
+			}
+			aviacao_pesado2_visible = {
+				has_idea = bra_aviao_pesado_2
+			}
+			aviacao_pesado3_visible = {
+				has_tech = bomber1_tech
+			}
+		################################ SLOT 1 - Arsenal da Marinha ###################################
+			slot_unlock1.arsenal_visible = {
+				has_completed_focus = BRA_estudar_submarinos_italianos
+			}
+			submarino1_visible = {
+				has_idea = bra_submarino_1
+			}
+			submarino2_visible = {
+				has_idea = bra_submarino_2
+			}
+			submarino3_visible = {
+				has_idea = bra_submarino_3
+			}
+			submarino4_visible = {
+				has_tech = submarine1_tech
+			}
+		################################ SLOT 2 - Arsenal da Marinha ###################################
+			slot_unlock2.arsenal_visible = {
+				has_completed_focus = BRA_encouracados
+			}
+			DD_LC_1_visible = {
+				has_idea = bra_destroyer_1
+			}
+			DD_LC_2_visible = {
+				has_idea = bra_destroyer_2
+			}
+			DD_LC_3_visible = {
+				has_idea = bra_destroyer_3
+			}
+		################################ SLOT 3 - Arsenal da Marinha ###################################
+			slot_unlock3.arsenal_visible = {
+				has_completed_focus = BRA_encouracados
+			}
+			navio_pesado1_visible = {
+				has_idea = bra_navio_pesado_1
+			}
+			navio_pesado2_visible = {
+				has_idea = bra_navio_pesado_2
+			}
+			navio_pesado3_visible = {
+				has_idea = bra_navio_pesado_3
+			}
+			navio_pesado4_visible = {
+				has_tech = encouracado1_tech
 			}
 		}
 		ai_test_interval = 290  # The higher, the long it takes the ai to do actions

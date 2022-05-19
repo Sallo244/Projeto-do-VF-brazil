@@ -70,6 +70,22 @@ country_event = {
 }
 
 country_event = {
+	id = bra.26
+	title = tab_tech.01.t
+	desc = tab_tech.01.d
+	picture = GFX_bra.26
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = tab_tech.01.a
+		ai_chance = { factor = 80 }
+		hidden_effect = { set_country_flag = unlock_tech_tab }
+	}
+}
+
+country_event = {
 	id = bra.24
 	title = bra_sni_1.02.t
 	desc = bra_sni_1.02.d

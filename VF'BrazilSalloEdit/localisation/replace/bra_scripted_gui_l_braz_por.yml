@@ -3,6 +3,11 @@
  bra_slot_lock:0 "§RSlot para Conceitos Bloqueado§!"
  bra_slot_unlock:0 "§GSlot para Conceitos disponivel§!"
 
+ bra_2slot_lock:0 "§RBloqueado§!\nDesbloqueia §G2 slots§! de conceitos\n "
+ bra_2slot_unlock:0 "§GDesbloqueado§!\nDesbloqueia §G2 slots§! de conceitos\n "
+ bra_1slot_lock:0 "§RBloqueado§!\nDesbloqueia §G1 slot§! de conceitos\n "
+ bra_1slot_unlock:0 "§GDesbloqueado§!\nDesbloqueia §G1 slot§! de conceitos\n "
+
 ################################################################################
 ################################ ENGESA ########################################
 ################################################################################
@@ -87,3 +92,11 @@
  bra_audio_desc_text:0 "À medida que avançamos em termos do desevolvimento da nação, podemos receber aconselhamento de outros grandes líderes brasileiros, quaisquer que sejam suas linhas do tempo, depois que qualquer grande objetivo seja alcançado. §GHabilita§! §You§! §RDesabilita§! §Yáudios que tocariam após a realização de focos.§!"
  bra_audio_abilitar_text:0 "§GHabilitar§! os áudios"
  bra_audio_desabilitar_text:0 "§RDesabilitar§! os áudios"
+ 
+################################################################################
+################################### Tech #######################################
+################################################################################
+
+ bra_exercito_titulo:0 "Conceitos do Exercito Brasileiro"
+ bra_marinha_titulo:0 "Conceitos da Marinha Brasileira"
+ bra_aeronautica_titulo:0 "Conceitos da Força Aérea Brasileira"

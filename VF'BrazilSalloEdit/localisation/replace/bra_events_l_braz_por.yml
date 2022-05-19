@@ -145,3 +145,8 @@
  bra_forca_publica.01.tt:0 "§CÉ criado um modelo para Batalhões da§! §HPolícia Militar Estadual§!§C, especializado na supressão em territorios hostis.§!"
  bra_forca_publica.01.b:0 "Deixar a Policia Militar nas mãos das Forças Armadas"
  bra_forca_publica.02.tt:0 "§CSão criados unidades do§! §HBatalhão de Operações Policiais Especiais§! §Cnas principais cidades do pais§!"
+ 
+ bra.26:0 "Aba de Conceitos"
+ tab_tech.01.t:0 "Aba de Conceitos"
+ tab_tech.01.d:0 "Essa aba servira para mostrar todos os conceitos obtidos pelo jogador por meio das decisões até o momento, basta clicar no ícone para que ela seja aberta."
+ tab_tech.01.a:0 "Entendi!"
